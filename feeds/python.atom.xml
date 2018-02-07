@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>GeoPyTool - Python</title><link href="/" rel="alternate"></link><link href="/feeds/python.atom.xml" rel="self"></link><id>/</id><updated>2017-03-18T16:20:00+08:00</updated><entry><title>Temperary API Ref of GeoPython</title><link href="/temperary-api-ref-of-geopython.html" rel="alternate"></link><published>2017-03-18T16:20:00+08:00</published><updated>2017-03-18T16:20:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-03-18:/temperary-api-ref-of-geopython.html</id><summary type="html">&lt;h1&gt;API Ref of GeoPython&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>GeoPyTool - Python</title><link href="/" rel="alternate"></link><link href="/feeds/python.atom.xml" rel="self"></link><id>/</id><updated>2017-03-18T16:20:00+08:00</updated><entry><title>Temperary API Ref of GeoPyTool</title><link href="/temperary-api-ref-of-geopytool.html" rel="alternate"></link><published>2017-03-18T16:20:00+08:00</published><updated>2017-03-18T16:20:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-03-18:/temperary-api-ref-of-geopytool.html</id><summary type="html">&lt;h1&gt;API Ref of GeoPyTool&lt;/h1&gt;
 &lt;p&gt;created on Sat Dec 17 22:28:24 2016
 @author: cycleuser
 Create Date: 2015-07-13
@@ -10,7 +10,7 @@ a tool set for daily geology related task.&lt;/p&gt;
    need math,numpy,pandas,matplotlib,xlrd,chempy&lt;/p&gt;
 &lt;h1&gt;Simple Sample:&lt;/h1&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;opern&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;ipython&lt;/span&gt; &lt;span class="n"&gt;console&lt;/span&gt;
-&lt;span class="mi"&gt;2 …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;h1&gt;API Ref of GeoPython&lt;/h1&gt;
+&lt;span class="mi"&gt;2 …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;h1&gt;API Ref of GeoPyTool&lt;/h1&gt;
 &lt;p&gt;created on Sat Dec 17 22:28:24 2016
 @author: cycleuser
 Create Date: 2015-07-13
@@ -47,7 +47,7 @@ a tool set for daily geology related task.&lt;/p&gt;
 
 
 &lt;h1&gt;Other&lt;/h1&gt;
-&lt;p&gt;Any issues or improvements please open an issue at &lt;a href="https://github.com/chinageology/GeoPython/issues"&gt;here&lt;/a&gt;
+&lt;p&gt;Any issues or improvements please open an issue at &lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;here&lt;/a&gt;
 or leave a message to &lt;a href="http://geopython.com"&gt;our website&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;DualTri&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;a class of a double triangulars frame
