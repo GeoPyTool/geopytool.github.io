@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>GeoPyTool - Doc</title><link href="/" rel="alternate"></link><link href="/feeds/doc.atom.xml" rel="self"></link><id>/</id><updated>2017-12-25T00:00:00+08:00</updated><entry><title>Download</title><link href="/download.html" rel="alternate"></link><published>2017-12-25T00:00:00+08:00</published><updated>2017-12-25T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-12-25:/download.html</id><summary type="html">&lt;h1&gt;GeoPyTool Application Download Links&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>GeoPyTool - Doc</title><link href="/" rel="alternate"></link><link href="/feeds/doc.atom.xml" rel="self"></link><id>/</id><updated>2018-02-27T00:00:00+08:00</updated><entry><title>Download</title><link href="/download.html" rel="alternate"></link><published>2018-02-27T00:00:00+08:00</published><updated>2018-02-27T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-02-27:/download.html</id><summary type="html">&lt;h1&gt;GeoPyTool Application Download Links&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;h1&gt;GeoPyTool 打包的可执行程序下载链接&lt;/h1&gt;
 &lt;/blockquote&gt;
 &lt;h1&gt;GeoPyTool pack for Windows:&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1snsj0pJ"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1rac6UXOReNPQB0Vwtn8EiOPWov8HVuW_"&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1ht2wyZ6"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1YEP6FsBzQ7Ig92zAM5B2MLah7cXq5Q9e"&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;GeoPyTool app for macOS:&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1jIgpmtC"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1XqzqRmaxlth7WmjsjooUw6DvAfHXO6OP"&gt;Googel Drive&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1mjkDt4O"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/open?id=13Uv8d9RYZsXdnR3nkTO5ykDuOyWVUkr8"&gt;Googel Drive&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;捐助支持&lt;/h1&gt;
 &lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;h1&gt;GeoPyTool Application Download Links&lt;/h1&gt;
@@ -16,11 +16,11 @@
 &lt;h1&gt;GeoPyTool 打包的可执行程序下载链接&lt;/h1&gt;
 &lt;/blockquote&gt;
 &lt;h1&gt;GeoPyTool pack for Windows:&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1snsj0pJ"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1rac6UXOReNPQB0Vwtn8EiOPWov8HVuW_"&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1ht2wyZ6"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1YEP6FsBzQ7Ig92zAM5B2MLah7cXq5Q9e"&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;GeoPyTool app for macOS:&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1jIgpmtC"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1XqzqRmaxlth7WmjsjooUw6DvAfHXO6OP"&gt;Googel Drive&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1mjkDt4O"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/open?id=13Uv8d9RYZsXdnR3nkTO5ykDuOyWVUkr8"&gt;Googel Drive&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;捐助支持&lt;/h1&gt;
 &lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category><category term="Chinese"></category></entry><entry><title>About</title><link href="/about.html" rel="alternate"></link><published>2017-11-15T00:00:00+08:00</published><updated>2017-11-15T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-11-15:/about.html</id><summary type="html">&lt;h1&gt;Welcome to GeoPyTool&lt;/h1&gt;
@@ -47,7 +47,7 @@
 &lt;p&gt;macOS 下面特别省心，因为开发者本身就用的这个系统。直接下载对应的压缩包，解压缩之后，双击 GeoPyTool.app 这个文件，就可以看到下面的图形界面了。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="User Interface of the APP on macOS." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/MacOSScreenShot.png"&gt;&lt;/p&gt;
 &lt;h3&gt;Mac APP 更新升级方法&lt;/h3&gt;
-&lt;p&gt;把同一目录下的 &lt;strong&gt;UpdateGeoPython.sh&lt;/strong&gt; 这个文件拖到终端（terminal）里面运行，就可以把 GeoPyTool.app 里面内置的 GeoPyTool 升级到最新版本了。千万别乱动这个文件同一目录下的任何其他内容 …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;安装 GeoPyTool&lt;/h2&gt;
+&lt;p&gt;进入到 GeoPyTool.app 文件内部，位置为 &lt;code&gt;GeoPyTool.app/Contents/Resources/UpDateGeoPytool&lt;/code&gt;。双击这个个名为 &lt;code&gt;UpDateGeoPytool&lt;/code&gt;的文件 …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;安装 GeoPyTool&lt;/h2&gt;
 &lt;p&gt;GeoPyTool  有两种使用方法，可以作为独立的程序运行，也可以作为 Python 下的一个模块（module）来在 Python 解释器下调用。&lt;/p&gt;
 &lt;h2&gt;作为独立程序使用 GeoPyTool&lt;/h2&gt;
 &lt;p&gt;打包好的可执行文件，目前支持 Windows 和 macOS 两种平台。&lt;/p&gt;
@@ -56,15 +56,15 @@
 &lt;p&gt;macOS 下面特别省心，因为开发者本身就用的这个系统。直接下载对应的压缩包，解压缩之后，双击 GeoPyTool.app 这个文件，就可以看到下面的图形界面了。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="User Interface of the APP on macOS." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/MacOSScreenShot.png"&gt;&lt;/p&gt;
 &lt;h3&gt;Mac APP 更新升级方法&lt;/h3&gt;
-&lt;p&gt;把同一目录下的 &lt;strong&gt;UpdateGeoPython.sh&lt;/strong&gt; 这个文件拖到终端（terminal）里面运行，就可以把 GeoPyTool.app 里面内置的 GeoPyTool 升级到最新版本了。千万别乱动这个文件同一目录下的任何其他内容，除非你很有信心能搞定哈，那样随你咯。&lt;/p&gt;
+&lt;p&gt;进入到 GeoPyTool.app 文件内部，位置为 &lt;code&gt;GeoPyTool.app/Contents/Resources/UpDateGeoPytool&lt;/code&gt;。双击这个个名为 &lt;code&gt;UpDateGeoPytool&lt;/code&gt;的文件，就会更新到最新版本了。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Update the APP on macOS." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/OSXUpdate.png"&gt;&lt;/p&gt;
 &lt;h3&gt;Windows 系统下的打包文件&lt;/h3&gt;
 &lt;h4&gt;Windows 8/8.1/10 用户&lt;/h4&gt;
-&lt;p&gt;这几个比较新的 Windows 系统的用户也很省心，也是下载之后解压缩，然后在文件夹里面双击 &lt;strong&gt;RunGeoPython.bat&lt;/strong&gt; 就可以了。记住一定不要删除解压出来的文件夹里面的任何文件，那都是程序用得上的，一旦删除了就可能导致程序无法运行了。&lt;/p&gt;
+&lt;p&gt;这几个比较新的 Windows 系统的用户也很省心，也是下载之后解压缩，然后在文件夹里面双击 &lt;strong&gt;Rungeopytool.bat&lt;/strong&gt; 就可以了。记住一定不要删除解压出来的文件夹里面的任何文件，那都是程序用得上的，一旦删除了就可能导致程序无法运行了。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/RunWin.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="User Interface of the EXE on Windows." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ScreenShot.png"&gt;&lt;/p&gt;
 &lt;h4&gt;Windows 7 用户&lt;/h4&gt;
-&lt;p&gt;刚才上面那张图实际上是在 Windows7 系统上面运行 GeoPyTool 的截图。不过 Windows7 系统用户需要先安装几个补丁，才能运行 GeoPython。&lt;/p&gt;
+&lt;p&gt;刚才上面那张图实际上是在 Windows7 系统上面运行 GeoPyTool 的截图。不过 Windows7 系统用户需要先安装几个补丁，才能运行 geopytool。&lt;/p&gt;
 &lt;p&gt;首先是一定要安装 Windows 7 SP1 这个补丁，然后要安装 KB2999226 和 &lt;code&gt;Visual C++ Redistributable 2015&lt;/code&gt;。如果不按照  SP1 以及其他两个补丁，运行 GeoPyTool.exe 的时候就会出现错误提示，说什么&lt;code&gt;api-ms-win-crt&lt;/code&gt; 无法定位之类的。总之遇到这样的情况时，先检查系统是不是安装了 SP1，然后将其他两个补丁安装试一试。&lt;/p&gt;
 &lt;p&gt;针对 Windows 7 的 SP1 补丁&lt;a href="https://support.microsoft.com/en-us/help/15090/windows-7-install-service-pack-1-sp1"&gt;自然是可以在微软的官网这个地址里面找到的&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;其他两个安装包，包括 KB2999226 和&lt;code&gt;Visual C++ Redistributable 2015&lt;/code&gt; 已经包含在 GeoPyTool 的压缩包里面了，也可以在下面这两个地址里面下载：&lt;a href="https://pan.baidu.com/s/1kVwSQ95"&gt;32 bit Windows7 &lt;/a&gt;，&lt;a href="https://pan.baidu.com/s/1qY34ocW"&gt;64 bit WInodws7 &lt;/a&gt;.&lt;/p&gt;
@@ -78,7 +78,7 @@
 &lt;h2&gt;将 GeoPyTool 作为 Python 模块来使用&lt;/h2&gt;
 &lt;p&gt;其他的所有操作系统，比如 Debian Linux, Ubuntu Linux, Fedora Linux, FreeBSD 甚至 GNU/Hurd，都可以将 GeoPyTool 作为一个 Python 模块来在 Python 解释器里面运行。实际上对于 macOS 和 Windows 用户，也建议这样使用，因为这样能够最快速更新到最新版本，下载安装都更加迅速。当然，操作起来稍微复杂点，反正不适合缺乏挑战精神和探索学习能力的人。&lt;/p&gt;
 &lt;h3&gt;首先要安装 Python&lt;/h3&gt;
-&lt;p&gt;你需要先安装 Python，GeoPython 是用 Python3.5 写的，并且不兼容 Python2， 所以推荐你也用 3.5 或者更新的 Python。可以到 &lt;a href="https://www.python.org/downloads/"&gt;Python 官方网站&lt;/a&gt; 或者  &lt;a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/"&gt;清华 Tuna&lt;/a&gt; 去下载对应自己系统的安装包。&lt;/p&gt;
+&lt;p&gt;你需要先安装 Python，geopytool 是用 Python3.5 写的，并且不兼容 Python2， 所以推荐你也用 3.5 或者更新的 Python。可以到 &lt;a href="https://www.python.org/downloads/"&gt;Python 官方网站&lt;/a&gt; 或者  &lt;a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/"&gt;清华 Tuna&lt;/a&gt; 去下载对应自己系统的安装包。&lt;/p&gt;
 &lt;p&gt;更推荐大家使用 Anaconda3-4.0.0 或者更新版本的 Anaconda3。因为在 Anaconda 中，包括 cython, numpy, pandas, matplotlib 等在内的很多必要的包都集成好了，安装时候省时间。&lt;/p&gt;
 &lt;h5&gt;对于 Windows 用户的一些有用链接&lt;/h5&gt;
 &lt;p&gt;实际上网上有很多很多指南，都给说明吧了要怎么安装 Python 以及激活 PIP。所以这里面就只放几个下载链接，自己探索吧哈，没探索精神搞个毛球学术对吧。&lt;/p&gt;
@@ -114,7 +114,7 @@
 &lt;/table&gt;
 &lt;h3&gt;使用 PIP 安装 GeoPyTool&lt;/h3&gt;
 &lt;p&gt;安装完了 Python 并且激活了 PIP 之后，你是不是想着马上就能安装 GeoPyTool 了？&lt;/p&gt;
-&lt;p&gt;然而并不行。你需要安装一些基础包，GeoPython 就是基于这些包构建的。即便你用的是 Anaconda3，也还是需要安装一些包，比如 pyqt5，这是用来搭建 GeoPyTool 的 GUI 图形界面的模块。&lt;/p&gt;
+&lt;p&gt;然而并不行。你需要安装一些基础包，geopytool 就是基于这些包构建的。即便你用的是 Anaconda3，也还是需要安装一些包，比如 pyqt5，这是用来搭建 GeoPyTool 的 GUI 图形界面的模块。&lt;/p&gt;
 &lt;p&gt;所以要在终端里面输入一些命令来先安装这些基础包。&lt;/p&gt;
 &lt;p&gt;不知道终端是啥？好吧，这里我先不责怪你怎么不去百度或者谷歌自行搜索。&lt;/p&gt;
 &lt;p&gt;在 Windows 系统里面，现在的终端一般就是 CMD 或者 PowerShell。对于其他的操作系统，比如 macOS 或者各种 Linux 以及 BSD 操作系统，往往都是 Bash，在这些系统里面也往往能找到 终端 这个程序，一般就在开始菜单或者程序目录里面肯定有。&lt;/p&gt;
@@ -140,20 +140,32 @@ pip install pyqtgraph
 &lt;/pre&gt;&lt;/div&gt;
 
 
+&lt;p&gt;直接使用 pip 来安装 scikit-learn 可能会报错，需要安装 &lt;a href="http://landinghub.visualstudio.com/visual-cpp-build-tools"&gt;Microsoft Visual C++ Build Tools&lt;/a&gt;。所以还可以考虑用 conda 来安装 scipy 和 scikit-learn。这就需要先安装 conda:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install requests
+pip install pyqtgraph
+pip install conda
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;然后我们用 conda 来安装其他的包：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;python3 -m conda install cython numpy pandas scipy scikit-learn sympy
+&lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;p&gt;安装完成了上面这些依赖包之后，就可以输入下面的这个命令来安装 GeoPyTool 了。&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install geopython
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install geopytool
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;如果没有发现什么出错信息，就是说明安装成功了。&lt;/p&gt;
 &lt;h3&gt;更新已经安装的 GeoPyTool 模块&lt;/h3&gt;
-&lt;p&gt;如果你之前安装了 GeoPython，可以通过下面的命令来更新到最新版本。&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install geopython --update --no-cache-dir
+&lt;p&gt;如果你之前安装了 geopytool，可以通过下面的命令来更新到最新版本。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install geopytool --update --no-cache-dir
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h3&gt;在 Python 下启动 GeoPyTool&lt;/h3&gt;
-&lt;p&gt;安装完了 GeoPython，就可以在 Python 解释器里面启动了。不过这里要推荐一个替代原生解释器的 IPython，可以通过下面命令安装。&lt;/p&gt;
+&lt;p&gt;安装完了 geopytool，就可以在 Python 解释器里面启动了。不过这里要推荐一个替代原生解释器的 IPython，可以通过下面命令安装。&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install ipython
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -164,7 +176,7 @@ pip install pyqtgraph
 
 
 &lt;p&gt;然后在 ipython 或者原生 Python 解释器中输入下面两行命令，回车，就可以了。&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;geopython&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;gp&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;geopytool&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;gp&lt;/span&gt;
 &lt;span class="n"&gt;gp&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -173,7 +185,7 @@ pip install pyqtgraph
 例如下图就是在  Ubuntu 系统下的截图。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="GeoPyTool in Ubuntu" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/UbuntuScreenShot.png"&gt;&lt;/p&gt;
 &lt;p&gt;每次运行 GeoPyTool 之前，更新一下是个好习惯。&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install --upgrade geopython
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install --upgrade geopytool
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -476,11 +488,11 @@ In the Rose Map function, all data in one data files can be treated as a single 
 &lt;p&gt;On macOS, everything is extremely easy to use GeoPyTool. Just download and unzip the file, then double click on the GeoPyTool.app file, you will find the APP available as the following picture shows.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="User Interface of the APP on macOS." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/MacOSScreenShot.png"&gt;&lt;/p&gt;
 &lt;h3&gt;Mac APP Update&lt;/h3&gt;
-&lt;p&gt;Drag the &lt;strong&gt;UpdateGeoPython.sh&lt;/strong&gt; file into your terminal and hit the Enter key to run it. It will update the GeoPyTool inside your GeoPyTool.app file. Remember that never modify any files directly under the same folder unless you are an expert on dealing with Python.&lt;/p&gt;
+&lt;p&gt;Go to the location inside the app file, &lt;code&gt;GeoPyTool.app/Contents/Resources/UpDateGeoPytool&lt;/code&gt;.Double click on this file neamed UpDateGeoPytool at &lt;code&gt;GeoPyTool.app/Contents/Resources/&lt;/code&gt;. It will update the GeoPyTool inside your GeoPyTool.app file. Remember that never modify any files directly under the same folder unless you are an expert on dealing with Python.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Update the APP on macOS." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/OSXUpdate.png"&gt;&lt;/p&gt;
 &lt;h3&gt;Windows Pack&lt;/h3&gt;
 &lt;h4&gt;Windows 8/8.1/10 Users&lt;/h4&gt;
-&lt;p&gt;On these modern Windows platforms, everything is also extremely easy to use GeoPyTool. Just download and unzip the file, then double click on the &lt;strong&gt;RunGeoPython.bat&lt;/strong&gt; file, and make sure that you don't delete any file form the unziped folder because they are all required by the program, then you will find the APP available as the following picture shows.&lt;/p&gt;
+&lt;p&gt;On these modern Windows platforms, everything is also extremely easy to use GeoPyTool. Just download and unzip the file, then double click on the &lt;strong&gt;Rungeopytool.bat&lt;/strong&gt; file, and make sure that you don't delete any file form the unziped folder because they are all required by the program, then you will find the APP available as the following picture shows.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/RunWin.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="User Interface of the EXE on Windows." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ScreenShot.png"&gt;&lt;/p&gt;
 &lt;h4&gt;Windows 7 Users&lt;/h4&gt;
@@ -560,15 +572,28 @@ pip install pyqtgraph
 &lt;/pre&gt;&lt;/div&gt;
 
 
+&lt;p&gt;The installation of scikit-learn might require &lt;a href="http://landinghub.visualstudio.com/visual-cpp-build-tools"&gt;Microsoft Visual C++ Build Tools&lt;/a&gt;, another solution is to use conda to install scipy and scikit-learn.&lt;/p&gt;
+&lt;p&gt;We install conda with pip first:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install requests
+pip install pyqtgraph
+pip install conda
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then we use conda to install some other packages:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;python3 -m conda install cython numpy pandas scipy scikit-learn sympy
+&lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;p&gt;After the installation of those packages above, you can use this similar command also in the &lt;strong&gt;terminal&lt;/strong&gt; to install the GeoPyTool.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install geopython
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install geopytool
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;If there comes no error message, everything should have been done successfully.&lt;/p&gt;
 &lt;h3&gt;Update an existing GeoPyTool&lt;/h3&gt;
 &lt;p&gt;If you installed GeoPyTool as a module in Python, you can use this similar command also in the &lt;strong&gt;terminal&lt;/strong&gt; to update to the latest version of GeoPyTool.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install geopython --update --no-cache-dir
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install geopytool --update --no-cache-dir
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -584,13 +609,13 @@ pip install pyqtgraph
 
 
 &lt;p&gt;Then you can simply use &lt;strong&gt;GeoPyTool&lt;/strong&gt; by type the following commands in your Python interpreter:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;geopython&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;gp&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;geopytool&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;gp&lt;/span&gt;
 &lt;span class="n"&gt;gp&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;You would see the GUI of &lt;strong&gt;GeoPyTool&lt;/strong&gt;, which is under development for now. So it is a good idea to update &lt;strong&gt;GeoPyTool&lt;/strong&gt; with pip everytime before you use it:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install --upgrade geopython
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install --upgrade geopytool
 &lt;/pre&gt;&lt;/div&gt;
 
 

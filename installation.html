@@ -61,11 +61,11 @@
 <p>On macOS, everything is extremely easy to use GeoPyTool. Just download and unzip the file, then double click on the GeoPyTool.app file, you will find the APP available as the following picture shows.</p>
 <p><img alt="User Interface of the APP on macOS." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/MacOSScreenShot.png"></p>
 <h3>Mac APP Update</h3>
-<p>Drag the <strong>UpdateGeoPython.sh</strong> file into your terminal and hit the Enter key to run it. It will update the GeoPyTool inside your GeoPyTool.app file. Remember that never modify any files directly under the same folder unless you are an expert on dealing with Python.</p>
+<p>Go to the location inside the app file, <code>GeoPyTool.app/Contents/Resources/UpDateGeoPytool</code>.Double click on this file neamed UpDateGeoPytool at <code>GeoPyTool.app/Contents/Resources/</code>. It will update the GeoPyTool inside your GeoPyTool.app file. Remember that never modify any files directly under the same folder unless you are an expert on dealing with Python.</p>
 <p><img alt="Update the APP on macOS." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/OSXUpdate.png"></p>
 <h3>Windows Pack</h3>
 <h4>Windows 8/8.1/10 Users</h4>
-<p>On these modern Windows platforms, everything is also extremely easy to use GeoPyTool. Just download and unzip the file, then double click on the <strong>RunGeoPython.bat</strong> file, and make sure that you don't delete any file form the unziped folder because they are all required by the program, then you will find the APP available as the following picture shows.</p>
+<p>On these modern Windows platforms, everything is also extremely easy to use GeoPyTool. Just download and unzip the file, then double click on the <strong>Rungeopytool.bat</strong> file, and make sure that you don't delete any file form the unziped folder because they are all required by the program, then you will find the APP available as the following picture shows.</p>
 <p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/RunWin.jpg"></p>
 <p><img alt="User Interface of the EXE on Windows." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ScreenShot.png"></p>
 <h4>Windows 7 Users</h4>
@@ -145,15 +145,28 @@ pip install pyqtgraph
 </pre></div>
 
 
+<p>The installation of scikit-learn might require <a href="http://landinghub.visualstudio.com/visual-cpp-build-tools">Microsoft Visual C++ Build Tools</a>, another solution is to use conda to install scipy and scikit-learn.</p>
+<p>We install conda with pip first:</p>
+<div class="highlight"><pre><span></span>pip install requests
+pip install pyqtgraph
+pip install conda
+</pre></div>
+
+
+<p>Then we use conda to install some other packages:</p>
+<div class="highlight"><pre><span></span>python3 -m conda install cython numpy pandas scipy scikit-learn sympy
+</pre></div>
+
+
 <p>After the installation of those packages above, you can use this similar command also in the <strong>terminal</strong> to install the GeoPyTool.</p>
-<div class="highlight"><pre><span></span>pip install geopython
+<div class="highlight"><pre><span></span>pip install geopytool
 </pre></div>
 
 
 <p>If there comes no error message, everything should have been done successfully.</p>
 <h3>Update an existing GeoPyTool</h3>
 <p>If you installed GeoPyTool as a module in Python, you can use this similar command also in the <strong>terminal</strong> to update to the latest version of GeoPyTool.</p>
-<div class="highlight"><pre><span></span>pip install geopython --update --no-cache-dir
+<div class="highlight"><pre><span></span>pip install geopytool --update --no-cache-dir
 </pre></div>
 
 
@@ -169,13 +182,13 @@ pip install pyqtgraph
 
 
 <p>Then you can simply use <strong>GeoPyTool</strong> by type the following commands in your Python interpreter:</p>
-<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">geopython</span> <span class="kn">as</span> <span class="nn">gp</span>
+<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">geopytool</span> <span class="kn">as</span> <span class="nn">gp</span>
 <span class="n">gp</span><span class="o">.</span><span class="n">main</span><span class="p">()</span>
 </pre></div>
 
 
 <p>You would see the GUI of <strong>GeoPyTool</strong>, which is under development for now. So it is a good idea to update <strong>GeoPyTool</strong> with pip everytime before you use it:</p>
-<div class="highlight"><pre><span></span>pip install --upgrade geopython
+<div class="highlight"><pre><span></span>pip install --upgrade geopytool
 </pre></div>
 
 
@@ -278,10 +291,10 @@ http://matplotlib.org/api/colors_api.html</p>
                 </div>
                 <div>
                         <span><a href="/tag/wen-dang.html">文档</a></span>
-                        <span><a href="/tag/doc.html">Doc</a></span>
                         <span><a href="/tag/zhong-wen.html">中文</a></span>
-                        <span><a href="/tag/english.html">English</a></span>
+                        <span><a href="/tag/doc.html">Doc</a></span>
                         <span><a href="/tag/chinese.html">Chinese</a></span>
+                        <span><a href="/tag/english.html">English</a></span>
                 </div>
             </section>
 
