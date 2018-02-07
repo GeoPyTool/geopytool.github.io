@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zh">
+
+<head>
+    <title>GeoPyTool</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" id="responsive-style-css"  href='/theme/css/style.css' type="text/css" media="all" />
+    <link rel="stylesheet" id="responsive-style-css"  href='/theme/css/highlight.css' type="text/css" media="all" />
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="GeoPyTool Full Atom Feed" />
+    <link href="/feeds/doc.atom.xml" type="application/atom+xml" rel="alternate" title="GeoPyTool Categories Atom Feed" />
+    
+</head>
+
+<body id="index" class="blog">
+<div id="container" class="hfeed">
+    <header id="header" >
+        <div id="logo">
+                <h1><img src="/theme/image/default-logo.png" width="300" height="100" alt="ChinaGeology" />
+                GeoPyTool</h1>
+        </div> <!-- /#logo-->
+        <nav id="menu" class="main-nav"><ul class="menu">
+            <li  class="active"><a href="http://geopytool.com">Homepage</a></li>
+            <li  class="active"><a href="http://geopytool.com/about.html">About</a></li>
+            <li  class="active"><a href="http://geopytool.com/archives.html">Archives</a></li>
+            <li  class="active"><a href="https://zhuanlan.zhihu.com/python-kivy">ZhiHu</a></li>
+            <li  class="active"><a href="https://github.com/chinageology/GeoPython">Github</a></li>
+
+        </ul></nav><!-- /#menu -->
+    </header>
+    <section id="wrapper" class="clearfix">
+        <section id="content" class="grid col-620" >
+                <section class="breadcrumb-list">
+<a href="">Blog</a> ›<a href="category/doc.html">Doc</a> ›安装指南
+                </section>
+
+
+<section id="post" class="post hentry">
+    <header>
+    <h2 class="post-title" >安装指南</h2>
+    
+    <div class="post-meta">
+        <span class="meta-prep">Post in</span>
+        <abbr class="date" title="2017-11-15T00:00:00+08:00"> 
+            <a href="/archive/2017/11/index.html">三 15 十一月 2017 </a>
+        </abbr>
+        <span class="meta-prep"> |Tags</span>
+                <a href="/tag/doc.html">Doc</a>
+                <a href="/tag/chinese.html">Chinese</a>
+                <a href="/tag/zhong-wen.html">中文</a>
+                <a href="/tag/wen-dang.html">文档</a>
+        <!-- TOBE COMMENTS -->
+    </div>
+    </header>
+    <div class="post-entry">
+        <h2>安装 GeoPython</h2>
+<p>GeoPython  有两种使用方法，可以作为独立的程序运行，也可以作为 Python 下的一个模块（module）来在 Python 解释器下调用。</p>
+<h2>作为独立程序使用 GeoPython</h2>
+<p>打包好的可执行文件，目前支持 Windows 和 macOS 两种平台。</p>
+<p><a href="http://doc.geopython.com/Download/">点击这里查看程序文件的下载链接。</a></p>
+<h3>Mac 下的 APP</h3>
+<p>macOS 下面特别省心，因为开发者本身就用的这个系统。直接下载对应的压缩包，解压缩之后，双击 GeoPython.app 这个文件，就可以看到下面的图形界面了。</p>
+<p><img alt="User Interface of the APP on macOS." src="https://raw.githubusercontent.com/chinageology/GeoPython/master/img/MacOSScreenShot.png"></p>
+<h3>Mac APP 更新升级方法</h3>
+<p>把同一目录下的 <strong>UpdateGeoPython.sh</strong> 这个文件拖到终端（terminal）里面运行，就可以把 GeoPython.app 里面内置的 GeoPython 升级到最新版本了。千万别乱动这个文件同一目录下的任何其他内容，除非你很有信心能搞定哈，那样随你咯。</p>
+<p><img alt="Update the APP on macOS." src="https://raw.githubusercontent.com/chinageology/GeoPython/master/img/OSXUpdate.png"></p>
+<h3>Windows 系统下的打包文件</h3>
+<h4>Windows 8/8.1/10 用户</h4>
+<p>这几个比较新的 Windows 系统的用户也很省心，也是下载之后解压缩，然后在文件夹里面双击 <strong>RunGeoPython.bat</strong> 就可以了。记住一定不要删除解压出来的文件夹里面的任何文件，那都是程序用得上的，一旦删除了就可能导致程序无法运行了。</p>
+<p><img alt="" src="https://raw.githubusercontent.com/chinageology/GeoPython/master/img/RunWin.jpg"></p>
+<p><img alt="User Interface of the EXE on Windows." src="https://raw.githubusercontent.com/chinageology/GeoPython/master/img/ScreenShot.png"></p>
+<h4>Windows 7 用户</h4>
+<p>刚才上面那张图实际上是在 Windows7 系统上面运行 GeoPython 的截图。不过 Windows7 系统用户需要先安装几个补丁，才能运行 GeoPython。</p>
+<p>首先是一定要安装 Windows 7 SP1 这个补丁，然后要安装 KB2999226 和 <code>Visual C++ Redistributable 2015</code>。如果不按照  SP1 以及其他两个补丁，运行 GeoPython.exe 的时候就会出现错误提示，说什么<code>api-ms-win-crt</code> 无法定位之类的。总之遇到这样的情况时，先检查系统是不是安装了 SP1，然后将其他两个补丁安装试一试。</p>
+<p>针对 Windows 7 的 SP1 补丁<a href="https://support.microsoft.com/en-us/help/15090/windows-7-install-service-pack-1-sp1">自然是可以在微软的官网这个地址里面找到的</a>。</p>
+<p>其他两个安装包，包括 KB2999226 和<code>Visual C++ Redistributable 2015</code> 已经包含在 GeoPython 的压缩包里面了，也可以在下面这两个地址里面下载：<a href="https://pan.baidu.com/s/1kVwSQ95">32 bit Windows7 </a>，<a href="https://pan.baidu.com/s/1qY34ocW">64 bit WInodws7 </a>.</p>
+<p>再次重复一遍，如果你遇到不能运行的情况，并且看到了 <code>api-ms-win-crt</code> 这样的字样，先检查上面的补丁是否安装了。</p>
+<h4>Windows XP 和 Vista 用户</h4>
+<p>我自己试了好几次都没弄成，我也懒得在这些老古董系统上面浪费时间精力。人生宝贵，所以建议你把电脑升级成 Windows7 SP1 以上的更新的操作系统，如果配置实在太差也可以用 Linux 操作系统。反正如果你非要纠结在 XP 这类连微软自己都抛弃的系统上，那就祝你好运以及再见！</p>
+<h3>Windows EXE 更新方法</h3>
+<p>双击解压目录下的 <strong>Update.bat</strong> 这个文件，就可以更新到最新版了。这个命令是调用 GeoPython 这个目录里面的 pip 来更新该目录下的 GeoPython 模块。千万别乱动这个文件同一目录下的任何其他内容，除非你很有信心能搞定哈，那样随你咯。</p>
+<p><img alt="Update the EXE on Windows." src="https://raw.githubusercontent.com/chinageology/GeoPython/master/img/WinUpdate.png"></p>
+<h1>注意！如果你下载了打包的文件了，只要运行对应的脚本或者双击 APP 文件就可以了，下面的内容和你无关，无关！！！！！别再折腾去安装下面的内容了，弄不明白还浪费时间！！！！！！！注意阅读上文就可以了！！！！！</h1>
+<h2>将 GeoPython 作为 Python 模块来使用</h2>
+<p>其他的所有操作系统，比如 Debian Linux, Ubuntu Linux, Fedora Linux, FreeBSD 甚至 GNU/Hurd，都可以将 GeoPython 作为一个 Python 模块来在 Python 解释器里面运行。实际上对于 macOS 和 Windows 用户，也建议这样使用，因为这样能够最快速更新到最新版本，下载安装都更加迅速。当然，操作起来稍微复杂点，反正不适合缺乏挑战精神和探索学习能力的人。</p>
+<h3>首先要安装 Python</h3>
+<p>你需要先安装 Python，GeoPython 是用 Python3.5 写的，并且不兼容 Python2， 所以推荐你也用 3.5 或者更新的 Python。可以到 <a href="https://www.python.org/downloads/">Python 官方网站</a> 或者  <a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/">清华 Tuna</a> 去下载对应自己系统的安装包。</p>
+<p>更推荐大家使用 Anaconda3-4.0.0 或者更新版本的 Anaconda3。因为在 Anaconda 中，包括 cython, numpy, pandas, matplotlib 等在内的很多必要的包都集成好了，安装时候省时间。</p>
+<h5>对于 Windows 用户的一些有用链接</h5>
+<p>实际上网上有很多很多指南，都给说明吧了要怎么安装 Python 以及激活 PIP。所以这里面就只放几个下载链接，自己探索吧哈，没探索精神搞个毛球学术对吧。</p>
+<h6>32bit：</h6>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>下载地址</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Anaconda</td>
+<td>https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-4.4.0-Windows-x86.exe</td>
+</tr>
+</tbody>
+</table>
+<h6>64bit：</h6>
+<table>
+<thead>
+<tr>
+<th>项目</th>
+<th>下载地址</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Anaconda</td>
+<td>https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-4.4.0-Windows-x86_64.exe</td>
+</tr>
+</tbody>
+</table>
+<h3>使用 PIP 安装 GeoPython</h3>
+<p>安装完了 Python 并且激活了 PIP 之后，你是不是想着马上就能安装 GeoPython 了？</p>
+<p>然而并不行。你需要安装一些基础包，GeoPython 就是基于这些包构建的。即便你用的是 Anaconda3，也还是需要安装一些包，比如 pyqt5，这是用来搭建 GeoPython 的 GUI 图形界面的模块。</p>
+<p>所以要在终端里面输入一些命令来先安装这些基础包。</p>
+<p>不知道终端是啥？好吧，这里我先不责怪你怎么不去百度或者谷歌自行搜索。</p>
+<p>在 Windows 系统里面，现在的终端一般就是 CMD 或者 PowerShell。对于其他的操作系统，比如 macOS 或者各种 Linux 以及 BSD 操作系统，往往都是 Bash，在这些系统里面也往往能找到 终端 这个程序，一般就在开始菜单或者程序目录里面肯定有。</p>
+<p>Windows 用户不知道怎么运行 CMD 或者 PowerShell？搜索去吧，不要做纯粹的伸手党，自己探索一下是有好处的。</p>
+<h4>注意</h4>
+<div class="highlight"><pre><span></span>这里我用的命令都是 pip，这是假设你的 系统默认的 pip 就是 python3 的。而如果你同时安装了 Python2 和 Python3，那可能 pip 对应的未必是 Python3 的 pip 而是 Python2 的，这时候你可能就要把下面所有的 pip 替换成 pip3 来运行，应该就可以了。
+</pre></div>
+
+
+<p>接下来就把下面的命令<strong>逐条</strong>复制粘贴到终端里面来运行，安装依赖包吧。</p>
+<div class="highlight"><pre><span></span>pip install cython
+pip install numpy
+pip install pandas
+pip install xlrd
+pip install matplotlib
+pip install BeautifulSoup4
+pip install pyqt5
+pip install scipy
+pip install scikit-learn
+pip install sympy
+pip install requests
+pip install pyqtgraph
+</pre></div>
+
+
+<p>安装完成了上面这些依赖包之后，就可以输入下面的这个命令来安装 GeoPython 了。</p>
+<div class="highlight"><pre><span></span>pip install geopython
+</pre></div>
+
+
+<p>如果没有发现什么出错信息，就是说明安装成功了。</p>
+<h3>更新已经安装的 GeoPython 模块</h3>
+<p>如果你之前安装了 GeoPython，可以通过下面的命令来更新到最新版本。</p>
+<div class="highlight"><pre><span></span>pip install geopython --update --no-cache-dir
+</pre></div>
+
+
+<h3>在 Python 下启动 GeoPython</h3>
+<p>安装完了 GeoPython，就可以在 Python 解释器里面启动了。不过这里要推荐一个替代原生解释器的 IPython，可以通过下面命令安装。</p>
+<div class="highlight"><pre><span></span>pip install ipython
+</pre></div>
+
+
+<p>安装好之后在终端中输入下面的命令启动 ipython。</p>
+<div class="highlight"><pre><span></span>ipython
+</pre></div>
+
+
+<p>然后在 ipython 或者原生 Python 解释器中输入下面两行命令，回车，就可以了。</p>
+<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">geopython</span> <span class="kn">as</span> <span class="nn">gp</span>
+<span class="n">gp</span><span class="o">.</span><span class="n">main</span><span class="p">()</span>
+</pre></div>
+
+
+<p>就能看到 GeoPython 的图形界面了。
+例如下图就是在  Ubuntu 系统下的截图。</p>
+<p><img alt="GeoPython in Ubuntu" src="https://raw.githubusercontent.com/chinageology/GeoPython/master/img/UbuntuScreenShot.png"></p>
+<p>每次运行 GeoPython 之前，更新一下是个好习惯。</p>
+<div class="highlight"><pre><span></span>pip install --upgrade geopython
+</pre></div>
+
+
+<h2>点型Marker/ 颜色Color/ 线型Style</h2>
+<p>GeoPython 可视化的部分使用 Matplotlib 来实现的，所以设置的这些项目也是相似的。</p>
+<p>点型 Markers 的设置可以参考:
+http://matplotlib.org/api/markers_api.html</p>
+<p>颜色 Colors 的设置可以参考:
+http://matplotlib.org/api/colors_api.html</p>
+<p>下面的示意图来自<a href="http://www.labri.fr/perso/nrougier/teaching/matplotlib/">nrougier</a>:</p>
+<p><img alt="" src="https://raw.githubusercontent.com/chinageology/GeoPython/master/img/LIneStylesMarkers.png"></p>
+<h2>需要更多帮助？</h2>
+<p>请访问我们的论坛 https://github.com/chinageology/GeoPython/issues 来留言<strong>写清楚</strong>你使用的操作系统、安装方法、错误截图。我们会尽快给出反馈。</p>
+<h2>附录</h2>
+<p>锆石氧逸度计算的样例数据文件为 <a href="https://github.com/chinageology/GeoPython/blob/master/DataFileSamples/ZirconCe.xlsx">ZirconCe.xlsx</a></p>
+<p><img alt="" src="https://raw.githubusercontent.com/chinageology/GeoPython/master/img/NewZirconCe.png"></p>
+<p>TAS/REE/微量元素、Pearce  图解和 Harker 图解的数据样例文件为
+<a href="https://github.com/chinageology/GeoPython/blob/master/DataFileSamples/Data.xlsx">Data.xlsx</a></p>
+<p><img alt="" src="https://raw.githubusercontent.com/chinageology/GeoPython/master/img/NewTAS.png">
+<img alt="" src="https://raw.githubusercontent.com/chinageology/GeoPython/master/img/NewTrace.png"></p>
+<p>极射赤平投影和玫瑰花图的样例数据文件为 <a href="https://github.com/chinageology/GeoPython/blob/master/DataFileSamples/Structure.xlsx">Structure.xlsx</a></p>
+<p><img alt="" src="https://raw.githubusercontent.com/chinageology/GeoPython/master/img/Rose.png"></p>
+<p><img alt="" src="https://raw.githubusercontent.com/chinageology/GeoPython/master/img/LoadPNG.png"></p>
+<h1>捐助支持</h1>
+<p>如果你希望支持 GeoPython 的开发，可以扫描下面的二维码进行捐助。
+<img alt="" src="https://raw.githubusercontent.com/chinageology/GeoPython/master/img/WeChatQrCode.png"></p>
+    </div><!-- /.entry-content -->
+    <footer class="post-meta">
+        <span class="meta-prep">Category:</span>
+        <abbr class="category">
+            <a href="/category/doc.html">Doc</a>
+        </abbr>
+       </footer>
+    <section id="respond">
+        <div id="disqus_thread">
+        <script type="text/javascript">
+        var disqus_identifier = "an-zhuang-zhi-nan.html";
+        (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://cycleuser.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+        </script>
+        </div>
+
+                <script id='nodebb-comments-script' ourl="https://v2mm.tech" ocid="53" blogger='cycleuser' src="https://v2mm.tech/plugins/nodebb-plugin-blog-comments2/lib/simple-pelican.js"></script>
+                
+
+    </section>
+</section>
+
+
+        </section><!-- #content -->
+        <section id="widgets" class="grid col-300 fit" >
+            <!--
+            <section id="widget-search" class="widget-wrapper widget_search">
+
+                <form id="searchform" action="http://www.google.com/search" method="get">
+                    <input id="q" class="field" type="text" placeholder="Search Blog" name="q" ></input>
+                    <input id="ie" name="ie" type="hidden" value="utf-8" ></input>
+                    <input id="oe" name="oe" type="hidden" value="utf-8" ></input>
+                    <input id="channel" name="channel" type="hidden" value="suggest" ></input>
+                    <input id="searchsubmit" class="submit" type="submit" value="">
+                </form>
+            </section>
+            -->
+
+            <section id="widget-links" class="widget-wrapper widget_archive">
+                <div class="widget-title">
+                    Links
+                </div>
+                <ul>
+                        <li><a href="http://geopytool.com/about.html">About</a></li>
+                        <li><a href="http://geopytool.com/functions.html">Functions</a></li>
+                        <li><a href="http://geopytool.com/milestones.html">Milestones</a></li>
+                        <li><a href="http://geopytool.com/installation.html">Installation</a></li>
+                        <li><a href="http://geopytool.com/demonstration.html">Demonstration</a></li>
+                        <li><a href="http://geopytool.com/download.html">Download</a></li>
+                        <li><a href="http://geopytool.com/archives.html">Archives</a></li>
+                        <li><a href="http://geopytool.com/about.html">简要介绍</a></li>
+                        <li><a href="http://geopytool.com/gong-neng-lie-biao.html">功能列表</a></li>
+                        <li><a href="http://geopytool.com/kai-fa-ji-lu.html">开发记录</a></li>
+                        <li><a href="http://geopytool.com/an-zhuang-zhi-nan.html">安装指南</a></li>
+                        <li><a href="http://geopytool.com/yan-shi-shi-pin.html">功能演示</a></li>
+                        <li><a href="http://geopytool.com/download.html">下载链接</a></li>
+                        <li><a href="http://geopytool.com/archives.html">存档整理</a></li>
+                </ul>
+            </section>
+
+            <section id="widget-category" class="widget-wrapper widget_archive">
+                <div class="widget-title">
+                    Category
+                </div>
+                <ul>
+                        <li><a href="/category/doc.html" >Doc </a></li>
+                        <li><a href="/category/python.html" >Python </a></li>
+                </ul>
+            </section>
+
+            <section id="widget-tagcloud" class="widget-wrapper widget_archive">
+                <div class="widget-title">
+                    Tagcloud
+                </div>
+                <div>
+                        <span><a href="/tag/chinese.html">Chinese</a></span>
+                        <span><a href="/tag/wen-dang.html">文档</a></span>
+                        <span><a href="/tag/doc.html">Doc</a></span>
+                        <span><a href="/tag/zhong-wen.html">中文</a></span>
+                        <span><a href="/tag/english.html">English</a></span>
+                </div>
+            </section>
+
+
+
+            
+        </section><!-- widgets -->
+    </section><!-- /#wrapper -->
+    <footer id="footer" class="clearfix"><section class="footer-wrapper">
+        <div class="grid col-940" >
+            <div class="grid col-540"></div>
+            <div class="grid col-380 fit" >
+                <ul class="social-icons">
+                    <!-- TO BE CONTINUED -->
+                </ul>
+            </div>
+        </div>
+
+        <div class="grid col-300 copyright" >
+            <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" rel="license">
+                <img src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" style="border-width:0" alt="知识共享许可协议"></img>
+            </a>
+        </div>
+        <div class="grid col-300 ">
+
+        </div>
+        <div class="grid col-300 fit powered">
+            Powered by <a href="http://getpelican.com/">Pelican</a> <br />
+            which takes great advantage of <a href="http://python.org">Python</a>
+        </div>
+    </section></footer>
+</div>
+</body>
+</html>

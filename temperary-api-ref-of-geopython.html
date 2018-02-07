@@ -1,0 +1,1354 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zh">
+
+<head>
+    <title>GeoPyTool</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" id="responsive-style-css"  href='/theme/css/style.css' type="text/css" media="all" />
+    <link rel="stylesheet" id="responsive-style-css"  href='/theme/css/highlight.css' type="text/css" media="all" />
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="GeoPyTool Full Atom Feed" />
+    <link href="/feeds/python.atom.xml" type="application/atom+xml" rel="alternate" title="GeoPyTool Categories Atom Feed" />
+    
+</head>
+
+<body id="index" class="blog">
+<div id="container" class="hfeed">
+    <header id="header" >
+        <div id="logo">
+                <h1><img src="/theme/image/default-logo.png" width="300" height="100" alt="ChinaGeology" />
+                GeoPyTool</h1>
+        </div> <!-- /#logo-->
+        <nav id="menu" class="main-nav"><ul class="menu">
+            <li  class="active"><a href="http://geopytool.com">Homepage</a></li>
+            <li  class="active"><a href="http://geopytool.com/about.html">About</a></li>
+            <li  class="active"><a href="http://geopytool.com/archives.html">Archives</a></li>
+            <li  class="active"><a href="https://zhuanlan.zhihu.com/python-kivy">ZhiHu</a></li>
+            <li  class="active"><a href="https://github.com/chinageology/GeoPython">Github</a></li>
+
+        </ul></nav><!-- /#menu -->
+    </header>
+    <section id="wrapper" class="clearfix">
+        <section id="content" class="grid col-620" >
+                <section class="breadcrumb-list">
+<a href="">Blog</a> ›<a href="category/python.html">Python</a> ›Temperary API Ref of GeoPython
+                </section>
+
+
+<section id="post" class="post hentry">
+    <header>
+    <h2 class="post-title" >Temperary API Ref of GeoPython</h2>
+    
+    <div class="post-meta">
+        <span class="meta-prep">Post in</span>
+        <abbr class="date" title="2017-03-18T16:20:00+08:00"> 
+            <a href="/archive/2017/ 3/index.html">六 18 三月 2017 </a>
+        </abbr>
+        <span class="meta-prep"> |Tags</span>
+        <!-- TOBE COMMENTS -->
+    </div>
+    </header>
+    <div class="post-entry">
+        <h1>API Ref of GeoPython</h1>
+<p>created on Sat Dec 17 22:28:24 2016
+@author: cycleuser
+Create Date: 2015-07-13
+Modify Date: 2017-04-10
+a tool set for daily geology related task.</p>
+<h1>prerequisite:</h1>
+<p>based on Python 3.x
+   need math,numpy,pandas,matplotlib,xlrd,chempy</p>
+<h1>Simple Sample:</h1>
+<div class="highlight"><pre><span></span><span class="mi">1</span><span class="p">)</span> <span class="n">opern</span> <span class="n">a</span> <span class="n">ipython</span> <span class="n">console</span>
+<span class="mi">2</span><span class="p">)</span> <span class="kn">import</span> <span class="nn">geopython</span> <span class="kn">as</span> <span class="nn">gp</span>
+<span class="mi">3</span><span class="p">)</span> <span class="n">TasSample</span><span class="o">=</span> <span class="n">Tas</span><span class="p">(</span><span class="s2">&quot;tas.xlsx&quot;</span><span class="p">)</span>
+<span class="mi">4</span><span class="p">)</span> <span class="n">TasSample</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+<span class="mi">5</span><span class="p">)</span> <span class="kn">from</span> <span class="nn">geopython</span> <span class="kn">import</span> <span class="n">gui</span>
+<span class="mi">6</span><span class="p">)</span> <span class="n">gui</span><span class="o">.</span><span class="n">Show</span><span class="p">()</span>
+</pre></div>
+
+
+<h1>Geology related classes available:</h1>
+<div class="highlight"><pre><span></span>1) Tas
+2) Ree
+3) Trace &amp; Trace2 (with different sequence of trace elements)
+4) Qfl &amp; Qmflt &amp; Qapf
+5) Polar (projection of wulf net &amp; schmidt net)
+6) Harker diagram
+7) CIPW Norm calculation
+8) Zircon Ce4/Ce3 calculation (Ballard 2002)
+</pre></div>
+
+
+<h1>know issues:</h1>
+<div class="highlight"><pre><span></span>1) Only work on Python 3.x
+</pre></div>
+
+
+<h1>Other</h1>
+<p>Any issues or improvements please open an issue at <a href="https://github.com/chinageology/GeoPython/issues">here</a>
+or leave a message to <a href="http://geopython.com">our website</a></p>
+<h2>DualTri</h2>
+<div class="highlight"><pre><span></span>a class of a double triangulars frame
+</pre></div>
+
+
+<p>Label: the label at the tree corners of the triangular</p>
+<blockquote>
+<p>type:    Label: a list consist of three strings</p>
+</blockquote>
+<p>LabelPosition: just the Position of these Labels</p>
+<blockquote>
+<p>type:    LabelPosition: x-y style coords , three of them</p>
+</blockquote>
+<p>Labels: description of the different region</p>
+<blockquote>
+<p>type:    Labels: a list containing multiple strings</p>
+</blockquote>
+<p>Locations: the locations of those each one in the Labels</p>
+<blockquote>
+<p>type:    Locations: a list of triangular coord points</p>
+</blockquote>
+<p>Offset: the offset value used to adjust the appearance of each one in the Labels</p>
+<blockquote>
+<p>type:    Offset: a list of x-y coord offset values</p>
+</blockquote>
+<p>name: the file name used to read and use</p>
+<blockquote>
+<p>type:    name: a string</p>
+</blockquote>
+<h3><strong>init</strong>(self, name=['Q', 'A', 'P', 'F'], Label=qapf.xlsx)</h3>
+<div class="highlight"><pre><span></span>Initialize self.  See help(type(self)) for accurate signature.
+</pre></div>
+
+
+<h3>show(self)</h3>
+<h2>Frame</h2>
+<div class="highlight"><pre><span></span>a Frame of TAS, REE, Trace Elements and other similar x-y plots
+</pre></div>
+
+
+<p>Width,Height: the width and height of the generated figure</p>
+<blockquote>
+<p>type:    Width,Height: two int numbers</p>
+</blockquote>
+<p>Dpi: dots per inch</p>
+<blockquote>
+<p>type:    Dpi: an int number</p>
+</blockquote>
+<p>Left,Right: the left and right limit of X axis</p>
+<blockquote>
+<p>type:    Left,Right: two int numbers</p>
+</blockquote>
+<p>Base,Top: the left and right limit of Y axis</p>
+<blockquote>
+<p>type:    Base,Top: two int numbers</p>
+</blockquote>
+<p>X0,X1,X_Gap: the left and right limit of X label, and the numbers of gap between them</p>
+<blockquote>
+<p>type:    X0,X1,X_Gap: three int numbers</p>
+</blockquote>
+<p>Y0,Y1,Y_Gap: the left and right limit of Y label, and the numbers of gap between them</p>
+<blockquote>
+<p>type:    Y0,Y1,Y_Gap: three int numbers</p>
+</blockquote>
+<p>FontSize: size of font of labels</p>
+<blockquote>
+<p>type:    FontSize: an int number</p>
+</blockquote>
+<p>xLabel, yLabel: the labels put alongside with x and y axises</p>
+<blockquote>
+<p>type:    xLabel, yLabel: two strings</p>
+</blockquote>
+<h3><strong>init</strong>(self, Width=Y Label, Height=X Label, Dpi=16, Left=7, Right=60, X_Gap=0, Base=9, Top=80, Y_Gap=0, FontSize=80, xLabel=6, yLabel=8)</h3>
+<div class="highlight"><pre><span></span>Just set up all.
+</pre></div>
+
+
+<h3>show(self)</h3>
+<p>Use the setup to set up figure feature.</p>
+<h2>Line</h2>
+<div class="highlight"><pre><span></span>a line class
+</pre></div>
+
+
+<p>Begin: the Beginning point of the line</p>
+<blockquote>
+<p>type:    Begin: a Point Instance</p>
+</blockquote>
+<p>End: the End point of the line</p>
+<blockquote>
+<p>type:    End: a Point Instance</p>
+</blockquote>
+<p>Points: gathering all the Point Instances</p>
+<blockquote>
+<p>type:    Points: a list</p>
+</blockquote>
+<p>X,Y: the gathered x and y values of the line to use in plotting</p>
+<blockquote>
+<p>type:    X,Y: two lists containing float numbers</p>
+</blockquote>
+<p>Width: the width of the line</p>
+<blockquote>
+<p>type:    Width: an int number , mayby float is OK</p>
+</blockquote>
+<p>Color: the color of the Line to draw on canvas</p>
+<blockquote>
+<p>type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white</p>
+</blockquote>
+<p>Style: the style used for the Line</p>
+<blockquote>
+<p>type:    Style: a string; -, --,-., : maybe there would be some other types , from matplotlib</p>
+</blockquote>
+<p>Alpha: the transparency of the Point</p>
+<blockquote>
+<p>type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent</p>
+</blockquote>
+<p>Label: label of the Line, telling what it is and distinguish it from other lines</p>
+<blockquote>
+<p>type:    Label: a string , if leave as "" or '' such kind of blank string, the label will not show on canvas</p>
+</blockquote>
+<p>Sort: the sequence used for sorting the points consisting the line</p>
+<blockquote>
+<p>type:    Sort: a string, x means sort the points with their x values, y means use y instead of x, other means use the sequence of points as these points  are put to the line</p>
+</blockquote>
+<h3><strong>init</strong>(self, Points=, Sort=0.3, Width=-, Color=blue, Style=1, Alpha=, Label=[(0, 0), (1, 1)])</h3>
+<div class="highlight"><pre><span></span>setup the datas
+</pre></div>
+
+
+<h3>order(self, TMP=[])</h3>
+<h3>sequence(self)</h3>
+<p>sort the points in the line with given option</p>
+<h3>show(self)</h3>
+<p>draw the line on canvas with its setup</p>
+<h2>Point</h2>
+<p>a Point class</p>
+<p>X,Y: the values of its x-y coord</p>
+<blockquote>
+<p>type:    X,Y: two float numbers</p>
+</blockquote>
+<p>Location: gather X and Y as a tuple for further use</p>
+<blockquote>
+<p>type:    Location: just a tuple with two numbers</p>
+</blockquote>
+<p>Size: the size of the Point to draw on canvas</p>
+<blockquote>
+<p>type:    Size: a number , int or maybe float also OK , better around 1 to 20, not too large or too small</p>
+</blockquote>
+<p>Color: the color of the Point to draw on canvas</p>
+<blockquote>
+<p>type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white</p>
+</blockquote>
+<p>Alpha: the transparency of the Point</p>
+<blockquote>
+<p>type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent</p>
+</blockquote>
+<p>Marker: the marker used for the Point</p>
+<blockquote>
+<p>type:    Marker: a string; o, d, *, ^ , maybe there would be some other types , from matplotlib</p>
+</blockquote>
+<p>Label: label of the Point, telling what it is and distinguish it from other points</p>
+<blockquote>
+<p>type:    Label: a string , if leave as "" or '' such kind of blank string, the label will not show on canvas</p>
+</blockquote>
+<h3><strong>init</strong>(self, X=, Y=o, Size=0.3, Color=red, Alpha=12, Marker=0, Label=0)</h3>
+<p>just set up the values</p>
+<h3>show(self)</h3>
+<p>plot the Point to the canvas</p>
+<h2>Points</h2>
+<p>a class for multiple Points</p>
+<p>X,Y: the values of its x-y coords</p>
+<blockquote>
+<p>type:    X,Y: two lists consist of float numbers</p>
+</blockquote>
+<p>Size: the size of the Points to draw on canvas</p>
+<blockquote>
+<p>type:    Size: a number , int or maybe float also OK , better around 1 to 20, not too large or too small</p>
+</blockquote>
+<p>Color: the color of the Points to draw on canvas</p>
+<blockquote>
+<p>type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white</p>
+</blockquote>
+<p>Alpha: the transparency of the Points</p>
+<blockquote>
+<p>type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent</p>
+</blockquote>
+<p>Marker: the marker used for the Points</p>
+<blockquote>
+<p>type:    Marker: a string; o, d, *, ^ , maybe there would be some other types , from matplotlib</p>
+</blockquote>
+<p>Label: label of the Points, telling what they are and distinguish them from other points</p>
+<blockquote>
+<p>type:    Label: a string , if leave as "" or '' such kind of blank string, the label will not show on canvas</p>
+</blockquote>
+<h3><strong>init</strong>(self, points=8, Size=, Color=o, Alpha=0.3, Marker=red, Label=12, FontSize=[(0, 0), (0, 1)])</h3>
+<p>just set up the values</p>
+<h3>show(self)</h3>
+<p>plot the Point to the canvas</p>
+<h2>Polar</h2>
+<p>Polar Stereographic projection for structural data</p>
+<p>name: the file used to plot</p>
+<blockquote>
+<p>type:    name: a string</p>
+</blockquote>
+<h3><strong>init</strong>(self, name=['N', 'S', 'W', 'E'], Label=strike.xlsx)</h3>
+<p>Initialize self.  See help(type(self)) for accurate signature.</p>
+<h3>eqan(self, A)</h3>
+<h3>eqar(self, A)</h3>
+<h3>getangular(self, A, B, C)</h3>
+<h3>read(self)</h3>
+<h3>schmidt(self, Width=k, Color=1)</h3>
+<p>read the Excel, then draw the schmidt net and Plot points, job done~</p>
+<h3>wulf(self, Width=k, Color=1)</h3>
+<p>read the Excel, then draw the wulf net and Plot points, job done~</p>
+<h2>Qapf</h2>
+<p>inherit DualTri and Tool, read xlsx or csv file and make basic Qapf diagram</p>
+<p>Tags: the Tags on this diagram for description of different units</p>
+<blockquote>
+<p>type:    Tags: a list of strings</p>
+</blockquote>
+<p>Labels: the labels of the different units</p>
+<blockquote>
+<p>type:    Labels: a list of strings</p>
+</blockquote>
+<p>Locations: the triangular coord location of these Labels</p>
+<blockquote>
+<p>type:    Locations: a list of tuples, these tuples contains the triangular coords</p>
+</blockquote>
+<p>Offset: the x-y offset of these labels on canvas</p>
+<blockquote>
+<p>type:    Offset: a list of tuples containing x-y values</p>
+</blockquote>
+<h3>BinToTri(self, a, b)</h3>
+<p>Turn an a-b coord to an x-y-z triangular coord .</p>
+<p>if z is negative, calc with its abs then return (a, -b).</p>
+<p>a,b: the numbers of the a-b coord</p>
+<blockquote>
+<p>type:    a,b: float or double are both OK, just numbers</p>
+</blockquote>
+<p>return:  the corresponding x-y-z triangular coord</p>
+<p>teturn type :      a tuple consist of x,y,z</p>
+<h3>Cross(self, A=[(0, 10), (100, 0)], B=[(0, 0), (10, 10)])</h3>
+<p>Return the crosspoint of two line A and B.</p>
+<p>A: first line</p>
+<blockquote>
+<p>type:    A: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>B: second line</p>
+<blockquote>
+<p>type:    B: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>return: the crosspoint of A and B</p>
+<p>teturn type :    a list consist of two numbers, the x-y of the crosspoint</p>
+<h3>Fill(self, P=0.3, Color=blue, Alpha=[(100, 0), (85, 15), (0, 3)])</h3>
+<p>Fill a region in planimetric rectangular coord.</p>
+<p>P: the peak points of the region in planimetric rectangular coord</p>
+<blockquote>
+<p>type:    P: a list consist of at least three tuples, which are the points in planimetric rectangular coord</p>
+</blockquote>
+<p>Color: the color used to fill the region</p>
+<blockquote>
+<p>type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white</p>
+</blockquote>
+<p>Alpha: the transparency used to fill the region</p>
+<blockquote>
+<p>type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent</p>
+</blockquote>
+<h3>TriCross(self, A=[(50, 50, 0), (0, 0, 100)], B=[(100, 0, 0), (0, 50, 60)])</h3>
+<p>Return the crosspoint of two line A and B in triangular coord.</p>
+<p>A: first line</p>
+<blockquote>
+<p>type:    A: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>B: second line</p>
+<blockquote>
+<p>type:    B: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>return:  the crosspoint of A and B</p>
+<p>teturn type :      a list consist of three numbers, the x-y-z of the triangular coord</p>
+<h3>TriFill(self, P=0.3, Color=blue, Alpha=[(100, 0, 0), (85, 15, 0), (0, 3, 97)])</h3>
+<p>Fill a region in triangular coord.</p>
+<p>P: the peak points of the region in triangular coord</p>
+<blockquote>
+<p>type:    P: a list consist of at least three tuples, which are the points in triangular coord</p>
+</blockquote>
+<p>Color: the color used to fill the region</p>
+<blockquote>
+<p>type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white</p>
+</blockquote>
+<p>Alpha: the transparency used to fill the region</p>
+<blockquote>
+<p>type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent</p>
+</blockquote>
+<h3>TriToBin(self, x, y, z)</h3>
+<p>Turn an x-y-z triangular coord to an a-b coord.</p>
+<p>if z is negative, calc with its abs then return (a, -b).</p>
+<p>x,y,z: the three numbers of the triangular coord</p>
+<blockquote>
+<p>type:    x,y,z: float or double are both OK, just numbers</p>
+</blockquote>
+<p>return:  the corresponding a-b coord</p>
+<p>teturn type :      a tuple consist of a and b</p>
+<h3><strong>init</strong>(self, name=10, Label=['Q', 'A', 'P', 'F'], FontSize=qapf.xlsx)</h3>
+<p>Initialize self.  See help(type(self)) for accurate signature.</p>
+<h3>draw(self)</h3>
+<h3>lowtri(self)</h3>
+<h3>read(self)</h3>
+<p>read the Excel, then use self.show() to show the frame, then Plot points, job done~</p>
+<h3>show(self)</h3>
+<h3>uptri(self)</h3>
+<h2>QapfP</h2>
+<p>inherit Qapf, read xlsx or csv file and make Qapf diagram for Plutonic Rocks</p>
+<p>Tags: the Tags on this diagram for description of different units</p>
+<blockquote>
+<p>type:    Tags: a list of strings</p>
+</blockquote>
+<p>Labels: the labels of the different units</p>
+<blockquote>
+<p>type:    Labels: a list of strings</p>
+</blockquote>
+<p>Locations: the triangular coord location of these Labels</p>
+<blockquote>
+<p>type:    Locations: a list of tuples, these tuples contains the triangular coords</p>
+</blockquote>
+<p>Offset: the x-y offset of these labels on canvas</p>
+<blockquote>
+<p>type:    Offset: a list of tuples containing x-y values</p>
+</blockquote>
+<h3>BinToTri(self, a, b)</h3>
+<p>Turn an a-b coord to an x-y-z triangular coord .</p>
+<p>if z is negative, calc with its abs then return (a, -b).</p>
+<p>a,b: the numbers of the a-b coord</p>
+<blockquote>
+<p>type:    a,b: float or double are both OK, just numbers</p>
+</blockquote>
+<p>return:  the corresponding x-y-z triangular coord</p>
+<p>teturn type :      a tuple consist of x,y,z</p>
+<h3>Cross(self, A=[(0, 10), (100, 0)], B=[(0, 0), (10, 10)])</h3>
+<p>Return the crosspoint of two line A and B.</p>
+<p>A: first line</p>
+<blockquote>
+<p>type:    A: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>B: second line</p>
+<blockquote>
+<p>type:    B: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>return: the crosspoint of A and B</p>
+<p>teturn type :    a list consist of two numbers, the x-y of the crosspoint</p>
+<h3>Fill(self, P=0.3, Color=blue, Alpha=[(100, 0), (85, 15), (0, 3)])</h3>
+<p>Fill a region in planimetric rectangular coord.</p>
+<p>P: the peak points of the region in planimetric rectangular coord</p>
+<blockquote>
+<p>type:    P: a list consist of at least three tuples, which are the points in planimetric rectangular coord</p>
+</blockquote>
+<p>Color: the color used to fill the region</p>
+<blockquote>
+<p>type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white</p>
+</blockquote>
+<p>Alpha: the transparency used to fill the region</p>
+<blockquote>
+<p>type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent</p>
+</blockquote>
+<h3>TriCross(self, A=[(50, 50, 0), (0, 0, 100)], B=[(100, 0, 0), (0, 50, 60)])</h3>
+<p>Return the crosspoint of two line A and B in triangular coord.</p>
+<p>A: first line</p>
+<blockquote>
+<p>type:    A: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>B: second line</p>
+<blockquote>
+<p>type:    B: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>return:  the crosspoint of A and B</p>
+<p>teturn type :      a list consist of three numbers, the x-y-z of the triangular coord</p>
+<h3>TriFill(self, P=0.3, Color=blue, Alpha=[(100, 0, 0), (85, 15, 0), (0, 3, 97)])</h3>
+<p>Fill a region in triangular coord.</p>
+<p>P: the peak points of the region in triangular coord</p>
+<blockquote>
+<p>type:    P: a list consist of at least three tuples, which are the points in triangular coord</p>
+</blockquote>
+<p>Color: the color used to fill the region</p>
+<blockquote>
+<p>type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white</p>
+</blockquote>
+<p>Alpha: the transparency used to fill the region</p>
+<blockquote>
+<p>type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent</p>
+</blockquote>
+<h3>TriToBin(self, x, y, z)</h3>
+<p>Turn an x-y-z triangular coord to an a-b coord.</p>
+<p>if z is negative, calc with its abs then return (a, -b).</p>
+<p>x,y,z: the three numbers of the triangular coord</p>
+<blockquote>
+<p>type:    x,y,z: float or double are both OK, just numbers</p>
+</blockquote>
+<p>return:  the corresponding a-b coord</p>
+<p>teturn type :      a tuple consist of a and b</p>
+<h3><strong>init</strong>(self, name=10, Label=['Q', 'A', 'P', 'F'], FontSize=qapf.xlsx)</h3>
+<p>Initialize self.  See help(type(self)) for accurate signature.</p>
+<h3>draw(self)</h3>
+<h3>lowtri(self)</h3>
+<h3>read(self)</h3>
+<p>read the Excel, then use self.show() to show the frame, then Plot points, job done~</p>
+<h3>show(self)</h3>
+<h3>uptri(self)</h3>
+<h2>QapfV</h2>
+<p>inherit Qapf, read xlsx or csv file and make Qapf diagram for Volcanic rocks</p>
+<p>Tags: the Tags on this diagram for description of different units</p>
+<blockquote>
+<p>type:    Tags: a list of strings</p>
+</blockquote>
+<p>Labels: the labels of the different units</p>
+<blockquote>
+<p>type:    Labels: a list of strings</p>
+</blockquote>
+<p>Locations: the triangular coord location of these Labels</p>
+<blockquote>
+<p>type:    Locations: a list of tuples, these tuples contains the triangular coords</p>
+</blockquote>
+<p>Offset: the x-y offset of these labels on canvas</p>
+<blockquote>
+<p>type:    Offset: a list of tuples containing x-y values</p>
+</blockquote>
+<h3>BinToTri(self, a, b)</h3>
+<p>Turn an a-b coord to an x-y-z triangular coord .</p>
+<p>if z is negative, calc with its abs then return (a, -b).</p>
+<p>a,b: the numbers of the a-b coord</p>
+<blockquote>
+<p>type:    a,b: float or double are both OK, just numbers</p>
+</blockquote>
+<p>return:  the corresponding x-y-z triangular coord</p>
+<p>teturn type :      a tuple consist of x,y,z</p>
+<h3>Cross(self, A=[(0, 10), (100, 0)], B=[(0, 0), (10, 10)])</h3>
+<p>Return the crosspoint of two line A and B.</p>
+<p>A: first line</p>
+<blockquote>
+<p>type:    A: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>B: second line</p>
+<blockquote>
+<p>type:    B: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>return: the crosspoint of A and B</p>
+<p>teturn type :    a list consist of two numbers, the x-y of the crosspoint</p>
+<h3>Fill(self, P=0.3, Color=blue, Alpha=[(100, 0), (85, 15), (0, 3)])</h3>
+<p>Fill a region in planimetric rectangular coord.</p>
+<p>P: the peak points of the region in planimetric rectangular coord</p>
+<blockquote>
+<p>type:    P: a list consist of at least three tuples, which are the points in planimetric rectangular coord</p>
+</blockquote>
+<p>Color: the color used to fill the region</p>
+<blockquote>
+<p>type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white</p>
+</blockquote>
+<p>Alpha: the transparency used to fill the region</p>
+<blockquote>
+<p>type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent</p>
+</blockquote>
+<h3>TriCross(self, A=[(50, 50, 0), (0, 0, 100)], B=[(100, 0, 0), (0, 50, 60)])</h3>
+<p>Return the crosspoint of two line A and B in triangular coord.</p>
+<p>A: first line</p>
+<blockquote>
+<p>type:    A: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>B: second line</p>
+<blockquote>
+<p>type:    B: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>return:  the crosspoint of A and B</p>
+<p>teturn type :      a list consist of three numbers, the x-y-z of the triangular coord</p>
+<h3>TriFill(self, P=0.3, Color=blue, Alpha=[(100, 0, 0), (85, 15, 0), (0, 3, 97)])</h3>
+<p>Fill a region in triangular coord.</p>
+<p>P: the peak points of the region in triangular coord</p>
+<blockquote>
+<p>type:    P: a list consist of at least three tuples, which are the points in triangular coord</p>
+</blockquote>
+<p>Color: the color used to fill the region</p>
+<blockquote>
+<p>type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white</p>
+</blockquote>
+<p>Alpha: the transparency used to fill the region</p>
+<blockquote>
+<p>type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent</p>
+</blockquote>
+<h3>TriToBin(self, x, y, z)</h3>
+<p>Turn an x-y-z triangular coord to an a-b coord.</p>
+<p>if z is negative, calc with its abs then return (a, -b).</p>
+<p>x,y,z: the three numbers of the triangular coord</p>
+<blockquote>
+<p>type:    x,y,z: float or double are both OK, just numbers</p>
+</blockquote>
+<p>return:  the corresponding a-b coord</p>
+<p>teturn type :      a tuple consist of a and b</p>
+<h3><strong>init</strong>(self, name=10, Label=['Q', 'A', 'P', 'F'], FontSize=qapf.xlsx)</h3>
+<p>Initialize self.  See help(type(self)) for accurate signature.</p>
+<h3>draw(self)</h3>
+<h3>lowtri(self)</h3>
+<h3>read(self)</h3>
+<p>read the Excel, then use self.show() to show the frame, then Plot points, job done~</p>
+<h3>show(self)</h3>
+<h3>uptri(self)</h3>
+<h2>Qfl</h2>
+<p>inherit Tri and Tool, read xlsx or csv file and make QFL diagram</p>
+<p>Tags: the Tags on this diagram for description of different units</p>
+<blockquote>
+<p>type:    Tags: a list of strings</p>
+</blockquote>
+<p>Labels: the labels of the different units</p>
+<blockquote>
+<p>type:    Labels: a list of strings</p>
+</blockquote>
+<p>Locations: the triangular coord location of these Labels</p>
+<blockquote>
+<p>type:    Locations: a list of tuples, these tuples contains the triangular coords</p>
+</blockquote>
+<p>Offset: the x-y offset of these labels on canvas</p>
+<blockquote>
+<p>type:    Offset: a list of tuples containing x-y values</p>
+</blockquote>
+<h3>BinToTri(self, a, b)</h3>
+<p>Turn an a-b coord to an x-y-z triangular coord .</p>
+<p>if z is negative, calc with its abs then return (a, -b).</p>
+<p>a,b: the numbers of the a-b coord</p>
+<blockquote>
+<p>type:    a,b: float or double are both OK, just numbers</p>
+</blockquote>
+<p>return:  the corresponding x-y-z triangular coord</p>
+<p>teturn type :      a tuple consist of x,y,z</p>
+<h3>Cross(self, A=[(0, 10), (100, 0)], B=[(0, 0), (10, 10)])</h3>
+<p>Return the crosspoint of two line A and B.</p>
+<p>A: first line</p>
+<blockquote>
+<p>type:    A: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>B: second line</p>
+<blockquote>
+<p>type:    B: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>return: the crosspoint of A and B</p>
+<p>teturn type :    a list consist of two numbers, the x-y of the crosspoint</p>
+<h3>Fill(self, P=0.3, Color=blue, Alpha=[(100, 0), (85, 15), (0, 3)])</h3>
+<p>Fill a region in planimetric rectangular coord.</p>
+<p>P: the peak points of the region in planimetric rectangular coord</p>
+<blockquote>
+<p>type:    P: a list consist of at least three tuples, which are the points in planimetric rectangular coord</p>
+</blockquote>
+<p>Color: the color used to fill the region</p>
+<blockquote>
+<p>type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white</p>
+</blockquote>
+<p>Alpha: the transparency used to fill the region</p>
+<blockquote>
+<p>type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent</p>
+</blockquote>
+<h3>TriCross(self, A=[(50, 50, 0), (0, 0, 100)], B=[(100, 0, 0), (0, 50, 60)])</h3>
+<p>Return the crosspoint of two line A and B in triangular coord.</p>
+<p>A: first line</p>
+<blockquote>
+<p>type:    A: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>B: second line</p>
+<blockquote>
+<p>type:    B: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>return:  the crosspoint of A and B</p>
+<p>teturn type :      a list consist of three numbers, the x-y-z of the triangular coord</p>
+<h3>TriFill(self, P=0.3, Color=blue, Alpha=[(100, 0, 0), (85, 15, 0), (0, 3, 97)])</h3>
+<p>Fill a region in triangular coord.</p>
+<p>P: the peak points of the region in triangular coord</p>
+<blockquote>
+<p>type:    P: a list consist of at least three tuples, which are the points in triangular coord</p>
+</blockquote>
+<p>Color: the color used to fill the region</p>
+<blockquote>
+<p>type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white</p>
+</blockquote>
+<p>Alpha: the transparency used to fill the region</p>
+<blockquote>
+<p>type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent</p>
+</blockquote>
+<h3>TriToBin(self, x, y, z)</h3>
+<p>Turn an x-y-z triangular coord to an a-b coord.</p>
+<p>if z is negative, calc with its abs then return (a, -b).</p>
+<p>x,y,z: the three numbers of the triangular coord</p>
+<blockquote>
+<p>type:    x,y,z: float or double are both OK, just numbers</p>
+</blockquote>
+<p>return:  the corresponding a-b coord</p>
+<p>teturn type :      a tuple consist of a and b</p>
+<h3><strong>init</strong>(self, name=['Q', 'F', 'L'], Label=qfl.xlsx)</h3>
+<p>set up the values</p>
+<h3>draw(self)</h3>
+<p>use the values to set up the general frame and lines, fill particular zone with given colors</p>
+<h3>read(self)</h3>
+<p>read the Excel, then use self.show() to show the frame, then Plot points, job done~</p>
+<h3>show(self)</h3>
+<p>just show the triangular frame on the canvas</p>
+<h2>Qmflt</h2>
+<p>inherit Qfl and Tool, read xlsx or csv file and make Qmflt diagram</p>
+<p>Tags: the Tags on this diagram for description of different units</p>
+<blockquote>
+<p>type:    Tags: a list of strings</p>
+</blockquote>
+<p>Labels: the labels of the different units</p>
+<blockquote>
+<p>type:    Labels: a list of strings</p>
+</blockquote>
+<p>Locations: the triangular coord location of these Labels</p>
+<blockquote>
+<p>type:    Locations: a list of tuples, these tuples contains the triangular coords</p>
+</blockquote>
+<p>Offset: the x-y offset of these labels on canvas</p>
+<blockquote>
+<p>type:    Offset: a list of tuples containing x-y values</p>
+</blockquote>
+<h3>BinToTri(self, a, b)</h3>
+<p>Turn an a-b coord to an x-y-z triangular coord .</p>
+<p>if z is negative, calc with its abs then return (a, -b).</p>
+<p>a,b: the numbers of the a-b coord</p>
+<blockquote>
+<p>type:    a,b: float or double are both OK, just numbers</p>
+</blockquote>
+<p>return:  the corresponding x-y-z triangular coord</p>
+<p>teturn type :      a tuple consist of x,y,z</p>
+<h3>Cross(self, A=[(0, 10), (100, 0)], B=[(0, 0), (10, 10)])</h3>
+<p>Return the crosspoint of two line A and B.</p>
+<p>A: first line</p>
+<blockquote>
+<p>type:    A: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>B: second line</p>
+<blockquote>
+<p>type:    B: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>return: the crosspoint of A and B</p>
+<p>teturn type :    a list consist of two numbers, the x-y of the crosspoint</p>
+<h3>Fill(self, P=0.3, Color=blue, Alpha=[(100, 0), (85, 15), (0, 3)])</h3>
+<p>Fill a region in planimetric rectangular coord.</p>
+<p>P: the peak points of the region in planimetric rectangular coord</p>
+<blockquote>
+<p>type:    P: a list consist of at least three tuples, which are the points in planimetric rectangular coord</p>
+</blockquote>
+<p>Color: the color used to fill the region</p>
+<blockquote>
+<p>type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white</p>
+</blockquote>
+<p>Alpha: the transparency used to fill the region</p>
+<blockquote>
+<p>type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent</p>
+</blockquote>
+<h3>TriCross(self, A=[(50, 50, 0), (0, 0, 100)], B=[(100, 0, 0), (0, 50, 60)])</h3>
+<p>Return the crosspoint of two line A and B in triangular coord.</p>
+<p>A: first line</p>
+<blockquote>
+<p>type:    A: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>B: second line</p>
+<blockquote>
+<p>type:    B: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>return:  the crosspoint of A and B</p>
+<p>teturn type :      a list consist of three numbers, the x-y-z of the triangular coord</p>
+<h3>TriFill(self, P=0.3, Color=blue, Alpha=[(100, 0, 0), (85, 15, 0), (0, 3, 97)])</h3>
+<p>Fill a region in triangular coord.</p>
+<p>P: the peak points of the region in triangular coord</p>
+<blockquote>
+<p>type:    P: a list consist of at least three tuples, which are the points in triangular coord</p>
+</blockquote>
+<p>Color: the color used to fill the region</p>
+<blockquote>
+<p>type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white</p>
+</blockquote>
+<p>Alpha: the transparency used to fill the region</p>
+<blockquote>
+<p>type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent</p>
+</blockquote>
+<h3>TriToBin(self, x, y, z)</h3>
+<p>Turn an x-y-z triangular coord to an a-b coord.</p>
+<p>if z is negative, calc with its abs then return (a, -b).</p>
+<p>x,y,z: the three numbers of the triangular coord</p>
+<blockquote>
+<p>type:    x,y,z: float or double are both OK, just numbers</p>
+</blockquote>
+<p>return:  the corresponding a-b coord</p>
+<p>teturn type :      a tuple consist of a and b</p>
+<h3><strong>init</strong>(self, name=['Qm', 'F', 'Lt'], Label=qmflt.xlsx)</h3>
+<p>set up the values</p>
+<h3>draw(self)</h3>
+<p>use the values to set up the general frame and lines, fill particular zone with given colors</p>
+<h3>read(self)</h3>
+<p>read the Excel, then use self.show() to show the frame, then Plot points, job done~</p>
+<h3>show(self)</h3>
+<p>just show the triangular frame on the canvas</p>
+<h2>Ree</h2>
+<p>inherit Frame, read xlsx or csv file and use the Rare Earth Elements to plot the ree diagram</p>
+<p>Element: the elements used in this diagram</p>
+<blockquote>
+<p>type:    Element: a list of strings</p>
+</blockquote>
+<p>Labels: a ref of Element</p>
+<blockquote>
+<p>type:    Labels: a list of strings</p>
+</blockquote>
+<p>WholeData: gathering all data and find the min and max of the data file to set the limits of Y</p>
+<blockquote>
+<p>type:    WholeData: a list of float numbers</p>
+</blockquote>
+<p>X0,X1: the left and right limits of X</p>
+<blockquote>
+<p>type:    X0,X1: two int or float numbers</p>
+</blockquote>
+<p>X_Gap: the space between the left and right limits of X</p>
+<blockquote>
+<p>type:    X_Gap: an int number</p>
+</blockquote>
+<p>name: the file name to use in this diagram</p>
+<blockquote>
+<p>type:    name: a string</p>
+</blockquote>
+<h3><strong>init</strong>(self, name=, Width=$REE-Standardlized-Pattern$, Height=16, Dpi=5, Left=3, Right=-1, X0=6, X1=-1, X_Gap=15, Base=15, Top=1, Y0=16, Y1=0, Y_Gap=80, FontSize=6, xLabel=8, yLabel=ree.xlsx)</h3>
+<p>Just set up all.</p>
+<h3>read(self)</h3>
+<p>read the Excel, then use self.show() to show the frame, then Plot points, job done~</p>
+<h3>show(self)</h3>
+<p>set the figure basic with the settings</p>
+<h2>Tag</h2>
+<p>a class for Tag put on canvas</p>
+<p>Label: label of the Tag, telling what it is and distinguish them from other tags</p>
+<blockquote>
+<p>type:    Label: a strings , if leave as "" or '' such kind of blank string, the label will not show on canvas</p>
+</blockquote>
+<p>Location: the location of the Tag</p>
+<blockquote>
+<p>type:    Location: a tuple consist of x-y values of its coords</p>
+</blockquote>
+<p>X_offset,Y_offset: the values of its x-y offsets on coords</p>
+<blockquote>
+<p>type:    X_offset,Y_offset: two float numbers</p>
+</blockquote>
+<p>FontSize: the size of font of the Tag</p>
+<blockquote>
+<p>type:    FontSize: a number , int or maybe float also OK , better around 8 to 12, not too large or too small</p>
+</blockquote>
+<h3><strong>init</strong>(self, Label=12, Location=3, X_offset=-6, Y_offset=(0, 0), FontSize=Label)</h3>
+<p>set up the values</p>
+<h3>show(self)</h3>
+<p>show the Tag on canvas with its offsets and font size, color and alpha are fixed for now</p>
+<h2>Tas</h2>
+<p>inherit Frame, read xlsx or csv file and use SiO2 , Na2O and K2O to plot tas diagram</p>
+<p>Lines: the lines consisting the Tas frame</p>
+<blockquote>
+<p>type:    Lines: a list of lines</p>
+</blockquote>
+<p>Tags: tags used for the items of Tas diagram</p>
+<blockquote>
+<p>type:    Tagas: a list of strings</p>
+</blockquote>
+<p>Labels: labels on the canvas</p>
+<blockquote>
+<p>type:    Labels: a list of strings</p>
+</blockquote>
+<p>Locations: the locations of these labels</p>
+<blockquote>
+<p>type:    Locations: a list of tuple containing two numbers as x-y coords</p>
+</blockquote>
+<p>description: the description of the tas diagram</p>
+<p>name: the file name used for tas diagram</p>
+<blockquote>
+<p>type:    name: a string</p>
+</blockquote>
+<h3><strong>init</strong>(self, name=$na_2O + K_2O wt\%$, Width=$SiO_2 wt\%$, Height=12, Dpi=15, Left=15, Right=1, X0=16, X1=0, X_Gap=11, Base=77, Top=37, Y0=79, Y1=35, Y_Gap=80, FontSize=6, xLabel=8, yLabel=tas.xlsx)</h3>
+<p>just set up the basic settings</p>
+<h3>read(self)</h3>
+<p>read the Excel, then use self.show() to show the frame, then Plot points, job done~</p>
+<h3>show(self)</h3>
+<p>show the tas frame and lines of tas on canvas</p>
+<h2>Tool</h2>
+<p>a tool set for basic tasks, crosspoint calc, coord transfer and fill region with color</p>
+<h3>BinToTri(self, a, b)</h3>
+<p>Turn an a-b coord to an x-y-z triangular coord .</p>
+<p>if z is negative, calc with its abs then return (a, -b).</p>
+<p>a,b: the numbers of the a-b coord</p>
+<blockquote>
+<p>type:    a,b: float or double are both OK, just numbers</p>
+</blockquote>
+<p>return:  the corresponding x-y-z triangular coord</p>
+<p>teturn type :      a tuple consist of x,y,z</p>
+<h3>Cross(self, A=[(0, 10), (100, 0)], B=[(0, 0), (10, 10)])</h3>
+<p>Return the crosspoint of two line A and B.</p>
+<p>A: first line</p>
+<blockquote>
+<p>type:    A: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>B: second line</p>
+<blockquote>
+<p>type:    B: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>return: the crosspoint of A and B</p>
+<p>teturn type :    a list consist of two numbers, the x-y of the crosspoint</p>
+<h3>Fill(self, P=0.3, Color=blue, Alpha=[(100, 0), (85, 15), (0, 3)])</h3>
+<p>Fill a region in planimetric rectangular coord.</p>
+<p>P: the peak points of the region in planimetric rectangular coord</p>
+<blockquote>
+<p>type:    P: a list consist of at least three tuples, which are the points in planimetric rectangular coord</p>
+</blockquote>
+<p>Color: the color used to fill the region</p>
+<blockquote>
+<p>type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white</p>
+</blockquote>
+<p>Alpha: the transparency used to fill the region</p>
+<blockquote>
+<p>type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent</p>
+</blockquote>
+<h3>TriCross(self, A=[(50, 50, 0), (0, 0, 100)], B=[(100, 0, 0), (0, 50, 60)])</h3>
+<p>Return the crosspoint of two line A and B in triangular coord.</p>
+<p>A: first line</p>
+<blockquote>
+<p>type:    A: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>B: second line</p>
+<blockquote>
+<p>type:    B: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>return:  the crosspoint of A and B</p>
+<p>teturn type :      a list consist of three numbers, the x-y-z of the triangular coord</p>
+<h3>TriFill(self, P=0.3, Color=blue, Alpha=[(100, 0, 0), (85, 15, 0), (0, 3, 97)])</h3>
+<p>Fill a region in triangular coord.</p>
+<p>P: the peak points of the region in triangular coord</p>
+<blockquote>
+<p>type:    P: a list consist of at least three tuples, which are the points in triangular coord</p>
+</blockquote>
+<p>Color: the color used to fill the region</p>
+<blockquote>
+<p>type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white</p>
+</blockquote>
+<p>Alpha: the transparency used to fill the region</p>
+<blockquote>
+<p>type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent</p>
+</blockquote>
+<h3>TriToBin(self, x, y, z)</h3>
+<p>Turn an x-y-z triangular coord to an a-b coord.</p>
+<p>if z is negative, calc with its abs then return (a, -b).</p>
+<p>x,y,z: the three numbers of the triangular coord</p>
+<blockquote>
+<p>type:    x,y,z: float or double are both OK, just numbers</p>
+</blockquote>
+<p>return:  the corresponding a-b coord</p>
+<p>teturn type :      a tuple consist of a and b</p>
+<h2>Trace</h2>
+<p>inherit Frame, read xlsx or csv file and use the Trace Elements to plot the trace diagram</p>
+<p>Element: the elements used in this diagram</p>
+<blockquote>
+<p>type:    Element: a list of strings</p>
+</blockquote>
+<p>Labels: a ref of Element</p>
+<blockquote>
+<p>type:    Labels: a list of strings</p>
+</blockquote>
+<p>name: the file name to use in this diagram</p>
+<blockquote>
+<p>type:    name: a string</p>
+</blockquote>
+<h3><strong>init</strong>(self, name=, Width=$Trace-Elements-Standardlized-Pattern$, Height=16, Dpi=5, Left=3, Right=-1, X0=6, X1=-1, X_Gap=15, Base=37, Top=1, Y0=16, Y1=0, Y_Gap=80, FontSize=9, xLabel=16, yLabel=trace.xlsx)</h3>
+<p>Just set up all.</p>
+<h3>read(self)</h3>
+<p>read the Excel, then use self.show() to show the frame, then Plot points, job done~</p>
+<h3>show(self)</h3>
+<p>set the figure basic with the settings</p>
+<h2>Trace2</h2>
+<p>inherit Frame, read xlsx or csv file and use the Trace Elements to plot the trace2 diagram</p>
+<p>Element: the elements used in this diagram</p>
+<blockquote>
+<p>type:    Element: a list of strings</p>
+</blockquote>
+<p>Labels: a ref of Element</p>
+<blockquote>
+<p>type:    Labels: a list of strings</p>
+</blockquote>
+<p>name: the file name to use in this diagram</p>
+<blockquote>
+<p>type:    name: a string</p>
+</blockquote>
+<h3><strong>init</strong>(self, name=, Width=$Trace-Elements-Standardlized-Pattern$, Height=16, Dpi=5, Left=3, Right=-1, X0=6, X1=-1, X_Gap=25, Base=26, Top=1, Y0=16, Y1=0, Y_Gap=80, FontSize=9, xLabel=16, yLabel=trace2.xlsx)</h3>
+<p>Just set up all.</p>
+<h3>read(self)</h3>
+<p>read the Excel, then use self.show() to show the frame, then Plot points, job done~</p>
+<h3>show(self)</h3>
+<p>set the figure basic with the settings</p>
+<h2>Tri</h2>
+<p>a class of triangular frame</p>
+<p>Label: the label at the tree corners of the triangular</p>
+<blockquote>
+<p>type:    Label: a list consist of three strings</p>
+</blockquote>
+<p>LabelPosition: just the Position of these Labels</p>
+<blockquote>
+<p>type:    LabelPosition: x-y style coords , three of them</p>
+</blockquote>
+<h3><strong>init</strong>(self, Label=['Q', 'F', 'L'])</h3>
+<p>set up the values</p>
+<h3>show(self)</h3>
+<p>just show the triangular frame on the canvas</p>
+<h2>TriLine</h2>
+<p>inherit Line and Tool, line class for triangular coord</p>
+<p>x,y,z: the list for gathering the x,y,z values of points consisting the line</p>
+<blockquote>
+<p>type:    x,y,z: three lists</p>
+</blockquote>
+<h3>BinToTri(self, a, b)</h3>
+<p>Turn an a-b coord to an x-y-z triangular coord .</p>
+<p>if z is negative, calc with its abs then return (a, -b).</p>
+<p>a,b: the numbers of the a-b coord</p>
+<blockquote>
+<p>type:    a,b: float or double are both OK, just numbers</p>
+</blockquote>
+<p>return:  the corresponding x-y-z triangular coord</p>
+<p>teturn type :      a tuple consist of x,y,z</p>
+<h3>Cross(self, A=[(0, 10), (100, 0)], B=[(0, 0), (10, 10)])</h3>
+<p>Return the crosspoint of two line A and B.</p>
+<p>A: first line</p>
+<blockquote>
+<p>type:    A: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>B: second line</p>
+<blockquote>
+<p>type:    B: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>return: the crosspoint of A and B</p>
+<p>teturn type :    a list consist of two numbers, the x-y of the crosspoint</p>
+<h3>Fill(self, P=0.3, Color=blue, Alpha=[(100, 0), (85, 15), (0, 3)])</h3>
+<p>Fill a region in planimetric rectangular coord.</p>
+<p>P: the peak points of the region in planimetric rectangular coord</p>
+<blockquote>
+<p>type:    P: a list consist of at least three tuples, which are the points in planimetric rectangular coord</p>
+</blockquote>
+<p>Color: the color used to fill the region</p>
+<blockquote>
+<p>type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white</p>
+</blockquote>
+<p>Alpha: the transparency used to fill the region</p>
+<blockquote>
+<p>type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent</p>
+</blockquote>
+<h3>TriCross(self, A=[(50, 50, 0), (0, 0, 100)], B=[(100, 0, 0), (0, 50, 60)])</h3>
+<p>Return the crosspoint of two line A and B in triangular coord.</p>
+<p>A: first line</p>
+<blockquote>
+<p>type:    A: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>B: second line</p>
+<blockquote>
+<p>type:    B: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>return:  the crosspoint of A and B</p>
+<p>teturn type :      a list consist of three numbers, the x-y-z of the triangular coord</p>
+<h3>TriFill(self, P=0.3, Color=blue, Alpha=[(100, 0, 0), (85, 15, 0), (0, 3, 97)])</h3>
+<p>Fill a region in triangular coord.</p>
+<p>P: the peak points of the region in triangular coord</p>
+<blockquote>
+<p>type:    P: a list consist of at least three tuples, which are the points in triangular coord</p>
+</blockquote>
+<p>Color: the color used to fill the region</p>
+<blockquote>
+<p>type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white</p>
+</blockquote>
+<p>Alpha: the transparency used to fill the region</p>
+<blockquote>
+<p>type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent</p>
+</blockquote>
+<h3>TriToBin(self, x, y, z)</h3>
+<p>Turn an x-y-z triangular coord to an a-b coord.</p>
+<p>if z is negative, calc with its abs then return (a, -b).</p>
+<p>x,y,z: the three numbers of the triangular coord</p>
+<blockquote>
+<p>type:    x,y,z: float or double are both OK, just numbers</p>
+</blockquote>
+<p>return:  the corresponding a-b coord</p>
+<p>teturn type :      a tuple consist of a and b</p>
+<h3><strong>init</strong>(self, Points=, Sort=0.3, Width=-, Color=blue, Style=1, Alpha=, Label=[(0, 0, 0), (1, 1, 1)])</h3>
+<p>setup the datas</p>
+<h3>order(self, TMP=[])</h3>
+<h3>sequence(self)</h3>
+<p>sort the points in the line with given option</p>
+<h3>show(self)</h3>
+<p>draw the line on canvas with its setup</p>
+<h3>tritrans(self)</h3>
+<h2>TriPoint</h2>
+<p>inherit Point and Tool, a Point class for triangular coord</p>
+<p>x,y,z: the list for gathering the x,y,z values of points consisting the line</p>
+<blockquote>
+<p>type:    x,y,z: three lists</p>
+</blockquote>
+<p>sum: a value used in calc of coord transfer</p>
+<blockquote>
+<p>type:    sum: just a number, both int or float are OK</p>
+</blockquote>
+<h3>BinToTri(self, a, b)</h3>
+<p>Turn an a-b coord to an x-y-z triangular coord .</p>
+<p>if z is negative, calc with its abs then return (a, -b).</p>
+<p>a,b: the numbers of the a-b coord</p>
+<blockquote>
+<p>type:    a,b: float or double are both OK, just numbers</p>
+</blockquote>
+<p>return:  the corresponding x-y-z triangular coord</p>
+<p>teturn type :      a tuple consist of x,y,z</p>
+<h3>Cross(self, A=[(0, 10), (100, 0)], B=[(0, 0), (10, 10)])</h3>
+<p>Return the crosspoint of two line A and B.</p>
+<p>A: first line</p>
+<blockquote>
+<p>type:    A: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>B: second line</p>
+<blockquote>
+<p>type:    B: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>return: the crosspoint of A and B</p>
+<p>teturn type :    a list consist of two numbers, the x-y of the crosspoint</p>
+<h3>Fill(self, P=0.3, Color=blue, Alpha=[(100, 0), (85, 15), (0, 3)])</h3>
+<p>Fill a region in planimetric rectangular coord.</p>
+<p>P: the peak points of the region in planimetric rectangular coord</p>
+<blockquote>
+<p>type:    P: a list consist of at least three tuples, which are the points in planimetric rectangular coord</p>
+</blockquote>
+<p>Color: the color used to fill the region</p>
+<blockquote>
+<p>type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white</p>
+</blockquote>
+<p>Alpha: the transparency used to fill the region</p>
+<blockquote>
+<p>type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent</p>
+</blockquote>
+<h3>TriCross(self, A=[(50, 50, 0), (0, 0, 100)], B=[(100, 0, 0), (0, 50, 60)])</h3>
+<p>Return the crosspoint of two line A and B in triangular coord.</p>
+<p>A: first line</p>
+<blockquote>
+<p>type:    A: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>B: second line</p>
+<blockquote>
+<p>type:    B: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>return:  the crosspoint of A and B</p>
+<p>teturn type :      a list consist of three numbers, the x-y-z of the triangular coord</p>
+<h3>TriFill(self, P=0.3, Color=blue, Alpha=[(100, 0, 0), (85, 15, 0), (0, 3, 97)])</h3>
+<p>Fill a region in triangular coord.</p>
+<p>P: the peak points of the region in triangular coord</p>
+<blockquote>
+<p>type:    P: a list consist of at least three tuples, which are the points in triangular coord</p>
+</blockquote>
+<p>Color: the color used to fill the region</p>
+<blockquote>
+<p>type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white</p>
+</blockquote>
+<p>Alpha: the transparency used to fill the region</p>
+<blockquote>
+<p>type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent</p>
+</blockquote>
+<h3>TriToBin(self, x, y, z)</h3>
+<p>Turn an x-y-z triangular coord to an a-b coord.</p>
+<p>if z is negative, calc with its abs then return (a, -b).</p>
+<p>x,y,z: the three numbers of the triangular coord</p>
+<blockquote>
+<p>type:    x,y,z: float or double are both OK, just numbers</p>
+</blockquote>
+<p>return:  the corresponding a-b coord</p>
+<p>teturn type :      a tuple consist of a and b</p>
+<h3><strong>init</strong>(self, P=, Size=o, Color=0.3, Alpha=red, Marker=12, Label=(10, 20, 70))</h3>
+<p>just set up the values</p>
+<h3>show(self)</h3>
+<p>plot the Point to the canvas</p>
+<h2>TriTag</h2>
+<p>inherit Tag and Tool,a Tag for triangular coord</p>
+<h3>BinToTri(self, a, b)</h3>
+<p>Turn an a-b coord to an x-y-z triangular coord .</p>
+<p>if z is negative, calc with its abs then return (a, -b).</p>
+<p>a,b: the numbers of the a-b coord</p>
+<blockquote>
+<p>type:    a,b: float or double are both OK, just numbers</p>
+</blockquote>
+<p>return:  the corresponding x-y-z triangular coord</p>
+<p>teturn type :      a tuple consist of x,y,z</p>
+<h3>Cross(self, A=[(0, 10), (100, 0)], B=[(0, 0), (10, 10)])</h3>
+<p>Return the crosspoint of two line A and B.</p>
+<p>A: first line</p>
+<blockquote>
+<p>type:    A: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>B: second line</p>
+<blockquote>
+<p>type:    B: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>return: the crosspoint of A and B</p>
+<p>teturn type :    a list consist of two numbers, the x-y of the crosspoint</p>
+<h3>Fill(self, P=0.3, Color=blue, Alpha=[(100, 0), (85, 15), (0, 3)])</h3>
+<p>Fill a region in planimetric rectangular coord.</p>
+<p>P: the peak points of the region in planimetric rectangular coord</p>
+<blockquote>
+<p>type:    P: a list consist of at least three tuples, which are the points in planimetric rectangular coord</p>
+</blockquote>
+<p>Color: the color used to fill the region</p>
+<blockquote>
+<p>type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white</p>
+</blockquote>
+<p>Alpha: the transparency used to fill the region</p>
+<blockquote>
+<p>type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent</p>
+</blockquote>
+<h3>TriCross(self, A=[(50, 50, 0), (0, 0, 100)], B=[(100, 0, 0), (0, 50, 60)])</h3>
+<p>Return the crosspoint of two line A and B in triangular coord.</p>
+<p>A: first line</p>
+<blockquote>
+<p>type:    A: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>B: second line</p>
+<blockquote>
+<p>type:    B: a list consist of two tuples, beginning and end point of the line</p>
+</blockquote>
+<p>return:  the crosspoint of A and B</p>
+<p>teturn type :      a list consist of three numbers, the x-y-z of the triangular coord</p>
+<h3>TriFill(self, P=0.3, Color=blue, Alpha=[(100, 0, 0), (85, 15, 0), (0, 3, 97)])</h3>
+<p>Fill a region in triangular coord.</p>
+<p>P: the peak points of the region in triangular coord</p>
+<blockquote>
+<p>type:    P: a list consist of at least three tuples, which are the points in triangular coord</p>
+</blockquote>
+<p>Color: the color used to fill the region</p>
+<blockquote>
+<p>type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white</p>
+</blockquote>
+<p>Alpha: the transparency used to fill the region</p>
+<blockquote>
+<p>type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent</p>
+</blockquote>
+<h3>TriToBin(self, x, y, z)</h3>
+<p>Turn an x-y-z triangular coord to an a-b coord.</p>
+<p>if z is negative, calc with its abs then return (a, -b).</p>
+<p>x,y,z: the three numbers of the triangular coord</p>
+<blockquote>
+<p>type:    x,y,z: float or double are both OK, just numbers</p>
+</blockquote>
+<p>return:  the corresponding a-b coord</p>
+<p>teturn type :      a tuple consist of a and b</p>
+<h3><strong>init</strong>(self, Label=12, Location=3, X_offset=-6, Y_offset=(0, 1, 2), FontSize=Label)</h3>
+<p>set up the values, transfer x,y,z coords to x-y coords</p>
+<h3>show(self)</h3>
+<p>show the Tag on canvas with its offsets and font size, color and alpha are fixed for now</p>
+    </div><!-- /.entry-content -->
+    <footer class="post-meta">
+        <span class="meta-prep">Category:</span>
+        <abbr class="category">
+            <a href="/category/python.html">Python</a>
+        </abbr>
+       </footer>
+    <section id="respond">
+        <div id="disqus_thread">
+        <script type="text/javascript">
+        var disqus_identifier = "temperary-api-ref-of-geopython.html";
+        (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://cycleuser.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+        </script>
+        </div>
+
+                <script id='nodebb-comments-script' ourl="https://v2mm.tech" ocid="53" blogger='cycleuser' src="https://v2mm.tech/plugins/nodebb-plugin-blog-comments2/lib/simple-pelican.js"></script>
+                
+
+    </section>
+</section>
+
+
+        </section><!-- #content -->
+        <section id="widgets" class="grid col-300 fit" >
+            <!--
+            <section id="widget-search" class="widget-wrapper widget_search">
+
+                <form id="searchform" action="http://www.google.com/search" method="get">
+                    <input id="q" class="field" type="text" placeholder="Search Blog" name="q" ></input>
+                    <input id="ie" name="ie" type="hidden" value="utf-8" ></input>
+                    <input id="oe" name="oe" type="hidden" value="utf-8" ></input>
+                    <input id="channel" name="channel" type="hidden" value="suggest" ></input>
+                    <input id="searchsubmit" class="submit" type="submit" value="">
+                </form>
+            </section>
+            -->
+
+            <section id="widget-links" class="widget-wrapper widget_archive">
+                <div class="widget-title">
+                    Links
+                </div>
+                <ul>
+                        <li><a href="http://geopytool.com/about.html">About</a></li>
+                        <li><a href="http://geopytool.com/functions.html">Functions</a></li>
+                        <li><a href="http://geopytool.com/milestones.html">Milestones</a></li>
+                        <li><a href="http://geopytool.com/installation.html">Installation</a></li>
+                        <li><a href="http://geopytool.com/demonstration.html">Demonstration</a></li>
+                        <li><a href="http://geopytool.com/download.html">Download</a></li>
+                        <li><a href="http://geopytool.com/archives.html">Archives</a></li>
+                        <li><a href="http://geopytool.com/about.html">简要介绍</a></li>
+                        <li><a href="http://geopytool.com/gong-neng-lie-biao.html">功能列表</a></li>
+                        <li><a href="http://geopytool.com/kai-fa-ji-lu.html">开发记录</a></li>
+                        <li><a href="http://geopytool.com/an-zhuang-zhi-nan.html">安装指南</a></li>
+                        <li><a href="http://geopytool.com/yan-shi-shi-pin.html">功能演示</a></li>
+                        <li><a href="http://geopytool.com/download.html">下载链接</a></li>
+                        <li><a href="http://geopytool.com/archives.html">存档整理</a></li>
+                </ul>
+            </section>
+
+            <section id="widget-category" class="widget-wrapper widget_archive">
+                <div class="widget-title">
+                    Category
+                </div>
+                <ul>
+                        <li><a href="/category/doc.html" >Doc </a></li>
+                        <li><a href="/category/python.html" >Python </a></li>
+                </ul>
+            </section>
+
+            <section id="widget-tagcloud" class="widget-wrapper widget_archive">
+                <div class="widget-title">
+                    Tagcloud
+                </div>
+                <div>
+                        <span><a href="/tag/chinese.html">Chinese</a></span>
+                        <span><a href="/tag/wen-dang.html">文档</a></span>
+                        <span><a href="/tag/doc.html">Doc</a></span>
+                        <span><a href="/tag/zhong-wen.html">中文</a></span>
+                        <span><a href="/tag/english.html">English</a></span>
+                </div>
+            </section>
+
+
+
+            
+        </section><!-- widgets -->
+    </section><!-- /#wrapper -->
+    <footer id="footer" class="clearfix"><section class="footer-wrapper">
+        <div class="grid col-940" >
+            <div class="grid col-540"></div>
+            <div class="grid col-380 fit" >
+                <ul class="social-icons">
+                    <!-- TO BE CONTINUED -->
+                </ul>
+            </div>
+        </div>
+
+        <div class="grid col-300 copyright" >
+            <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" rel="license">
+                <img src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" style="border-width:0" alt="知识共享许可协议"></img>
+            </a>
+        </div>
+        <div class="grid col-300 ">
+
+        </div>
+        <div class="grid col-300 fit powered">
+            Powered by <a href="http://getpelican.com/">Pelican</a> <br />
+            which takes great advantage of <a href="http://python.org">Python</a>
+        </div>
+    </section></footer>
+</div>
+</body>
+</html>
