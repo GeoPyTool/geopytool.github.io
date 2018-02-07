@@ -136,12 +136,14 @@ pip install scipy
 pip install scikit-learn
 pip install sympy
 pip install requests
+pip install pyopengl
 pip install pyqtgraph
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;直接使用 pip 来安装 scikit-learn 可能会报错，需要安装 &lt;a href="http://landinghub.visualstudio.com/visual-cpp-build-tools"&gt;Microsoft Visual C++ Build Tools&lt;/a&gt;。所以还可以考虑用 conda 来安装 scipy 和 scikit-learn。这就需要先安装 conda:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install requests
+pip install pyopengl
 pip install pyqtgraph
 pip install conda
 &lt;/pre&gt;&lt;/div&gt;
@@ -568,6 +570,7 @@ pip install scipy
 pip install scikit-learn
 pip install sympy
 pip install requests
+pip install pyopengl
 pip install pyqtgraph
 &lt;/pre&gt;&lt;/div&gt;
 
@@ -575,6 +578,7 @@ pip install pyqtgraph
 &lt;p&gt;The installation of scikit-learn might require &lt;a href="http://landinghub.visualstudio.com/visual-cpp-build-tools"&gt;Microsoft Visual C++ Build Tools&lt;/a&gt;, another solution is to use conda to install scipy and scikit-learn.&lt;/p&gt;
 &lt;p&gt;We install conda with pip first:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install requests
+pip install pyopengl
 pip install pyqtgraph
 pip install conda
 &lt;/pre&gt;&lt;/div&gt;
