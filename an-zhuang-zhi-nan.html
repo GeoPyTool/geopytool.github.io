@@ -77,6 +77,10 @@
 <p>再次重复一遍，如果你遇到不能运行的情况，并且看到了 <code>api-ms-win-crt</code> 这样的字样，先检查上面的补丁是否安装了。</p>
 <h4>Windows XP 和 Vista 用户</h4>
 <p>我自己试了好几次都没弄成，我也懒得在这些老古董系统上面浪费时间精力。人生宝贵，所以建议你把电脑升级成 Windows7 SP1 以上的更新的操作系统，如果配置实在太差也可以用 Linux 操作系统。反正如果你非要纠结在 XP 这类连微软自己都抛弃的系统上，那就祝你好运以及再见！</p>
+<h4>绝对不要放在中文路径下面！！！！</h4>
+<p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/EnglishPathOnly.jpg"></p>
+<p>我被问过大概有几十次，为什么会出现上图这种情况呢？因为放在中文目录下了！
+千万不要放在中文目录下面！！！！！！！！！！！</p>
 <h3>Windows EXE 更新方法</h3>
 <p>双击解压目录下的 <strong>Update.bat</strong> 这个文件，就可以更新到最新版了。这个命令是调用 GeoPyTool 这个目录里面的 pip 来更新该目录下的 GeoPyTool 模块。千万别乱动这个文件同一目录下的任何其他内容，除非你很有信心能搞定哈，那样随你咯。</p>
 <p><img alt="Update the EXE on Windows." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WinUpdate.png"></p>
@@ -156,7 +160,8 @@ pip install conda
 
 
 <p>然后我们用 conda 来安装其他的包：</p>
-<div class="highlight"><pre><span></span>python3 -m conda install cython numpy pandas scipy scikit-learn sympy
+<div class="highlight"><pre><span></span>python3 -m conda install cython numpy pandas xlrd matplotlib BeautifulSoup4 scipy scikit-learn sympy requests pyopengl
+pip3 install pyqt5  pyqtgraph
 </pre></div>
 
 
@@ -299,10 +304,10 @@ http://matplotlib.org/api/colors_api.html</p>
                 </div>
                 <div>
                         <span><a href="/tag/zhong-wen.html">中文</a></span>
-                        <span><a href="/tag/wen-dang.html">文档</a></span>
-                        <span><a href="/tag/doc.html">Doc</a></span>
                         <span><a href="/tag/english.html">English</a></span>
                         <span><a href="/tag/chinese.html">Chinese</a></span>
+                        <span><a href="/tag/wen-dang.html">文档</a></span>
+                        <span><a href="/tag/doc.html">Doc</a></span>
                 </div>
             </section>
 
