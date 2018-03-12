@@ -909,6 +909,7 @@ http://matplotlib.org/api/colors_api.html&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.bilibili.com/video/av13983803/"&gt;基本操作演示&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.bilibili.com/video/av15926064/"&gt;使用讲解视频&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.bilibili.com/video/av15926936/"&gt;数据导入和格式化&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.bilibili.com/video/av20694284/"&gt;自动和同位素功能&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.bilibili.com/video/av15926454/"&gt;胡乱感慨一下&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;截图演示&lt;/h2&gt;
 &lt;p&gt;由于精力有限，我只录制了中文的演示视频。
@@ -920,11 +921,12 @@ http://matplotlib.org/api/colors_api.html&lt;/p&gt;
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
 &lt;h2&gt;设置数据添加分组颜色等信息&lt;/h2&gt;
 &lt;p&gt;如果原始数据没有添加这些分类信息，程序自然不知道该怎么分。所以你需要自己添加 Label/Color/Marker/Style/Alapha/Width等项目。好在这些只需要点击一下 设置数据（英文版为 Set Fromat
-) 按钮，就可以添加好这些项目了，然后你还需要根据自己的样品情况自己去分组 …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;演示视频&lt;/h2&gt;
+) 按钮，就可以添加好这些项目了 …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;演示视频&lt;/h2&gt;
 &lt;p&gt;点击下列链接直接观看&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.bilibili.com/video/av13983803/"&gt;基本操作演示&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.bilibili.com/video/av15926064/"&gt;使用讲解视频&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.bilibili.com/video/av15926936/"&gt;数据导入和格式化&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.bilibili.com/video/av20694284/"&gt;自动和同位素功能&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.bilibili.com/video/av15926454/"&gt;胡乱感慨一下&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;截图演示&lt;/h2&gt;
 &lt;p&gt;由于精力有限，我只录制了中文的演示视频。
