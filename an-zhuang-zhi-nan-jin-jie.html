@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zh">
+
+<head>
+    <title>GeoPyTool</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" id="responsive-style-css"  href='/theme/css/style.css' type="text/css" media="all" />
+    <link rel="stylesheet" id="responsive-style-css"  href='/theme/css/highlight.css' type="text/css" media="all" />
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="GeoPyTool Full Atom Feed" />
+    <link href="/feeds/doc.atom.xml" type="application/atom+xml" rel="alternate" title="GeoPyTool Categories Atom Feed" />
+    
+</head>
+
+<body id="index" class="blog">
+<div id="container" class="hfeed">
+    <header id="header" >
+        <div id="logo">
+                <h1><img src="/theme/image/default-logo.png" width="300" height="100" alt="ChinaGeology" />
+                GeoPyTool</h1>
+        </div> <!-- /#logo-->
+        <nav id="menu" class="main-nav"><ul class="menu">
+            <li  class="active"><a href="http://geopytool.com">Homepage</a></li>
+            <li  class="active"><a href="http://geopytool.com/about.html">About</a></li>
+            <li  class="active"><a href="http://geopytool.com/archives.html">Archives</a></li>
+            <li  class="active"><a href="https://zhuanlan.zhihu.com/python-kivy">ZhiHu</a></li>
+            <li  class="active"><a href="https://github.com/GeoPyTool/GeoPyTool">Github</a></li>
+
+        </ul></nav><!-- /#menu -->
+    </header>
+    <section id="wrapper" class="clearfix">
+        <section id="content" class="grid col-620" >
+                <section class="breadcrumb-list">
+<a href="">Blog</a> ›<a href="category/doc.html">Doc</a> ›安装指南-进阶
+                </section>
+
+
+<section id="post" class="post hentry">
+    <header>
+    <h2 class="post-title" >安装指南-进阶</h2>
+    
+    <div class="post-meta">
+        <span class="meta-prep">Post in</span>
+        <abbr class="date" title="2017-11-15T00:00:00+08:00"> 
+            <a href="/archive/2017/11/index.html">三 15 十一月 2017 </a>
+        </abbr>
+        <span class="meta-prep"> |Tags</span>
+                <a href="/tag/doc.html">Doc</a>
+                <a href="/tag/chinese.html">Chinese</a>
+                <a href="/tag/zhong-wen.html">中文</a>
+                <a href="/tag/wen-dang.html">文档</a>
+        <!-- TOBE COMMENTS -->
+    </div>
+    </header>
+    <div class="post-entry">
+        <h1>安装 GeoPyTool 的复杂模式</h1>
+<p>GeoPyTool 可以在 Python 作为一个模块（module）来安装。</p>
+<h1>1. MacOS</h1>
+<h2>1.1 安装 Brew 和 Python3</h2>
+<p>访问 <a href="http://brew.sh/">brew.sh网站</a> 安装 brew。</p>
+<p>安装完了 Brew 之后用下面的命令来安装 Python3：</p>
+<div class="highlight"><pre><span></span>brew 安装 Python3
+</pre></div>
+
+
+<h2>1.2 安装依赖包</h2>
+<p>安装 Python3 之后运行下面的命令来安装依赖包，建议一条一条来运行安装：</p>
+<div class="highlight"><pre><span></span>pip3 install cython
+pip3 install numpy
+pip3 install pandas
+pip3 install xlrd
+pip3 install matplotlib
+pip3 install BeautifulSoup4
+pip3 install pyqt5
+pip3 install scipy
+pip3 install scikit-learn
+pip3 install sympy
+pip3 install requests
+pip3 install pyopengl
+pip3 install pyqtgraph
+</pre></div>
+
+
+<p>或者也可以试试放到一条来运行安装：</p>
+<div class="highlight"><pre><span></span>pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests pyqtgraph
+</pre></div>
+
+
+<h2>1.3 安装 GeoPyTool</h2>
+<p>上面的依赖包都安装完毕之后，运行下面的命令来安装 GeoPyTool：</p>
+<div class="highlight"><pre><span></span>pip3 install geopytool
+</pre></div>
+
+
+<h1>2. Linux</h1>
+<p>这里仅仅以 Ubuntu 16.04.4 为例。</p>
+<h2>2.1 更新系统到最新</h2>
+<p>打开终端（Terminal），运行下面的命令来更新系统到最新：</p>
+<div class="highlight"><pre><span></span>apt update
+apt upgrade
+</pre></div>
+
+
+<h2>2.2 安装 Python3 和 Pip3</h2>
+<p>更新系统完毕之后，运行下面的两条命令来安装 Python3 和 Pip3：</p>
+<div class="highlight"><pre><span></span>apt 安装 Python3
+apt 安装 Python3-pip
+</pre></div>
+
+
+<h2>2.3 安装依赖包</h2>
+<p>逐条运行下面的命令来安装依赖包：</p>
+<div class="highlight"><pre><span></span>pip3 install cython
+pip3 install numpy
+pip3 install pandas
+pip3 install xlrd
+pip3 install matplotlib
+pip3 install BeautifulSoup4
+pip3 install pyqt5
+pip3 install scipy
+pip3 install scikit-learn
+pip3 install sympy
+pip3 install requests
+pip3 install pyopengl
+pip3 install pyqtgraph
+</pre></div>
+
+
+<p>或者也可以试试放到一条来运行安装：</p>
+<div class="highlight"><pre><span></span>pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests pyqtgraph
+</pre></div>
+
+
+<h2>2.4 安装 GeoPyTool</h2>
+<p>上面的依赖包都安装完毕之后，运行下面的命令来安装 GeoPyTool：</p>
+<div class="highlight"><pre><span></span>pip3 install geopytool
+</pre></div>
+
+
+<h1>3. Windows</h1>
+<p>Windows 用户安装起来稍微麻烦，首先是安装 Python 3.6 或者更新的版本，可以从<a href="https://www.python.org/downloads/">Python 官方网站</a> 来下载安装包。</p>
+<h2>3.1 安装必备补丁</h2>
+<p><a href="http://landinghub.visualstudio.com/visual-cpp-build-tools">Microsoft Visual C++ Build Tools</a> 需要先安装，因为后面的依赖包之一的 scikit-learn 用到了这个。</p>
+<h3>Windows 7 系统必须安装的内容</h3>
+<p>Windows 7 用户必须安装 <strong>SP1 of Windows</strong>，然后安装 <strong>KB2999226 Patch</strong> 和 <strong>Visual C++ Redistributable 2015</strong>。</p>
+<p>Windows 7 的 SP1 补丁包可以在 <a href="https://support.microsoft.com/en-us/help/15090/windows-7-install-service-pack-1-sp1">微软官网这里</a>来下载。</p>
+<p><strong>KB2999226 Patch</strong> 和 <strong>Visual C++ Redistributable 2015</strong> 的下载链接 在这里：
+<a href="https://pan.baidu.com/s/1kVwSQ95">32 bit Windows7 </a>
+<a href="https://pan.baidu.com/s/1qY34ocW">64 bit WInodws7 </a></p>
+<p>注意选择对应自己系统的版本。</p>
+<p>如果你的 Windows7 系统没有安装 SP1等补丁包，就可能遇到 <code>api-ms-win-crt</code> 这样的报错信息，所以请一定安装上面的补丁。如果你遇到了<code>api-ms-win-crt</code>这类错误，就检查一下是不是没安装补丁包。</p>
+<h2>3.2 安装 Python</h2>
+<p>补丁包都安装好了之后，就可以下载 来安装 Python 3.6.4 或者更新的版本，去<a href="https://www.python.org/downloads/windows/">Python 官网</a>下载安装包。</p>
+<h4>注意</h4>
+<p>在安装 Python 的时候，一定要选中下图这红框中的选项，保证把 Python 添加到系统环境变量 Path:
+<img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WindowsInstallAddPythonToPath.png"></p>
+<h2>3.3 安装依赖包</h2>
+<p>安装好了 Python3 之后，在<strong>终端</strong>（Windows 系统的终端就是 <strong>CMD</strong> 或者 <strong>Powershell</strong>）中运行下列命令来安装依赖包：</p>
+<div class="highlight"><pre><span></span>pip3 install cython
+pip3 install numpy
+pip3 install pandas
+pip3 install xlrd
+pip3 install matplotlib
+pip3 install BeautifulSoup4
+pip3 install pyqt5
+pip3 install scipy
+pip3 install scikit-learn
+pip3 install sympy
+pip3 install requests
+pip3 install pyopengl
+pip3 install pyqtgraph
+</pre></div>
+
+
+<p>或者也可以试试放到一条来运行安装：</p>
+<div class="highlight"><pre><span></span>pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests pyqtgraph
+</pre></div>
+
+
+<h2>3.4 安装 GeoPyTool</h2>
+<p>上面的依赖包都安装完毕之后，运行下面的命令来安装 GeoPyTool：</p>
+<div class="highlight"><pre><span></span>pip3 install geopytool
+</pre></div>
+
+
+<h1>4. 运行 GeoPyTool</h1>
+<p>如果上面的安装过程都没有报错，就是成功了，就可以运行下面的命令来运行 GeoPyTool:</p>
+<div class="highlight"><pre><span></span>python3 -c <span class="s2">&quot;import geopytool;geopytool.main()&quot;</span>
+</pre></div>
+
+
+<h1>5. 更新已经安装的 GeoPyTool</h1>
+<p>如果已经按照上面的方法安装完毕了 GeoPyTool，可以用下面的命令来更新到最新版本：</p>
+<div class="highlight"><pre><span></span>pip3 install geopytool --update --no-cache-dir
+</pre></div>
+
+
+<p>建议在每次运行之前都可以升级更新一下。</p>
+    </div><!-- /.entry-content -->
+    <footer class="post-meta">
+        <span class="meta-prep">Category:</span>
+        <abbr class="category">
+            <a href="/category/doc.html">Doc</a>
+        </abbr>
+       </footer>
+    <section id="respond">
+        <div id="disqus_thread">
+        <script type="text/javascript">
+        var disqus_identifier = "an-zhuang-zhi-nan-jin-jie.html";
+        (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://cycleuser.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+        </script>
+        </div>
+
+                <script id='nodebb-comments-script' ourl="https://v2mm.tech" ocid="53" blogger='cycleuser' src="https://v2mm.tech/plugins/nodebb-plugin-blog-comments2/lib/simple-pelican.js"></script>
+                
+
+    </section>
+</section>
+
+
+        </section><!-- #content -->
+        <section id="widgets" class="grid col-300 fit" >
+            <!--
+            <section id="widget-search" class="widget-wrapper widget_search">
+
+                <form id="searchform" action="http://www.google.com/search" method="get">
+                    <input id="q" class="field" type="text" placeholder="Search Blog" name="q" ></input>
+                    <input id="ie" name="ie" type="hidden" value="utf-8" ></input>
+                    <input id="oe" name="oe" type="hidden" value="utf-8" ></input>
+                    <input id="channel" name="channel" type="hidden" value="suggest" ></input>
+                    <input id="searchsubmit" class="submit" type="submit" value="">
+                </form>
+            </section>
+            -->
+
+            <section id="widget-links" class="widget-wrapper widget_archive">
+                <div class="widget-title">
+                    Links
+                </div>
+                <ul>
+                        <li><a href="http://geopytool.com/about.html">About</a></li>
+                        <li><a href="http://geopytool.com/functions.html">Functions</a></li>
+                        <li><a href="http://geopytool.com/milestones.html">Milestones</a></li>
+                        <li><a href="http://geopytool.com/installation.html">Installation</a></li>
+                        <li><a href="http://geopytool.com/demonstration.html">Demonstration</a></li>
+                        <li><a href="http://geopytool.com/download.html">Download</a></li>
+                        <li><a href="http://geopytool.com/archives.html">Archives</a></li>
+                        <li><a href="http://geopytool.com/about.html">简要介绍</a></li>
+                        <li><a href="http://geopytool.com/gong-neng-lie-biao.html">功能列表</a></li>
+                        <li><a href="http://geopytool.com/kai-fa-ji-lu.html">开发记录</a></li>
+                        <li><a href="http://geopytool.com/an-zhuang-zhi-nan.html">安装指南</a></li>
+                        <li><a href="http://geopytool.com/yan-shi-shi-pin.html">功能演示</a></li>
+                        <li><a href="http://geopytool.com/download.html">下载链接</a></li>
+                        <li><a href="http://geopytool.com/archives.html">存档整理</a></li>
+                </ul>
+            </section>
+
+            <section id="widget-category" class="widget-wrapper widget_archive">
+                <div class="widget-title">
+                    Category
+                </div>
+                <ul>
+                        <li><a href="/category/doc.html" >Doc </a></li>
+                        <li><a href="/category/python.html" >Python </a></li>
+                </ul>
+            </section>
+
+            <section id="widget-tagcloud" class="widget-wrapper widget_archive">
+                <div class="widget-title">
+                    Tagcloud
+                </div>
+                <div>
+                        <span><a href="/tag/zhong-wen.html">中文</a></span>
+                        <span><a href="/tag/chinese.html">Chinese</a></span>
+                        <span><a href="/tag/wen-dang.html">文档</a></span>
+                        <span><a href="/tag/doc.html">Doc</a></span>
+                        <span><a href="/tag/english.html">English</a></span>
+                </div>
+            </section>
+
+
+
+            
+        </section><!-- widgets -->
+    </section><!-- /#wrapper -->
+    <footer id="footer" class="clearfix"><section class="footer-wrapper">
+        <div class="grid col-940" >
+            <div class="grid col-540"></div>
+            <div class="grid col-380 fit" >
+                <ul class="social-icons">
+                    <!-- TO BE CONTINUED -->
+                </ul>
+            </div>
+        </div>
+
+        <div class="grid col-300 copyright" >
+            <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" rel="license">
+                <img src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" style="border-width:0" alt="知识共享许可协议"></img>
+            </a>
+        </div>
+        <div class="grid col-300 ">
+
+        </div>
+        <div class="grid col-300 fit powered">
+            Powered by <a href="http://getpelican.com/">Pelican</a> <br />
+            which takes great advantage of <a href="http://python.org">Python</a>
+        </div>
+    </section></footer>
+</div>
+</body>
+</html>

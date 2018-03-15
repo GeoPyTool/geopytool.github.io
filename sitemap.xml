@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2018-03-15T10:42:30-00:00</lastmod>
+<lastmod>2018-03-15T23:13:42-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2018-03-15T10:42:30-00:00</lastmod>
+<lastmod>2018-03-15T23:13:42-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2018-03-15T10:42:30-00:00</lastmod>
+<lastmod>2018-03-15T23:13:42-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2018-03-15T10:42:30-00:00</lastmod>
+<lastmod>2018-03-15T23:13:42-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
@@ -34,6 +34,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>/download.html</loc>
 <lastmod>2018-03-16T00:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>/installation-expert.html</loc>
+<lastmod>2018-03-15T22:41:30+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -47,6 +54,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/an-zhuang-zhi-nan.html</loc>
+<lastmod>2017-11-15T00:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>/an-zhuang-zhi-nan-jin-jie.html</loc>
+<lastmod>2017-11-15T00:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>/back-index.html</loc>
 <lastmod>2017-11-15T00:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>

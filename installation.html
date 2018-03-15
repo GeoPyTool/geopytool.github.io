@@ -52,17 +52,15 @@
     </div>
     </header>
     <div class="post-entry">
-        <h2>Installation</h2>
+        <h1>Installation, Easy Way</h1>
 <p>GeoPyTool can be used as a module inside Python, and can also run as a standalone application.</p>
-<h2>Standalone Application</h2>
-<p>Packed up executable files are temporarily only provided for Windows and MacOS platform.</p>
-<p><a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/Download.md">Click here to get Download links.</a></p>
+<h2>Standalone Application （Recommended！）</h2>
+<p>Packed up executable files are provided for Windows and MacOS platform.</p>
+<p><a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/Download.md">Click here to get Download links.</a>
+Unzip the zip and keep all components there. Make sure that the whole unzipped folder is under an English path.</p>
 <h3>Mac APP</h3>
 <p>On macOS, everything is extremely easy to use GeoPyTool. Just download and unzip the file, then double click on the GeoPyTool.app file, you will find the APP available as the following picture shows.</p>
 <p><img alt="User Interface of the APP on macOS." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/MacOSScreenShot.png"></p>
-<h3>Mac APP Update</h3>
-<p>Go to the location inside the app file, <code>GeoPyTool.app/Contents/Resources/UpDateGeoPytool</code>.Double click on this file neamed UpDateGeoPytool at <code>GeoPyTool.app/Contents/Resources/</code>. It will update the GeoPyTool inside your GeoPyTool.app file. Remember that never modify any files directly under the same folder unless you are an expert on dealing with Python.</p>
-<p><img alt="Update the APP on macOS." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/OSXUpdate.png"></p>
 <h3>Windows Pack</h3>
 <h4>Windows 8/8.1/10 Users</h4>
 <p>On these modern Windows platforms, everything is also extremely easy to use GeoPyTool. Just download and unzip the file, then double click on the <strong>Rungeopytool.bat</strong> file, and make sure that you don't delete any file form the unziped folder because they are all required by the program, then you will find the APP available as the following picture shows.</p>
@@ -78,123 +76,13 @@ So if you encounter any <code>api-ms-win-crt</code>related errors, please check 
 <h4>Windows XP or Vista Users</h4>
 <p>I failed many times on both XP and Vista, and I think there might not be a lot users of these two antique systems.
 If you are using one or both of them, please be good to yourself to update you old PC to at least Windows 7 SP1 or try Linux on your antique computers. My advice is that we should not waste our life on those systems that are not even supported by their developers and manufacturer. So, if you still want to run GeoPyTool on those two old systems, good luck and good bye.</p>
-<h3>Windows EXE Update</h3>
+<h2>Update</h2>
+<h3>Mac APP Update</h3>
+<p>Go to the location inside the app file, <code>GeoPyTool.app/Contents/Resources/UpDateGeoPytool</code>.Double click on this file neamed UpDateGeoPytool at <code>GeoPyTool.app/Contents/Resources/</code>. It will update the GeoPyTool inside your GeoPyTool.app file. Remember that never modify any files directly under the same folder unless you are an expert on dealing with Python.</p>
+<p><img alt="Update the APP on macOS." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/OSXUpdate.png"></p>
+<h3>Windows Bat Update</h3>
 <p>Double click on the  <strong>Update.bat</strong> file to run update. It will update the GeoPyTool inside your GeoPyTool folder. Remember that never modify any files directly under the same folder unless you are an expert on dealing with Python.</p>
 <p><img alt="Update the EXE on Windows." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WinUpdate.png"></p>
-<h1>Attention！ If you already download the packed up APP, just egnore the parts below and READ CAREFULLY PLEASE!!!!!!</h1>
-<h2>Use as a Python Module</h2>
-<p>Users of other Operating Systems, such as Debian Linux, Ubuntu Linux, Fedora Linux, FreeBSD or GNU/Hurd, please try to use GeoPyTool in Python, which is also recommended to all the users including those who use macOS or Windows 10, because the latest version of GeoPyTool can be installed with pip easilier and faster than using standalone executable files.</p>
-<h3>Install Python First</h3>
-<p>The first thing to do is to install Python, newer than 3.5, which can be download from <a href="https://www.python.org/downloads/">Python Website</a> or  <a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/">Tsinghua Tuna</a>.</p>
-<p>Anaconda3-4.0.0 and other newer versions of Anaconda3 are recommended. Because they already contain useful modules such as cython, numpy, pandas, matplotlib, and the powerful ipython.</p>
-<h5>Useful links for Windows users to install GeoPyTool with PIP:</h5>
-<p>In fact, you guys can easily find instructions on how to install Python and PIP on the Internet. So I will just cast some links for newbie using Python on Windows.</p>
-<h6>32bit：</h6>
-<table>
-<thead>
-<tr>
-<th>Item</th>
-<th>Address</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Anaconda</td>
-<td>https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-4.4.0-Windows-x86.exe</td>
-</tr>
-</tbody>
-</table>
-<h6>64bit：</h6>
-<table>
-<thead>
-<tr>
-<th>Item</th>
-<th>Address</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Anaconda</td>
-<td>https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-4.4.0-Windows-x86_64.exe</td>
-</tr>
-</tbody>
-</table>
-<h3>Install GeoPyTool with PIP</h3>
-<p>After installation of Python, you might think that finally you can install GeoPyTool.</p>
-<p><strong>NO!</strong> In fact you need to install some used packages first, even you are using Anaconda. Because some packages used to build the Graphic User Interface of GeoPyTool still need to be installed, and this is also a good chance for you to update all the modules to the latest version (OR not).</p>
-<p>So use the following commands in your <strong>terminal</strong> to install these modules.</p>
-<p>You don't know what a Terminal is? For Windows, it can be the mighty <strong>CMD</strong> or PowerShell. For other systems including macOS, it should be the <strong>BASH</strong> ore just labeled as <strong>Terminal</strong> in the built-in applications list. Still don't know how to launch a terminal? Google it dude, we can't do that hand by hand for you.</p>
-<h4>Notice</h4>
-<div class="highlight"><pre><span></span>Here we use pip as we assume that your default version of Python is Python 3.X and the pip will refer to the PIP under Python3. If you installed both Python 2.X and Python 3.X, you might need to try to use **pip3** instead of **pip** in all the following commands to call the PIP of Python 3.
-</pre></div>
-
-
-<p>So paste the following commands in your <strong>terminal</strong> as their sequence to install these modules in order.</p>
-<div class="highlight"><pre><span></span>pip install cython
-pip install numpy
-pip install pandas
-pip install xlrd
-pip install matplotlib
-pip install BeautifulSoup4
-pip install pyqt5
-pip install scipy
-pip install scikit-learn
-pip install sympy
-pip install requests
-pip install pyopengl
-pip install pyqtgraph
-</pre></div>
-
-
-<p>The installation of scikit-learn might require <a href="http://landinghub.visualstudio.com/visual-cpp-build-tools">Microsoft Visual C++ Build Tools</a>, another solution is to use conda to install scipy and scikit-learn.</p>
-<p>We install conda with pip first:</p>
-<div class="highlight"><pre><span></span>pip install requests
-pip install pyopengl
-pip install pyqtgraph
-pip install conda
-</pre></div>
-
-
-<p>Then we use conda to install some other packages:</p>
-<div class="highlight"><pre><span></span>python3 -m conda install cython numpy pandas xlrd matplotlib BeautifulSoup4 scipy scikit-learn sympy requests pyopengl
-pip3 install pyqt5  pyqtgraph
-</pre></div>
-
-
-<p>After the installation of those packages above, you can use this similar command also in the <strong>terminal</strong> to install the GeoPyTool.</p>
-<div class="highlight"><pre><span></span>pip install geopytool
-</pre></div>
-
-
-<p>If there comes no error message, everything should have been done successfully.</p>
-<h3>Update an existing GeoPyTool</h3>
-<p>If you installed GeoPyTool as a module in Python, you can use this similar command also in the <strong>terminal</strong> to update to the latest version of GeoPyTool.</p>
-<div class="highlight"><pre><span></span>pip install geopytool --update --no-cache-dir
-</pre></div>
-
-
-<h3>Launch GeoPyTool form a Python interpreter</h3>
-<p>After the installation step above, GeoPyTool now becomes available in Python interpreter. The <strong>IPython</strong> interpreter is recommended because it is much friendly than the buildin interpreter of Python. <strong>IPython</strong> can be also installed with pip:</p>
-<div class="highlight"><pre><span></span>pip install ipython
-</pre></div>
-
-
-<p>Then you can run ipython in <strong>terminal</strong> with the following command:</p>
-<div class="highlight"><pre><span></span>ipython
-</pre></div>
-
-
-<p>Then you can simply use <strong>GeoPyTool</strong> by type the following commands in your Python interpreter:</p>
-<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">geopytool</span> <span class="kn">as</span> <span class="nn">gp</span>
-<span class="n">gp</span><span class="o">.</span><span class="n">main</span><span class="p">()</span>
-</pre></div>
-
-
-<p>You would see the GUI of <strong>GeoPyTool</strong>, which is under development for now. So it is a good idea to update <strong>GeoPyTool</strong> with pip everytime before you use it:</p>
-<div class="highlight"><pre><span></span>pip install --upgrade geopytool
-</pre></div>
-
-
 <h2>Marker/Color/Style</h2>
 <p>All these details in GeoPyTool are the same as those in Matplotlib becasue that is what GeoPyTool used to visualize data.</p>
 <p>Markers of Points can be reffered from here:
@@ -293,11 +181,11 @@ http://matplotlib.org/api/colors_api.html</p>
                     Tagcloud
                 </div>
                 <div>
-                        <span><a href="/tag/wen-dang.html">文档</a></span>
-                        <span><a href="/tag/english.html">English</a></span>
-                        <span><a href="/tag/doc.html">Doc</a></span>
                         <span><a href="/tag/zhong-wen.html">中文</a></span>
                         <span><a href="/tag/chinese.html">Chinese</a></span>
+                        <span><a href="/tag/wen-dang.html">文档</a></span>
+                        <span><a href="/tag/doc.html">Doc</a></span>
+                        <span><a href="/tag/english.html">English</a></span>
                 </div>
             </section>
 
