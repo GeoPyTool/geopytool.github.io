@@ -494,6 +494,7 @@ In the Rose Map function, all data in one data files can be treated as a single 
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/StereoAndRose.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Zircon Ce4/3 Ratio Calculation&lt;/h2&gt;
 &lt;p&gt;The data file used here is quite complicated. Please follow the guidance shown in the picture below.&lt;/p&gt;
+&lt;p&gt;In the template data file for this calculation, the row with the &lt;strong&gt;Base&lt;/strong&gt; symbol needs to be filled with the bulk REE data, and the &lt;strong&gt;zircon&lt;/strong&gt; rows and &lt;strong&gt;Label&lt;/strong&gt; column is where the REE data is input. The &lt;strong&gt;Zr&lt;/strong&gt; value for zircon should be set as the &lt;strong&gt;“constant”&lt;/strong&gt; &lt;strong&gt;497555&lt;/strong&gt;. The &lt;strong&gt;“use”&lt;/strong&gt; row tells the program to use the data in the row in the calculation if set as yes or excluded if set at no, but all of the data will be plotted on the graph generated. The Ri and Ro values are from Ballard et al. (2002) where La is set as No as the default setting, because of the anomaly of La in their data.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ZriconCeCalculation.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Zircon and Rutile Thermometer&lt;/h2&gt;
 &lt;p&gt;These two function are super easy. Notice the ASiO2 and ATiO2 here are the Activity of these two components.&lt;/p&gt;
