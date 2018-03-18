@@ -456,14 +456,14 @@ pip3 install pyqtgraph
 &lt;p&gt;建议在每次运行之前都可以升级更新一下。&lt;/p&gt;</content><category term="Doc"></category><category term="Chinese"></category><category term="中文"></category><category term="文档"></category></entry><entry><title>Demonstration</title><link href="/demonstration.html" rel="alternate"></link><published>2017-11-15T00:00:00+08:00</published><updated>2017-11-15T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-11-15:/demonstration.html</id><summary type="html">&lt;h2&gt;Demonstration of the Functions&lt;/h2&gt;
 &lt;h2&gt;Open and Import Data&lt;/h2&gt;
 &lt;p&gt;To start a plot or calculation, raw data file should be imported to GeoPyTool first.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ImportData.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/01.ImportData.png?raw=true"&gt;&lt;/p&gt;
 &lt;p&gt;The Data file can be Xlsx/Xls or CSV.
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Set Up Data&lt;/h2&gt;
 &lt;p&gt;If there is no setting up information such as the Label/Color/Marker/Style/Alapha …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Demonstration of the Functions&lt;/h2&gt;
 &lt;h2&gt;Open and Import Data&lt;/h2&gt;
 &lt;p&gt;To start a plot or calculation, raw data file should be imported to GeoPyTool first.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ImportData.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/01.ImportData.png?raw=true"&gt;&lt;/p&gt;
 &lt;p&gt;The Data file can be Xlsx/Xls or CSV.
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Set Up Data&lt;/h2&gt;
@@ -474,8 +474,9 @@ pip3 install pyqtgraph
 &lt;p&gt;After setting up, you can just click to use the function you need.
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ClickOnTheFunction.png"&gt;&lt;/p&gt;
 &lt;h2&gt;TAS/REE/Trace Elements&lt;/h2&gt;
-&lt;p&gt;These functions are quite commonly used and the details are shown as the picture below.
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/TAS-REE-Trace.png"&gt;&lt;/p&gt;
+&lt;p&gt;These functions are quite commonly used and the details are shown as the picture below.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/02.Save%20Image.png?raw=true"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/TAS-REE-Trace.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Pearce Diagram&lt;/h2&gt;
 &lt;p&gt;Pearce Diagram just use some trace elements and is also quite easy to know how to use.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Pearce.png"&gt;&lt;/p&gt;
@@ -503,7 +504,12 @@ In the Rose Map function, all data in one data files can be treated as a single 
 &lt;p&gt;This function allows users to load any picture from any articles as a base map to plot on.&lt;/p&gt;
 &lt;p&gt;But you must understand the original plot first and know the mathematical setting of it. So you can set up the right format in your plot.&lt;/p&gt;
 &lt;p&gt;For example, as the picture below shown,  the original diagram used Nb and Th, normalized by N-MORB(Sun and McDonough 1989), and then used the Log function of these two items. So we do the same setting up as shown by the picture. The Left/Right/Down/Up limit of the original diagram are 0.01/100/0.01/1000, so we need to use the Log function and find out that we should set the Left/Right/Down/Up limit to be -2/2/-2/3. If you can not understand why, please take a rest and good bye.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/UserDefinedXY.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category></entry><entry><title>Functions</title><link href="/functions.html" rel="alternate"></link><published>2017-11-15T00:00:00+08:00</published><updated>2017-11-15T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-11-15:/functions.html</id><summary type="html">&lt;h1&gt;Functions&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/UserDefinedXY.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/03.LoadBaseMap.png?raw=true"&gt;&lt;/p&gt;
+&lt;h2&gt;3D and Statistics&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/04.Statistical.png?raw=true"&gt;&lt;/p&gt;
+&lt;h2&gt;Cluster&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/05.Cluster.png?raw=true"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category></entry><entry><title>Functions</title><link href="/functions.html" rel="alternate"></link><published>2017-11-15T00:00:00+08:00</published><updated>2017-11-15T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-11-15:/functions.html</id><summary type="html">&lt;h1&gt;Functions&lt;/h1&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1102,6 +1108,10 @@ http://matplotlib.org/api/colors_api.html&lt;/p&gt;
 &lt;p&gt;从文中原图可以看出来，左右下上四个边界分别是 0.01/100/0.01/1000，咱们对应在直角坐标系里面就应该是 -2/2/-2/3。所以在程序里面的对应位置就输入这四个值。&lt;/p&gt;
 &lt;p&gt;你要是这些都看不出来或者看不懂，就还是回家洗洗睡吧。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/UserDefinedXY.png"&gt;&lt;/p&gt;
+&lt;h2&gt;3D 和统计&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/04.Statistical.png?raw=true"&gt;&lt;/p&gt;
+&lt;h2&gt;谱系聚类&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/05.Cluster.png?raw=true"&gt;&lt;/p&gt;
 &lt;h1&gt;捐助支持&lt;/h1&gt;
 &lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="Chinese"></category><category term="中文"></category><category term="文档"></category></entry></feed>
