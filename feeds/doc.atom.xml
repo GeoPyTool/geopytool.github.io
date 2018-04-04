@@ -6,35 +6,35 @@
 &lt;p&gt;The Data file can be Xlsx/Xls or CSV.
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Set Up Data&lt;/h2&gt;
-&lt;p&gt;If there is no setting up information such as the 'Label'/'Color'/'Marker'/'Style'/'Alpha' …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Demonstration of the Functions&lt;/h2&gt;
+&lt;p&gt;If there is no setting up information such as the &lt;code&gt;Label&lt;/code&gt;/&lt;code&gt;Color&lt;/code&gt;/&lt;code&gt;Marker&lt;/code&gt;/&lt;code&gt;Style&lt;/code&gt;/&lt;code&gt;Alpha …&lt;/code&gt;&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Demonstration of the Functions&lt;/h2&gt;
 &lt;h2&gt;Open and Import Data&lt;/h2&gt;
 &lt;p&gt;To start a plot or calculation, raw data file should be imported to GeoPyTool first.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/01.ImportData.png?raw=true"&gt;&lt;/p&gt;
 &lt;p&gt;The Data file can be Xlsx/Xls or CSV.
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Set Up Data&lt;/h2&gt;
-&lt;p&gt;If there is no setting up information such as the 'Label'/'Color'/'Marker'/'Style'/'Alpha'/'Width', you need to click on the Set Format button to add these items and make modification by yourself.&lt;/p&gt;
+&lt;p&gt;If there is no setting up information such as the &lt;code&gt;Label&lt;/code&gt;/&lt;code&gt;Color&lt;/code&gt;/&lt;code&gt;Marker&lt;/code&gt;/&lt;code&gt;Style&lt;/code&gt;/&lt;code&gt;Alpha&lt;/code&gt;/&lt;code&gt;Width&lt;/code&gt;, you need to click on the Set Format button to add these items and make modification by yourself.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SetDataUp.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SettingDataUp.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Data Setting Details&lt;/h2&gt;
 &lt;p&gt;As shown in the &lt;a href="https://github.com/GeoPyTool/GeoPyTool/tree/master/DataFileSamples"&gt;Data File Samples&lt;/a&gt;, all data files contain the following Items:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/SettingArea.png"&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;'Label': control the group of sample and will be shown on legend&lt;/li&gt;
-&lt;li&gt;'Color': control the 'Color' of both drawn line and plotted point&lt;/li&gt;
-&lt;li&gt;'Marker': control the points shape&lt;/li&gt;
-&lt;li&gt;'Size': control the points 'Size'&lt;/li&gt;
-&lt;li&gt;'Width': control the line 'Width'&lt;/li&gt;
-&lt;li&gt;'Style': control the line shape&lt;/li&gt;
-&lt;li&gt;'Alpha': control the transparency of both drawn line and plotted point&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Label&lt;/code&gt;: control the group of sample and will be shown on legend&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Color&lt;/code&gt;: control the &lt;code&gt;Color&lt;/code&gt; of both drawn line and plotted point&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Marker&lt;/code&gt;: control the points shape&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Size&lt;/code&gt;: control the points &lt;code&gt;Size&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Width&lt;/code&gt;: control the line &lt;code&gt;Width&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Style&lt;/code&gt;: control the line shape&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Alpha&lt;/code&gt;: control the transparency of both drawn line and plotted point&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;'Label' can be set to any character，word or phrase.
-'Color' can only be chosen from following words: 'blue','green','red','cyan','magenta','yellow','black','white','grey'.
-'Size', 'Width', and 'Alpha' are number values. The unit used for 'Size' and 'Width' is pt. 'Size' normally should be larger than '10', and 'Width' usually is '1'. 'Alpha' can be set from '0' to '1', for example, setting 'Alpha' as '0.4' means 40% transparency.
-'Marker' and 'Style', these two are slightly more complicated and can be set as the contents of the following lists.&lt;/p&gt;
-&lt;p&gt;'Marker' :
+&lt;p&gt;&lt;code&gt;Label&lt;/code&gt; can be set to any character，word or phrase.
+&lt;code&gt;Color&lt;/code&gt; can only be chosen from following words: 'blue','green','red','cyan','magenta','yellow','black','white','grey'.
+&lt;code&gt;Size&lt;/code&gt;, &lt;code&gt;Width&lt;/code&gt;, and &lt;code&gt;Alpha&lt;/code&gt; are number values. The unit used for &lt;code&gt;Size&lt;/code&gt; and &lt;code&gt;Width&lt;/code&gt; is pt. &lt;code&gt;Size&lt;/code&gt; normally should be larger than '10', and &lt;code&gt;Width&lt;/code&gt; usually is '1'. &lt;code&gt;Alpha&lt;/code&gt; can be set from '0' to '1', for example, setting &lt;code&gt;Alpha&lt;/code&gt; as '0.4' means 40% transparency.
+&lt;code&gt;Marker&lt;/code&gt; and &lt;code&gt;Style&lt;/code&gt;, these two are slightly more complicated and can be set as the contents of the following lists.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Marker&lt;/code&gt; :
 &lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/MarkerList.png?raw=true"&gt;&lt;/p&gt;
-&lt;p&gt;'Style':
+&lt;p&gt;&lt;code&gt;Style&lt;/code&gt;:
 &lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/StyleList.png?raw=true"&gt;&lt;/p&gt;
 &lt;p&gt;The effect of setting:
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/SettingEffect.png"&gt;&lt;/p&gt;
@@ -63,7 +63,7 @@ In the Rose Map function, all data in one data files can be treated as a single 
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/StereoAndRose.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Zircon Ce4/3 Ratio Calculation&lt;/h2&gt;
 &lt;p&gt;The data file used here is quite complicated. Please follow the guidance shown in the picture below.&lt;/p&gt;
-&lt;p&gt;In the template data file for this calculation, the row with the &lt;strong&gt;Base&lt;/strong&gt; symbol needs to be filled with the bulk REE data, and the &lt;strong&gt;zircon&lt;/strong&gt; rows and &lt;strong&gt;'Label'&lt;/strong&gt; column is where the REE data is input. The &lt;strong&gt;Zr&lt;/strong&gt; value for zircon should be set as the &lt;strong&gt;“constant”&lt;/strong&gt; &lt;strong&gt;497555&lt;/strong&gt;. The &lt;strong&gt;“use”&lt;/strong&gt; row tells the program to use the data in the row in the calculation if set as yes or excluded if set at no, but all of the data will be plotted on the graph generated. The Ri and Ro values are from Ballard et al. (2002) where La is set as No as the default setting, because of the anomaly of La in their data.&lt;/p&gt;
+&lt;p&gt;In the template data file for this calculation, the row with the &lt;strong&gt;Base&lt;/strong&gt; symbol needs to be filled with the bulk REE data, and the &lt;strong&gt;zircon&lt;/strong&gt; rows and &lt;strong&gt;&lt;code&gt;Label&lt;/code&gt;&lt;/strong&gt; column is where the REE data is input. The &lt;strong&gt;Zr&lt;/strong&gt; value for zircon should be set as the &lt;strong&gt;“constant”&lt;/strong&gt; &lt;strong&gt;497555&lt;/strong&gt;. The &lt;strong&gt;“use”&lt;/strong&gt; row tells the program to use the data in the row in the calculation if set as yes or excluded if set at no, but all of the data will be plotted on the graph generated. The Ri and Ro values are from Ballard et al. (2002) where La is set as No as the default setting, because of the anomaly of La in their data.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ZriconCeCalculation.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Zircon and Rutile Thermometer&lt;/h2&gt;
 &lt;p&gt;These two function are super easy. Notice the ASiO2 and ATiO2 here are the Activity of these two components.&lt;/p&gt;
@@ -1122,23 +1122,23 @@ http://matplotlib.org/api/colors_api.html&lt;/p&gt;
 &lt;p&gt;在模板 &lt;a href="https://github.com/GeoPyTool/GeoPyTool/tree/master/DataFileSamples"&gt;Data File Samples&lt;/a&gt;当中，所有的文件都包含有下面的内容：&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/SettingArea.png"&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;'Label': 控制分组信息，会显示在图例上&lt;/li&gt;
-&lt;li&gt;'Color': 点和线的颜色&lt;/li&gt;
-&lt;li&gt;'Marker': 点的形状&lt;/li&gt;
-&lt;li&gt;'Size': 点的大小&lt;/li&gt;
-&lt;li&gt;'Width': 线的粗细&lt;/li&gt;
-&lt;li&gt;'Style': 线的形状&lt;/li&gt;
-&lt;li&gt;'Alpha': 点和线的透明度&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Label&lt;/code&gt;: 控制分组信息，会显示在图例上&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Color&lt;/code&gt;: 点和线的颜色&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Marker&lt;/code&gt;: 点的形状&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Size&lt;/code&gt;: 点的大小&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Width&lt;/code&gt;: 线的粗细&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Style&lt;/code&gt;: 线的形状&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Alpha&lt;/code&gt;: 点和线的透明度&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;'Label' 可以设置成任何文本
-'Color' 只能从下面列表中选择 'blue','green','red','cyan','magenta','yellow','black','white','grey'.
-'Size', 'Width', 和 'Alpha' 都必须是数值。其中用于 'Size' 和 'Width' 是 pt.
-'Size' 一般至少设置为 '10', 'Width' 可以设为 '1'.
-'Alpha' 要设置在 '0' 到 '1'直接，例如，如果设置 'Alpha' 为 '0.4' 就意味着透明度为 40%.
-'Marker' 和 'Style', 有点复杂，可以设置为下面表格中的内容。&lt;/p&gt;
-&lt;p&gt;'Marker' :
+&lt;p&gt;&lt;code&gt;Label&lt;/code&gt; 可以设置成任何文本
+&lt;code&gt;Color&lt;/code&gt; 只能从下面列表中选择 'blue','green','red','cyan','magenta','yellow','black','white','grey'.
+&lt;code&gt;Size&lt;/code&gt;, &lt;code&gt;Width&lt;/code&gt;, 和 &lt;code&gt;Alpha&lt;/code&gt; 都必须是数值。其中用于 &lt;code&gt;Size&lt;/code&gt; 和 &lt;code&gt;Width&lt;/code&gt; 是 pt.
+&lt;code&gt;Size&lt;/code&gt; 一般至少设置为 '10', &lt;code&gt;Width&lt;/code&gt; 可以设为 '1'.
+&lt;code&gt;Alpha&lt;/code&gt; 要设置在 '0' 到 '1'直接，例如，如果设置 &lt;code&gt;Alpha&lt;/code&gt; 为 '0.4' 就意味着透明度为 40%.
+&lt;code&gt;Marker&lt;/code&gt; 和 &lt;code&gt;Style&lt;/code&gt;, 有点复杂，可以设置为下面表格中的内容。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Marker&lt;/code&gt; :
 &lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/MarkerList.png?raw=true"&gt;&lt;/p&gt;
-&lt;p&gt;'Style':
+&lt;p&gt;&lt;code&gt;Style&lt;/code&gt;:
 &lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/StyleList.png?raw=true"&gt;&lt;/p&gt;
 &lt;p&gt;上述各项的设置效果如下图所示:
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/SettingEffect.png"&gt;&lt;/p&gt;
