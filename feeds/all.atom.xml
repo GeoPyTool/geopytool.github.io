@@ -1,5 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>GeoPyTool</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2018-04-01T00:00:00+08:00</updated><entry><title>Download</title><link href="/download.html" rel="alternate"></link><published>2018-04-01T00:00:00+08:00</published><updated>2018-04-01T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-01:/download.html</id><summary type="html">&lt;h1&gt;GeoPyTool Application Download Links&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>GeoPyTool</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2018-04-04T11:46:00+08:00</updated><entry><title>Demonstration</title><link href="/demonstration.html" rel="alternate"></link><published>2018-04-04T11:46:00+08:00</published><updated>2018-04-04T11:46:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-04:/demonstration.html</id><summary type="html">&lt;h2&gt;Demonstration of the Functions&lt;/h2&gt;
+&lt;h2&gt;Open and Import Data&lt;/h2&gt;
+&lt;p&gt;To start a plot or calculation, raw data file should be imported to GeoPyTool first.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/01.ImportData.png?raw=true"&gt;&lt;/p&gt;
+&lt;p&gt;The Data file can be Xlsx/Xls or CSV.
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Set Up Data&lt;/h2&gt;
+&lt;p&gt;If there is no setting up information such as the 'Label'/'Color'/'Marker'/'Style'/'Alpha' …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Demonstration of the Functions&lt;/h2&gt;
+&lt;h2&gt;Open and Import Data&lt;/h2&gt;
+&lt;p&gt;To start a plot or calculation, raw data file should be imported to GeoPyTool first.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/01.ImportData.png?raw=true"&gt;&lt;/p&gt;
+&lt;p&gt;The Data file can be Xlsx/Xls or CSV.
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Set Up Data&lt;/h2&gt;
+&lt;p&gt;If there is no setting up information such as the 'Label'/'Color'/'Marker'/'Style'/'Alpha'/'Width', you need to click on the Set Format button to add these items and make modification by yourself.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SetDataUp.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SettingDataUp.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Data Setting Details&lt;/h2&gt;
+&lt;p&gt;As shown in the &lt;a href="https://github.com/GeoPyTool/GeoPyTool/tree/master/DataFileSamples"&gt;Data File Samples&lt;/a&gt;, all data files contain the following Items:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/SettingArea.png"&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;'Label': control the group of sample and will be shown on legend&lt;/li&gt;
+&lt;li&gt;'Color': control the 'Color' of both drawn line and plotted point&lt;/li&gt;
+&lt;li&gt;'Marker': control the points shape&lt;/li&gt;
+&lt;li&gt;'Size': control the points 'Size'&lt;/li&gt;
+&lt;li&gt;'Width': control the line 'Width'&lt;/li&gt;
+&lt;li&gt;'Style': control the line shape&lt;/li&gt;
+&lt;li&gt;'Alpha': control the transparency of both drawn line and plotted point&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;'Label' can be set to any character，word or phrase.
+'Color' can only be chosen from following words: 'blue','green','red','cyan','magenta','yellow','black','white','grey'.
+'Size', 'Width', and 'Alpha' are number values. The unit used for 'Size' and 'Width' is pt. 'Size' normally should be larger than '10', and 'Width' usually is '1'. 'Alpha' can be set from '0' to '1', for example, setting 'Alpha' as '0.4' means 40% transparency.
+'Marker' and 'Style', these two are slightly more complicated and can be set as the contents of the following lists.&lt;/p&gt;
+&lt;p&gt;'Marker' :
+&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/MarkerList.png?raw=true"&gt;&lt;/p&gt;
+&lt;p&gt;'Style':
+&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/StyleList.png?raw=true"&gt;&lt;/p&gt;
+&lt;p&gt;The effect of setting:
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/SettingEffect.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Click the Function you need&lt;/h2&gt;
+&lt;p&gt;After setting up, you can just click to use the function you need.
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ClickOnTheFunction.png"&gt;&lt;/p&gt;
+&lt;h2&gt;TAS/REE/Trace Elements&lt;/h2&gt;
+&lt;p&gt;These functions are quite commonly used and the details are shown as the picture below.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/02.Save%20Image.png?raw=true"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/TAS-REE-Trace.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Pearce Diagram&lt;/h2&gt;
+&lt;p&gt;Pearce Diagram just use some trace elements and is also quite easy to know how to use.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Pearce.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Harker Diagram&lt;/h2&gt;
+&lt;p&gt;Harker Diagram is a little bit complicated. Both the X and Y items used for the picture can be selectable by the slider.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Harker.png"&gt;&lt;/p&gt;
+&lt;h2&gt;QFL and QmFLt&lt;/h2&gt;
+&lt;p&gt;These two diagrams are very easy. But you must find the right data file used for them to import.
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ImportQFL.png"&gt;&lt;/p&gt;
+&lt;p&gt;Remind to set up data, then you can run these two functions.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/QFLandQmFLt.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Stereographic Projection and Rose Map&lt;/h2&gt;
+&lt;p&gt;Wulf or Schmidt Net can be chosen, and so is to use Lines or Points on the generated diagram.
+In the Rose Map function, all data in one data files can be treated as a single group of data to draw Rose Map, and can also be treated as seperated teams to compare the Rose Map from each other. The step of the Rose Map can be set by slider. And so does the items chosen to use in the Rose Map. Dip/Dip-Angle/Strike are all available.&lt;/p&gt;
+&lt;p&gt;Notice that the first Letters must be in UPPER case.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/StereoAndRose.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Zircon Ce4/3 Ratio Calculation&lt;/h2&gt;
+&lt;p&gt;The data file used here is quite complicated. Please follow the guidance shown in the picture below.&lt;/p&gt;
+&lt;p&gt;In the template data file for this calculation, the row with the &lt;strong&gt;Base&lt;/strong&gt; symbol needs to be filled with the bulk REE data, and the &lt;strong&gt;zircon&lt;/strong&gt; rows and &lt;strong&gt;'Label'&lt;/strong&gt; column is where the REE data is input. The &lt;strong&gt;Zr&lt;/strong&gt; value for zircon should be set as the &lt;strong&gt;“constant”&lt;/strong&gt; &lt;strong&gt;497555&lt;/strong&gt;. The &lt;strong&gt;“use”&lt;/strong&gt; row tells the program to use the data in the row in the calculation if set as yes or excluded if set at no, but all of the data will be plotted on the graph generated. The Ri and Ro values are from Ballard et al. (2002) where La is set as No as the default setting, because of the anomaly of La in their data.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ZriconCeCalculation.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Zircon and Rutile Thermometer&lt;/h2&gt;
+&lt;p&gt;These two function are super easy. Notice the ASiO2 and ATiO2 here are the Activity of these two components.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Thermometer.png"&gt;&lt;/p&gt;
+&lt;h2&gt;User Defined X-Y plot&lt;/h2&gt;
+&lt;p&gt;This function allows users to load any picture from any articles as a base map to plot on.&lt;/p&gt;
+&lt;p&gt;But you must understand the original plot first and know the mathematical setting of it. So you can set up the right format in your plot.&lt;/p&gt;
+&lt;p&gt;For example, as the picture below shown,  the original diagram used Nb and Th, normalized by N-MORB(Sun and McDonough 1989), and then used the Log function of these two items. So we do the same setting up as shown by the picture. The Left/Right/Down/Up limit of the original diagram are 0.01/100/0.01/1000, so we need to use the Log function and find out that we should set the Left/Right/Down/Up limit to be -2/2/-2/3. If you can not understand why, please take a rest and good bye.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/UserDefinedXY.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/03.LoadBaseMap.png?raw=true"&gt;&lt;/p&gt;
+&lt;h2&gt;3D and Statistics&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/04.Statistical.png?raw=true"&gt;&lt;/p&gt;
+&lt;h2&gt;Cluster&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/05.Cluster.png?raw=true"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category></entry><entry><title>Download</title><link href="/download.html" rel="alternate"></link><published>2018-04-01T00:00:00+08:00</published><updated>2018-04-01T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-01:/download.html</id><summary type="html">&lt;h1&gt;GeoPyTool Application Download Links&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;h1&gt;GeoPyTool 打包的可执行程序下载链接&lt;/h1&gt;
 &lt;/blockquote&gt;
@@ -479,63 +557,7 @@ pip3 install pyqtgraph
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;建议在每次运行之前都可以升级更新一下。&lt;/p&gt;</content><category term="Doc"></category><category term="Chinese"></category><category term="中文"></category><category term="文档"></category></entry><entry><title>Demonstration</title><link href="/demonstration.html" rel="alternate"></link><published>2017-11-15T00:00:00+08:00</published><updated>2017-11-15T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-11-15:/demonstration.html</id><summary type="html">&lt;h2&gt;Demonstration of the Functions&lt;/h2&gt;
-&lt;h2&gt;Open and Import Data&lt;/h2&gt;
-&lt;p&gt;To start a plot or calculation, raw data file should be imported to GeoPyTool first.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/01.ImportData.png?raw=true"&gt;&lt;/p&gt;
-&lt;p&gt;The Data file can be Xlsx/Xls or CSV.
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Set Up Data&lt;/h2&gt;
-&lt;p&gt;If there is no setting up information such as the Label/Color/Marker/Style/Alapha …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Demonstration of the Functions&lt;/h2&gt;
-&lt;h2&gt;Open and Import Data&lt;/h2&gt;
-&lt;p&gt;To start a plot or calculation, raw data file should be imported to GeoPyTool first.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/01.ImportData.png?raw=true"&gt;&lt;/p&gt;
-&lt;p&gt;The Data file can be Xlsx/Xls or CSV.
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Set Up Data&lt;/h2&gt;
-&lt;p&gt;If there is no setting up information such as the Label/Color/Marker/Style/Alapha/Width, you need to click on the Set Format button to add these items and make modification by yourself.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SetDataUp.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SettingDataUp.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Click the Function you need&lt;/h2&gt;
-&lt;p&gt;After setting up, you can just click to use the function you need.
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ClickOnTheFunction.png"&gt;&lt;/p&gt;
-&lt;h2&gt;TAS/REE/Trace Elements&lt;/h2&gt;
-&lt;p&gt;These functions are quite commonly used and the details are shown as the picture below.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/02.Save%20Image.png?raw=true"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/TAS-REE-Trace.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Pearce Diagram&lt;/h2&gt;
-&lt;p&gt;Pearce Diagram just use some trace elements and is also quite easy to know how to use.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Pearce.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Harker Diagram&lt;/h2&gt;
-&lt;p&gt;Harker Diagram is a little bit complicated. Both the X and Y items used for the picture can be selectable by the slider.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Harker.png"&gt;&lt;/p&gt;
-&lt;h2&gt;QFL and QmFLt&lt;/h2&gt;
-&lt;p&gt;These two diagrams are very easy. But you must find the right data file used for them to import.
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ImportQFL.png"&gt;&lt;/p&gt;
-&lt;p&gt;Remind to set up data, then you can run these two functions.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/QFLandQmFLt.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Stereographic Projection and Rose Map&lt;/h2&gt;
-&lt;p&gt;Wulf or Schmidt Net can be chosen, and so is to use Lines or Points on the generated diagram.
-In the Rose Map function, all data in one data files can be treated as a single group of data to draw Rose Map, and can also be treated as seperated teams to compare the Rose Map from each other. The step of the Rose Map can be set by slider. And so does the items chosen to use in the Rose Map. Dip/Dip-Angle/Strike are all available.&lt;/p&gt;
-&lt;p&gt;Notice that the first Letters must be in UPPER case.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/StereoAndRose.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Zircon Ce4/3 Ratio Calculation&lt;/h2&gt;
-&lt;p&gt;The data file used here is quite complicated. Please follow the guidance shown in the picture below.&lt;/p&gt;
-&lt;p&gt;In the template data file for this calculation, the row with the &lt;strong&gt;Base&lt;/strong&gt; symbol needs to be filled with the bulk REE data, and the &lt;strong&gt;zircon&lt;/strong&gt; rows and &lt;strong&gt;Label&lt;/strong&gt; column is where the REE data is input. The &lt;strong&gt;Zr&lt;/strong&gt; value for zircon should be set as the &lt;strong&gt;“constant”&lt;/strong&gt; &lt;strong&gt;497555&lt;/strong&gt;. The &lt;strong&gt;“use”&lt;/strong&gt; row tells the program to use the data in the row in the calculation if set as yes or excluded if set at no, but all of the data will be plotted on the graph generated. The Ri and Ro values are from Ballard et al. (2002) where La is set as No as the default setting, because of the anomaly of La in their data.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ZriconCeCalculation.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Zircon and Rutile Thermometer&lt;/h2&gt;
-&lt;p&gt;These two function are super easy. Notice the ASiO2 and ATiO2 here are the Activity of these two components.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Thermometer.png"&gt;&lt;/p&gt;
-&lt;h2&gt;User Defined X-Y plot&lt;/h2&gt;
-&lt;p&gt;This function allows users to load any picture from any articles as a base map to plot on.&lt;/p&gt;
-&lt;p&gt;But you must understand the original plot first and know the mathematical setting of it. So you can set up the right format in your plot.&lt;/p&gt;
-&lt;p&gt;For example, as the picture below shown,  the original diagram used Nb and Th, normalized by N-MORB(Sun and McDonough 1989), and then used the Log function of these two items. So we do the same setting up as shown by the picture. The Left/Right/Down/Up limit of the original diagram are 0.01/100/0.01/1000, so we need to use the Log function and find out that we should set the Left/Right/Down/Up limit to be -2/2/-2/3. If you can not understand why, please take a rest and good bye.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/UserDefinedXY.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/03.LoadBaseMap.png?raw=true"&gt;&lt;/p&gt;
-&lt;h2&gt;3D and Statistics&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/04.Statistical.png?raw=true"&gt;&lt;/p&gt;
-&lt;h2&gt;Cluster&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/05.Cluster.png?raw=true"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category></entry><entry><title>Functions</title><link href="/functions.html" rel="alternate"></link><published>2017-11-15T00:00:00+08:00</published><updated>2017-11-15T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-11-15:/functions.html</id><summary type="html">&lt;h1&gt;Functions&lt;/h1&gt;
+&lt;p&gt;建议在每次运行之前都可以升级更新一下。&lt;/p&gt;</content><category term="Doc"></category><category term="Chinese"></category><category term="中文"></category><category term="文档"></category></entry><entry><title>Functions</title><link href="/functions.html" rel="alternate"></link><published>2017-11-15T00:00:00+08:00</published><updated>2017-11-15T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-11-15:/functions.html</id><summary type="html">&lt;h1&gt;Functions&lt;/h1&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -1096,6 +1118,30 @@ http://matplotlib.org/api/colors_api.html&lt;/p&gt;
 ) 按钮，就可以添加好这些项目了，然后你还需要根据自己的样品情况自己去分组。可别来问该怎么分组，你自己的样品自己做主！&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SetDataUp.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SettingDataUp.png"&gt;&lt;/p&gt;
+&lt;h2&gt;数据设置详解&lt;/h2&gt;
+&lt;p&gt;在模板 &lt;a href="https://github.com/GeoPyTool/GeoPyTool/tree/master/DataFileSamples"&gt;Data File Samples&lt;/a&gt;当中，所有的文件都包含有下面的内容：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/SettingArea.png"&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;'Label': 控制分组信息，会显示在图例上&lt;/li&gt;
+&lt;li&gt;'Color': 点和线的颜色&lt;/li&gt;
+&lt;li&gt;'Marker': 点的形状&lt;/li&gt;
+&lt;li&gt;'Size': 点的大小&lt;/li&gt;
+&lt;li&gt;'Width': 线的粗细&lt;/li&gt;
+&lt;li&gt;'Style': 线的形状&lt;/li&gt;
+&lt;li&gt;'Alpha': 点和线的透明度&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;'Label' 可以设置成任何文本
+'Color' 只能从下面列表中选择 'blue','green','red','cyan','magenta','yellow','black','white','grey'.
+'Size', 'Width', 和 'Alpha' 都必须是数值。其中用于 'Size' 和 'Width' 是 pt.
+'Size' 一般至少设置为 '10', 'Width' 可以设为 '1'.
+'Alpha' 要设置在 '0' 到 '1'直接，例如，如果设置 'Alpha' 为 '0.4' 就意味着透明度为 40%.
+'Marker' 和 'Style', 有点复杂，可以设置为下面表格中的内容。&lt;/p&gt;
+&lt;p&gt;'Marker' :
+&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/MarkerList.png?raw=true"&gt;&lt;/p&gt;
+&lt;p&gt;'Style':
+&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/StyleList.png?raw=true"&gt;&lt;/p&gt;
+&lt;p&gt;上述各项的设置效果如下图所示:
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/SettingEffect.png"&gt;&lt;/p&gt;
 &lt;h2&gt;点击要用的功能来运行&lt;/h2&gt;
 &lt;p&gt;设置完了格式之后，就可以点击你要用的功能来运行了。
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ClickOnTheFunction.png"&gt;&lt;/p&gt;

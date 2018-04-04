@@ -73,6 +73,30 @@
 ) 按钮，就可以添加好这些项目了，然后你还需要根据自己的样品情况自己去分组。可别来问该怎么分组，你自己的样品自己做主！</p>
 <p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SetDataUp.png"></p>
 <p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SettingDataUp.png"></p>
+<h2>数据设置详解</h2>
+<p>在模板 <a href="https://github.com/GeoPyTool/GeoPyTool/tree/master/DataFileSamples">Data File Samples</a>当中，所有的文件都包含有下面的内容：</p>
+<p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/SettingArea.png"></p>
+<ol>
+<li>'Label': 控制分组信息，会显示在图例上</li>
+<li>'Color': 点和线的颜色</li>
+<li>'Marker': 点的形状</li>
+<li>'Size': 点的大小</li>
+<li>'Width': 线的粗细</li>
+<li>'Style': 线的形状</li>
+<li>'Alpha': 点和线的透明度</li>
+</ol>
+<p>'Label' 可以设置成任何文本
+'Color' 只能从下面列表中选择 'blue','green','red','cyan','magenta','yellow','black','white','grey'.
+'Size', 'Width', 和 'Alpha' 都必须是数值。其中用于 'Size' 和 'Width' 是 pt.
+'Size' 一般至少设置为 '10', 'Width' 可以设为 '1'.
+'Alpha' 要设置在 '0' 到 '1'直接，例如，如果设置 'Alpha' 为 '0.4' 就意味着透明度为 40%.
+'Marker' 和 'Style', 有点复杂，可以设置为下面表格中的内容。</p>
+<p>'Marker' :
+<img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/MarkerList.png?raw=true"></p>
+<p>'Style':
+<img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/StyleList.png?raw=true"></p>
+<p>上述各项的设置效果如下图所示:
+<img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/SettingEffect.png"></p>
 <h2>点击要用的功能来运行</h2>
 <p>设置完了格式之后，就可以点击你要用的功能来运行了。
 <img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ClickOnTheFunction.png"></p>
@@ -198,11 +222,11 @@
                     Tagcloud
                 </div>
                 <div>
-                        <span><a href="/tag/chinese.html">Chinese</a></span>
                         <span><a href="/tag/doc.html">Doc</a></span>
                         <span><a href="/tag/zhong-wen.html">中文</a></span>
-                        <span><a href="/tag/wen-dang.html">文档</a></span>
                         <span><a href="/tag/english.html">English</a></span>
+                        <span><a href="/tag/chinese.html">Chinese</a></span>
+                        <span><a href="/tag/wen-dang.html">文档</a></span>
                 </div>
             </section>
 

@@ -41,8 +41,8 @@
     
     <div class="post-meta">
         <span class="meta-prep">Post in</span>
-        <abbr class="date" title="2017-11-15T00:00:00+08:00"> 
-            <a href="/archive/2017/11/index.html">三 15 十一月 2017 </a>
+        <abbr class="date" title="2018-04-04T11:46:00+08:00"> 
+            <a href="/archive/2018/ 4/index.html">三 04 四月 2018 </a>
         </abbr>
         <span class="meta-prep"> |Tags</span>
                 <a href="/tag/doc.html">Doc</a>
@@ -58,9 +58,31 @@
 <p>The Data file can be Xlsx/Xls or CSV.
 <img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"></p>
 <h2>Set Up Data</h2>
-<p>If there is no setting up information such as the Label/Color/Marker/Style/Alapha/Width, you need to click on the Set Format button to add these items and make modification by yourself.</p>
+<p>If there is no setting up information such as the 'Label'/'Color'/'Marker'/'Style'/'Alpha'/'Width', you need to click on the Set Format button to add these items and make modification by yourself.</p>
 <p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SetDataUp.png"></p>
 <p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SettingDataUp.png"></p>
+<h2>Data Setting Details</h2>
+<p>As shown in the <a href="https://github.com/GeoPyTool/GeoPyTool/tree/master/DataFileSamples">Data File Samples</a>, all data files contain the following Items:</p>
+<p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/SettingArea.png"></p>
+<ol>
+<li>'Label': control the group of sample and will be shown on legend</li>
+<li>'Color': control the 'Color' of both drawn line and plotted point</li>
+<li>'Marker': control the points shape</li>
+<li>'Size': control the points 'Size'</li>
+<li>'Width': control the line 'Width'</li>
+<li>'Style': control the line shape</li>
+<li>'Alpha': control the transparency of both drawn line and plotted point</li>
+</ol>
+<p>'Label' can be set to any character，word or phrase.
+'Color' can only be chosen from following words: 'blue','green','red','cyan','magenta','yellow','black','white','grey'.
+'Size', 'Width', and 'Alpha' are number values. The unit used for 'Size' and 'Width' is pt. 'Size' normally should be larger than '10', and 'Width' usually is '1'. 'Alpha' can be set from '0' to '1', for example, setting 'Alpha' as '0.4' means 40% transparency.
+'Marker' and 'Style', these two are slightly more complicated and can be set as the contents of the following lists.</p>
+<p>'Marker' :
+<img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/MarkerList.png?raw=true"></p>
+<p>'Style':
+<img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/StyleList.png?raw=true"></p>
+<p>The effect of setting:
+<img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/SettingEffect.png"></p>
 <h2>Click the Function you need</h2>
 <p>After setting up, you can just click to use the function you need.
 <img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ClickOnTheFunction.png"></p>
@@ -86,7 +108,7 @@ In the Rose Map function, all data in one data files can be treated as a single 
 <p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/StereoAndRose.png"></p>
 <h2>Zircon Ce4/3 Ratio Calculation</h2>
 <p>The data file used here is quite complicated. Please follow the guidance shown in the picture below.</p>
-<p>In the template data file for this calculation, the row with the <strong>Base</strong> symbol needs to be filled with the bulk REE data, and the <strong>zircon</strong> rows and <strong>Label</strong> column is where the REE data is input. The <strong>Zr</strong> value for zircon should be set as the <strong>“constant”</strong> <strong>497555</strong>. The <strong>“use”</strong> row tells the program to use the data in the row in the calculation if set as yes or excluded if set at no, but all of the data will be plotted on the graph generated. The Ri and Ro values are from Ballard et al. (2002) where La is set as No as the default setting, because of the anomaly of La in their data.</p>
+<p>In the template data file for this calculation, the row with the <strong>Base</strong> symbol needs to be filled with the bulk REE data, and the <strong>zircon</strong> rows and <strong>'Label'</strong> column is where the REE data is input. The <strong>Zr</strong> value for zircon should be set as the <strong>“constant”</strong> <strong>497555</strong>. The <strong>“use”</strong> row tells the program to use the data in the row in the calculation if set as yes or excluded if set at no, but all of the data will be plotted on the graph generated. The Ri and Ro values are from Ballard et al. (2002) where La is set as No as the default setting, because of the anomaly of La in their data.</p>
 <p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ZriconCeCalculation.png"></p>
 <h2>Zircon and Rutile Thermometer</h2>
 <p>These two function are super easy. Notice the ASiO2 and ATiO2 here are the Activity of these two components.</p>
@@ -181,11 +203,11 @@ In the Rose Map function, all data in one data files can be treated as a single 
                     Tagcloud
                 </div>
                 <div>
-                        <span><a href="/tag/chinese.html">Chinese</a></span>
                         <span><a href="/tag/doc.html">Doc</a></span>
                         <span><a href="/tag/zhong-wen.html">中文</a></span>
-                        <span><a href="/tag/wen-dang.html">文档</a></span>
                         <span><a href="/tag/english.html">English</a></span>
+                        <span><a href="/tag/chinese.html">Chinese</a></span>
+                        <span><a href="/tag/wen-dang.html">文档</a></span>
                 </div>
             </section>
 
