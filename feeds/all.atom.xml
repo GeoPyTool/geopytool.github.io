@@ -28,18 +28,20 @@
 &lt;li&gt;&lt;code&gt;Style&lt;/code&gt;: control the line shape&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Alpha&lt;/code&gt;: control the transparency of both drawn line and plotted point&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;code&gt;Label&lt;/code&gt; can be set to any character，word or phrase.
-&lt;code&gt;Color&lt;/code&gt; can only be chosen from following words: 'blue','green','red','cyan','magenta','yellow','black','white'.
-&lt;code&gt;Color&lt;/code&gt;:
-&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/ColorList.png?raw=true"&gt;
-&lt;code&gt;Size&lt;/code&gt;, &lt;code&gt;Width&lt;/code&gt;, and &lt;code&gt;Alpha&lt;/code&gt; are number values. The unit used for &lt;code&gt;Size&lt;/code&gt; and &lt;code&gt;Width&lt;/code&gt; is pt. &lt;code&gt;Size&lt;/code&gt; normally should be larger than '10', and &lt;code&gt;Width&lt;/code&gt; usually is '1'. &lt;code&gt;Alpha&lt;/code&gt; can be set from '0' to '1', for example, setting &lt;code&gt;Alpha&lt;/code&gt; as '0.4' means 40% transparency.
-&lt;code&gt;Marker&lt;/code&gt; and &lt;code&gt;Style&lt;/code&gt;, these two are slightly more complicated and can be set as the contents of the following lists.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Marker&lt;/code&gt; :
-&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/MarkerList.png?raw=true"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Style&lt;/code&gt;:
-&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/StyleList.png?raw=true"&gt;&lt;/p&gt;
-&lt;p&gt;The effect of setting:
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/SettingEffect.png"&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;code&gt;Label&lt;/code&gt; can be set to any character，word or phrase.&lt;/h4&gt;
+&lt;h4&gt;&lt;code&gt;Color&lt;/code&gt; can only be chosen from following words: 'blue','green','red','cyan','magenta','yellow','black','white'.&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;Color&lt;/code&gt;:
+&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/ColorList.png?raw=true"&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;code&gt;Size&lt;/code&gt;, &lt;code&gt;Width&lt;/code&gt;, and &lt;code&gt;Alpha&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;These three are number values. The unit used for &lt;code&gt;Size&lt;/code&gt; and &lt;code&gt;Width&lt;/code&gt; is pt. &lt;code&gt;Size&lt;/code&gt; normally should be larger than '10', and &lt;code&gt;Width&lt;/code&gt; usually is '1'. &lt;code&gt;Alpha&lt;/code&gt; can be set from '0' to '1', for example, setting &lt;code&gt;Alpha&lt;/code&gt; as '0.4' means 40% transparency.&lt;/p&gt;
+&lt;h4&gt;&lt;code&gt;Marker&lt;/code&gt; and &lt;code&gt;Style&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;these two are slightly more complicated and can be set as the contents of the following lists.&lt;/p&gt;
+&lt;h5&gt;&lt;code&gt;Marker&lt;/code&gt; :&lt;/h5&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/MarkerList.png?raw=true"&gt;&lt;/p&gt;
+&lt;h5&gt;&lt;code&gt;Style&lt;/code&gt;:&lt;/h5&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/StyleList.png?raw=true"&gt;&lt;/p&gt;
+&lt;h4&gt;The effect of setting:&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/SettingEffect.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Click the Function you need&lt;/h2&gt;
 &lt;p&gt;After setting up, you can just click to use the function you need.
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ClickOnTheFunction.png"&gt;&lt;/p&gt;
@@ -1132,21 +1134,25 @@ http://matplotlib.org/api/colors_api.html&lt;/p&gt;
 &lt;li&gt;&lt;code&gt;Style&lt;/code&gt;: 线的形状&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Alpha&lt;/code&gt;: 点和线的透明度&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;code&gt;Label&lt;/code&gt; 可以设置成任何文本
-&lt;code&gt;Color&lt;/code&gt; 只能从下面列表中选择 'blue','green','red','cyan','magenta','yellow','black','white'.
-效果如下图所示：
-&lt;code&gt;Color&lt;/code&gt;:
+&lt;h4&gt;&lt;code&gt;Label&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;可以设置成任何文本&lt;/p&gt;
+&lt;h4&gt;&lt;code&gt;Color&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;只能从下面列表中选择 'blue','green','red','cyan','magenta','yellow','black','white'.&lt;/p&gt;
+&lt;p&gt;效果如下图所示：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Color&lt;/code&gt;:
 &lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/ColorList.png?raw=true"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Size&lt;/code&gt;, &lt;code&gt;Width&lt;/code&gt;, 和 &lt;code&gt;Alpha&lt;/code&gt; 都必须是数值。其中用于 &lt;code&gt;Size&lt;/code&gt; 和 &lt;code&gt;Width&lt;/code&gt; 是 pt.
+&lt;h4&gt;&lt;code&gt;Size&lt;/code&gt;, &lt;code&gt;Width&lt;/code&gt;, 和 &lt;code&gt;Alpha&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;都必须是数值。其中用于 &lt;code&gt;Size&lt;/code&gt; 和 &lt;code&gt;Width&lt;/code&gt; 的单位是 pt.
 &lt;code&gt;Size&lt;/code&gt; 一般至少设置为 '10', &lt;code&gt;Width&lt;/code&gt; 可以设为 '1'.
-&lt;code&gt;Alpha&lt;/code&gt; 要设置在 '0' 到 '1'直接，例如，如果设置 &lt;code&gt;Alpha&lt;/code&gt; 为 '0.4' 就意味着透明度为 40%.
-&lt;code&gt;Marker&lt;/code&gt; 和 &lt;code&gt;Style&lt;/code&gt;, 有点复杂，可以设置为下面表格中的内容。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Marker&lt;/code&gt; :
-&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/MarkerList.png?raw=true"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Style&lt;/code&gt;:
-&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/StyleList.png?raw=true"&gt;&lt;/p&gt;
-&lt;p&gt;上述各项的设置效果如下图所示:
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/SettingEffect.png"&gt;&lt;/p&gt;
+&lt;code&gt;Alpha&lt;/code&gt; 要设置在 '0' 到 '1'直接，例如，如果设置 &lt;code&gt;Alpha&lt;/code&gt; 为 '0.4' 就意味着透明度为 40%.&lt;/p&gt;
+&lt;h4&gt;&lt;code&gt;Marker&lt;/code&gt; 和 &lt;code&gt;Style&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;这两个有点复杂，可以设置为下面表格中的内容。&lt;/p&gt;
+&lt;h5&gt;&lt;code&gt;Marker&lt;/code&gt; :&lt;/h5&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/MarkerList.png?raw=true"&gt;&lt;/p&gt;
+&lt;h5&gt;&lt;code&gt;Style&lt;/code&gt;:&lt;/h5&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/StyleList.png?raw=true"&gt;&lt;/p&gt;
+&lt;h4&gt;上述各项的设置效果如下图所示:&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/SettingEffect.png"&gt;&lt;/p&gt;
 &lt;h2&gt;点击要用的功能来运行&lt;/h2&gt;
 &lt;p&gt;设置完了格式之后，就可以点击你要用的功能来运行了。
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ClickOnTheFunction.png"&gt;&lt;/p&gt;
