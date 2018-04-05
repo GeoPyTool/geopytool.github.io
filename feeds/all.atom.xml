@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>GeoPyTool</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2018-04-04T11:46:00+08:00</updated><entry><title>Demonstration</title><link href="/demonstration.html" rel="alternate"></link><published>2018-04-04T11:46:00+08:00</published><updated>2018-04-04T11:46:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-04:/demonstration.html</id><summary type="html">&lt;h2&gt;Demonstration of the Functions&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>GeoPyTool</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2018-04-05T12:46:38+08:00</updated><entry><title>Demonstration</title><link href="/demonstration.html" rel="alternate"></link><published>2018-04-05T12:46:38+08:00</published><updated>2018-04-05T12:46:38+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-05:/demonstration.html</id><summary type="html">&lt;h2&gt;Demonstration of the Functions&lt;/h2&gt;
 &lt;h2&gt;Open and Import Data&lt;/h2&gt;
 &lt;p&gt;To start a plot or calculation, raw data file should be imported to GeoPyTool first.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/01.ImportData.png?raw=true"&gt;&lt;/p&gt;
@@ -42,6 +42,10 @@
 &lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/StyleList.png?raw=true"&gt;&lt;/p&gt;
 &lt;h4&gt;The effect of setting:&lt;/h4&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/SettingEffect.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Adjusting Axises of Figure&lt;/h2&gt;
+&lt;p&gt;All generated figures contain a menu bar on its top, which can be used to adjust the axises and title. &lt;/p&gt;
+&lt;p&gt;As shown in the picture below:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/Axis%20Adjustment.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Click the Function you need&lt;/h2&gt;
 &lt;p&gt;After setting up, you can just click to use the function you need.
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ClickOnTheFunction.png"&gt;&lt;/p&gt;
@@ -1112,6 +1116,9 @@ http://matplotlib.org/api/colors_api.html&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/StyleList.png?raw=true"&gt;&lt;/p&gt;
 &lt;h4&gt;上述各项的设置效果如下图所示:&lt;/h4&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/SettingEffect.png"&gt;&lt;/p&gt;
+&lt;h2&gt;图片坐标轴调整&lt;/h2&gt;
+&lt;p&gt;每个生成的图的顶部都有一个菜单栏，可以利用上面的按钮来调整坐标轴位置和图幅标题等等，如下图所示： &lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/Axis%20Adjustment.png"&gt;&lt;/p&gt;
 &lt;h2&gt;点击要用的功能来运行&lt;/h2&gt;
 &lt;p&gt;设置完了格式之后，就可以点击你要用的功能来运行了。
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ClickOnTheFunction.png"&gt;&lt;/p&gt;
