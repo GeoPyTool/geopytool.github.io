@@ -28,6 +28,7 @@
 &lt;li&gt;&lt;code&gt;Style&lt;/code&gt;: control the line shape&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Alpha&lt;/code&gt;: control the transparency of both drawn line and plotted point&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;Besides these seven items, the &lt;strong&gt;other columns in your data MUST ALL be number values!&lt;/strong&gt;&lt;/p&gt;
 &lt;h4&gt;&lt;code&gt;Label&lt;/code&gt; can be set to any character，word or phrase.&lt;/h4&gt;
 &lt;h4&gt;&lt;code&gt;Color&lt;/code&gt; can only be chosen from following words: 'blue','green','red','cyan','magenta','yellow','black','white'.&lt;/h4&gt;
 &lt;p&gt;&lt;code&gt;Color&lt;/code&gt;:
@@ -90,11 +91,11 @@ In the Rose Map function, all data in one data files can be treated as a single 
 &lt;h1&gt;GeoPyTool 打包的可执行程序下载链接&lt;/h1&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;GeoPyTool pack for Windows:&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1JtmjEphWQhFEQpf-6yIQFQ"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1t2tJDx67pP5lehAo-wht_uuUWo_G9KeV"&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1SfOLi-CQ4js3dmM7pzZsiQ"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1LFcth8cK8aCo-blHRt_sSfSK6hyTICH4"&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;GeoPyTool app for macOS:&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1pxdJWKzwnE-ApZs4SLg1ZA"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1571PS3NVSDsfTbwt7XDbjgkm6ya4erKA"&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1auV4V4Hv_NVd2VCRBmw4Uw"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1N264hOtl_Jx5Qw0Fc3eb8T_uCm_Ose-c"&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;捐助支持&lt;/h1&gt;
 &lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;h1&gt;GeoPyTool Application Download Links&lt;/h1&gt;
@@ -102,11 +103,11 @@ In the Rose Map function, all data in one data files can be treated as a single 
 &lt;h1&gt;GeoPyTool 打包的可执行程序下载链接&lt;/h1&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;GeoPyTool pack for Windows:&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1JtmjEphWQhFEQpf-6yIQFQ"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1t2tJDx67pP5lehAo-wht_uuUWo_G9KeV"&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1SfOLi-CQ4js3dmM7pzZsiQ"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1LFcth8cK8aCo-blHRt_sSfSK6hyTICH4"&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;GeoPyTool app for macOS:&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1pxdJWKzwnE-ApZs4SLg1ZA"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1571PS3NVSDsfTbwt7XDbjgkm6ya4erKA"&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1auV4V4Hv_NVd2VCRBmw4Uw"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1N264hOtl_Jx5Qw0Fc3eb8T_uCm_Ose-c"&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;捐助支持&lt;/h1&gt;
 &lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category><category term="Chinese"></category></entry><entry><title>About</title><link href="/about.html" rel="alternate"></link><published>2018-03-19T15:15:13+08:00</published><updated>2018-03-19T15:15:13+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-03-19:/about.html</id><summary type="html">&lt;h1&gt;Welcome to GeoPyTool&lt;/h1&gt;
@@ -129,11 +130,11 @@ In the Rose Map function, all data in one data files can be treated as a single 
 &lt;h1&gt;GeoPyTool 打包的可执行程序下载链接&lt;/h1&gt;
 &lt;/blockquote&gt;
 &lt;h3&gt;GeoPyTool pack for Windows:&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1JtmjEphWQhFEQpf-6yIQFQ"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1t2tJDx67pP5lehAo-wht_uuUWo_G9KeV"&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1SfOLi-CQ4js3dmM7pzZsiQ"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1LFcth8cK8aCo-blHRt_sSfSK6hyTICH4"&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;GeoPyTool app for macOS:&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1pxdJWKzwnE-ApZs4SLg1ZA"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1571PS3NVSDsfTbwt7XDbjgkm6ya4erKA"&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1auV4V4Hv_NVd2VCRBmw4Uw"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1N264hOtl_Jx5Qw0Fc3eb8T_uCm_Ose-c"&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;捐助支持&lt;/h1&gt;
 &lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category><category term="Chinese"></category></entry><entry><title>Installation-Expert</title><link href="/installation-expert.html" rel="alternate"></link><published>2018-03-15T22:41:30+08:00</published><updated>2018-03-15T22:41:30+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-03-15:/installation-expert.html</id><summary type="html">&lt;h1&gt;Installation, For Expert&lt;/h1&gt;
@@ -1097,6 +1098,7 @@ http://matplotlib.org/api/colors_api.html&lt;/p&gt;
 &lt;li&gt;&lt;code&gt;Style&lt;/code&gt;: 线的形状&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Alpha&lt;/code&gt;: 点和线的透明度&lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;除了上面这七个设置列之外，&lt;strong&gt;其他列的数据都必须是数值的！！！&lt;/strong&gt;&lt;/p&gt;
 &lt;h4&gt;&lt;code&gt;Label&lt;/code&gt;&lt;/h4&gt;
 &lt;p&gt;可以设置成任何文本&lt;/p&gt;
 &lt;h4&gt;&lt;code&gt;Color&lt;/code&gt;&lt;/h4&gt;
