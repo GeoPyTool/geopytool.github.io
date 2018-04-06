@@ -21,8 +21,8 @@
         </div> <!-- /#logo-->
         <nav id="menu" class="main-nav"><ul class="menu">
             <li  class="active"><a href="http://geopytool.com">Homepage</a></li>
-            <li  class="active"><a href="http://geopytool.com/about.html">About</a></li>
             <li  class="active"><a href="http://geopytool.com/archives.html">Archives</a></li>
+            <li  class="active"><a href="http://geopytool.com/demonstration.html">Demonstration</a></li>
             <li  class="active"><a href="https://zhuanlan.zhihu.com/python-kivy">ZhiHu</a></li>
             <li  class="active"><a href="https://github.com/GeoPyTool/GeoPyTool">Github</a></li>
 
@@ -117,8 +117,10 @@ In the Rose Map function, all data in one data files can be treated as a single 
 <p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/StereoAndRose.png"></p>
 <h2>Zircon Ce4/3 Ratio Calculation</h2>
 <p>The data file used here is quite complicated. Please follow the guidance shown in the picture below.</p>
-<p>In the template data file for this calculation, the row with the <strong>Base</strong> symbol needs to be filled with the bulk REE data, and the <strong>zircon</strong> rows and <strong><code>Label</code></strong> column is where the REE data is input. The <strong>Zr</strong> value for zircon should be set as the <strong>“constant”</strong> <strong>497555</strong>. The <strong>“use”</strong> row tells the program to use the data in the row in the calculation if set as yes or excluded if set at no, but all of the data will be plotted on the graph generated. The Ri and Ro values are from Ballard et al. (2002) where La is set as No as the default setting, because of the anomaly of La in their data.</p>
-<p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ZriconCeCalculation.png"></p>
+<p>Alarm！ This function has been totally rewritten and the old Data File for the older version can not be used directly to the new version function! Please Download the latest Data File Templates from <a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/DataFileSamples/Zircon%20Ce%20Calculation/ZirconCe.xlsx">https://github.com/GeoPyTool/GeoPyTool/blob/master/DataFileSamples/Zircon%20Ce%20Calculation/ZirconCe.xlsx</a> .</p>
+<p>In the template data file for this calculation, the row with the <strong>Base</strong> symbol needs to be filled with the bulk REE data, and the <strong>zircon</strong> rows and <strong><code>Label</code></strong> column is where the REE data is input. The <strong>Zr</strong> value for zircon should be set as the <strong>“constant”</strong> <strong>497555</strong>. Please Delete all unused elements and only leave the data to fit and calculate!</p>
+<p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ZriconCeCalculation.png">
+<img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ZriconCeCalculation2.png"></p>
 <h2>Zircon and Rutile Thermometer</h2>
 <p>These two function are super easy. Notice the ASiO2 and ATiO2 here are the Activity of these two components.</p>
 <p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Thermometer.png"></p>
@@ -178,7 +180,7 @@ In the Rose Map function, all data in one data files can be treated as a single 
                     Links
                 </div>
                 <ul>
-                        <li><a href="http://geopytool.com/about.html">About</a></li>
+                        <li><a href="http://geopytool.com/introduction.html">Introduction</a></li>
                         <li><a href="http://geopytool.com/functions.html">Functions</a></li>
                         <li><a href="http://geopytool.com/milestones.html">Milestones</a></li>
                         <li><a href="http://geopytool.com/installation.html">Installation-Easy</a></li>
@@ -186,7 +188,7 @@ In the Rose Map function, all data in one data files can be treated as a single 
                         <li><a href="http://geopytool.com/demonstration.html">Demonstration</a></li>
                         <li><a href="http://geopytool.com/download.html">Download</a></li>
                         <li><a href="http://geopytool.com/archives.html">Archives</a></li>
-                        <li><a href="http://geopytool.com/about.html">简要介绍</a></li>
+                        <li><a href="http://geopytool.com/introduction.html">简要介绍</a></li>
                         <li><a href="http://geopytool.com/gong-neng-lie-biao.html">功能列表</a></li>
                         <li><a href="http://geopytool.com/kai-fa-ji-lu.html">开发记录</a></li>
                         <li><a href="http://geopytool.com/an-zhuang-zhi-nan.html">安装指南-简单版</a></li>
@@ -212,10 +214,10 @@ In the Rose Map function, all data in one data files can be treated as a single 
                     Tagcloud
                 </div>
                 <div>
-                        <span><a href="/tag/chinese.html">Chinese</a></span>
                         <span><a href="/tag/zhong-wen.html">中文</a></span>
                         <span><a href="/tag/wen-dang.html">文档</a></span>
                         <span><a href="/tag/doc.html">Doc</a></span>
+                        <span><a href="/tag/chinese.html">Chinese</a></span>
                         <span><a href="/tag/english.html">English</a></span>
                 </div>
             </section>
