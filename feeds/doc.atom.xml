@@ -58,13 +58,18 @@
 &lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/01.ImportData.png?raw=true"&gt;&lt;/p&gt;
 &lt;p&gt;The Data file can be Xlsx/Xls or CSV.
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Set Up Data&lt;/h2&gt;
-&lt;p&gt;If there is no setting up information such as the &lt;code&gt;Label&lt;/code&gt;/&lt;code&gt;Color&lt;/code&gt;/&lt;code&gt;Marker&lt;/code&gt;/&lt;code&gt;Style&lt;/code&gt;/&lt;code&gt;Alpha …&lt;/code&gt;&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Demonstration of the Functions&lt;/h2&gt;
+&lt;h2&gt;Data Unit&lt;/h2&gt;
+&lt;p&gt;Unit of Oxide Items (such as &lt;code&gt;SiO2&lt;/code&gt;, &lt;code&gt;TiO2&lt;/code&gt;, &lt;code&gt;Al2O3&lt;/code&gt;, &lt;code&gt;Fe2O3&lt;/code&gt;, &lt;code&gt;FeO&lt;/code&gt;, &lt;code&gt;MnO&lt;/code&gt;, &lt;code&gt;MgO&lt;/code&gt;, &lt;code&gt;CaO    Na2O&lt;/code&gt;, &lt;code&gt;K2O …&lt;/code&gt;&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Demonstration of the Functions&lt;/h2&gt;
 &lt;h2&gt;Open and Import Data&lt;/h2&gt;
 &lt;p&gt;To start a plot or calculation, raw data file should be imported to GeoPyTool first.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/01.ImportData.png?raw=true"&gt;&lt;/p&gt;
 &lt;p&gt;The Data file can be Xlsx/Xls or CSV.
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Data Unit&lt;/h2&gt;
+&lt;p&gt;Unit of Oxide Items (such as &lt;code&gt;SiO2&lt;/code&gt;, &lt;code&gt;TiO2&lt;/code&gt;, &lt;code&gt;Al2O3&lt;/code&gt;, &lt;code&gt;Fe2O3&lt;/code&gt;, &lt;code&gt;FeO&lt;/code&gt;, &lt;code&gt;MnO&lt;/code&gt;, &lt;code&gt;MgO&lt;/code&gt;, &lt;code&gt;CaO    Na2O&lt;/code&gt;, &lt;code&gt;K2O&lt;/code&gt;, &lt;code&gt;P2O5&lt;/code&gt;, &lt;code&gt;LOI&lt;/code&gt;, &lt;code&gt;Total&lt;/code&gt;, etc )is weight percent (wt%).
+But Make Sure to follow the format in data templates. 
+&lt;strong&gt;Do not&lt;/strong&gt; contain the &lt;code&gt;%&lt;/code&gt; in the used data files!
+Unit of other Elements Items (such as &lt;code&gt;Li&lt;/code&gt;, &lt;code&gt;Be&lt;/code&gt;, &lt;code&gt;Sc&lt;/code&gt;, &lt;code&gt;V&lt;/code&gt;, &lt;code&gt;Cr&lt;/code&gt;, &lt;code&gt;Co&lt;/code&gt;, &lt;code&gt;Ni&lt;/code&gt;, &lt;code&gt;Cu&lt;/code&gt;, &lt;code&gt;Zn&lt;/code&gt;, &lt;code&gt;Ga&lt;/code&gt;, &lt;code&gt;Rb&lt;/code&gt;, &lt;code&gt;Sr&lt;/code&gt;, &lt;code&gt;Y&lt;/code&gt;, &lt;code&gt;Zr&lt;/code&gt;, &lt;code&gt;Nb&lt;/code&gt;, &lt;code&gt;Cs&lt;/code&gt;, &lt;code&gt;Ba&lt;/code&gt;, &lt;code&gt;La&lt;/code&gt;, &lt;code&gt;Ce&lt;/code&gt;, &lt;code&gt;Pr&lt;/code&gt;, &lt;code&gt;Nd&lt;/code&gt;, &lt;code&gt;Sm&lt;/code&gt;, &lt;code&gt;Eu&lt;/code&gt;, &lt;code&gt;Gd&lt;/code&gt;, &lt;code&gt;Tb&lt;/code&gt;, &lt;code&gt;Dy&lt;/code&gt;, &lt;code&gt;Ho&lt;/code&gt;, &lt;code&gt;Er&lt;/code&gt;, &lt;code&gt;Tm&lt;/code&gt;, &lt;code&gt;Yb&lt;/code&gt;, &lt;code&gt;Lu&lt;/code&gt;, &lt;code&gt;Hf&lt;/code&gt;, &lt;code&gt;Ta&lt;/code&gt;, &lt;code&gt;Tl&lt;/code&gt;, &lt;code&gt;Pb&lt;/code&gt;, &lt;code&gt;Th&lt;/code&gt;, &lt;code&gt;U&lt;/code&gt;) is ppm.&lt;/p&gt;
 &lt;h2&gt;Set Up Data&lt;/h2&gt;
 &lt;p&gt;If there is no setting up information such as the &lt;code&gt;Label&lt;/code&gt;/&lt;code&gt;Color&lt;/code&gt;/&lt;code&gt;Marker&lt;/code&gt;/&lt;code&gt;Style&lt;/code&gt;/&lt;code&gt;Alpha&lt;/code&gt;/&lt;code&gt;Width&lt;/code&gt;, you need to click on the Set Format button to add these items and make modification by yourself.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SetDataUp.png"&gt;&lt;/p&gt;
@@ -1051,9 +1056,8 @@ http://matplotlib.org/api/colors_api.html&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ImportData.png"&gt;&lt;/p&gt;
 &lt;p&gt;数据格式可以使 Xlsx/Xls 或者 CSV。
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
-&lt;h2&gt;设置数据添加分组颜色等信息&lt;/h2&gt;
-&lt;p&gt;如果原始数据没有添加这些分类信息，程序自然不知道该怎么分。所以你需要自己添加 Label/Color/Marker/Style/Alapha/Width等项目。好在这些只需要点击一下 设置数据（英文版为 Set Fromat
-) 按钮，就可以添加好这些项目了 …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;演示视频&lt;/h2&gt;
+&lt;h2&gt;数据单位&lt;/h2&gt;
+&lt;p&gt;氧化物之类的项目(例如 &lt;code&gt;SiO2&lt;/code&gt;, &lt;code&gt;TiO2&lt;/code&gt;, &lt;code&gt;Al2O3&lt;/code&gt;, &lt;code&gt;Fe2O3&lt;/code&gt;, &lt;code&gt;FeO&lt;/code&gt;, &lt;code&gt;MnO&lt;/code&gt;, &lt;code&gt;MgO&lt;/code&gt;, &lt;code&gt;CaO Na2O&lt;/code&gt;, &lt;code&gt;K2O&lt;/code&gt;, &lt;code&gt;P2O5&lt;/code&gt;, &lt;code&gt;LOI&lt;/code&gt;, &lt;code&gt;Total&lt;/code&gt; 等等 …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;演示视频&lt;/h2&gt;
 &lt;p&gt;点击下列链接直接观看&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.bilibili.com/video/av13983803/"&gt;基本操作演示&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.bilibili.com/video/av15926064/"&gt;使用讲解视频&lt;/a&gt;&lt;/p&gt;
@@ -1068,6 +1072,11 @@ http://matplotlib.org/api/colors_api.html&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ImportData.png"&gt;&lt;/p&gt;
 &lt;p&gt;数据格式可以使 Xlsx/Xls 或者 CSV。
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
+&lt;h2&gt;数据单位&lt;/h2&gt;
+&lt;p&gt;氧化物之类的项目(例如 &lt;code&gt;SiO2&lt;/code&gt;, &lt;code&gt;TiO2&lt;/code&gt;, &lt;code&gt;Al2O3&lt;/code&gt;, &lt;code&gt;Fe2O3&lt;/code&gt;, &lt;code&gt;FeO&lt;/code&gt;, &lt;code&gt;MnO&lt;/code&gt;, &lt;code&gt;MgO&lt;/code&gt;, &lt;code&gt;CaO Na2O&lt;/code&gt;, &lt;code&gt;K2O&lt;/code&gt;, &lt;code&gt;P2O5&lt;/code&gt;, &lt;code&gt;LOI&lt;/code&gt;, &lt;code&gt;Total&lt;/code&gt; 等等)数据单位是重量百分比(wt%)。
+但千万要遵循数据模板的格式！ 
+&lt;strong&gt;一定不要在使用的数据中包含% 之类乱七八糟的符号！&lt;/strong&gt;
+其他元素的单位 (比如 &lt;code&gt;Li&lt;/code&gt;, &lt;code&gt;Be&lt;/code&gt;, &lt;code&gt;Sc&lt;/code&gt;, &lt;code&gt;V&lt;/code&gt;, &lt;code&gt;Cr&lt;/code&gt;, &lt;code&gt;Co&lt;/code&gt;, &lt;code&gt;Ni&lt;/code&gt;, &lt;code&gt;Cu&lt;/code&gt;, &lt;code&gt;Zn&lt;/code&gt;, &lt;code&gt;Ga&lt;/code&gt;, &lt;code&gt;Rb&lt;/code&gt;, &lt;code&gt;Sr&lt;/code&gt;, &lt;code&gt;Y&lt;/code&gt;, &lt;code&gt;Zr&lt;/code&gt;, &lt;code&gt;Nb&lt;/code&gt;, &lt;code&gt;Cs&lt;/code&gt;, &lt;code&gt;Ba&lt;/code&gt;, &lt;code&gt;La&lt;/code&gt;, &lt;code&gt;Ce&lt;/code&gt;, &lt;code&gt;Pr&lt;/code&gt;, &lt;code&gt;Nd&lt;/code&gt;, &lt;code&gt;Sm&lt;/code&gt;, &lt;code&gt;Eu&lt;/code&gt;, &lt;code&gt;Gd&lt;/code&gt;, &lt;code&gt;Tb&lt;/code&gt;, &lt;code&gt;Dy&lt;/code&gt;, &lt;code&gt;Ho&lt;/code&gt;, &lt;code&gt;Er&lt;/code&gt;, &lt;code&gt;Tm&lt;/code&gt;, &lt;code&gt;Yb&lt;/code&gt;, &lt;code&gt;Lu&lt;/code&gt;, &lt;code&gt;Hf&lt;/code&gt;, &lt;code&gt;Ta&lt;/code&gt;, &lt;code&gt;Tl&lt;/code&gt;, &lt;code&gt;Pb&lt;/code&gt;, &lt;code&gt;Th&lt;/code&gt;, &lt;code&gt;U&lt;/code&gt;) 都是 ppm。&lt;/p&gt;
 &lt;h2&gt;设置数据添加分组颜色等信息&lt;/h2&gt;
 &lt;p&gt;如果原始数据没有添加这些分类信息，程序自然不知道该怎么分。所以你需要自己添加 Label/Color/Marker/Style/Alapha/Width等项目。好在这些只需要点击一下 设置数据（英文版为 Set Fromat
 ) 按钮，就可以添加好这些项目了，然后你还需要根据自己的样品情况自己去分组。可别来问该怎么分组，你自己的样品自己做主！&lt;/p&gt;
