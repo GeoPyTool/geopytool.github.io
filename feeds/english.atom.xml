@@ -1,2 +1,414 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>GeoPyTool - English</title><link href="/" rel="alternate"></link><link href="/feeds/english.atom.xml" rel="self"></link><id>/</id><updated>2018-04-21T11:27:50+08:00</updated><entry><title>FAQ</title><link href="/faq.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/faq.html</id><summary type="html"></summary><content type="html"></content><category term="Doc"></category><category term="English"></category><category term="Support"></category></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>GeoPyTool - English</title><link href="/" rel="alternate"></link><link href="/feeds/english.atom.xml" rel="self"></link><id>/</id><updated>2018-04-21T11:27:50+08:00</updated><entry><title>Demonstration</title><link href="/demonstration.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/demonstration.html</id><summary type="html">&lt;h2&gt;Demonstration of the Functions&lt;/h2&gt;
+&lt;h2&gt;Open and Import Data&lt;/h2&gt;
+&lt;p&gt;To start a plot or calculation, raw data file should be imported to GeoPyTool first.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/01.ImportData.png?raw=true"&gt;&lt;/p&gt;
+&lt;p&gt;The Data file can be Xlsx/Xls or CSV.
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Data Unit&lt;/h2&gt;
+&lt;p&gt;Unit of Oxide Items (such as &lt;code&gt;SiO2&lt;/code&gt;, &lt;code&gt;TiO2&lt;/code&gt;, &lt;code&gt;Al2O3&lt;/code&gt;, &lt;code&gt;Fe2O3&lt;/code&gt;, &lt;code&gt;FeO&lt;/code&gt;, &lt;code&gt;MnO&lt;/code&gt;, &lt;code&gt;MgO&lt;/code&gt;, &lt;code&gt;CaO    Na2O&lt;/code&gt;, &lt;code&gt;K2O …&lt;/code&gt;&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Demonstration of the Functions&lt;/h2&gt;
+&lt;h2&gt;Open and Import Data&lt;/h2&gt;
+&lt;p&gt;To start a plot or calculation, raw data file should be imported to GeoPyTool first.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/01.ImportData.png?raw=true"&gt;&lt;/p&gt;
+&lt;p&gt;The Data file can be Xlsx/Xls or CSV.
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Data Unit&lt;/h2&gt;
+&lt;p&gt;Unit of Oxide Items (such as &lt;code&gt;SiO2&lt;/code&gt;, &lt;code&gt;TiO2&lt;/code&gt;, &lt;code&gt;Al2O3&lt;/code&gt;, &lt;code&gt;Fe2O3&lt;/code&gt;, &lt;code&gt;FeO&lt;/code&gt;, &lt;code&gt;MnO&lt;/code&gt;, &lt;code&gt;MgO&lt;/code&gt;, &lt;code&gt;CaO    Na2O&lt;/code&gt;, &lt;code&gt;K2O&lt;/code&gt;, &lt;code&gt;P2O5&lt;/code&gt;, &lt;code&gt;LOI&lt;/code&gt;, &lt;code&gt;Total&lt;/code&gt;, etc )is weight percent (wt%).&lt;/p&gt;
+&lt;p&gt;But Make Sure to follow the format in data templates. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Do not&lt;/strong&gt; contain the &lt;code&gt;%&lt;/code&gt; in the used data files!&lt;/p&gt;
+&lt;p&gt;Unit of other Elements Items (such as &lt;code&gt;Li&lt;/code&gt;, &lt;code&gt;Be&lt;/code&gt;, &lt;code&gt;Sc&lt;/code&gt;, &lt;code&gt;V&lt;/code&gt;, &lt;code&gt;Cr&lt;/code&gt;, &lt;code&gt;Co&lt;/code&gt;, &lt;code&gt;Ni&lt;/code&gt;, &lt;code&gt;Cu&lt;/code&gt;, &lt;code&gt;Zn&lt;/code&gt;, &lt;code&gt;Ga&lt;/code&gt;, &lt;code&gt;Rb&lt;/code&gt;, &lt;code&gt;Sr&lt;/code&gt;, &lt;code&gt;Y&lt;/code&gt;, &lt;code&gt;Zr&lt;/code&gt;, &lt;code&gt;Nb&lt;/code&gt;, &lt;code&gt;Cs&lt;/code&gt;, &lt;code&gt;Ba&lt;/code&gt;, &lt;code&gt;La&lt;/code&gt;, &lt;code&gt;Ce&lt;/code&gt;, &lt;code&gt;Pr&lt;/code&gt;, &lt;code&gt;Nd&lt;/code&gt;, &lt;code&gt;Sm&lt;/code&gt;, &lt;code&gt;Eu&lt;/code&gt;, &lt;code&gt;Gd&lt;/code&gt;, &lt;code&gt;Tb&lt;/code&gt;, &lt;code&gt;Dy&lt;/code&gt;, &lt;code&gt;Ho&lt;/code&gt;, &lt;code&gt;Er&lt;/code&gt;, &lt;code&gt;Tm&lt;/code&gt;, &lt;code&gt;Yb&lt;/code&gt;, &lt;code&gt;Lu&lt;/code&gt;, &lt;code&gt;Hf&lt;/code&gt;, &lt;code&gt;Ta&lt;/code&gt;, &lt;code&gt;Tl&lt;/code&gt;, &lt;code&gt;Pb&lt;/code&gt;, &lt;code&gt;Th&lt;/code&gt;, &lt;code&gt;U&lt;/code&gt;) is ppm.&lt;/p&gt;
+&lt;h2&gt;Set Up Data&lt;/h2&gt;
+&lt;p&gt;If there is no setting up information such as the &lt;code&gt;Label&lt;/code&gt;/&lt;code&gt;Color&lt;/code&gt;/&lt;code&gt;Marker&lt;/code&gt;/&lt;code&gt;Style&lt;/code&gt;/&lt;code&gt;Alpha&lt;/code&gt;/&lt;code&gt;Width&lt;/code&gt;, you need to click on the Set Format button to add these items and make modification by yourself.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SetDataUp.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SettingDataUp.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Data Setting Details&lt;/h2&gt;
+&lt;p&gt;As shown in the &lt;a href="https://github.com/GeoPyTool/GeoPyTool/tree/master/DataFileSamples"&gt;Data File Samples&lt;/a&gt;, all data files contain the following Items:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/SettingArea.png"&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;Label&lt;/code&gt;: control the group of sample and will be shown on legend&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Color&lt;/code&gt;: control the &lt;code&gt;Color&lt;/code&gt; of both drawn line and plotted point&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Marker&lt;/code&gt;: control the points shape&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Size&lt;/code&gt;: control the points &lt;code&gt;Size&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Width&lt;/code&gt;: control the line &lt;code&gt;Width&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Style&lt;/code&gt;: control the line shape&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Alpha&lt;/code&gt;: control the transparency of both drawn line and plotted point&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Besides these seven items, the &lt;strong&gt;other columns in your data MUST ALL be number values!&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;code&gt;Label&lt;/code&gt; can be set to any character，word or phrase.&lt;/h4&gt;
+&lt;h4&gt;&lt;code&gt;Color&lt;/code&gt; can only be chosen from following words: 'blue','green','red','cyan','magenta','yellow','black','white'.&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;Color&lt;/code&gt;:
+&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/ColorList.png?raw=true"&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;code&gt;Size&lt;/code&gt;, &lt;code&gt;Width&lt;/code&gt;, and &lt;code&gt;Alpha&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;These three are number values. The unit used for &lt;code&gt;Size&lt;/code&gt; and &lt;code&gt;Width&lt;/code&gt; is pt. &lt;code&gt;Size&lt;/code&gt; normally should be larger than '10', and &lt;code&gt;Width&lt;/code&gt; usually is '1'. &lt;code&gt;Alpha&lt;/code&gt; can be set from '0' to '1', for example, setting &lt;code&gt;Alpha&lt;/code&gt; as '0.4' means 40% transparency.&lt;/p&gt;
+&lt;h4&gt;&lt;code&gt;Marker&lt;/code&gt; and &lt;code&gt;Style&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;these two are slightly more complicated and can be set as the contents of the following lists.&lt;/p&gt;
+&lt;h5&gt;&lt;code&gt;Marker&lt;/code&gt; :&lt;/h5&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/MarkerList.png?raw=true"&gt;&lt;/p&gt;
+&lt;h5&gt;&lt;code&gt;Style&lt;/code&gt;:&lt;/h5&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/StyleList.png?raw=true"&gt;&lt;/p&gt;
+&lt;h4&gt;The effect of setting:&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/SettingEffect.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Adjusting Axises of Figure&lt;/h2&gt;
+&lt;p&gt;All generated figures contain a menu bar on its top, which can be used to adjust the axises and title. &lt;/p&gt;
+&lt;p&gt;As shown in the picture below:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/Axis%20Adjustment.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Click the Function you need&lt;/h2&gt;
+&lt;p&gt;After setting up, you can just click to use the function you need.
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ClickOnTheFunction.png"&gt;&lt;/p&gt;
+&lt;h2&gt;TAS/REE/Trace Elements&lt;/h2&gt;
+&lt;p&gt;These functions are quite commonly used and the details are shown as the picture below.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/02.Save%20Image.png?raw=true"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/TAS-REE-Trace.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Pearce Diagram&lt;/h2&gt;
+&lt;p&gt;Pearce Diagram just use some trace elements and is also quite easy to know how to use.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Pearce.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Harker Diagram&lt;/h2&gt;
+&lt;p&gt;Harker Diagram is a little bit complicated. Both the X and Y items used for the picture can be selectable by the slider.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Harker.png"&gt;&lt;/p&gt;
+&lt;h2&gt;QFL and QmFLt&lt;/h2&gt;
+&lt;p&gt;These two diagrams are very easy. But you must find the right data file used for them to import.
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ImportQFL.png"&gt;&lt;/p&gt;
+&lt;p&gt;Remind to set up data, then you can run these two functions.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/QFLandQmFLt.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Stereographic Projection and Rose Map&lt;/h2&gt;
+&lt;p&gt;Wulf or Schmidt Net can be chosen, and so is to use Lines or Points on the generated diagram.
+In the Rose Map function, all data in one data files can be treated as a single group of data to draw Rose Map, and can also be treated as seperated teams to compare the Rose Map from each other. The step of the Rose Map can be set by slider. And so does the items chosen to use in the Rose Map. Dip/Dip-Angle/Strike are all available.&lt;/p&gt;
+&lt;p&gt;Notice that the first Letters must be in UPPER case.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/StereoAndRose.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Zircon Ce4/3 Ratio Calculation&lt;/h2&gt;
+&lt;p&gt;The data file used here is quite complicated. Please follow the guidance shown in the picture below.&lt;/p&gt;
+&lt;p&gt;Alarm！ This function has been totally rewritten and the old Data File for the older version can not be used directly to the new version function! Please Download the latest Data File Templates from &lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/DataFileSamples/Zircon%20Ce%20Calculation/ZirconCe.xlsx"&gt;https://github.com/GeoPyTool/GeoPyTool/blob/master/DataFileSamples/Zircon%20Ce%20Calculation/ZirconCe.xlsx&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;In the template data file for this calculation, the row with the &lt;strong&gt;Base&lt;/strong&gt; symbol needs to be filled with the bulk REE data, and the &lt;strong&gt;zircon&lt;/strong&gt; rows and &lt;strong&gt;&lt;code&gt;Label&lt;/code&gt;&lt;/strong&gt; column is where the REE data is input. The &lt;strong&gt;Zr&lt;/strong&gt; value for zircon should be set as the &lt;strong&gt;“constant”&lt;/strong&gt; &lt;strong&gt;497555&lt;/strong&gt;. Please Delete all unused elements and only leave the data to fit and calculate!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ZriconCeCalculation.png"&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ZriconCeCalculation2.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Zircon and Rutile Thermometer&lt;/h2&gt;
+&lt;p&gt;These two function are super easy. Notice the ASiO2 and ATiO2 here are the Activity of these two components.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Thermometer.png"&gt;&lt;/p&gt;
+&lt;h2&gt;User Defined X-Y plot&lt;/h2&gt;
+&lt;p&gt;This function allows users to load any picture from any articles as a base map to plot on.&lt;/p&gt;
+&lt;p&gt;But you must understand the original plot first and know the mathematical setting of it. So you can set up the right format in your plot.&lt;/p&gt;
+&lt;p&gt;For example, as the picture below shown,  the original diagram used Nb and Th, normalized by N-MORB(Sun and McDonough 1989), and then used the Log function of these two items. So we do the same setting up as shown by the picture. The Left/Right/Down/Up limit of the original diagram are 0.01/100/0.01/1000, so we need to use the Log function and find out that we should set the Left/Right/Down/Up limit to be -2/2/-2/3. If you can not understand why, please take a rest and good bye.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/UserDefinedXY.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/03.LoadBaseMap.png?raw=true"&gt;&lt;/p&gt;
+&lt;h2&gt;3D and Statistics&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/04.Statistical.png?raw=true"&gt;&lt;/p&gt;
+&lt;h2&gt;Cluster&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/05.Cluster.png?raw=true"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category><category term="Support"></category></entry><entry><title>FAQ</title><link href="/faq.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/faq.html</id><summary type="html"></summary><content type="html"></content><category term="Doc"></category><category term="English"></category><category term="Support"></category></entry><entry><title>Functions</title><link href="/functions.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/functions.html</id><summary type="html">&lt;h1&gt;Functions&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Function&lt;/th&gt;
+&lt;th&gt;Brief description&lt;/th&gt;
+&lt;th&gt;Reference&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;TAS plot&lt;/td&gt;
+&lt;td&gt;Volcanic or intrusive rocks classification with SiO2 and (Na2O+K2O)&lt;/td&gt;
+&lt;td&gt;Maitre et al., 1989, Middlemost, 1994&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;QAPF plot&lt;/td&gt;
+&lt;td&gt;Plutonic or volcanic rocks classification with Q (quartz), A (alkali feldspar), P (plagioclase) and F (feldspathoid)&lt;/td&gt;
+&lt;td&gt;Maitre et al., 2004&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;REE&lt;/td&gt;
+&lt;td&gt;Compare Rare Earth Elements …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;h1&gt;Functions&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Function&lt;/th&gt;
+&lt;th&gt;Brief description&lt;/th&gt;
+&lt;th&gt;Reference&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;TAS plot&lt;/td&gt;
+&lt;td&gt;Volcanic or intrusive rocks classification with SiO2 and (Na2O+K2O)&lt;/td&gt;
+&lt;td&gt;Maitre et al., 1989, Middlemost, 1994&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;QAPF plot&lt;/td&gt;
+&lt;td&gt;Plutonic or volcanic rocks classification with Q (quartz), A (alkali feldspar), P (plagioclase) and F (feldspathoid)&lt;/td&gt;
+&lt;td&gt;Maitre et al., 2004&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;REE&lt;/td&gt;
+&lt;td&gt;Compare Rare Earth Elements with standard samples as Spider Diagram to analyze the distribution, tendency and anomalies&lt;/td&gt;
+&lt;td&gt;Boynton, 1984&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Trace elements&lt;/td&gt;
+&lt;td&gt;Compare Trace Elements with standard samples as Spider Diagram to analyze the distribution, tendency and anomalies&lt;/td&gt;
+&lt;td&gt;Sun and McDonough, 1989&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Rb-Y+Nb, Rb-Yb+Ta, Nb-Y, and Ta-Yb plots&lt;/td&gt;
+&lt;td&gt;Tectonic settings classification with Y-Nb, Yb-Ta, Rb- (Y + Nb) and Rb- (Yb + Ta) for granites&lt;/td&gt;
+&lt;td&gt;Pearce et al., 1984&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Stereographic projection and rose diagram&lt;/td&gt;
+&lt;td&gt;Virtualization and basic analyzation of outcrop occurrence; distribution, tendency and anomalies as a rose diagram with stereographic projection on Wulf net and Schmidt net.&lt;/td&gt;
+&lt;td&gt;Zhou et al., 2003&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;QFL and QmFLt plots&lt;/td&gt;
+&lt;td&gt;“Triangular QFL and QmFLt compositional diagrams for plotting point counts of sandstones can be subdivided into fields that are characteristic of sandstone suites derived from the different kinds of provenance terranes controlled by plate tectonics.”&lt;/td&gt;
+&lt;td&gt;Dickinson et al. 1983&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CIPW normalization&lt;/td&gt;
+&lt;td&gt;CIPW norm calculation with multiple samples&lt;/td&gt;
+&lt;td&gt;Johannsen, 1939; Washington, 1917; CIPW norm Excel spreadsheet by Kurt Hollocher&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Zircon Ce4/Ce3&lt;/td&gt;
+&lt;td&gt;Calculate Ce(IV)/Ce(III) ratio in zircon to infer relative oxidation state in a wide range of intermediate to felsic igneous rocks.&lt;/td&gt;
+&lt;td&gt;Ballard et al., 2002&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Zircon and Rutile thermometers&lt;/td&gt;
+&lt;td&gt;Use Ti element in Zircon and Zr element in Rutile to calculate the temperature of crystallization.&lt;/td&gt;
+&lt;td&gt;Watson et al., 2006&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Cluster&lt;/td&gt;
+&lt;td&gt;A basic version of hierarchical clustering analyzation of different number valued items.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Loading any picture as base map&lt;/td&gt;
+&lt;td&gt;Both X-Y plot and triangular diagram is supported, that means users can use any picture form any articles as their base map to plot data on and generate their diagram even it has not been contained by any other softwares.&lt;/td&gt;
+&lt;td&gt;An original function&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Fit and Contour map supported in X-Y plot&lt;/td&gt;
+&lt;td&gt;Any picture can be imported as base map, and the data can be poly fitted and drawn with contour map.&lt;/td&gt;
+&lt;td&gt;An original function&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Multi Dimensional data Visualization and Statistics&lt;/td&gt;
+&lt;td&gt;Data with more than three dimensions can be imported and statistical processed to be used on a 3-D Visualization.&lt;/td&gt;
+&lt;td&gt;An original function&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</content><category term="Doc"></category><category term="English"></category><category term="Support"></category></entry><entry><title>Installation</title><link href="/installation.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/installation.html</id><summary type="html">&lt;h1&gt;Installation, Easy Way&lt;/h1&gt;
+&lt;p&gt;GeoPyTool can be used as a module inside Python, and can also run as a standalone application.&lt;/p&gt;
+&lt;h2&gt;Standalone Application （Recommended！）&lt;/h2&gt;
+&lt;p&gt;Packed up executable files are provided for Windows and MacOS platform.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/Download.md"&gt;Click here to get Download links.&lt;/a&gt;
+Unzip the zip and keep all components there. Make sure …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Installation, Easy Way&lt;/h1&gt;
+&lt;p&gt;GeoPyTool can be used as a module inside Python, and can also run as a standalone application.&lt;/p&gt;
+&lt;h2&gt;Standalone Application （Recommended！）&lt;/h2&gt;
+&lt;p&gt;Packed up executable files are provided for Windows and MacOS platform.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/Download.md"&gt;Click here to get Download links.&lt;/a&gt;
+Unzip the zip and keep all components there. Make sure that the whole unzipped folder is under an English path.&lt;/p&gt;
+&lt;h3&gt;Mac APP&lt;/h3&gt;
+&lt;p&gt;On macOS, everything is extremely easy to use GeoPyTool. Just download and unzip the file, then double click on the GeoPyTool.app file, you will find the APP available as the following picture shows.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="User Interface of the APP on macOS." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/MacOSScreenShot.png"&gt;&lt;/p&gt;
+&lt;h3&gt;Windows Pack&lt;/h3&gt;
+&lt;h4&gt;Windows 8/8.1/10 Users&lt;/h4&gt;
+&lt;p&gt;On these modern Windows platforms, everything is also extremely easy to use GeoPyTool. Just download and unzip the file, then double click on the &lt;strong&gt;Rungeopytool.bat&lt;/strong&gt; file, and make sure that you don't delete any file form the unziped folder because they are all required by the program, then you will find the APP available as the following picture shows.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/RunWin.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="User Interface of the EXE on Windows." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ScreenShot.png"&gt;&lt;/p&gt;
+&lt;h4&gt;Windows 7 Users&lt;/h4&gt;
+&lt;p&gt;Of corse, you must find that the screen shot above is actrually from a Windows 7  virtual machine.&lt;/p&gt;
+&lt;p&gt;That's right, you can obviously use GeoPyTool on Windows 7, on which some system patches need to be installed. You need to install the SP1 of Windows and then install KB2999226 and the &lt;code&gt;Visual C++ Redistributable 2015&lt;/code&gt;. If you are using Windows 7 without the SP1 package installed, there might comes an&lt;code&gt;api-ms-win-crt&lt;/code&gt;related error. So believe me my friend, just install these patched below, they won't harm you after all.&lt;/p&gt;
+&lt;p&gt;The SP1 package of Windows 7 can be found at &lt;a href="https://support.microsoft.com/en-us/help/15090/windows-7-install-service-pack-1-sp1"&gt;here, the official website of MicroSoft&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The installation packages of KB2999226 and the &lt;code&gt;Visual C++ Redistributable 2015&lt;/code&gt; are already contained in the Zip file of GeoPyTool for Windows, and can also be found here: &lt;a href="https://pan.baidu.com/s/1kVwSQ95"&gt;32 bit Windows7 &lt;/a&gt;，&lt;a href="https://pan.baidu.com/s/1qY34ocW"&gt;64 bit WInodws7 &lt;/a&gt;.
+I am really a sweet guy, isn't it?
+So if you encounter any &lt;code&gt;api-ms-win-crt&lt;/code&gt;related errors, please check those installations first.&lt;/p&gt;
+&lt;h4&gt;Windows XP or Vista Users&lt;/h4&gt;
+&lt;p&gt;I failed many times on both XP and Vista, and I think there might not be a lot users of these two antique systems.
+If you are using one or both of them, please be good to yourself to update you old PC to at least Windows 7 SP1 or try Linux on your antique computers. My advice is that we should not waste our life on those systems that are not even supported by their developers and manufacturer. So, if you still want to run GeoPyTool on those two old systems, good luck and good bye.&lt;/p&gt;
+&lt;h2&gt;Update&lt;/h2&gt;
+&lt;h3&gt;Mac APP Update&lt;/h3&gt;
+&lt;p&gt;Go to the location inside the app file, &lt;code&gt;GeoPyTool.app/Contents/Resources/UpDateGeoPytool&lt;/code&gt;.Double click on this file neamed UpDateGeoPytool at &lt;code&gt;GeoPyTool.app/Contents/Resources/&lt;/code&gt;. It will update the GeoPyTool inside your GeoPyTool.app file. Remember that never modify any files directly under the same folder unless you are an expert on dealing with Python.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Update the APP on macOS." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/OSXUpdate.png"&gt;&lt;/p&gt;
+&lt;h3&gt;Windows Bat Update&lt;/h3&gt;
+&lt;p&gt;Double click on the  &lt;strong&gt;Update.bat&lt;/strong&gt; file to run update. It will update the GeoPyTool inside your GeoPyTool folder. Remember that never modify any files directly under the same folder unless you are an expert on dealing with Python.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Update the EXE on Windows." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WinUpdate.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Marker/Color/Style&lt;/h2&gt;
+&lt;p&gt;All these details in GeoPyTool are the same as those in Matplotlib becasue that is what GeoPyTool used to visualize data.&lt;/p&gt;
+&lt;p&gt;Markers of Points can be reffered from here:
+http://matplotlib.org/api/markers_api.html&lt;/p&gt;
+&lt;p&gt;Colors can be reffered from here:
+http://matplotlib.org/api/colors_api.html&lt;/p&gt;
+&lt;p&gt;Here is a picture of Line Styles and Point Markers form &lt;a href="http://www.labri.fr/perso/nrougier/teaching/matplotlib/"&gt;nrougier&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/LIneStylesMarkers.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Need Further Help?&lt;/h2&gt;
+&lt;p&gt;Visit our BBS https://github.com/GeoPyTool/GeoPyTool/issues and write a post to describe your problems in detail. We will response as soon as we can.&lt;/p&gt;
+&lt;h2&gt;Appendix&lt;/h2&gt;
+&lt;p&gt;The New Zircon Ce function need Data template file named as &lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/DataFileSamples/ZirconCe.xlsx"&gt;ZirconCe.xlsx&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/NewZirconCe.png"&gt;&lt;/p&gt;
+&lt;p&gt;The New  TAS, REE and Trace Elements functions share a same Data template files:
+&lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/DataFileSamples/Data.xlsx"&gt;Data.xlsx&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/NewTAS.png"&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/NewTrace.png"&gt;&lt;/p&gt;
+&lt;p&gt;The New StereoNet Projection and the RoseMap function need Data template file named as &lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/DataFileSamples/Structure.xlsx"&gt;Structure.xlsx&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Rose.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/LoadPNG.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category><category term="Support"></category></entry><entry><title>Installation-Expert</title><link href="/installation-expert.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/installation-expert.html</id><summary type="html">&lt;h1&gt;Installation, For Expert&lt;/h1&gt;
+&lt;p&gt;GeoPyTool can also be used as a module inside Python.&lt;/p&gt;
+&lt;h1&gt;1. MacOS&lt;/h1&gt;
+&lt;h2&gt;1.1 Install Brew and Python3&lt;/h2&gt;
+&lt;p&gt;Go to &lt;a href="http://brew.sh/"&gt;brew.sh&lt;/a&gt; to to install brew in MacOS.&lt;/p&gt;
+&lt;p&gt;After the Installation of Brew, run the following commands to install python3:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;brew install python3
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;1.2 Install Needed …&lt;/h2&gt;</summary><content type="html">&lt;h1&gt;Installation, For Expert&lt;/h1&gt;
+&lt;p&gt;GeoPyTool can also be used as a module inside Python.&lt;/p&gt;
+&lt;h1&gt;1. MacOS&lt;/h1&gt;
+&lt;h2&gt;1.1 Install Brew and Python3&lt;/h2&gt;
+&lt;p&gt;Go to &lt;a href="http://brew.sh/"&gt;brew.sh&lt;/a&gt; to to install brew in MacOS.&lt;/p&gt;
+&lt;p&gt;After the Installation of Brew, run the following commands to install python3:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;brew install python3
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;1.2 Install Needed Modules&lt;/h2&gt;
+&lt;p&gt;Then run the following commands to install some base modules:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython
+pip3 install numpy
+pip3 install pandas
+pip3 install xlrd
+pip3 install matplotlib
+pip3 install BeautifulSoup4
+pip3 install pyqt5
+pip3 install scipy
+pip3 install scikit-learn
+pip3 install sympy
+pip3 install requests
+pip3 install pyopengl
+pip3 install pyqtgraph
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Or you may try to use one line command to install all the required modules:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests pyqtgraph
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;1.3 Install GeoPyTool&lt;/h2&gt;
+&lt;p&gt;After all the modules above getting installed, run the following command to install GeoPyTool:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install geopytool
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;2. Linux&lt;/h1&gt;
+&lt;p&gt;Here we only take Ubuntu 16.04.4 for example.&lt;/p&gt;
+&lt;h2&gt;2.1 Update System to Latest&lt;/h2&gt;
+&lt;p&gt;Open Terminal, run the following commands to keep your system updated:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;apt update
+apt upgrade
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;2.2 Instal Python3 and Pip3&lt;/h2&gt;
+&lt;p&gt;Then run the following commands to install Python3 and PIP for Python3:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;apt install python3
+apt install python3-pip
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;2.3 Install Needed Modules&lt;/h2&gt;
+&lt;p&gt;Then run the following commands to install some base modules:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython
+pip3 install numpy
+pip3 install pandas
+pip3 install xlrd
+pip3 install matplotlib
+pip3 install BeautifulSoup4
+pip3 install pyqt5
+pip3 install scipy
+pip3 install scikit-learn
+pip3 install sympy
+pip3 install requests
+pip3 install pyopengl
+pip3 install pyqtgraph
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Or you may try to use one line command to install all the required modules:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests pyqtgraph
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;2.4 Install GeoPyTool&lt;/h2&gt;
+&lt;p&gt;After all the modules above getting installed, run the following command to install GeoPyTool:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install geopytool
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;3. Windows&lt;/h1&gt;
+&lt;p&gt;The first thing to do is to install Python, newer than 3.6, which can be download from &lt;a href="https://www.python.org/downloads/"&gt;Python Website&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;3.1 Install Patches Needed&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://landinghub.visualstudio.com/visual-cpp-build-tools"&gt;Microsoft Visual C++ Build Tools&lt;/a&gt; is required for the installation of scikit-learn. Another solution is to use conda to install scipy and scikit-learn.&lt;/p&gt;
+&lt;h3&gt;For Windows 7&lt;/h3&gt;
+&lt;p&gt;To use GeoPyTool on Windows 7, You need to install the &lt;strong&gt;SP1 of Windows&lt;/strong&gt; and then install &lt;strong&gt;KB2999226 Patch&lt;/strong&gt; and the &lt;strong&gt;Visual C++ Redistributable 2015&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The SP1 package of Windows 7 can be found at &lt;a href="https://support.microsoft.com/en-us/help/15090/windows-7-install-service-pack-1-sp1"&gt;here, the official website of MicroSoft&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The installation packages of KB2999226 and the &lt;code&gt;Visual C++ Redistributable 2015&lt;/code&gt; can also be downloaded from here: 
+&lt;a href="https://pan.baidu.com/s/1kVwSQ95"&gt;32 bit Windows7 &lt;/a&gt;
+&lt;a href="https://pan.baidu.com/s/1qY34ocW"&gt;64 bit WInodws7 &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Be careful to choose the right version suitable for your Windows.&lt;/p&gt;
+&lt;p&gt;If you are using Windows 7 without the SP1 package installed, there might comes an&lt;code&gt;api-ms-win-crt&lt;/code&gt;related error. So believe me my friend, just install these patched below, they won't harm you after all.&lt;/p&gt;
+&lt;p&gt;So if you encounter any &lt;code&gt;api-ms-win-crt&lt;/code&gt;related errors, please check those installations first.&lt;/p&gt;
+&lt;h2&gt;3.2 Install Python&lt;/h2&gt;
+&lt;p&gt;Then you can download a Python 3.6.4 or newer version of Python3 from &lt;a href="https://www.python.org/downloads/windows/"&gt;Python.org&lt;/a&gt;, and run the installer to install it to your Windows.&lt;/p&gt;
+&lt;h4&gt;Notice&lt;/h4&gt;
+&lt;p&gt;Make sure to check the box of setting Python to system Path:
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WindowsInstallAddPythonToPath.png"&gt;&lt;/p&gt;
+&lt;h2&gt;3.3 Install Needed Modules&lt;/h2&gt;
+&lt;p&gt;After installation of Python, you need to install some used packages first.
+So use the following commands in your &lt;strong&gt;terminal&lt;/strong&gt; to install these modules.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;You don't know what a Terminal is? For Windows, it can be the mighty &lt;strong&gt;CMD&lt;/strong&gt; or PowerShell. For other systems including macOS, it should be the &lt;strong&gt;BASH&lt;/strong&gt; ore just labeled as &lt;strong&gt;Terminal&lt;/strong&gt; in the built-in applications list. Still don't know how to launch a terminal? Google it dude, we can't do that hand by hand for you.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Here we use pip as we assume that your default version of Python is Python 3.X and the pip will refer to the PIP under Python3. If you installed both Python 2.X and Python 3.X, you might need to try to use &lt;strong&gt;pip3&lt;/strong&gt; instead of &lt;strong&gt;pip&lt;/strong&gt; in all the following commands to call the PIP of Python 3.&lt;/p&gt;
+&lt;p&gt;Then run the following commands in your &lt;strong&gt;terminal&lt;/strong&gt; to install some base modules:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython
+pip3 install numpy
+pip3 install pandas
+pip3 install xlrd
+pip3 install matplotlib
+pip3 install BeautifulSoup4
+pip3 install pyqt5
+pip3 install scipy
+pip3 install scikit-learn
+pip3 install sympy
+pip3 install requests
+pip3 install pyopengl
+pip3 install pyqtgraph
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Or you may try to use one line command to install all the required modules:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests pyqtgraph
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;3.4 Install GeoPyTool&lt;/h2&gt;
+&lt;p&gt;After the installation of those packages above, you can use this similar command also in the &lt;strong&gt;terminal&lt;/strong&gt; to install the GeoPyTool.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install geopytool
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;If there comes no error message, everything should have been done successfully.&lt;/p&gt;
+&lt;h1&gt;4. Run GeoPyTool&lt;/h1&gt;
+&lt;p&gt;If there is no error reported, run the following commands in the Terminal to run GeoPyTool:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;python3 -c &lt;span class="s2"&gt;&amp;quot;import geopytool;geopytool.main()&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;5. Update an existing GeoPyTool&lt;/h1&gt;
+&lt;p&gt;If you installed GeoPyTool as a module in Python, you can use the following command in the &lt;strong&gt;terminal&lt;/strong&gt; to update GeoPyTool to the latest version on any operating system:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install geopytool --update --no-cache-dir
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;It is a good idea to update &lt;strong&gt;GeoPyTool&lt;/strong&gt; with pip everytime before you use it.&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category><category term="Support"></category></entry></feed>
