@@ -21,8 +21,8 @@
         <nav id="menu" class="main-nav"><ul class="menu">
             <li  class="active"><a href="http://geopytool.com">Homepage</a></li>
             <li  class="active"><a href="http://geopytool.com/installation-expert.html">Installation</a></li>
-            <li  class="active"><a href="https://github.com/GeoPyTool/GeoPyTool/tree/master/DataFileSamples">Data Templates</a></li>
-            <li  class="active"><a href="http://geopytool.com/demonstration.html">Demonn</a></li>
+            <li  class="active"><a href="https://github.com/GeoPyTool/GeoPyTool/tree/master/DataFileSamples">Templates</a></li>
+            <li  class="active"><a href="http://geopytool.com/demonstration.html">Demo</a></li>
             <li  class="active"><a href="https://github.com/GeoPyTool/GeoPyTool">Source</a></li>
             <li  class="active"><a href="https://github.com/GeoPyTool/GeoPyTool/issues">Forum</a></li>
             <li  class="active"><a href="http://geopytool.com/FAQ.html">FAQ</a></li>
@@ -42,7 +42,7 @@
 <li class="posts"><article class="post hentry">
 	<header>
 		<h2 class="post-title" >
-			<a href="/gong-neng-lie-biao.html" rel="bookmark" title="Permalink to 功能列表">功能列表</a>
+			<a href="/an-zhuang-zhi-nan-jin-jie.html" rel="bookmark" title="Permalink to 安装指南-进阶">安装指南-进阶</a>
 		</h2>
 		<div class="post-info">
 			<span class="post-lable">Post in</span>
@@ -52,33 +52,23 @@
 			<!-- COMMENTS -->
 		</div>
 	</header>
-	<div class="summary"><h1>功能列表</h1>
-<table>
-<thead>
-<tr>
-<th>功能</th>
-<th>简介</th>
-<th>文献出处</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>TAS plot</td>
-<td>使用 SiO2 和 (Na2O+K2O) 对火山岩或者侵入岩进行分类判别</td>
-<td>Maitre et al., 1989, Middlemost, 1994</td>
-</tr>
-<tr>
-<td>QAPF plot</td>
-<td>使用 Q (quartz 石英), A (alkali feldspar 碱性长石), P (plagioclase 斜长石) ，F (feldspathoid 似长石) 来对深成岩或者火山岩进行分类</td>
-<td>Maitre et al., 2004</td>
-</tr>
-<tr>
-<td>REE（Rare Earth Elements）</td>
-<td>使用标准样品对样品的稀土元素进行标准化，分析其分配曲线、倾向、异常值等等</td>
-<td>Boynton, 1984</td>
-</tr>
-<tr>
-<td>Trace …</td></tr></tbody></table></div>
+	<div class="summary"><h1>安装 GeoPyTool 的复杂模式</h1>
+<p>GeoPyTool 可以在 Python 作为一个模块（module）来安装。</p>
+<h1>1. MacOS</h1>
+<h2>1.1 安装 Brew 和 Python3</h2>
+<p>访问 <a href="http://brew.sh/">brew.sh网站</a> 安装 brew。</p>
+<p>安装完了 Brew 之后用下面的命令来安装 Python3：</p>
+<div class="highlight"><pre><span></span>brew 安装 Python3
+</pre></div>
+
+
+<h2>1.2 安装依赖包</h2>
+<p>安装 Python3 之后运行下面的命令来安装依赖包，建议一条一条来运行安装：</p>
+<div class="highlight"><pre><span></span>pip3 install cython
+pip3 install numpy
+pip3 install pandas
+pip3 install xlrd
+pip3 install …</pre></div></div>
 	<footer>
 		<span class="post-lable">Category:</span>
 		<abbr class="category">
@@ -90,7 +80,7 @@
 </ul>
 <p class="paginator">
             <a href="/tag/chinese4.html">&laquo;</a>
-    Page 5 / 7
+    Page 5 / 8
         <a href="/tag/chinese6.html">&raquo;</a>
 </p>
         </section><!-- #content -->
@@ -133,7 +123,9 @@
                     Category
                 </div>
                 <ul>
+                        <li><a href="/category/chinese.html" >Chinese </a></li>
                         <li><a href="/category/doc.html" >Doc </a></li>
+                        <li><a href="/category/english.html" >English </a></li>
                 </ul>
             </section>
 
@@ -142,11 +134,12 @@
                     Tagcloud
                 </div>
                 <div>
-                        <span><a href="/tag/doc.html">Doc</a></span>
-                        <span><a href="/tag/zhong-wen.html">中文</a></span>
                         <span><a href="/tag/english.html">English</a></span>
                         <span><a href="/tag/chinese.html">Chinese</a></span>
+                        <span><a href="/tag/doc.html">Doc</a></span>
                         <span><a href="/tag/wen-dang.html">文档</a></span>
+                        <span><a href="/tag/support.html">Support</a></span>
+                        <span><a href="/tag/zhong-wen.html">中文</a></span>
                 </div>
             </section>
 

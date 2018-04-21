@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2018-04-21T17:58:28-00:00</lastmod>
+<lastmod>2018-04-21T18:01:19-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2018-04-21T17:58:28-00:00</lastmod>
+<lastmod>2018-04-21T18:01:19-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2018-04-21T17:58:28-00:00</lastmod>
+<lastmod>2018-04-21T18:01:19-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2018-04-21T17:58:28-00:00</lastmod>
+<lastmod>2018-04-21T18:01:19-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
@@ -34,6 +34,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>/download.html</loc>
 <lastmod>2018-04-21T23:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>/chang-jian-wen-ti.html</loc>
+<lastmod>2018-04-21T11:27:50+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<url>
+<loc>/faq.html</loc>
+<lastmod>2018-04-21T11:27:50+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -102,8 +116,22 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>/category/chinese.html</loc>
+<lastmod>2018-04-21T11:27:50+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
 <loc>/category/doc.html</loc>
 <lastmod>2018-04-21T23:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>/category/english.html</loc>
+<lastmod>2018-04-21T11:27:50+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
@@ -130,15 +158,22 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>/tag/support.html</loc>
+<lastmod>2018-04-21T11:27:50+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
 <loc>/tag/zhong-wen.html</loc>
-<lastmod>2017-11-15T00:00:00+08:06</lastmod>
+<lastmod>2018-04-21T11:27:50+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
 <loc>/tag/wen-dang.html</loc>
-<lastmod>2017-11-15T00:00:00+08:06</lastmod>
+<lastmod>2018-04-21T11:27:50+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
