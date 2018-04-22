@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>GeoPyTool - English</title><link href="/" rel="alternate"></link><link href="/feeds/english.atom.xml" rel="self"></link><id>/</id><updated>2018-04-21T11:27:50+08:00</updated><entry><title>Demonstration</title><link href="/demonstration.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/demonstration.html</id><summary type="html">&lt;h2&gt;Demonstration of the Functions&lt;/h2&gt;
 &lt;h2&gt;Open and Import Data&lt;/h2&gt;
 &lt;p&gt;To start a plot or calculation, raw data file should be imported to GeoPyTool first.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/01.ImportData.png?raw=true"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/01.ImportData.png?raw=true"&gt;&lt;/p&gt;
 &lt;p&gt;The Data file can be Xlsx/Xls or CSV.
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Data Unit&lt;/h2&gt;
 &lt;p&gt;Unit of Oxide Items (such as &lt;code&gt;SiO2&lt;/code&gt;, &lt;code&gt;TiO2&lt;/code&gt;, &lt;code&gt;Al2O3&lt;/code&gt;, &lt;code&gt;Fe2O3&lt;/code&gt;, &lt;code&gt;FeO&lt;/code&gt;, &lt;code&gt;MnO&lt;/code&gt;, &lt;code&gt;MgO&lt;/code&gt;, &lt;code&gt;CaO    Na2O&lt;/code&gt;, &lt;code&gt;K2O …&lt;/code&gt;&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Demonstration of the Functions&lt;/h2&gt;
 &lt;h2&gt;Open and Import Data&lt;/h2&gt;
 &lt;p&gt;To start a plot or calculation, raw data file should be imported to GeoPyTool first.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/01.ImportData.png?raw=true"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/01.ImportData.png?raw=true"&gt;&lt;/p&gt;
 &lt;p&gt;The Data file can be Xlsx/Xls or CSV.
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Data Unit&lt;/h2&gt;
@@ -23,7 +23,7 @@
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SettingDataUp.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Data Setting Details&lt;/h2&gt;
 &lt;p&gt;As shown in the &lt;a href="https://github.com/GeoPyTool/GeoPyTool/tree/master/DataFileSamples"&gt;Data File Samples&lt;/a&gt;, all data files contain the following Items:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/SettingArea.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SettingArea.png"&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;code&gt;Label&lt;/code&gt;: control the group of sample and will be shown on legend&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Color&lt;/code&gt;: control the &lt;code&gt;Color&lt;/code&gt; of both drawn line and plotted point&lt;/li&gt;
@@ -37,27 +37,27 @@
 &lt;h4&gt;&lt;code&gt;Label&lt;/code&gt; can be set to any character，word or phrase.&lt;/h4&gt;
 &lt;h4&gt;&lt;code&gt;Color&lt;/code&gt; can only be chosen from following words: 'blue','green','red','cyan','magenta','yellow','black','white'.&lt;/h4&gt;
 &lt;p&gt;&lt;code&gt;Color&lt;/code&gt;:
-&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/ColorList.png?raw=true"&gt;&lt;/p&gt;
+&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/ColorList.png?raw=true"&gt;&lt;/p&gt;
 &lt;h4&gt;&lt;code&gt;Size&lt;/code&gt;, &lt;code&gt;Width&lt;/code&gt;, and &lt;code&gt;Alpha&lt;/code&gt;&lt;/h4&gt;
 &lt;p&gt;These three are number values. The unit used for &lt;code&gt;Size&lt;/code&gt; and &lt;code&gt;Width&lt;/code&gt; is pt. &lt;code&gt;Size&lt;/code&gt; normally should be larger than '10', and &lt;code&gt;Width&lt;/code&gt; usually is '1'. &lt;code&gt;Alpha&lt;/code&gt; can be set from '0' to '1', for example, setting &lt;code&gt;Alpha&lt;/code&gt; as '0.4' means 40% transparency.&lt;/p&gt;
 &lt;h4&gt;&lt;code&gt;Marker&lt;/code&gt; and &lt;code&gt;Style&lt;/code&gt;&lt;/h4&gt;
 &lt;p&gt;these two are slightly more complicated and can be set as the contents of the following lists.&lt;/p&gt;
 &lt;h5&gt;&lt;code&gt;Marker&lt;/code&gt; :&lt;/h5&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/MarkerList.png?raw=true"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/MarkerList.png?raw=true"&gt;&lt;/p&gt;
 &lt;h5&gt;&lt;code&gt;Style&lt;/code&gt;:&lt;/h5&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/StyleList.png?raw=true"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/StyleList.png?raw=true"&gt;&lt;/p&gt;
 &lt;h4&gt;The effect of setting:&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/SettingEffect.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SettingEffect.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Adjusting Axises of Figure&lt;/h2&gt;
 &lt;p&gt;All generated figures contain a menu bar on its top, which can be used to adjust the axises and title. &lt;/p&gt;
 &lt;p&gt;As shown in the picture below:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/images/Axis%20Adjustment.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Axis%20Adjustment.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Click the Function you need&lt;/h2&gt;
 &lt;p&gt;After setting up, you can just click to use the function you need.
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ClickOnTheFunction.png"&gt;&lt;/p&gt;
 &lt;h2&gt;TAS/REE/Trace Elements&lt;/h2&gt;
 &lt;p&gt;These functions are quite commonly used and the details are shown as the picture below.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/02.Save%20Image.png?raw=true"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/02.Save%20Image.png?raw=true"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/TAS-REE-Trace.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Pearce Diagram&lt;/h2&gt;
 &lt;p&gt;Pearce Diagram just use some trace elements and is also quite easy to know how to use.&lt;/p&gt;
@@ -89,11 +89,11 @@ In the Rose Map function, all data in one data files can be treated as a single 
 &lt;p&gt;But you must understand the original plot first and know the mathematical setting of it. So you can set up the right format in your plot.&lt;/p&gt;
 &lt;p&gt;For example, as the picture below shown,  the original diagram used Nb and Th, normalized by N-MORB(Sun and McDonough 1989), and then used the Log function of these two items. So we do the same setting up as shown by the picture. The Left/Right/Down/Up limit of the original diagram are 0.01/100/0.01/1000, so we need to use the Log function and find out that we should set the Left/Right/Down/Up limit to be -2/2/-2/3. If you can not understand why, please take a rest and good bye.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/UserDefinedXY.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/03.LoadBaseMap.png?raw=true"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/03.LoadBaseMap.png?raw=true"&gt;&lt;/p&gt;
 &lt;h2&gt;3D and Statistics&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/04.Statistical.png?raw=true"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/04.Statistical.png?raw=true"&gt;&lt;/p&gt;
 &lt;h2&gt;Cluster&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/images/05.Cluster.png?raw=true"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category><category term="Support"></category></entry><entry><title>FAQ</title><link href="/faq.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/faq.html</id><summary type="html"></summary><content type="html"></content><category term="Doc"></category><category term="English"></category><category term="Support"></category></entry><entry><title>Functions</title><link href="/functions.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/functions.html</id><summary type="html">&lt;h1&gt;Functions&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/05.Cluster.png?raw=true"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category><category term="Support"></category></entry><entry><title>FAQ</title><link href="/faq.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/faq.html</id><summary type="html"></summary><content type="html"></content><category term="Doc"></category><category term="English"></category><category term="Support"></category></entry><entry><title>Functions</title><link href="/functions.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/functions.html</id><summary type="html">&lt;h1&gt;Functions&lt;/h1&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
