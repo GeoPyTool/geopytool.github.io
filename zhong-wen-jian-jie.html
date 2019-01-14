@@ -61,11 +61,17 @@
 <p>我学 Python 是从翻译一本 <a href="https://github.com/cycleuser/ThinkPython-en-cn">中英双语版本的 Think Python 第二版</a>开始的。
 此外我还陆续翻译了 <a href="https://github.com/Kivy-CN/Kivy-CN">Kivy 中文编程指南</a>, <a href="https://github.com/Kivy-CN/Stanford-CS-229-CN">斯坦福大学 CS229 课件讲义</a> 以及 <a href="https://github.com/Kivy-CN/Duke-STA-663-CN">杜克大学 STA663 课件讲义</a>。</p>
 <p>在我学习和使用 Python 的同时，经常帮身边的同学朋友写一写小段的代码来解决在地质学研究中的任务。后来我把这些片段代码聚集在一起，做成了一个模块，开始命名叫做 GeoPython，后来由于跟一个会议重名，而改名叫 GeoPyTool。</p>
+<h2>引用</h2>
+<p>请按参考下面的方式引用:</p>
+<p>Yu, Q.-Y., Bagas, L., Yang, P.-H., Zhang, D., GeoPyTool: a cross-platform software solution for common geological calculations and plots, Geoscience Frontiers (2018), doi: 10.1016/j.gsf.2018.08.001.</p>
 <h2>介绍</h2>
 <p>GeoPyTool 是基于 Python 构建的，用于解决地质学研究中的一些日常任务。 <strong>能够运行于几乎所有主流操作系统</strong>, 比如 Windows 7 SP1, Windows 8, Windows 10, macOS Sierra, macOS High Sierra, Ubuntu Linux, Debian Linux, Fedora Linux, 等等。</p>
 <p><strong>GeoPyTool 不依赖任何额外的商业软件</strong>, 比如 MS Excel 或者 CorelDraw, 直接从数据生成矢量图，计算结果则保存为 Excel 或者 CSV 格式。</p>
 <p>GeoPyTool 包含常用的经典方法和一些近年来产生的新方法。
 随着时间的推移，GeoPyTool 的功能会越来越多，目前的功能列表可以在<a href="http://geopytool.com/gong-neng-lie-biao.html">这里查看</a>。</p>
+<h2>下载 GeoPyTool</h2>
+<p>实际上也不用安装，直接下载打包的文件就呢个运行了，至少对于 Mac 和 Windows 用户来说是如此，下载链接在 <a href="http://geopytool.com/download.html">Download 页面</a>。</p>
+<p>如果你想把 GeoPyTool 作为一个模块在 Python 中使用，请参考 <a href="http://geopytool.com/an-zhuang-zhi-nan-jin-jie.html">高级安装指南</a>。</p>
 <h2>授权协议</h2>
 <p>GeoPyTool 目前是开源项目，遵循 GNU 通用公共授权第三版（GNU General Public License v3.0）。
 GeoPyTool 是一个 <strong>自由软件</strong>: 你可以自由复制与分发，但必须遵循 GNU 通用公共授权第三版（GNU General Public License v3.0）或者之后更新的版本。</p>
@@ -76,15 +82,15 @@ GeoPyTool 是一个 <strong>自由软件</strong>: 你可以自由复制与分�
 希望你能够提供完整的信息，来帮助我了解 bug 发生的位置，最好还能提供一份导致 bug 的数据文件，让我来测试除错。</p>
 <p>请把上面这些信息以及更多相关截图都发到 <a href="https://github.com/GeoPyTool/GeoPyTool/issues/">GeoPyTool 的 issue 中</a>。</p>
 <p>别只想着让别人帮忙解决问题，也想想自己能够提供什么信息。</p>
+<p>大家有各种问题交流，除了在<a href="https://github.com/GeoPyTool/GeoPyTool/issues">Github</a>，还可以加入咱们的QQ群： 560675626 （为避免无关人员骚扰，加群申请填写暗号 大胖哥是个好人 来通过验证）。
+如果你在使用的时候遇到出错的情况,请按下图所示将命令行窗口里面的出错信息截图发来,这会很有帮助:</p>
+<p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/HowToAskForHelp.png"></p>
 <h2>意见建议</h2>
 <p>如果你有什么意见建议，比如希望添加某个功能等等，都可以发到 <a href="https://github.com/GeoPyTool/GeoPyTool/issues/">GeoPyTool 的 issue 中</a>。
 如果要求添加某个功能，最好要有该方法的参考文献出处，数据样本，以及简单介绍。
 这样能够节省很多时间，比如不用我们再自己去从原文中一个个复制出数据，也不用我们去通读全文来理解计算过程。
 既然你要求某个功能，就希望你能够对其进行解释。
 我们不比你更聪明，也不比你有更多的时间，所以请尊重我们的时间。</p>
-<h2>获取 GeoPyTool</h2>
-<p>实际上也不用安装，直接下载打包的文件就呢个运行了，至少对于 Mac 和 Windows 用户来说是如此，下载链接在 <a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/Download.md">Download 页面</a>。</p>
-<p>如果你想把 GeoPyTool 作为一个模块在 Python 中使用，请参考 <a href="http://geopytool.com/an-zhuang-zhi-nan-jin-jie.html">高级安装指南</a>。</p>
 <h3>Mac 用户</h3>
 <p>对于 Mac 用户来说，下载压缩包，解压之后双击 GeoPyTool.app 这个文件就可以了。
 <strong>根本就不用动什么 SIP</strong>(System Integrity Protection)，所以没必要叽叽歪歪。</p>
@@ -212,12 +218,12 @@ GeoPyTool 是一个 <strong>自由软件</strong>: 你可以自由复制与分�
                     Tagcloud
                 </div>
                 <div>
-                        <span><a href="./tag/doc.html">Doc</a></span>
-                        <span><a href="./tag/wen-dang.html">文档</a></span>
-                        <span><a href="./tag/chinese.html">Chinese</a></span>
                         <span><a href="./tag/support.html">Support</a></span>
                         <span><a href="./tag/zhong-wen.html">中文</a></span>
+                        <span><a href="./tag/doc.html">Doc</a></span>
                         <span><a href="./tag/english.html">English</a></span>
+                        <span><a href="./tag/wen-dang.html">文档</a></span>
+                        <span><a href="./tag/chinese.html">Chinese</a></span>
                 </div>
             </section>
 
