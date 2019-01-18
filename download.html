@@ -68,20 +68,6 @@
 <p>Article Here: <a href="https://www.sciencedirect.com/science/article/pii/S1674987118301609">https://www.sciencedirect.com/science/article/pii/S1674987118301609</a></p>
 <p>Please cite this article as:</p>
 <p><code>Yu, Q.-Y., Bagas, L., Yang, P.-H., Zhang, D., GeoPyTool: a cross-platform software solution for common geological calculations and plots, Geoscience Frontiers (2018), doi: 10.1016/j.gsf.2018.08.001.</code></p>
-<h2>Update 更新</h2>
-<p>The old version (before <code>0.8.19.1.13</code>) of GeoPyTool use <code>pyqtgraph</code>, which has been replaced by <code>VisPy</code> now.
-So when you double click the Update***.bat File, you might encounter following error:</p>
-<p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/UpdateProblem.png"></p>
-<p>如果你下载的打包文件是<code>0.8.19.1.13</code>以前的版本, 在双击更新的时候会遇到上图所示的错误, 这是因为GeoPyTool 所用的一个模块 pyqtgraph 被移除了, 替换成了 VisPy, 而你没更新的旧版本打包内是没有VisPy的.
-所以解决这个问题也很简单, 编辑更新的脚本文件, 改成下面代码部分的形式, 保存后双击运行, 就可以了:</p>
-<p>All you need to do is to modify the <code>UpdateAndRun.bat</code> to the following form:</p>
-<div class="highlight"><pre><span></span><span class="n">GeoPyTool</span>\<span class="n">Q</span><span class="o">.</span><span class="n">exe</span> <span class="o">-</span><span class="n">m</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">pip</span> <span class="n">vispy</span> <span class="o">-</span><span class="n">U</span> <span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">cache</span><span class="o">-</span><span class="nb">dir</span>
-<span class="n">GeoPyTool</span>\<span class="n">Q</span><span class="o">.</span><span class="n">exe</span> <span class="o">-</span><span class="n">m</span> <span class="n">pip</span> <span class="n">install</span> <span class="n">pip</span> <span class="n">geopytool</span> <span class="o">-</span><span class="n">U</span> <span class="o">--</span><span class="n">no</span><span class="o">-</span><span class="n">cache</span><span class="o">-</span><span class="nb">dir</span>
-<span class="n">GeoPyTool</span>\<span class="n">Q</span><span class="o">.</span><span class="n">exe</span> <span class="o">-</span><span class="n">c</span> <span class="s2">&quot;import geopytool as gp;gp.main()&quot;</span>
-<span class="n">pause</span>
-</pre></div>
-
-
 <p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/FixTheVispy.png"></p>
 <h2>Introduction 简介</h2>
 <p>GeoPyTool is an application based on Python and designed as a solution for geology related daily work. It can run on alomost all mainstream operating systems, such as Windows 7 SP1, Windows 8, Windows 10, macOS Sierra, macOS High Sierra, Ubuntu Linux, Debian Linux, Fedora Linux, and alomost all other widely used desktop platforms.</p>
@@ -177,11 +163,11 @@ If you encounter problems using GeoPyTool, please screenshot the error message f
                 </div>
                 <div>
                         <span><a href="./tag/doc.html">Doc</a></span>
+                        <span><a href="./tag/chinese.html">Chinese</a></span>
+                        <span><a href="./tag/wen-dang.html">文档</a></span>
+                        <span><a href="./tag/support.html">Support</a></span>
                         <span><a href="./tag/zhong-wen.html">中文</a></span>
                         <span><a href="./tag/english.html">English</a></span>
-                        <span><a href="./tag/support.html">Support</a></span>
-                        <span><a href="./tag/wen-dang.html">文档</a></span>
-                        <span><a href="./tag/chinese.html">Chinese</a></span>
                 </div>
             </section>
 
