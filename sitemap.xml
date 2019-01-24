@@ -5,35 +5,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2019-01-18T13:48:20-00:00</lastmod>
+<lastmod>2019-01-24T11:53:51-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2019-01-18T13:48:20-00:00</lastmod>
+<lastmod>2019-01-24T11:53:51-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2019-01-18T13:48:20-00:00</lastmod>
+<lastmod>2019-01-24T11:53:51-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2019-01-18T13:48:20-00:00</lastmod>
+<lastmod>2019-01-24T11:53:51-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
 <loc>/download.html</loc>
-<lastmod>2019-01-13T11:02:14+08:00</lastmod>
+<lastmod>2019-01-24T10:05:25+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
@@ -131,7 +131,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/category/doc.html</loc>
-<lastmod>2019-01-13T11:02:14+08:06</lastmod>
+<lastmod>2019-01-24T10:05:25+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
@@ -145,21 +145,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/tag/doc.html</loc>
-<lastmod>2019-01-13T11:02:14+08:06</lastmod>
+<lastmod>2019-01-24T10:05:25+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
 <loc>/tag/english.html</loc>
-<lastmod>2019-01-13T11:02:14+08:06</lastmod>
+<lastmod>2019-01-24T10:05:25+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
 
 <url>
 <loc>/tag/chinese.html</loc>
-<lastmod>2019-01-13T11:02:14+08:06</lastmod>
+<lastmod>2019-01-24T10:05:25+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
@@ -187,7 +187,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/author/cycleusyer.html</loc>
-<lastmod>2019-01-13T11:02:14+08:06</lastmod>
+<lastmod>2019-01-24T10:05:25+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.8</priority>
 </url>
