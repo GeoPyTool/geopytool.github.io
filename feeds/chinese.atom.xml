@@ -75,7 +75,7 @@ http://matplotlib.org/api/colors_api.html&lt;/p&gt;
 &lt;h2&gt;1.1 安装 Brew 和 Python3&lt;/h2&gt;
 &lt;p&gt;访问 &lt;a href="http://brew.sh/"&gt;brew.sh网站&lt;/a&gt; 安装 brew。&lt;/p&gt;
 &lt;p&gt;安装完了 Brew 之后用下面的命令来安装 Python3：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;brew 安装 Python3
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;brew install Python3
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -91,7 +91,7 @@ pip3 install …&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;h1&gt
 &lt;h2&gt;1.1 安装 Brew 和 Python3&lt;/h2&gt;
 &lt;p&gt;访问 &lt;a href="http://brew.sh/"&gt;brew.sh网站&lt;/a&gt; 安装 brew。&lt;/p&gt;
 &lt;p&gt;安装完了 Brew 之后用下面的命令来安装 Python3：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;brew 安装 Python3
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;brew install Python3
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -109,12 +109,11 @@ pip3 install scikit-learn
 pip3 install sympy
 pip3 install requests
 pip3 install pyopengl
-pip3 install pyqtgraph
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;或者也可以试试放到一条来运行安装：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests pyqtgraph
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -154,12 +153,11 @@ pip3 install scikit-learn
 pip3 install sympy
 pip3 install requests
 pip3 install pyopengl
-pip3 install pyqtgraph
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;或者也可以试试放到一条来运行安装：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests pyqtgraph
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -200,12 +198,11 @@ pip3 install scikit-learn
 pip3 install sympy
 pip3 install requests
 pip3 install pyopengl
-pip3 install pyqtgraph
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;或者也可以试试放到一条来运行安装：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests pyqtgraph
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -346,14 +343,15 @@ pip3 install pyqtgraph
 &lt;p&gt;&lt;a href="https://www.bilibili.com/video/av15926454/"&gt;胡乱感慨一下&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;截图演示&lt;/h2&gt;
 &lt;p&gt;由于精力有限，我只录制了中文的演示视频。
-然后下面的截图呢，就只有英文文字标注了。大家有各种问题交流，除了在&lt;a href="https://zhuanlan.zhihu.com/p/30651165?group_id=910460052293672960"&gt;知乎这里&lt;/a&gt;留言外，还可以去注册一下&lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;咱们的论坛&lt;/a&gt;，或者加入咱们的QQ群： 560675626 （为避免无关人员骚扰，加群申请填写暗号 大胖是个好家伙 来通过验证）。&lt;/p&gt;
+然后下面的截图呢，就只有英文文字标注了。大家有各种问题交流，除了在&lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;Github&lt;/a&gt;，还可以加入咱们的QQ群： 560675626 （为避免无关人员骚扰，加群申请填写暗号 大胖哥是个好人 来通过验证）。&lt;/p&gt;
 &lt;h2&gt;打开和导入数据文件&lt;/h2&gt;
 &lt;p&gt;投图计算之前，必然要先打开文件导入数据，操作如截图所示。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ImportData.png"&gt;&lt;/p&gt;
 &lt;p&gt;数据格式可以使 Xlsx/Xls 或者 CSV。
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
 &lt;h2&gt;数据单位&lt;/h2&gt;
-&lt;p&gt;氧化物之类的项目(例如 &lt;code&gt;SiO2&lt;/code&gt;, &lt;code&gt;TiO2&lt;/code&gt;, &lt;code&gt;Al2O3&lt;/code&gt;, &lt;code&gt;Fe2O3&lt;/code&gt;, &lt;code&gt;FeO&lt;/code&gt;, &lt;code&gt;MnO&lt;/code&gt;, &lt;code&gt;MgO&lt;/code&gt;, &lt;code&gt;CaO Na2O&lt;/code&gt;, &lt;code&gt;K2O&lt;/code&gt;, &lt;code&gt;P2O5&lt;/code&gt;, &lt;code&gt;LOI&lt;/code&gt;, &lt;code&gt;Total&lt;/code&gt; 等等 …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;演示视频&lt;/h2&gt;
+&lt;p&gt;氧化物之类的项目(例如 &lt;code&gt;SiO2&lt;/code&gt;, &lt;code&gt;TiO2&lt;/code&gt;, &lt;code&gt;Al2O3&lt;/code&gt;, &lt;code&gt;Fe2O3&lt;/code&gt;, &lt;code&gt;FeO&lt;/code&gt;, &lt;code&gt;MnO&lt;/code&gt;, &lt;code&gt;MgO&lt;/code&gt;, &lt;code&gt;CaO Na2O&lt;/code&gt;, &lt;code&gt;K2O&lt;/code&gt;, &lt;code&gt;P2O5&lt;/code&gt;, &lt;code&gt;LOI&lt;/code&gt;, &lt;code&gt;Total&lt;/code&gt; 等等)数据单位是重量百分比(wt%)。&lt;/p&gt;
+&lt;p&gt;但千万要遵循数据模板的格式 …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;演示视频&lt;/h2&gt;
 &lt;p&gt;点击下列链接直接观看&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.bilibili.com/video/av13983803/"&gt;基本操作演示&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.bilibili.com/video/av15926064/"&gt;使用讲解视频&lt;/a&gt;&lt;/p&gt;
@@ -362,7 +360,7 @@ pip3 install pyqtgraph
 &lt;p&gt;&lt;a href="https://www.bilibili.com/video/av15926454/"&gt;胡乱感慨一下&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;截图演示&lt;/h2&gt;
 &lt;p&gt;由于精力有限，我只录制了中文的演示视频。
-然后下面的截图呢，就只有英文文字标注了。大家有各种问题交流，除了在&lt;a href="https://zhuanlan.zhihu.com/p/30651165?group_id=910460052293672960"&gt;知乎这里&lt;/a&gt;留言外，还可以去注册一下&lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;咱们的论坛&lt;/a&gt;，或者加入咱们的QQ群： 560675626 （为避免无关人员骚扰，加群申请填写暗号 大胖是个好家伙 来通过验证）。&lt;/p&gt;
+然后下面的截图呢，就只有英文文字标注了。大家有各种问题交流，除了在&lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;Github&lt;/a&gt;，还可以加入咱们的QQ群： 560675626 （为避免无关人员骚扰，加群申请填写暗号 大胖哥是个好人 来通过验证）。&lt;/p&gt;
 &lt;h2&gt;打开和导入数据文件&lt;/h2&gt;
 &lt;p&gt;投图计算之前，必然要先打开文件导入数据，操作如截图所示。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ImportData.png"&gt;&lt;/p&gt;
@@ -454,8 +452,26 @@ pip3 install pyqtgraph
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/UserDefinedXY.png"&gt;&lt;/p&gt;
 &lt;h2&gt;3D 和统计&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/04.Statistical.png?raw=true"&gt;&lt;/p&gt;
+&lt;h2&gt;将多个 Excel 数据文件合并成一个文件&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/CombineData.png"&gt;&lt;/p&gt;
 &lt;h2&gt;谱系聚类&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/05.Cluster.png?raw=true"&gt;&lt;/p&gt;
+&lt;h2&gt;二维矩阵拉平成一维数组&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Flatten.png"&gt;&lt;/p&gt;
+&lt;h2&gt;数据变换: 转置/算术平均值中心化变换/几何平均值中心化变换/标准化变换/对数变换&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/DataTrans.png"&gt;&lt;/p&gt;
+&lt;h2&gt;因子分析 (FA) 和主成分分析 (PCA)&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/FA_PCA.png?raw=true"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;body&gt;
+&lt;video src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/FA_Video.mp4"  controls="controls"&gt;
+your browser does not support the video tag
+&lt;/video&gt;
+&lt;/body&gt;&lt;/p&gt;
+&lt;p&gt;&lt;body&gt;
+&lt;video src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/PCA_Video.mp4"  controls="controls"&gt;
+your browser does not support the video tag
+&lt;/video&gt;
+&lt;/body&gt;&lt;/p&gt;
 &lt;h1&gt;捐助支持&lt;/h1&gt;
 &lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="Chinese"></category><category term="Support"></category><category term="中文"></category><category term="文档"></category></entry></feed>

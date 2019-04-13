@@ -1,39 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>GeoPyTool - Doc</title><link href="/" rel="alternate"></link><link href="/feeds/doc.atom.xml" rel="self"></link><id>/</id><updated>2018-06-02T18:57:56+08:00</updated><entry><title>Download</title><link href="/download.html" rel="alternate"></link><published>2018-06-02T18:57:56+08:00</published><updated>2018-06-02T18:57:56+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-06-02:/download.html</id><summary type="html">&lt;h1&gt;GeoPyTool Application Download Links&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>GeoPyTool - Doc</title><link href="/" rel="alternate"></link><link href="/feeds/doc.atom.xml" rel="self"></link><id>/</id><updated>2019-01-24T10:05:25+08:00</updated><entry><title>Download</title><link href="/download.html" rel="alternate"></link><published>2019-01-24T10:05:25+08:00</published><updated>2019-01-24T10:05:25+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2019-01-24:/download.html</id><summary type="html">&lt;h1&gt;GeoPyTool Application Download Links&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;h1&gt;GeoPyTool 打包的可执行程序下载链接&lt;/h1&gt;
 &lt;/blockquote&gt;
-&lt;h3&gt;GeoPyTool pack for Windows:&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://pan.baidu.com/s/10JrnJ4oopqC9FkDtkmsLuw"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1mZb_qsydEMpv1TcutM75HAFb8Me9abtQ"&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;GeoPyTool app for macOS:&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1gFgUx6w8O3ie5kERA3joNg"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1XWqmZm-nMxP06dKmjeOZuIvH2ju-WPIW"&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
-&lt;h1&gt;捐助支持&lt;/h1&gt;
-&lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;h1&gt;GeoPyTool Application Download Links&lt;/h1&gt;
+&lt;h3&gt;GeoPyTool packs:&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1ewNlNrDQNjtCLS9ibBPW5Q#list/path=%2Fsharelink1763171575-261348695782281%2FRelease&amp;amp;parentPath=%2Fsharelink1763171575-261348695782281"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://1drv.ms/f/s!AnIw_Lqr4g5tgTMqT9tXxIK9PYNI"&gt;OneDrive&lt;/a&gt;&lt;/p&gt;
+&lt;h6&gt;Notice that you need to download the Right Version for Your Platform! Download the Windows Pack if you are using Windows, same to the Mac users.&lt;/h6&gt;
+&lt;h6&gt;请一定注意下载正确的平台版本, 你的操作系统是啥就下载对应版本,下错了平台不一致的打包文件是不能用的!&lt;/h6&gt;
+&lt;h4&gt;如果你使用百度网盘进行下载发现速度比较慢,可以试试 &lt;a href="http://pandownload.com/"&gt;http://pandownload.com/&lt;/a&gt; 这个软件&lt;/h4&gt;
+&lt;h2&gt;Citation 引用&lt;/h2&gt;
+&lt;p&gt;Article …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;GeoPyTool Application Download Links&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;h1&gt;GeoPyTool 打包的可执行程序下载链接&lt;/h1&gt;
 &lt;/blockquote&gt;
-&lt;h3&gt;GeoPyTool pack for Windows:&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://pan.baidu.com/s/10JrnJ4oopqC9FkDtkmsLuw"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1mZb_qsydEMpv1TcutM75HAFb8Me9abtQ"&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
-&lt;h3&gt;GeoPyTool app for macOS:&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1gFgUx6w8O3ie5kERA3joNg"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1XWqmZm-nMxP06dKmjeOZuIvH2ju-WPIW"&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;GeoPyTool packs:&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1ewNlNrDQNjtCLS9ibBPW5Q#list/path=%2Fsharelink1763171575-261348695782281%2FRelease&amp;amp;parentPath=%2Fsharelink1763171575-261348695782281"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://1drv.ms/f/s!AnIw_Lqr4g5tgTMqT9tXxIK9PYNI"&gt;OneDrive&lt;/a&gt;&lt;/p&gt;
+&lt;h6&gt;Notice that you need to download the Right Version for Your Platform! Download the Windows Pack if you are using Windows, same to the Mac users.&lt;/h6&gt;
+&lt;h6&gt;请一定注意下载正确的平台版本, 你的操作系统是啥就下载对应版本,下错了平台不一致的打包文件是不能用的!&lt;/h6&gt;
+&lt;h4&gt;如果你使用百度网盘进行下载发现速度比较慢,可以试试 &lt;a href="http://pandownload.com/"&gt;http://pandownload.com/&lt;/a&gt; 这个软件&lt;/h4&gt;
+&lt;h2&gt;Citation 引用&lt;/h2&gt;
+&lt;p&gt;Article Here: &lt;a href="https://www.sciencedirect.com/science/article/pii/S1674987118301609"&gt;https://www.sciencedirect.com/science/article/pii/S1674987118301609&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please cite this article as:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Yu, Q.-Y., Bagas, L., Yang, P.-H., Zhang, D., GeoPyTool: a cross-platform software solution for common geological calculations and plots, Geoscience Frontiers (2018), doi: 10.1016/j.gsf.2018.08.001.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/FixTheVispy.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Introduction 简介&lt;/h2&gt;
+&lt;p&gt;GeoPyTool is an application based on Python and designed as a solution for geology related daily work. It can run on alomost all mainstream operating systems, such as Windows 7 SP1, Windows 8, Windows 10, macOS Sierra, macOS High Sierra, Ubuntu Linux, Debian Linux, Fedora Linux, and alomost all other widely used desktop platforms.&lt;/p&gt;
+&lt;p&gt;GeoPyTool doesn't rely on any other software, such as MS Excel or CorelDraw, it can directly transport your data into the plot as vector graphic files and the calculation results into data sheets such as Xlsx or CSV files.&lt;/p&gt;
+&lt;p&gt;It is a free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.&lt;/p&gt;
+&lt;p&gt;GeoPyTool contains both traditional routines and newly developed methods。&lt;/p&gt;
+&lt;p&gt;GeoPyTool 是一个基于 Python 实现的开源应用，针对的是地质学研究中的日常用途。由于使用了 Python，天生跨平台天赋加持，所以几乎能运行于所有主流操作系统，比如 Windows 7 SP1, Windows 8, Windows 10, macOS Sierra, macOS High Sierra, Ubuntu Linux, Debian Linux, Fedora Linux 等等几乎全部主流的桌面操作系统。&lt;/p&gt;
+&lt;p&gt;GeoPyTool 不需依赖任何其他软件，不像 GeoKit 那样依赖特定版本的 32bit 的 Office，也不像 CGDK 那样需要依赖 CorelDRAW 的安装，单独有 GeoPyTool 一个，就可以实现从原始数据到出矢量图，以及导出各种计算的结果为 Xlsx 或者 CSV 这种表格文件。&lt;/p&gt;
+&lt;p&gt;GeoPyTool 是一个自由软件:您可以根据自由软件基金会发布的GNU通用公共许可证的条款重新发布或者对其进行修改，但必须也基于同样的 GPLV3（GNU通用公共许可证第三版 ） ，或者更新版本的 GNU General Public License。&lt;/p&gt;
+&lt;p&gt;GeoPyTool 包含了一些常用的传统方法，也实现了一些近年来新诞生的研究成果。&lt;/p&gt;
+&lt;h1&gt;Getting Help 获取帮助&lt;/h1&gt;
+&lt;p&gt;You can share your ideas or problems on &lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;Github&lt;/a&gt;.
+If you encounter problems using GeoPyTool, please screenshot the error message from the cmd or other ternimal window and send it with your post (shown as the sample below).&lt;/p&gt;
+&lt;p&gt;大家有各种问题交流，除了在&lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;Github&lt;/a&gt;，还可以加入咱们的QQ群： 560675626 （为避免无关人员骚扰，加群申请填写暗号 &lt;strong&gt;大胖哥是个好人&lt;/strong&gt; 来通过验证）。
+如果你在使用的时候遇到出错的情况,请按下图所示将命令行窗口里面的出错信息截图发来,这会很有帮助:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/HowToAskForHelp.png"&gt;&lt;/p&gt;
 &lt;h1&gt;捐助支持&lt;/h1&gt;
 &lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category><category term="Chinese"></category></entry><entry><title>Introduction</title><link href="/introduction.html" rel="alternate"></link><published>2018-04-21T15:15:13+08:00</published><updated>2018-04-21T15:15:13+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/introduction.html</id><summary type="html">&lt;h1&gt;Welcome to GeoPyTool&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://travis-ci.org/GeoPyTool/GeoPyTool"&gt;&lt;img alt="Build Status" src="https://travis-ci.org/GeoPyTool/GeoPyTool.svg?branch=master"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Preface&lt;/h2&gt;
-&lt;p&gt;I am Freddy Yu, also known as CycleUser.
-Few years ago, I had tumor and some other lifelong disease.
+&lt;p&gt;Few years ago, I had tumor and some other lifelong disease.
 Then I lost the ability to engage in geological field work.
-I hate to be a useless person and hope to contribute to other people and the …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Welcome to GeoPyTool&lt;/h1&gt;
+I hate to be a useless person and hope to contribute to other people and the world.
+Then I started learning programming.
+I began …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Welcome to GeoPyTool&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://travis-ci.org/GeoPyTool/GeoPyTool"&gt;&lt;img alt="Build Status" src="https://travis-ci.org/GeoPyTool/GeoPyTool.svg?branch=master"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Preface&lt;/h2&gt;
-&lt;p&gt;I am Freddy Yu, also known as CycleUser.
-Few years ago, I had tumor and some other lifelong disease.
+&lt;p&gt;Few years ago, I had tumor and some other lifelong disease.
 Then I lost the ability to engage in geological field work.
 I hate to be a useless person and hope to contribute to other people and the world.
 Then I started learning programming.
@@ -43,12 +62,20 @@ I publish all my translation works on Github, as open source projects.&lt;/p&gt;
 &lt;p&gt;When I began to use Python, from time to time, there have been some people asking me for help by writing some codes to help them solve some of their problems in geological research.&lt;/p&gt;
 &lt;p&gt;I gathered these scripts together, built a GUI and packed them into a standalone application, which is originally called GeoPython and later renamed GeoPyTool because of the former name had been taken by a conference.&lt;/p&gt;
 &lt;p&gt;That is the story of how GeoPyTool was born.&lt;/p&gt;
+&lt;h2&gt;Citation&lt;/h2&gt;
+&lt;p&gt;Article Here: &lt;a href="https://www.sciencedirect.com/science/article/pii/S1674987118301609"&gt;https://www.sciencedirect.com/science/article/pii/S1674987118301609&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Please cite this article as:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Yu, Q.-Y., Bagas, L., Yang, P.-H., Zhang, D., GeoPyTool: a cross-platform software solution for common geological calculations and plots, Geoscience Frontiers (2018), doi: 10.1016/j.gsf.2018.08.001.&lt;/code&gt;&lt;/p&gt;
 &lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;GeoPyTool is an application based on Python and designed as a solution for geology related daily work. &lt;strong&gt;It can run on alomost all mainstream operating systems&lt;/strong&gt;, such as Windows 7 SP1, Windows 8, Windows 10, macOS Sierra, macOS High Sierra, Ubuntu Linux, Debian Linux, Fedora Linux, and alomost all other widely used desktop platforms.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;GeoPyTool doesn't rely on any other software&lt;/strong&gt;, such as MS Excel or CorelDraw, it can directly transport your data into the plot as vector graphic files and the calculation results into data sheets such as Xlsx or CSV files.&lt;/p&gt;
 &lt;p&gt;GeoPyTool contains both traditional routines and newly developed methods.
 Over time, this software will contain more and more functions.
 The function list can be found &lt;a href="http://geopytool.com/functions.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Get GeoPyTool&lt;/h2&gt;
+&lt;p&gt;This section used to be called "Installation".
+While, in fact you almost need no Installation to use the packed application of GeoPyTool. The latest download links can be found at the &lt;a href="http://geopytool.com/download.html"&gt;Download page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you want to use GeoPyTool as a module inside Python, then you might need to read the detailed guide at &lt;a href="http://geopytool.com/installation-expert.html"&gt;Installation Guide For Expert&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;License&lt;/h2&gt;
 &lt;p&gt;GeoPyTool now is an open source project under the GNU General Public License v3.0.
 It is a &lt;strong&gt;free software&lt;/strong&gt;: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.&lt;/p&gt;
@@ -65,15 +92,13 @@ I need to know the version of GeoPyTool that has these bugs.
 I might also need a piece of your data file that triggers the bugs.
 If you find any bug, I am happy to be told the details and fix it as soon as possible. &lt;/p&gt;
 &lt;p&gt;Please open a issue in &lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues/"&gt;GeoPyTool's repo&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;You can share your ideas or problems on &lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;Github&lt;/a&gt;.
+If you encounter problems using GeoPyTool, please screenshot the error message from the cmd or other ternimal window and send it with your post (shown as the sample below).&lt;/p&gt;
 &lt;h2&gt;Feedback&lt;/h2&gt;
 &lt;p&gt;If you have some wanted functions, please tell us also opening a issue in &lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues/"&gt;GeoPyTool's repo&lt;/a&gt; containing references and sample data. 
 It's best to give a brief introduction, which can save developers' time.
 If you don't understand how that works at all, don't expect us to figure it out by ourselves.
 I am certainly not smarter than you, even much worse than you.&lt;/p&gt;
-&lt;h2&gt;Get GeoPyTool&lt;/h2&gt;
-&lt;p&gt;This section used to be called "Installation".
-While, in fact you almost need no Installation to use the packed application of GeoPyTool. The latest download links can be found at the &lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/Download.md"&gt;Download page&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;If you want to use GeoPyTool as a module inside Python, then you might need to read the detailed guide at &lt;a href="http://geopytool.com/installation-expert.html"&gt;Installation Guide For Expert&lt;/a&gt;.&lt;/p&gt;
 &lt;h3&gt;For Mac Users&lt;/h3&gt;
 &lt;p&gt;On macOS, everything is extremely easy to use GeoPyTool. 
 There is &lt;strong&gt;no need to touch the SIP&lt;/strong&gt;(System Integrity Protection) at all.
@@ -133,26 +158,37 @@ After all, please find your own way to open these files and do not act like a ba
 I can use this money to pay for medical expenses to stay healthy and add more functions to GeoPyTool.
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category></entry><entry><title>中文简介</title><link href="/zhong-wen-jian-jie.html" rel="alternate"></link><published>2018-04-21T15:15:13+08:00</published><updated>2018-04-21T15:15:13+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/zhong-wen-jian-jie.html</id><summary type="html">&lt;h1&gt;欢迎使用 GeoPyTool&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://travis-ci.org/GeoPyTool/GeoPyTool"&gt;&lt;img alt="编译状态" src="https://travis-ci.org/GeoPyTool/GeoPyTool.svg?branch=master"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;加群必看&lt;/h2&gt;
+&lt;p&gt;大家有各种问题交流，除了在&lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;Github&lt;/a&gt;，还可以加入咱们的QQ群： 560675626 
+为避免无关人员骚扰，请填写加群暗号 &lt;strong&gt;大胖哥是个好人&lt;/strong&gt; 来通过验证。&lt;/p&gt;
 &lt;h2&gt;前言&lt;/h2&gt;
-&lt;p&gt;你好，我是于大胖，知乎 id 是 CycleUser。
-几年前，我开始学编程，参考&lt;a href="http://blog.cycleuser.org/wo-zi-xue-bian-cheng-de-gu-shi.html"&gt;我自学编程的故事&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;几年前，我开始学编程，参考&lt;a href="http://blog.cycleuser.org/wo-zi-xue-bian-cheng-de-gu-shi.html"&gt;我自学编程的故事&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;我学 Python 是从翻译一本 &lt;a href="https://github.com/cycleuser/ThinkPython-en-cn"&gt;中英双语版本的 Think Python 第二版&lt;/a&gt;开始的。
 此外我还陆续翻译了 &lt;a href="https://github.com/Kivy-CN/Kivy-CN"&gt;Kivy 中文编程指南&lt;/a&gt;, &lt;a href="https://github.com/Kivy-CN/Stanford-CS-229-CN"&gt;斯坦福大学 CS229 课件讲义&lt;/a&gt; 以及 &lt;a href="https://github.com/Kivy-CN/Duke-STA-663-CN"&gt;杜克大学 STA663 课件讲义&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;在我学习和使用 Python 的同时，经常帮身边的同学朋友写一写小段的代码来解决在地质学研究中的任务。后来我把这些片段代码聚集在一起，做成了一个模块，开始命名叫做 GeoPython，后来由于跟一个会议重名，而改名叫 GeoPyTool。&lt;/p&gt;
-&lt;h2&gt;介绍&lt;/h2&gt;
-&lt;p&gt;GeoPyTool 是基于 Python 构建的，用于解决地质学研究中的一些日常任务。 &lt;strong&gt;能够运行于几乎所有主流操作系统&lt;/strong&gt;, 比如 …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;欢迎使用 GeoPyTool&lt;/h1&gt;
+&lt;h2&gt;引用&lt;/h2&gt;
+&lt;p&gt;文献开放获取: &lt;a href="https://www.sciencedirect.com/science/article/pii/S1674987118301609"&gt;https://www …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;h1&gt;欢迎使用 GeoPyTool&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://travis-ci.org/GeoPyTool/GeoPyTool"&gt;&lt;img alt="编译状态" src="https://travis-ci.org/GeoPyTool/GeoPyTool.svg?branch=master"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;加群必看&lt;/h2&gt;
+&lt;p&gt;大家有各种问题交流，除了在&lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;Github&lt;/a&gt;，还可以加入咱们的QQ群： 560675626 
+为避免无关人员骚扰，请填写加群暗号 &lt;strong&gt;大胖哥是个好人&lt;/strong&gt; 来通过验证。&lt;/p&gt;
 &lt;h2&gt;前言&lt;/h2&gt;
-&lt;p&gt;你好，我是于大胖，知乎 id 是 CycleUser。
-几年前，我开始学编程，参考&lt;a href="http://blog.cycleuser.org/wo-zi-xue-bian-cheng-de-gu-shi.html"&gt;我自学编程的故事&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;几年前，我开始学编程，参考&lt;a href="http://blog.cycleuser.org/wo-zi-xue-bian-cheng-de-gu-shi.html"&gt;我自学编程的故事&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;我学 Python 是从翻译一本 &lt;a href="https://github.com/cycleuser/ThinkPython-en-cn"&gt;中英双语版本的 Think Python 第二版&lt;/a&gt;开始的。
 此外我还陆续翻译了 &lt;a href="https://github.com/Kivy-CN/Kivy-CN"&gt;Kivy 中文编程指南&lt;/a&gt;, &lt;a href="https://github.com/Kivy-CN/Stanford-CS-229-CN"&gt;斯坦福大学 CS229 课件讲义&lt;/a&gt; 以及 &lt;a href="https://github.com/Kivy-CN/Duke-STA-663-CN"&gt;杜克大学 STA663 课件讲义&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;在我学习和使用 Python 的同时，经常帮身边的同学朋友写一写小段的代码来解决在地质学研究中的任务。后来我把这些片段代码聚集在一起，做成了一个模块，开始命名叫做 GeoPython，后来由于跟一个会议重名，而改名叫 GeoPyTool。&lt;/p&gt;
+&lt;h2&gt;引用&lt;/h2&gt;
+&lt;p&gt;文献开放获取: &lt;a href="https://www.sciencedirect.com/science/article/pii/S1674987118301609"&gt;https://www.sciencedirect.com/science/article/pii/S1674987118301609&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;请按参考下面的方式引用:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Yu, Q.-Y., Bagas, L., Yang, P.-H., Zhang, D., GeoPyTool: a cross-platform software solution for common geological calculations and plots, Geoscience Frontiers (2018), doi: 10.1016/j.gsf.2018.08.001.&lt;/code&gt;&lt;/p&gt;
 &lt;h2&gt;介绍&lt;/h2&gt;
 &lt;p&gt;GeoPyTool 是基于 Python 构建的，用于解决地质学研究中的一些日常任务。 &lt;strong&gt;能够运行于几乎所有主流操作系统&lt;/strong&gt;, 比如 Windows 7 SP1, Windows 8, Windows 10, macOS Sierra, macOS High Sierra, Ubuntu Linux, Debian Linux, Fedora Linux, 等等。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;GeoPyTool 不依赖任何额外的商业软件&lt;/strong&gt;, 比如 MS Excel 或者 CorelDraw, 直接从数据生成矢量图，计算结果则保存为 Excel 或者 CSV 格式。&lt;/p&gt;
 &lt;p&gt;GeoPyTool 包含常用的经典方法和一些近年来产生的新方法。
 随着时间的推移，GeoPyTool 的功能会越来越多，目前的功能列表可以在&lt;a href="http://geopytool.com/gong-neng-lie-biao.html"&gt;这里查看&lt;/a&gt;。&lt;/p&gt;
+&lt;h2&gt;下载 GeoPyTool&lt;/h2&gt;
+&lt;p&gt;实际上也不用安装，直接下载打包的文件就能够运行了，至少对于 Mac 和 Windows 用户来说是如此，下载链接在 &lt;a href="http://geopytool.com/download.html"&gt;Download 页面&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;如果你想把 GeoPyTool 作为一个模块在 Python 中使用，请参考 &lt;a href="http://geopytool.com/an-zhuang-zhi-nan-jin-jie.html"&gt;高级安装指南&lt;/a&gt;。&lt;/p&gt;
 &lt;h2&gt;授权协议&lt;/h2&gt;
 &lt;p&gt;GeoPyTool 目前是开源项目，遵循 GNU 通用公共授权第三版（GNU General Public License v3.0）。
 GeoPyTool 是一个 &lt;strong&gt;自由软件&lt;/strong&gt;: 你可以自由复制与分发，但必须遵循 GNU 通用公共授权第三版（GNU General Public License v3.0）或者之后更新的版本。&lt;/p&gt;
@@ -163,15 +199,14 @@ GeoPyTool 是一个 &lt;strong&gt;自由软件&lt;/strong&gt;: 你可以自由�
 希望你能够提供完整的信息，来帮助我了解 bug 发生的位置，最好还能提供一份导致 bug 的数据文件，让我来测试除错。&lt;/p&gt;
 &lt;p&gt;请把上面这些信息以及更多相关截图都发到 &lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues/"&gt;GeoPyTool 的 issue 中&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;别只想着让别人帮忙解决问题，也想想自己能够提供什么信息。&lt;/p&gt;
+&lt;p&gt;如果你在使用的时候遇到出错的情况,请按下图所示将命令行窗口里面的出错信息截图发来,这会很有帮助:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/HowToAskForHelp.png"&gt;&lt;/p&gt;
 &lt;h2&gt;意见建议&lt;/h2&gt;
 &lt;p&gt;如果你有什么意见建议，比如希望添加某个功能等等，都可以发到 &lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues/"&gt;GeoPyTool 的 issue 中&lt;/a&gt;。
 如果要求添加某个功能，最好要有该方法的参考文献出处，数据样本，以及简单介绍。
 这样能够节省很多时间，比如不用我们再自己去从原文中一个个复制出数据，也不用我们去通读全文来理解计算过程。
 既然你要求某个功能，就希望你能够对其进行解释。
 我们不比你更聪明，也不比你有更多的时间，所以请尊重我们的时间。&lt;/p&gt;
-&lt;h2&gt;获取 GeoPyTool&lt;/h2&gt;
-&lt;p&gt;实际上也不用安装，直接下载打包的文件就呢个运行了，至少对于 Mac 和 Windows 用户来说是如此，下载链接在 &lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/Download.md"&gt;Download 页面&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;如果你想把 GeoPyTool 作为一个模块在 Python 中使用，请参考 &lt;a href="http://geopytool.com/an-zhuang-zhi-nan-jin-jie.html"&gt;高级安装指南&lt;/a&gt;。&lt;/p&gt;
 &lt;h3&gt;Mac 用户&lt;/h3&gt;
 &lt;p&gt;对于 Mac 用户来说，下载压缩包，解压之后双击 GeoPyTool.app 这个文件就可以了。
 &lt;strong&gt;根本就不用动什么 SIP&lt;/strong&gt;(System Integrity Protection)，所以没必要叽叽歪歪。&lt;/p&gt;

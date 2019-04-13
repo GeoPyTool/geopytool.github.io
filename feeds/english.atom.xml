@@ -92,8 +92,26 @@ In the Rose Map function, all data in one data files can be treated as a single 
 &lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/03.LoadBaseMap.png?raw=true"&gt;&lt;/p&gt;
 &lt;h2&gt;3D and Statistics&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/04.Statistical.png?raw=true"&gt;&lt;/p&gt;
+&lt;h2&gt;Combine Multiple Excel data files into One Excel file&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/CombineData.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Cluster&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/05.Cluster.png?raw=true"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category><category term="Support"></category></entry><entry><title>FAQ</title><link href="/faq.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/faq.html</id><summary type="html"></summary><content type="html"></content><category term="Doc"></category><category term="English"></category><category term="Support"></category></entry><entry><title>Functions</title><link href="/functions.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/functions.html</id><summary type="html">&lt;h1&gt;Functions&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/05.Cluster.png?raw=true"&gt;&lt;/p&gt;
+&lt;h2&gt;Flatten a 2-d data files into 1-d array&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Flatten.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Data Transformation: Transposition/ Center Trans/ Standard Trans / Log Trans&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/DataTrans.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Factor Analysis (FA) and Principal Component Analysis (PCA)&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/FA_PCA.png?raw=true"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;body&gt;
+&lt;video src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/FA_Video.mp4"  controls="controls"&gt;
+your browser does not support the video tag
+&lt;/video&gt;
+&lt;/body&gt;&lt;/p&gt;
+&lt;p&gt;&lt;body&gt;
+&lt;video src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/PCA_Video.mp4"  controls="controls"&gt;
+your browser does not support the video tag
+&lt;/video&gt;
+&lt;/body&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category><category term="Support"></category></entry><entry><title>FAQ</title><link href="/faq.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/faq.html</id><summary type="html"></summary><content type="html"></content><category term="Doc"></category><category term="English"></category><category term="Support"></category></entry><entry><title>Functions</title><link href="/functions.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/functions.html</id><summary type="html">&lt;h1&gt;Functions&lt;/h1&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -285,12 +303,11 @@ pip3 install scikit-learn
 pip3 install sympy
 pip3 install requests
 pip3 install pyopengl
-pip3 install pyqtgraph
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Or you may try to use one line command to install all the required modules:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests pyqtgraph
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -330,12 +347,11 @@ pip3 install scikit-learn
 pip3 install sympy
 pip3 install requests
 pip3 install pyopengl
-pip3 install pyqtgraph
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Or you may try to use one line command to install all the required modules:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests pyqtgraph
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests
 &lt;/pre&gt;&lt;/div&gt;
 
 
@@ -383,12 +399,11 @@ pip3 install scikit-learn
 pip3 install sympy
 pip3 install requests
 pip3 install pyopengl
-pip3 install pyqtgraph
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Or you may try to use one line command to install all the required modules:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests pyqtgraph
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests
 &lt;/pre&gt;&lt;/div&gt;
 
 
