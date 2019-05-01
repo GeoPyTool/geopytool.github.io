@@ -1,290 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>GeoPyTool</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2019-01-24T10:05:25+08:00</updated><entry><title>Download</title><link href="/download.html" rel="alternate"></link><published>2019-01-24T10:05:25+08:00</published><updated>2019-01-24T10:05:25+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2019-01-24:/download.html</id><summary type="html">&lt;h1&gt;GeoPyTool Application Download Links&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>GeoPyTool</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2018-02-27T00:00:00+08:00</updated><entry><title>Download</title><link href="/download.html" rel="alternate"></link><published>2018-02-27T00:00:00+08:00</published><updated>2018-02-27T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-02-27:/download.html</id><summary type="html">&lt;h1&gt;GeoPyTool Application Download Links&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;h1&gt;GeoPyTool 打包的可执行程序下载链接&lt;/h1&gt;
 &lt;/blockquote&gt;
-&lt;h3&gt;GeoPyTool packs:&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1ewNlNrDQNjtCLS9ibBPW5Q#list/path=%2Fsharelink1763171575-261348695782281%2FRelease&amp;amp;parentPath=%2Fsharelink1763171575-261348695782281"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://1drv.ms/f/s!AnIw_Lqr4g5tgTMqT9tXxIK9PYNI"&gt;OneDrive&lt;/a&gt;&lt;/p&gt;
-&lt;h6&gt;Notice that you need to download the Right Version for Your Platform! Download the Windows Pack if you are using Windows, same to the Mac users.&lt;/h6&gt;
-&lt;h6&gt;请一定注意下载正确的平台版本, 你的操作系统是啥就下载对应版本,下错了平台不一致的打包文件是不能用的!&lt;/h6&gt;
-&lt;h4&gt;如果你使用百度网盘进行下载发现速度比较慢,可以试试 &lt;a href="http://pandownload.com/"&gt;http://pandownload.com/&lt;/a&gt; 这个软件&lt;/h4&gt;
-&lt;h2&gt;Citation 引用&lt;/h2&gt;
-&lt;p&gt;Article …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;GeoPyTool Application Download Links&lt;/h1&gt;
+&lt;h1&gt;GeoPyTool pack for Windows:&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1ht2wyZ6"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1YEP6FsBzQ7Ig92zAM5B2MLah7cXq5Q9e"&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;GeoPyTool app for macOS:&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1mjkDt4O"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/open?id=13Uv8d9RYZsXdnR3nkTO5ykDuOyWVUkr8"&gt;Googel Drive&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;捐助支持&lt;/h1&gt;
+&lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;h1&gt;GeoPyTool Application Download Links&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;h1&gt;GeoPyTool 打包的可执行程序下载链接&lt;/h1&gt;
 &lt;/blockquote&gt;
-&lt;h3&gt;GeoPyTool packs:&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1ewNlNrDQNjtCLS9ibBPW5Q#list/path=%2Fsharelink1763171575-261348695782281%2FRelease&amp;amp;parentPath=%2Fsharelink1763171575-261348695782281"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://1drv.ms/f/s!AnIw_Lqr4g5tgTMqT9tXxIK9PYNI"&gt;OneDrive&lt;/a&gt;&lt;/p&gt;
-&lt;h6&gt;Notice that you need to download the Right Version for Your Platform! Download the Windows Pack if you are using Windows, same to the Mac users.&lt;/h6&gt;
-&lt;h6&gt;请一定注意下载正确的平台版本, 你的操作系统是啥就下载对应版本,下错了平台不一致的打包文件是不能用的!&lt;/h6&gt;
-&lt;h4&gt;如果你使用百度网盘进行下载发现速度比较慢,可以试试 &lt;a href="http://pandownload.com/"&gt;http://pandownload.com/&lt;/a&gt; 这个软件&lt;/h4&gt;
-&lt;h2&gt;Citation 引用&lt;/h2&gt;
-&lt;p&gt;Article Here: &lt;a href="https://www.sciencedirect.com/science/article/pii/S1674987118301609"&gt;https://www.sciencedirect.com/science/article/pii/S1674987118301609&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Please cite this article as:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Yu, Q.-Y., Bagas, L., Yang, P.-H., Zhang, D., GeoPyTool: a cross-platform software solution for common geological calculations and plots, Geoscience Frontiers (2018), doi: 10.1016/j.gsf.2018.08.001.&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/FixTheVispy.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Introduction 简介&lt;/h2&gt;
-&lt;p&gt;GeoPyTool is an application based on Python and designed as a solution for geology related daily work. It can run on alomost all mainstream operating systems, such as Windows 7 SP1, Windows 8, Windows 10, macOS Sierra, macOS High Sierra, Ubuntu Linux, Debian Linux, Fedora Linux, and alomost all other widely used desktop platforms.&lt;/p&gt;
-&lt;p&gt;GeoPyTool doesn't rely on any other software, such as MS Excel or CorelDraw, it can directly transport your data into the plot as vector graphic files and the calculation results into data sheets such as Xlsx or CSV files.&lt;/p&gt;
-&lt;p&gt;It is a free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.&lt;/p&gt;
+&lt;h1&gt;GeoPyTool pack for Windows:&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1ht2wyZ6"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1YEP6FsBzQ7Ig92zAM5B2MLah7cXq5Q9e"&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;GeoPyTool app for macOS:&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1mjkDt4O"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/open?id=13Uv8d9RYZsXdnR3nkTO5ykDuOyWVUkr8"&gt;Googel Drive&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;捐助支持&lt;/h1&gt;
+&lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category><category term="Chinese"></category></entry><entry><title>About</title><link href="/about.html" rel="alternate"></link><published>2017-11-15T00:00:00+08:00</published><updated>2017-11-15T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-11-15:/about.html</id><summary type="html">&lt;h1&gt;Welcome to GeoPyTool&lt;/h1&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;GeoPyTool is an application based on Python and designed as a solution for geology related daily work. &lt;strong&gt;It can run on alomost all mainstream operating systems&lt;/strong&gt;, such as Windows 7 SP1, Windows 8, Windows 10, macOS Sierra, macOS High Sierra, Ubuntu Linux, Debian Linux, Fedora Linux …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Welcome to GeoPyTool&lt;/h1&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;GeoPyTool is an application based on Python and designed as a solution for geology related daily work. &lt;strong&gt;It can run on alomost all mainstream operating systems&lt;/strong&gt;, such as Windows 7 SP1, Windows 8, Windows 10, macOS Sierra, macOS High Sierra, Ubuntu Linux, Debian Linux, Fedora Linux, and alomost all other widely used desktop platforms.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GeoPyTool doesn't rely on any other software&lt;/strong&gt;, such as MS Excel or CorelDraw, it can directly transport your data into the plot as vector graphic files and the calculation results into data sheets such as Xlsx or CSV files.&lt;/p&gt;
+&lt;p&gt;It is a &lt;strong&gt;free software&lt;/strong&gt;: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.&lt;/p&gt;
 &lt;p&gt;GeoPyTool contains both traditional routines and newly developed methods。&lt;/p&gt;
+&lt;h2&gt;简介&lt;/h2&gt;
 &lt;p&gt;GeoPyTool 是一个基于 Python 实现的开源应用，针对的是地质学研究中的日常用途。由于使用了 Python，天生跨平台天赋加持，所以几乎能运行于所有主流操作系统，比如 Windows 7 SP1, Windows 8, Windows 10, macOS Sierra, macOS High Sierra, Ubuntu Linux, Debian Linux, Fedora Linux 等等几乎全部主流的桌面操作系统。&lt;/p&gt;
 &lt;p&gt;GeoPyTool 不需依赖任何其他软件，不像 GeoKit 那样依赖特定版本的 32bit 的 Office，也不像 CGDK 那样需要依赖 CorelDRAW 的安装，单独有 GeoPyTool 一个，就可以实现从原始数据到出矢量图，以及导出各种计算的结果为 Xlsx 或者 CSV 这种表格文件。&lt;/p&gt;
 &lt;p&gt;GeoPyTool 是一个自由软件:您可以根据自由软件基金会发布的GNU通用公共许可证的条款重新发布或者对其进行修改，但必须也基于同样的 GPLV3（GNU通用公共许可证第三版 ） ，或者更新版本的 GNU General Public License。&lt;/p&gt;
 &lt;p&gt;GeoPyTool 包含了一些常用的传统方法，也实现了一些近年来新诞生的研究成果。&lt;/p&gt;
-&lt;h1&gt;Getting Help 获取帮助&lt;/h1&gt;
-&lt;p&gt;You can share your ideas or problems on &lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;Github&lt;/a&gt;.
-If you encounter problems using GeoPyTool, please screenshot the error message from the cmd or other ternimal window and send it with your post (shown as the sample below).&lt;/p&gt;
-&lt;p&gt;大家有各种问题交流，除了在&lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;Github&lt;/a&gt;，还可以加入咱们的QQ群： 560675626 （为避免无关人员骚扰，加群申请填写暗号 &lt;strong&gt;大胖哥是个好人&lt;/strong&gt; 来通过验证）。
-如果你在使用的时候遇到出错的情况,请按下图所示将命令行窗口里面的出错信息截图发来,这会很有帮助:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/HowToAskForHelp.png"&gt;&lt;/p&gt;
 &lt;h1&gt;捐助支持&lt;/h1&gt;
 &lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category><category term="Chinese"></category></entry><entry><title>Introduction</title><link href="/introduction.html" rel="alternate"></link><published>2018-04-21T15:15:13+08:00</published><updated>2018-04-21T15:15:13+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/introduction.html</id><summary type="html">&lt;h1&gt;Welcome to GeoPyTool&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://travis-ci.org/GeoPyTool/GeoPyTool"&gt;&lt;img alt="Build Status" src="https://travis-ci.org/GeoPyTool/GeoPyTool.svg?branch=master"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Preface&lt;/h2&gt;
-&lt;p&gt;Few years ago, I had tumor and some other lifelong disease.
-Then I lost the ability to engage in geological field work.
-I hate to be a useless person and hope to contribute to other people and the world.
-Then I started learning programming.
-I began …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Welcome to GeoPyTool&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://travis-ci.org/GeoPyTool/GeoPyTool"&gt;&lt;img alt="Build Status" src="https://travis-ci.org/GeoPyTool/GeoPyTool.svg?branch=master"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Preface&lt;/h2&gt;
-&lt;p&gt;Few years ago, I had tumor and some other lifelong disease.
-Then I lost the ability to engage in geological field work.
-I hate to be a useless person and hope to contribute to other people and the world.
-Then I started learning programming.
-I began to learn and use Python by translating a text book called "Think Python 2 edition" to &lt;a href="https://github.com/cycleuser/ThinkPython-en-cn"&gt;Chinese&lt;/a&gt;.
-After translating &lt;a href="https://github.com/cycleuser/ThinkPython-en-cn"&gt;Think Python 2 edition&lt;/a&gt;, I translated &lt;a href="https://github.com/Kivy-CN/Kivy-CN"&gt;Kivy Document&lt;/a&gt;, &lt;a href="https://github.com/Kivy-CN/Stanford-CS-229-CN"&gt;CS229 notes from Stanford University&lt;/a&gt; and &lt;a href="https://github.com/Kivy-CN/Duke-STA-663-CN"&gt;STA663 notes from Duke University&lt;/a&gt;.
-I publish all my translation works on Github, as open source projects.&lt;/p&gt;
-&lt;p&gt;When I began to use Python, from time to time, there have been some people asking me for help by writing some codes to help them solve some of their problems in geological research.&lt;/p&gt;
-&lt;p&gt;I gathered these scripts together, built a GUI and packed them into a standalone application, which is originally called GeoPython and later renamed GeoPyTool because of the former name had been taken by a conference.&lt;/p&gt;
-&lt;p&gt;That is the story of how GeoPyTool was born.&lt;/p&gt;
-&lt;h2&gt;Citation&lt;/h2&gt;
-&lt;p&gt;Article Here: &lt;a href="https://www.sciencedirect.com/science/article/pii/S1674987118301609"&gt;https://www.sciencedirect.com/science/article/pii/S1674987118301609&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Please cite this article as:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Yu, Q.-Y., Bagas, L., Yang, P.-H., Zhang, D., GeoPyTool: a cross-platform software solution for common geological calculations and plots, Geoscience Frontiers (2018), doi: 10.1016/j.gsf.2018.08.001.&lt;/code&gt;&lt;/p&gt;
-&lt;h2&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;GeoPyTool is an application based on Python and designed as a solution for geology related daily work. &lt;strong&gt;It can run on alomost all mainstream operating systems&lt;/strong&gt;, such as Windows 7 SP1, Windows 8, Windows 10, macOS Sierra, macOS High Sierra, Ubuntu Linux, Debian Linux, Fedora Linux, and alomost all other widely used desktop platforms.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;GeoPyTool doesn't rely on any other software&lt;/strong&gt;, such as MS Excel or CorelDraw, it can directly transport your data into the plot as vector graphic files and the calculation results into data sheets such as Xlsx or CSV files.&lt;/p&gt;
-&lt;p&gt;GeoPyTool contains both traditional routines and newly developed methods.
-Over time, this software will contain more and more functions.
-The function list can be found &lt;a href="http://geopytool.com/functions.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;Get GeoPyTool&lt;/h2&gt;
-&lt;p&gt;This section used to be called "Installation".
-While, in fact you almost need no Installation to use the packed application of GeoPyTool. The latest download links can be found at the &lt;a href="http://geopytool.com/download.html"&gt;Download page&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;If you want to use GeoPyTool as a module inside Python, then you might need to read the detailed guide at &lt;a href="http://geopytool.com/installation-expert.html"&gt;Installation Guide For Expert&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;License&lt;/h2&gt;
-&lt;p&gt;GeoPyTool now is an open source project under the GNU General Public License v3.0.
-It is a &lt;strong&gt;free software&lt;/strong&gt;: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.&lt;/p&gt;
-&lt;p&gt;In simple terms, you can use, share and modify it for free, under the same terms of GPLv3.&lt;/p&gt;
-&lt;h2&gt;Bug Report&lt;/h2&gt;
-&lt;p&gt;Any program may have a bug or many bugs. So does GeoPyTool.
-I am not a programming expert or a magic superman, so I will inevitably make mistakes.
-I am open minded and happy to solve problems after being told the details about bugs.&lt;/p&gt;
-&lt;p&gt;If you find bugs but don’t tell me where how that happens, then I'm helpless.
-If you don’t even provide any detailed information, but just blaming me, then I’m deeply hurt.
-Please do not repeating "many bugs many bugs" with no feedback, that make very frustrated in a long period of pain and self-reproach.&lt;/p&gt;
-&lt;p&gt;I need your help to find out where the bugs locate and how they happen.
-I need to know the version of GeoPyTool that has these bugs.
-I might also need a piece of your data file that triggers the bugs.
-If you find any bug, I am happy to be told the details and fix it as soon as possible. &lt;/p&gt;
-&lt;p&gt;Please open a issue in &lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues/"&gt;GeoPyTool's repo&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;You can share your ideas or problems on &lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;Github&lt;/a&gt;.
-If you encounter problems using GeoPyTool, please screenshot the error message from the cmd or other ternimal window and send it with your post (shown as the sample below).&lt;/p&gt;
-&lt;h2&gt;Feedback&lt;/h2&gt;
-&lt;p&gt;If you have some wanted functions, please tell us also opening a issue in &lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues/"&gt;GeoPyTool's repo&lt;/a&gt; containing references and sample data. 
-It's best to give a brief introduction, which can save developers' time.
-If you don't understand how that works at all, don't expect us to figure it out by ourselves.
-I am certainly not smarter than you, even much worse than you.&lt;/p&gt;
-&lt;h3&gt;For Mac Users&lt;/h3&gt;
-&lt;p&gt;On macOS, everything is extremely easy to use GeoPyTool. 
-There is &lt;strong&gt;no need to touch the SIP&lt;/strong&gt;(System Integrity Protection) at all.
-Please leave a message if you encounter different situations, which should contain the version of your operating system.&lt;/p&gt;
-&lt;p&gt;Please believe me that I have tried this on several brand new Mac machines.&lt;/p&gt;
-&lt;p&gt;Just download and unzip the packed file, then double click on the GeoPyTool.app file, you will find the APP available as the following picture shows.
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/MacOSScreenShot.png"&gt;&lt;/p&gt;
-&lt;p&gt;To Update the GeoPyTool.app, you need to go to the location inside the app file, &lt;code&gt;GeoPyTool.app/Contents/Resources/UpDateGeoPytool&lt;/code&gt;.
-Double click on this file named &lt;code&gt;UpDateGeoPytool&lt;/code&gt; at &lt;code&gt;GeoPyTool.app/Contents/Resources/&lt;/code&gt;. 
-As the following screenshot shows:
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/OSXUpdate.png"&gt;&lt;/p&gt;
-&lt;p&gt;It will update the GeoPyTool inside your GeoPyTool.app file. Remember that never modify any files directly under the same folder unless you are an expert on dealing with Python.&lt;/p&gt;
-&lt;h3&gt;For Windows Users&lt;/h3&gt;
-&lt;p&gt;On Windows 8/8.1/10, everything is also extremely easy to use GeoPyTool. Just download and unzip the file, then double click on a bat file in the unzipped folder, and make sure that you don't delete any file form the unzipped folder because they are all required by the program, then you will find the APP available as the following picture shows.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/RunWin.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;To use GeoPyTool on Windows 7, some system patches need to be installed. You need to install the SP1 of Windows and then install KB2999226 and the Visual C++ Redistributable 2015. If you are using Windows 7 without the SP1 package installed, there might comes &lt;code&gt;anapi-ms-win-crtrelated error&lt;/code&gt;. So believe me my friend, just install these patched below, they won't harm you after all.&lt;/p&gt;
-&lt;p&gt;The SP1 package of Windows 7 can be found at &lt;a href="https://support.microsoft.com/en-us/help/15090/windows-7-install-service-pack-1-sp1"&gt;the official website of MicroSoft&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The installation packages of KB2999226 and the Visual C++ Redistributable 2015 are already contained in the Zip file of GeoPyTool for Windows, and can also be found here: &lt;a href="https://pan.baidu.com/s/1kVwSQ95"&gt;32 bit Windows7&lt;/a&gt; ，&lt;a href="https://pan.baidu.com/s/1qY34ocW"&gt;64 bit WInodws7&lt;/a&gt; . 
-So if you encounter any &lt;code&gt;api-ms-win-crtrelated errors&lt;/code&gt;, please check those installations first.&lt;/p&gt;
-&lt;p&gt;If you are using Windows XP or Vista, sorry, I do not have the magic to save those systems that Microsoft has abandoned. 
-Expect me to provide support for those antique systems?
-Please forgive me for not having time or ability.&lt;/p&gt;
-&lt;h3&gt;For Linux Users&lt;/h3&gt;
-&lt;p&gt;Awesome, man, good for you. You are a Linux user? So am I.
-Then I believe that you are completely capable of using pip to complete the installation under the terminal. There is no need to download a large and bloated package file.&lt;/p&gt;
-&lt;p&gt;Read the &lt;a href="http://geopytool.com/installation-expert.html"&gt;Installation Guide For Expert&lt;/a&gt; if you need some reference information.&lt;/p&gt;
-&lt;h2&gt;Data Templates&lt;/h2&gt;
-&lt;p&gt;Latest Data File Templates are at &lt;a href="https://github.com/GeoPyTool/GeoPyTool/tree/master/DataFileSamples"&gt;DataFileSamples&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Settings.xlsx shows you the meaning and &lt;strong&gt;effects&lt;/strong&gt; of those &lt;strong&gt;setting up information&lt;/strong&gt; contained in other data templates.&lt;/p&gt;
-&lt;p&gt;Geochemistry functions in GeoPyTool use &lt;strong&gt;Geochemistry.xlsx&lt;/strong&gt;. Structure geology functions use &lt;strong&gt;Structure.xlsx&lt;/strong&gt;.
-Other functions also have their corresponding data template files.&lt;/p&gt;
-&lt;p&gt;Please do follow the data templates, maybe you can just paste your data into a copied data template file and try it.&lt;/p&gt;
-&lt;h2&gt;Blank Data&lt;/h2&gt;
-&lt;p&gt;Sorry, I am not superhero and can not make decision for you on how to treat the blanks in your data. Maybe you want to replace blank with zeros or some random values, or maybe you want to draw a flower in your data file with those blanks.
-But I cannot make your choice, nor does GeoPyTool.
-The program will only ignore those blanks.&lt;/p&gt;
-&lt;p&gt;Blanks can not be used in matrix calculation and data fitting, that is how math works and the cruel rules of the real world. Please don't blame me for your lack of enough data or making decision on how to fill the blanks.&lt;/p&gt;
-&lt;h2&gt;Usage&lt;/h2&gt;
-&lt;p&gt;A detailed demonstration can be found at &lt;a href="http://geopytool.com/demonstration.html"&gt;Demonstration&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;Outcome&lt;/h2&gt;
-&lt;h3&gt;Figures&lt;/h3&gt;
-&lt;p&gt;GeoPyTool offer three choices for format of generated figure, which are PDF, SVG, and PNG.
-PDF and SVG are both vector graphic formats, while PNG is not.&lt;/p&gt;
-&lt;h4&gt;Adjusting Axises of Figure&lt;/h4&gt;
-&lt;p&gt;There is a menubar on almost all interface of GeoPyTool that generating figures, which can be used to modify and adjust your picture, such as modifying the axis range and axis scale, etc.&lt;/p&gt;
-&lt;p&gt;As shown in the picture below:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Axis%20Adjustment.png"&gt;&lt;/p&gt;
-&lt;p&gt;Please do not blame me for not giving enough options to control your plots without even trying to use these menubar.
-Maybe you want me to make pasta for you?&lt;/p&gt;
-&lt;h3&gt;Result Sheets&lt;/h3&gt;
-&lt;p&gt;GeoPyTool has some calculating related functions, result sheets generated by which can be saved as CSV or Excel files.
-The CSV in fact is just a form of plain text, which can be edited by almost any editor.
-After all, please find your own way to open these files and do not act like a baby.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/Samples.png?raw=true"&gt;&lt;/p&gt;
-&lt;h1&gt;Support Us&lt;/h1&gt;
-&lt;p&gt;If you want to support GeoPyTool and you also use WeChat, please scan the following QR code to reward us.
-I can use this money to pay for medical expenses to stay healthy and add more functions to GeoPyTool.
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category></entry><entry><title>中文简介</title><link href="/zhong-wen-jian-jie.html" rel="alternate"></link><published>2018-04-21T15:15:13+08:00</published><updated>2018-04-21T15:15:13+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/zhong-wen-jian-jie.html</id><summary type="html">&lt;h1&gt;欢迎使用 GeoPyTool&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://travis-ci.org/GeoPyTool/GeoPyTool"&gt;&lt;img alt="编译状态" src="https://travis-ci.org/GeoPyTool/GeoPyTool.svg?branch=master"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;加群必看&lt;/h2&gt;
-&lt;p&gt;大家有各种问题交流，除了在&lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;Github&lt;/a&gt;，还可以加入咱们的QQ群： 560675626 
-为避免无关人员骚扰，请填写加群暗号 &lt;strong&gt;大胖哥是个好人&lt;/strong&gt; 来通过验证。&lt;/p&gt;
-&lt;h2&gt;前言&lt;/h2&gt;
-&lt;p&gt;几年前，我开始学编程，参考&lt;a href="http://blog.cycleuser.org/wo-zi-xue-bian-cheng-de-gu-shi.html"&gt;我自学编程的故事&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;我学 Python 是从翻译一本 &lt;a href="https://github.com/cycleuser/ThinkPython-en-cn"&gt;中英双语版本的 Think Python 第二版&lt;/a&gt;开始的。
-此外我还陆续翻译了 &lt;a href="https://github.com/Kivy-CN/Kivy-CN"&gt;Kivy 中文编程指南&lt;/a&gt;, &lt;a href="https://github.com/Kivy-CN/Stanford-CS-229-CN"&gt;斯坦福大学 CS229 课件讲义&lt;/a&gt; 以及 &lt;a href="https://github.com/Kivy-CN/Duke-STA-663-CN"&gt;杜克大学 STA663 课件讲义&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;在我学习和使用 Python 的同时，经常帮身边的同学朋友写一写小段的代码来解决在地质学研究中的任务。后来我把这些片段代码聚集在一起，做成了一个模块，开始命名叫做 GeoPython，后来由于跟一个会议重名，而改名叫 GeoPyTool。&lt;/p&gt;
-&lt;h2&gt;引用&lt;/h2&gt;
-&lt;p&gt;文献开放获取: &lt;a href="https://www.sciencedirect.com/science/article/pii/S1674987118301609"&gt;https://www …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;h1&gt;欢迎使用 GeoPyTool&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://travis-ci.org/GeoPyTool/GeoPyTool"&gt;&lt;img alt="编译状态" src="https://travis-ci.org/GeoPyTool/GeoPyTool.svg?branch=master"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;加群必看&lt;/h2&gt;
-&lt;p&gt;大家有各种问题交流，除了在&lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;Github&lt;/a&gt;，还可以加入咱们的QQ群： 560675626 
-为避免无关人员骚扰，请填写加群暗号 &lt;strong&gt;大胖哥是个好人&lt;/strong&gt; 来通过验证。&lt;/p&gt;
-&lt;h2&gt;前言&lt;/h2&gt;
-&lt;p&gt;几年前，我开始学编程，参考&lt;a href="http://blog.cycleuser.org/wo-zi-xue-bian-cheng-de-gu-shi.html"&gt;我自学编程的故事&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;我学 Python 是从翻译一本 &lt;a href="https://github.com/cycleuser/ThinkPython-en-cn"&gt;中英双语版本的 Think Python 第二版&lt;/a&gt;开始的。
-此外我还陆续翻译了 &lt;a href="https://github.com/Kivy-CN/Kivy-CN"&gt;Kivy 中文编程指南&lt;/a&gt;, &lt;a href="https://github.com/Kivy-CN/Stanford-CS-229-CN"&gt;斯坦福大学 CS229 课件讲义&lt;/a&gt; 以及 &lt;a href="https://github.com/Kivy-CN/Duke-STA-663-CN"&gt;杜克大学 STA663 课件讲义&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;在我学习和使用 Python 的同时，经常帮身边的同学朋友写一写小段的代码来解决在地质学研究中的任务。后来我把这些片段代码聚集在一起，做成了一个模块，开始命名叫做 GeoPython，后来由于跟一个会议重名，而改名叫 GeoPyTool。&lt;/p&gt;
-&lt;h2&gt;引用&lt;/h2&gt;
-&lt;p&gt;文献开放获取: &lt;a href="https://www.sciencedirect.com/science/article/pii/S1674987118301609"&gt;https://www.sciencedirect.com/science/article/pii/S1674987118301609&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;请按参考下面的方式引用:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Yu, Q.-Y., Bagas, L., Yang, P.-H., Zhang, D., GeoPyTool: a cross-platform software solution for common geological calculations and plots, Geoscience Frontiers (2018), doi: 10.1016/j.gsf.2018.08.001.&lt;/code&gt;&lt;/p&gt;
-&lt;h2&gt;介绍&lt;/h2&gt;
-&lt;p&gt;GeoPyTool 是基于 Python 构建的，用于解决地质学研究中的一些日常任务。 &lt;strong&gt;能够运行于几乎所有主流操作系统&lt;/strong&gt;, 比如 Windows 7 SP1, Windows 8, Windows 10, macOS Sierra, macOS High Sierra, Ubuntu Linux, Debian Linux, Fedora Linux, 等等。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;GeoPyTool 不依赖任何额外的商业软件&lt;/strong&gt;, 比如 MS Excel 或者 CorelDraw, 直接从数据生成矢量图，计算结果则保存为 Excel 或者 CSV 格式。&lt;/p&gt;
-&lt;p&gt;GeoPyTool 包含常用的经典方法和一些近年来产生的新方法。
-随着时间的推移，GeoPyTool 的功能会越来越多，目前的功能列表可以在&lt;a href="http://geopytool.com/gong-neng-lie-biao.html"&gt;这里查看&lt;/a&gt;。&lt;/p&gt;
-&lt;h2&gt;下载 GeoPyTool&lt;/h2&gt;
-&lt;p&gt;实际上也不用安装，直接下载打包的文件就能够运行了，至少对于 Mac 和 Windows 用户来说是如此，下载链接在 &lt;a href="http://geopytool.com/download.html"&gt;Download 页面&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;如果你想把 GeoPyTool 作为一个模块在 Python 中使用，请参考 &lt;a href="http://geopytool.com/an-zhuang-zhi-nan-jin-jie.html"&gt;高级安装指南&lt;/a&gt;。&lt;/p&gt;
-&lt;h2&gt;授权协议&lt;/h2&gt;
-&lt;p&gt;GeoPyTool 目前是开源项目，遵循 GNU 通用公共授权第三版（GNU General Public License v3.0）。
-GeoPyTool 是一个 &lt;strong&gt;自由软件&lt;/strong&gt;: 你可以自由复制与分发，但必须遵循 GNU 通用公共授权第三版（GNU General Public License v3.0）或者之后更新的版本。&lt;/p&gt;
-&lt;h2&gt;Bug 反馈&lt;/h2&gt;
-&lt;p&gt;任何程序都可能有 bug，GeoPyTool 也是如此。
-我不是超人，经常犯错误，所以难免有 bug。
-当你遇到 bug 的时候，请不要在那里大喊“有 bug”，也不要死命追问我“快帮我看看怎么办”。
-希望你能够提供完整的信息，来帮助我了解 bug 发生的位置，最好还能提供一份导致 bug 的数据文件，让我来测试除错。&lt;/p&gt;
-&lt;p&gt;请把上面这些信息以及更多相关截图都发到 &lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues/"&gt;GeoPyTool 的 issue 中&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;别只想着让别人帮忙解决问题，也想想自己能够提供什么信息。&lt;/p&gt;
-&lt;p&gt;如果你在使用的时候遇到出错的情况,请按下图所示将命令行窗口里面的出错信息截图发来,这会很有帮助:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/HowToAskForHelp.png"&gt;&lt;/p&gt;
-&lt;h2&gt;意见建议&lt;/h2&gt;
-&lt;p&gt;如果你有什么意见建议，比如希望添加某个功能等等，都可以发到 &lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues/"&gt;GeoPyTool 的 issue 中&lt;/a&gt;。
-如果要求添加某个功能，最好要有该方法的参考文献出处，数据样本，以及简单介绍。
-这样能够节省很多时间，比如不用我们再自己去从原文中一个个复制出数据，也不用我们去通读全文来理解计算过程。
-既然你要求某个功能，就希望你能够对其进行解释。
-我们不比你更聪明，也不比你有更多的时间，所以请尊重我们的时间。&lt;/p&gt;
-&lt;h3&gt;Mac 用户&lt;/h3&gt;
-&lt;p&gt;对于 Mac 用户来说，下载压缩包，解压之后双击 GeoPyTool.app 这个文件就可以了。
-&lt;strong&gt;根本就不用动什么 SIP&lt;/strong&gt;(System Integrity Protection)，所以没必要叽叽歪歪。&lt;/p&gt;
-&lt;p&gt;如果直接双击不能运行，系统偏好设置-&amp;gt;安全性与隐私，允许一下就可以了。&lt;/p&gt;
-&lt;p&gt;如下图所示：
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/MacOSScreenShot.png"&gt;&lt;/p&gt;
-&lt;p&gt;要更新也不难，右键这个 GeoPyTool.app 文件，显示包内容，然后进入到 &lt;code&gt;GeoPyTool.app/Contents/Resources/UpDateGeoPytool&lt;/code&gt;。
-双击&lt;code&gt;GeoPyTool.app/Contents/Resources/&lt;/code&gt;这个目录中的&lt;code&gt;UpDateGeoPytool&lt;/code&gt;。
-就可以更新了，如下图所示：
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/OSXUpdate.png"&gt;&lt;/p&gt;
-&lt;p&gt;千万别乱动 GeoPyTool.app 文件夹内的东西，自己作死没人管。&lt;/p&gt;
-&lt;h3&gt;Windows 用户&lt;/h3&gt;
-&lt;p&gt;如果你用的是 Windows 8/8.1/10，那就很简单了，下载打包文件之后解压缩，运行里面的 bat 扩展名的文件就可以了。&lt;/p&gt;
-&lt;h4&gt;绝对不要放在中文路径下面！！！！&lt;/h4&gt;
-&lt;p&gt;另外确保整个文件夹都在英文目录下，绝对不能放到中文目录里面，否则会遇到下面的错误：&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/EnglishPathOnly.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;不知道什么是扩展名？不知道怎么看扩展名？自己想办法吧，不要当伸手党和小宝贝。
-开源软件已经相当于免费午餐，甚至都包含了免费餐具，还要专车来接么？
-解压缩的那个文件夹里面的东西千万别动，一个都别删除，还是那句话，自己作死没人管。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/RunWin.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;如果你用的是 Windows 7，那稍微麻烦点，需要安装 SP1 补丁，然后还要安装 KB2999226 和 Visual C++ Redistributable 2015。&lt;/p&gt;
-&lt;p&gt;不安装这些，就会遇到 &lt;code&gt;anapi-ms-win-crtrelated error&lt;/code&gt;这样的错误。&lt;/p&gt;
-&lt;p&gt;SP1补丁可以去 &lt;a href="https://support.microsoft.com/en-us/help/15090/windows-7-install-service-pack-1-sp1"&gt;微软官网下载&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;KB2999226 和 Visual C++ Redistributable 2015 的安装包在打包文件中其实有了，也可以在下面这两个链接中下载: &lt;a href="https://pan.baidu.com/s/1kVwSQ95"&gt;32 bit Windows7&lt;/a&gt; ，&lt;a href="https://pan.baidu.com/s/1qY34ocW"&gt;64 bit WInodws7&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;如果你用的是 Windows XP 或者 Vista，抱歉，走好不送，微软都不支持了，凭啥让我去支持？&lt;/p&gt;
-&lt;h3&gt;Linux 用户&lt;/h3&gt;
-&lt;p&gt;恭喜你，你既然已经日常用 Linux 了，探索学习技能就必然是基本能力了，水平肯定在我之上。所以我也就不提供打包文件了，而且为不同发型版打包也特别麻烦。
-请你直接参考 &lt;a href="http://geopytool.com/installation-expert.html"&gt;高级安装指南&lt;/a&gt; 来通过命令安装使用吧。&lt;/p&gt;
-&lt;h2&gt;数据模板&lt;/h2&gt;
-&lt;p&gt;最新的数据模板都在 &lt;a href="https://github.com/GeoPyTool/GeoPyTool/tree/master/DataFileSamples"&gt;DataFileSamples 这个目录里面可以下载&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;Settings.xlsx 是展示各种设置项目的效果。&lt;/p&gt;
-&lt;p&gt;GeoPyTool 中的 Geochemistry 菜单目录下的功能用的都是一份数据，即 &lt;strong&gt;Geochemistry.xlsx&lt;/strong&gt;，Structure geology 功能使用的是 &lt;strong&gt;Structure.xlsx&lt;/strong&gt;，其他功能各自有对应的数据模板。&lt;/p&gt;
-&lt;p&gt;请一定遵守数据模板的格式，把你的数据复制粘贴进去，填写好设置信息。&lt;/p&gt;
-&lt;h2&gt;空白数据&lt;/h2&gt;
-&lt;p&gt;我不是超人，不能替你做决定，你的空白数据是没办法来拟合以及进行矩阵计算的，好端端的数据非要有空白，你不问测试单位来问我？
-如果是别人的数据有空白，你自己要用就理应你自己想办法处理。我不能替你做决定，可能你要用0代替，也可能你要用随机值，或者可能你还有用空白格画朵花呢？&lt;/p&gt;
-&lt;h2&gt;使用方法&lt;/h2&gt;
-&lt;p&gt;这部分就去看&lt;a href="http://geopytool.com/yan-shi-shi-pin.html"&gt;功能演示&lt;/a&gt;吧，里面都是一个个案例。&lt;/p&gt;
-&lt;h2&gt;输出&lt;/h2&gt;
-&lt;h3&gt;图片&lt;/h3&gt;
-&lt;p&gt;GeoPyTool 生成的图片格式有三种可选，PDF 和 SVG 是矢量图，PNG 是位图。&lt;/p&gt;
-&lt;h4&gt;调整坐标轴&lt;/h4&gt;
-&lt;p&gt;每个成图的界面顶部都有一个菜单栏，如下图所示，是可以调整图片的坐标轴之类的信息的。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Axis%20Adjustment.png"&gt;&lt;/p&gt;
-&lt;p&gt;别墨迹说我没提供给你选项来控制坐标轴。&lt;/p&gt;
-&lt;h3&gt;数据表格&lt;/h3&gt;
-&lt;p&gt;GeoPyTool 当中的各种计算结果都可以保存为 Excel 或者 CSV 格式，自己爱用什么软件就用什么吧。
-&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/Samples.png?raw=true"&gt;&lt;/p&gt;
-&lt;h1&gt;支持我们&lt;/h1&gt;
-&lt;p&gt;如果你想支持我们，可以扫描下面的二维码来打赏赞助。
-我会用得到的赞助来支付医疗费用，保障健康，维持开发和添加更多功能。
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="Chinese"></category></entry><entry><title>安装指南</title><link href="/an-zhuang-zhi-nan.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/an-zhuang-zhi-nan.html</id><summary type="html">&lt;h1&gt;安装 GeoPyTool 的简单模式&lt;/h1&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category><category term="Chinese"></category></entry><entry><title>安装指南</title><link href="/an-zhuang-zhi-nan.html" rel="alternate"></link><published>2017-11-15T00:00:00+08:00</published><updated>2017-11-15T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-11-15:/an-zhuang-zhi-nan.html</id><summary type="html">&lt;h2&gt;安装 GeoPyTool&lt;/h2&gt;
 &lt;p&gt;GeoPyTool  有两种使用方法，可以作为独立的程序运行，也可以作为 Python 下的一个模块（module）来在 Python 解释器下调用。&lt;/p&gt;
-&lt;h2&gt;下载使用打包程序（推荐！）&lt;/h2&gt;
+&lt;h2&gt;作为独立程序使用 GeoPyTool&lt;/h2&gt;
 &lt;p&gt;打包好的可执行文件，目前支持 Windows 和 macOS 两种平台。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/Download.md"&gt;点击这里查看程序文件的下载链接。&lt;/a&gt;
-解压缩下载的 zip 文件，一定要保证文件夹内容的完整。另外确保整个文件夹都在英文目录下，绝对不能放到中文目录里面。&lt;/p&gt;
-&lt;h4&gt;绝对不要放在中文路径下面！！！！&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/EnglishPathOnly.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;我被问过大概有几十次，为什么会出现上图这种情况呢？因为放在中文目录下了！
-千万不要放在中文目录下面！！！！！！！！！！！&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/Download.md"&gt;点击这里查看程序文件的下载链接。&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Mac 下的 APP&lt;/h3&gt;
 &lt;p&gt;macOS 下面特别省心，因为开发者本身就用的这个系统。直接下载对应的压缩包，解压缩之后，双击 GeoPyTool.app 这个文件，就可以看到下面的图形界面了。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="User Interface of the APP on macOS." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/MacOSScreenShot.png"&gt;&lt;/p&gt;
-&lt;h3&gt;Windows 系统下的打包文件&lt;/h3&gt;
-&lt;h4&gt;Windows 8 …&lt;/h4&gt;</summary><content type="html">&lt;h1&gt;安装 GeoPyTool 的简单模式&lt;/h1&gt;
+&lt;h3&gt;Mac APP 更新升级方法&lt;/h3&gt;
+&lt;p&gt;进入到 GeoPyTool.app 文件内部，位置为 &lt;code&gt;GeoPyTool.app/Contents/Resources/UpDateGeoPytool&lt;/code&gt;。双击这个个名为 &lt;code&gt;UpDateGeoPytool&lt;/code&gt;的文件 …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;安装 GeoPyTool&lt;/h2&gt;
 &lt;p&gt;GeoPyTool  有两种使用方法，可以作为独立的程序运行，也可以作为 Python 下的一个模块（module）来在 Python 解释器下调用。&lt;/p&gt;
-&lt;h2&gt;下载使用打包程序（推荐！）&lt;/h2&gt;
+&lt;h2&gt;作为独立程序使用 GeoPyTool&lt;/h2&gt;
 &lt;p&gt;打包好的可执行文件，目前支持 Windows 和 macOS 两种平台。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/Download.md"&gt;点击这里查看程序文件的下载链接。&lt;/a&gt;
-解压缩下载的 zip 文件，一定要保证文件夹内容的完整。另外确保整个文件夹都在英文目录下，绝对不能放到中文目录里面。&lt;/p&gt;
-&lt;h4&gt;绝对不要放在中文路径下面！！！！&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/EnglishPathOnly.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;我被问过大概有几十次，为什么会出现上图这种情况呢？因为放在中文目录下了！
-千万不要放在中文目录下面！！！！！！！！！！！&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/Download.md"&gt;点击这里查看程序文件的下载链接。&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Mac 下的 APP&lt;/h3&gt;
 &lt;p&gt;macOS 下面特别省心，因为开发者本身就用的这个系统。直接下载对应的压缩包，解压缩之后，双击 GeoPyTool.app 这个文件，就可以看到下面的图形界面了。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="User Interface of the APP on macOS." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/MacOSScreenShot.png"&gt;&lt;/p&gt;
+&lt;h3&gt;Mac APP 更新升级方法&lt;/h3&gt;
+&lt;p&gt;进入到 GeoPyTool.app 文件内部，位置为 &lt;code&gt;GeoPyTool.app/Contents/Resources/UpDateGeoPytool&lt;/code&gt;。双击这个个名为 &lt;code&gt;UpDateGeoPytool&lt;/code&gt;的文件，就会更新到最新版本了。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Update the APP on macOS." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/OSXUpdate.png"&gt;&lt;/p&gt;
 &lt;h3&gt;Windows 系统下的打包文件&lt;/h3&gt;
 &lt;h4&gt;Windows 8/8.1/10 用户&lt;/h4&gt;
 &lt;p&gt;这几个比较新的 Windows 系统的用户也很省心，也是下载之后解压缩，然后在文件夹里面双击 &lt;strong&gt;Rungeopytool.bat&lt;/strong&gt; 就可以了。记住一定不要删除解压出来的文件夹里面的任何文件，那都是程序用得上的，一旦删除了就可能导致程序无法运行了。&lt;/p&gt;
@@ -298,14 +71,126 @@ GeoPyTool 是一个 &lt;strong&gt;自由软件&lt;/strong&gt;: 你可以自由�
 &lt;p&gt;再次重复一遍，如果你遇到不能运行的情况，并且看到了 &lt;code&gt;api-ms-win-crt&lt;/code&gt; 这样的字样，先检查上面的补丁是否安装了。&lt;/p&gt;
 &lt;h4&gt;Windows XP 和 Vista 用户&lt;/h4&gt;
 &lt;p&gt;我自己试了好几次都没弄成，我也懒得在这些老古董系统上面浪费时间精力。人生宝贵，所以建议你把电脑升级成 Windows7 SP1 以上的更新的操作系统，如果配置实在太差也可以用 Linux 操作系统。反正如果你非要纠结在 XP 这类连微软自己都抛弃的系统上，那就祝你好运以及再见！&lt;/p&gt;
-&lt;h2&gt;更新升级&lt;/h2&gt;
-&lt;h3&gt;Mac APP 更新升级方法&lt;/h3&gt;
-&lt;p&gt;进入到 GeoPyTool.app 文件内部，位置为 &lt;code&gt;GeoPyTool.app/Contents/Resources/UpDateGeoPytool&lt;/code&gt;。双击这个个名为 &lt;code&gt;UpDateGeoPytool&lt;/code&gt;的文件，就会更新到最新版本了。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Update the APP on macOS." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/OSXUpdate.png"&gt;&lt;/p&gt;
 &lt;h3&gt;Windows EXE 更新方法&lt;/h3&gt;
 &lt;p&gt;双击解压目录下的 &lt;strong&gt;Update.bat&lt;/strong&gt; 这个文件，就可以更新到最新版了。这个命令是调用 GeoPyTool 这个目录里面的 pip 来更新该目录下的 GeoPyTool 模块。千万别乱动这个文件同一目录下的任何其他内容，除非你很有信心能搞定哈，那样随你咯。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Update the EXE on Windows." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WinUpdate.png"&gt;&lt;/p&gt;
 &lt;h1&gt;注意！如果你下载了打包的文件了，只要运行对应的脚本或者双击 APP 文件就可以了，下面的内容和你无关，无关！！！！！别再折腾去安装下面的内容了，弄不明白还浪费时间！！！！！！！注意阅读上文就可以了！！！！！&lt;/h1&gt;
+&lt;h2&gt;将 GeoPyTool 作为 Python 模块来使用&lt;/h2&gt;
+&lt;p&gt;其他的所有操作系统，比如 Debian Linux, Ubuntu Linux, Fedora Linux, FreeBSD 甚至 GNU/Hurd，都可以将 GeoPyTool 作为一个 Python 模块来在 Python 解释器里面运行。实际上对于 macOS 和 Windows 用户，也建议这样使用，因为这样能够最快速更新到最新版本，下载安装都更加迅速。当然，操作起来稍微复杂点，反正不适合缺乏挑战精神和探索学习能力的人。&lt;/p&gt;
+&lt;h3&gt;首先要安装 Python&lt;/h3&gt;
+&lt;p&gt;你需要先安装 Python，geopytool 是用 Python3.5 写的，并且不兼容 Python2， 所以推荐你也用 3.5 或者更新的 Python。可以到 &lt;a href="https://www.python.org/downloads/"&gt;Python 官方网站&lt;/a&gt; 或者  &lt;a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/"&gt;清华 Tuna&lt;/a&gt; 去下载对应自己系统的安装包。&lt;/p&gt;
+&lt;p&gt;更推荐大家使用 Anaconda3-4.0.0 或者更新版本的 Anaconda3。因为在 Anaconda 中，包括 cython, numpy, pandas, matplotlib 等在内的很多必要的包都集成好了，安装时候省时间。&lt;/p&gt;
+&lt;h5&gt;对于 Windows 用户的一些有用链接&lt;/h5&gt;
+&lt;p&gt;实际上网上有很多很多指南，都给说明吧了要怎么安装 Python 以及激活 PIP。所以这里面就只放几个下载链接，自己探索吧哈，没探索精神搞个毛球学术对吧。&lt;/p&gt;
+&lt;h6&gt;32bit：&lt;/h6&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;项目&lt;/th&gt;
+&lt;th&gt;下载地址&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Anaconda&lt;/td&gt;
+&lt;td&gt;https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-4.4.0-Windows-x86.exe&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h6&gt;64bit：&lt;/h6&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;项目&lt;/th&gt;
+&lt;th&gt;下载地址&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Anaconda&lt;/td&gt;
+&lt;td&gt;https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-4.4.0-Windows-x86_64.exe&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;使用 PIP 安装 GeoPyTool&lt;/h3&gt;
+&lt;p&gt;安装完了 Python 并且激活了 PIP 之后，你是不是想着马上就能安装 GeoPyTool 了？&lt;/p&gt;
+&lt;p&gt;然而并不行。你需要安装一些基础包，geopytool 就是基于这些包构建的。即便你用的是 Anaconda3，也还是需要安装一些包，比如 pyqt5，这是用来搭建 GeoPyTool 的 GUI 图形界面的模块。&lt;/p&gt;
+&lt;p&gt;所以要在终端里面输入一些命令来先安装这些基础包。&lt;/p&gt;
+&lt;p&gt;不知道终端是啥？好吧，这里我先不责怪你怎么不去百度或者谷歌自行搜索。&lt;/p&gt;
+&lt;p&gt;在 Windows 系统里面，现在的终端一般就是 CMD 或者 PowerShell。对于其他的操作系统，比如 macOS 或者各种 Linux 以及 BSD 操作系统，往往都是 Bash，在这些系统里面也往往能找到 终端 这个程序，一般就在开始菜单或者程序目录里面肯定有。&lt;/p&gt;
+&lt;p&gt;Windows 用户不知道怎么运行 CMD 或者 PowerShell？搜索去吧，不要做纯粹的伸手党，自己探索一下是有好处的。&lt;/p&gt;
+&lt;h4&gt;注意&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;这里我用的命令都是 pip，这是假设你的 系统默认的 pip 就是 python3 的。而如果你同时安装了 Python2 和 Python3，那可能 pip 对应的未必是 Python3 的 pip 而是 Python2 的，这时候你可能就要把下面所有的 pip 替换成 pip3 来运行，应该就可以了。
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;接下来就把下面的命令&lt;strong&gt;逐条&lt;/strong&gt;复制粘贴到终端里面来运行，安装依赖包吧。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install cython
+pip install numpy
+pip install pandas
+pip install xlrd
+pip install matplotlib
+pip install BeautifulSoup4
+pip install pyqt5
+pip install scipy
+pip install scikit-learn
+pip install sympy
+pip install requests
+pip install pyopengl
+pip install pyqtgraph
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;直接使用 pip 来安装 scikit-learn 可能会报错，需要安装 &lt;a href="http://landinghub.visualstudio.com/visual-cpp-build-tools"&gt;Microsoft Visual C++ Build Tools&lt;/a&gt;。所以还可以考虑用 conda 来安装 scipy 和 scikit-learn。这就需要先安装 conda:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install requests
+pip install pyopengl
+pip install pyqtgraph
+pip install conda
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;然后我们用 conda 来安装其他的包：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;python3 -m conda install cython numpy pandas scipy scikit-learn sympy
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;安装完成了上面这些依赖包之后，就可以输入下面的这个命令来安装 GeoPyTool 了。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install geopytool
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;如果没有发现什么出错信息，就是说明安装成功了。&lt;/p&gt;
+&lt;h3&gt;更新已经安装的 GeoPyTool 模块&lt;/h3&gt;
+&lt;p&gt;如果你之前安装了 geopytool，可以通过下面的命令来更新到最新版本。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install geopytool --update --no-cache-dir
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;在 Python 下启动 GeoPyTool&lt;/h3&gt;
+&lt;p&gt;安装完了 geopytool，就可以在 Python 解释器里面启动了。不过这里要推荐一个替代原生解释器的 IPython，可以通过下面命令安装。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install ipython
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;安装好之后在终端中输入下面的命令启动 ipython。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ipython
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;然后在 ipython 或者原生 Python 解释器中输入下面两行命令，回车，就可以了。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;geopytool&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;gp&lt;/span&gt;
+&lt;span class="n"&gt;gp&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;就能看到 GeoPyTool 的图形界面了。
+例如下图就是在  Ubuntu 系统下的截图。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="GeoPyTool in Ubuntu" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/UbuntuScreenShot.png"&gt;&lt;/p&gt;
+&lt;p&gt;每次运行 GeoPyTool 之前，更新一下是个好习惯。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install --upgrade geopytool
+&lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;h2&gt;点型Marker/ 颜色Color/ 线型Style&lt;/h2&gt;
 &lt;p&gt;GeoPyTool 可视化的部分使用 Matplotlib 来实现的，所以设置的这些项目也是相似的。&lt;/p&gt;
 &lt;p&gt;点型 Markers 的设置可以参考:
@@ -328,221 +213,29 @@ http://matplotlib.org/api/colors_api.html&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/LoadPNG.png"&gt;&lt;/p&gt;
 &lt;h1&gt;捐助支持&lt;/h1&gt;
 &lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="Chinese"></category><category term="Support"></category><category term="中文"></category><category term="文档"></category></entry><entry><title>安装指南-进阶</title><link href="/an-zhuang-zhi-nan-jin-jie.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/an-zhuang-zhi-nan-jin-jie.html</id><summary type="html">&lt;h1&gt;安装 GeoPyTool 的复杂模式&lt;/h1&gt;
-&lt;p&gt;GeoPyTool 可以在 Python 作为一个模块（module）来安装。&lt;/p&gt;
-&lt;h1&gt;1. MacOS&lt;/h1&gt;
-&lt;h2&gt;1.1 安装 Brew 和 Python3&lt;/h2&gt;
-&lt;p&gt;访问 &lt;a href="http://brew.sh/"&gt;brew.sh网站&lt;/a&gt; 安装 brew。&lt;/p&gt;
-&lt;p&gt;安装完了 Brew 之后用下面的命令来安装 Python3：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;brew install Python3
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h2&gt;1.2 安装依赖包&lt;/h2&gt;
-&lt;p&gt;安装 Python3 之后运行下面的命令来安装依赖包，建议一条一条来运行安装：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython
-pip3 install numpy
-pip3 install pandas
-pip3 install xlrd
-pip3 install …&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;h1&gt;安装 GeoPyTool 的复杂模式&lt;/h1&gt;
-&lt;p&gt;GeoPyTool 可以在 Python 作为一个模块（module）来安装。&lt;/p&gt;
-&lt;h1&gt;1. MacOS&lt;/h1&gt;
-&lt;h2&gt;1.1 安装 Brew 和 Python3&lt;/h2&gt;
-&lt;p&gt;访问 &lt;a href="http://brew.sh/"&gt;brew.sh网站&lt;/a&gt; 安装 brew。&lt;/p&gt;
-&lt;p&gt;安装完了 Brew 之后用下面的命令来安装 Python3：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;brew install Python3
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h2&gt;1.2 安装依赖包&lt;/h2&gt;
-&lt;p&gt;安装 Python3 之后运行下面的命令来安装依赖包，建议一条一条来运行安装：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython
-pip3 install numpy
-pip3 install pandas
-pip3 install xlrd
-pip3 install matplotlib
-pip3 install BeautifulSoup4
-pip3 install pyqt5
-pip3 install scipy
-pip3 install scikit-learn
-pip3 install sympy
-pip3 install requests
-pip3 install pyopengl
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;或者也可以试试放到一条来运行安装：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h2&gt;1.3 安装 GeoPyTool&lt;/h2&gt;
-&lt;p&gt;上面的依赖包都安装完毕之后，运行下面的命令来安装 GeoPyTool：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install geopytool
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h1&gt;2. Linux&lt;/h1&gt;
-&lt;p&gt;这里仅仅以 Ubuntu 16.04.4 为例。&lt;/p&gt;
-&lt;h2&gt;2.1 更新系统到最新&lt;/h2&gt;
-&lt;p&gt;打开终端（Terminal），运行下面的命令来更新系统到最新：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;apt update
-apt upgrade
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h2&gt;2.2 安装 Python3 和 Pip3&lt;/h2&gt;
-&lt;p&gt;更新系统完毕之后，运行下面的两条命令来安装 Python3 和 Pip3：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;apt 安装 Python3
-apt 安装 Python3-pip
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h2&gt;2.3 安装依赖包&lt;/h2&gt;
-&lt;p&gt;逐条运行下面的命令来安装依赖包：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython
-pip3 install numpy
-pip3 install pandas
-pip3 install xlrd
-pip3 install matplotlib
-pip3 install BeautifulSoup4
-pip3 install pyqt5
-pip3 install scipy
-pip3 install scikit-learn
-pip3 install sympy
-pip3 install requests
-pip3 install pyopengl
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;或者也可以试试放到一条来运行安装：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h2&gt;2.4 安装 GeoPyTool&lt;/h2&gt;
-&lt;p&gt;上面的依赖包都安装完毕之后，运行下面的命令来安装 GeoPyTool：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install geopytool
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h1&gt;3. Windows&lt;/h1&gt;
-&lt;p&gt;Windows 用户安装起来稍微麻烦，首先是安装 Python 3.6 或者更新的版本，可以从&lt;a href="https://www.python.org/downloads/"&gt;Python 官方网站&lt;/a&gt; 来下载安装包。&lt;/p&gt;
-&lt;h2&gt;3.1 安装必备补丁&lt;/h2&gt;
-&lt;p&gt;&lt;a href="http://landinghub.visualstudio.com/visual-cpp-build-tools"&gt;Microsoft Visual C++ Build Tools&lt;/a&gt; 需要先安装，因为后面的依赖包之一的 scikit-learn 用到了这个。&lt;/p&gt;
-&lt;h3&gt;Windows 7 系统必须安装的内容&lt;/h3&gt;
-&lt;p&gt;Windows 7 用户必须安装 &lt;strong&gt;SP1 of Windows&lt;/strong&gt;，然后安装 &lt;strong&gt;KB2999226 Patch&lt;/strong&gt; 和 &lt;strong&gt;Visual C++ Redistributable 2015&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;Windows 7 的 SP1 补丁包可以在 &lt;a href="https://support.microsoft.com/en-us/help/15090/windows-7-install-service-pack-1-sp1"&gt;微软官网这里&lt;/a&gt;来下载。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;KB2999226 Patch&lt;/strong&gt; 和 &lt;strong&gt;Visual C++ Redistributable 2015&lt;/strong&gt; 的下载链接 在这里：
-&lt;a href="https://pan.baidu.com/s/1kVwSQ95"&gt;32 bit Windows7 &lt;/a&gt;
-&lt;a href="https://pan.baidu.com/s/1qY34ocW"&gt;64 bit WInodws7 &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;注意选择对应自己系统的版本。&lt;/p&gt;
-&lt;p&gt;如果你的 Windows7 系统没有安装 SP1等补丁包，就可能遇到 &lt;code&gt;api-ms-win-crt&lt;/code&gt; 这样的报错信息，所以请一定安装上面的补丁。如果你遇到了&lt;code&gt;api-ms-win-crt&lt;/code&gt;这类错误，就检查一下是不是没安装补丁包。&lt;/p&gt;
-&lt;h2&gt;3.2 安装 Python&lt;/h2&gt;
-&lt;p&gt;补丁包都安装好了之后，就可以下载 来安装 Python 3.6.4 或者更新的版本，去&lt;a href="https://www.python.org/downloads/windows/"&gt;Python 官网&lt;/a&gt;下载安装包。&lt;/p&gt;
-&lt;h4&gt;注意&lt;/h4&gt;
-&lt;p&gt;在安装 Python 的时候，一定要选中下图这红框中的选项，保证把 Python 添加到系统环境变量 Path:
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WindowsInstallAddPythonToPath.png"&gt;&lt;/p&gt;
-&lt;h2&gt;3.3 安装依赖包&lt;/h2&gt;
-&lt;p&gt;安装好了 Python3 之后，在&lt;strong&gt;终端&lt;/strong&gt;（Windows 系统的终端就是 &lt;strong&gt;CMD&lt;/strong&gt; 或者 &lt;strong&gt;Powershell&lt;/strong&gt;）中运行下列命令来安装依赖包：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython
-pip3 install numpy
-pip3 install pandas
-pip3 install xlrd
-pip3 install matplotlib
-pip3 install BeautifulSoup4
-pip3 install pyqt5
-pip3 install scipy
-pip3 install scikit-learn
-pip3 install sympy
-pip3 install requests
-pip3 install pyopengl
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;或者也可以试试放到一条来运行安装：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h2&gt;3.4 安装 GeoPyTool&lt;/h2&gt;
-&lt;p&gt;上面的依赖包都安装完毕之后，运行下面的命令来安装 GeoPyTool：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install geopytool
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h1&gt;4. 运行 GeoPyTool&lt;/h1&gt;
-&lt;p&gt;如果上面的安装过程都没有报错，就是成功了，就可以运行下面的命令来运行 GeoPyTool:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;python3 -c &lt;span class="s2"&gt;&amp;quot;import geopytool;geopytool.main()&amp;quot;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h1&gt;5. 更新已经安装的 GeoPyTool&lt;/h1&gt;
-&lt;p&gt;如果已经按照上面的方法安装完毕了 GeoPyTool，可以用下面的命令来更新到最新版本：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install geopytool --update --no-cache-dir
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;建议在每次运行之前都可以升级更新一下。&lt;/p&gt;</content><category term="Doc"></category><category term="Chinese"></category><category term="Support"></category><category term="中文"></category><category term="文档"></category></entry><entry><title>常见问题</title><link href="/chang-jian-wen-ti.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/chang-jian-wen-ti.html</id><summary type="html"></summary><content type="html"></content><category term="Doc"></category><category term="Chinese"></category><category term="Support"></category><category term="中文"></category><category term="文档"></category></entry><entry><title>Demonstration</title><link href="/demonstration.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/demonstration.html</id><summary type="html">&lt;h2&gt;Demonstration of the Functions&lt;/h2&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="Chinese"></category><category term="中文"></category><category term="文档"></category></entry><entry><title>Demonstration</title><link href="/demonstration.html" rel="alternate"></link><published>2017-11-15T00:00:00+08:00</published><updated>2017-11-15T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-11-15:/demonstration.html</id><summary type="html">&lt;h2&gt;Demonstration of the Functions&lt;/h2&gt;
 &lt;h2&gt;Open and Import Data&lt;/h2&gt;
 &lt;p&gt;To start a plot or calculation, raw data file should be imported to GeoPyTool first.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/01.ImportData.png?raw=true"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ImportData.png"&gt;&lt;/p&gt;
 &lt;p&gt;The Data file can be Xlsx/Xls or CSV.
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Data Unit&lt;/h2&gt;
-&lt;p&gt;Unit of Oxide Items (such as &lt;code&gt;SiO2&lt;/code&gt;, &lt;code&gt;TiO2&lt;/code&gt;, &lt;code&gt;Al2O3&lt;/code&gt;, &lt;code&gt;Fe2O3&lt;/code&gt;, &lt;code&gt;FeO&lt;/code&gt;, &lt;code&gt;MnO&lt;/code&gt;, &lt;code&gt;MgO&lt;/code&gt;, &lt;code&gt;CaO    Na2O&lt;/code&gt;, &lt;code&gt;K2O …&lt;/code&gt;&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Demonstration of the Functions&lt;/h2&gt;
-&lt;h2&gt;Open and Import Data&lt;/h2&gt;
-&lt;p&gt;To start a plot or calculation, raw data file should be imported to GeoPyTool first.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/01.ImportData.png?raw=true"&gt;&lt;/p&gt;
-&lt;p&gt;The Data file can be Xlsx/Xls or CSV.
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Data Unit&lt;/h2&gt;
-&lt;p&gt;Unit of Oxide Items (such as &lt;code&gt;SiO2&lt;/code&gt;, &lt;code&gt;TiO2&lt;/code&gt;, &lt;code&gt;Al2O3&lt;/code&gt;, &lt;code&gt;Fe2O3&lt;/code&gt;, &lt;code&gt;FeO&lt;/code&gt;, &lt;code&gt;MnO&lt;/code&gt;, &lt;code&gt;MgO&lt;/code&gt;, &lt;code&gt;CaO    Na2O&lt;/code&gt;, &lt;code&gt;K2O&lt;/code&gt;, &lt;code&gt;P2O5&lt;/code&gt;, &lt;code&gt;LOI&lt;/code&gt;, &lt;code&gt;Total&lt;/code&gt;, etc )is weight percent (wt%).&lt;/p&gt;
-&lt;p&gt;But Make Sure to follow the format in data templates. &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Do not&lt;/strong&gt; contain the &lt;code&gt;%&lt;/code&gt; in the used data files!&lt;/p&gt;
-&lt;p&gt;Unit of other Elements Items (such as &lt;code&gt;Li&lt;/code&gt;, &lt;code&gt;Be&lt;/code&gt;, &lt;code&gt;Sc&lt;/code&gt;, &lt;code&gt;V&lt;/code&gt;, &lt;code&gt;Cr&lt;/code&gt;, &lt;code&gt;Co&lt;/code&gt;, &lt;code&gt;Ni&lt;/code&gt;, &lt;code&gt;Cu&lt;/code&gt;, &lt;code&gt;Zn&lt;/code&gt;, &lt;code&gt;Ga&lt;/code&gt;, &lt;code&gt;Rb&lt;/code&gt;, &lt;code&gt;Sr&lt;/code&gt;, &lt;code&gt;Y&lt;/code&gt;, &lt;code&gt;Zr&lt;/code&gt;, &lt;code&gt;Nb&lt;/code&gt;, &lt;code&gt;Cs&lt;/code&gt;, &lt;code&gt;Ba&lt;/code&gt;, &lt;code&gt;La&lt;/code&gt;, &lt;code&gt;Ce&lt;/code&gt;, &lt;code&gt;Pr&lt;/code&gt;, &lt;code&gt;Nd&lt;/code&gt;, &lt;code&gt;Sm&lt;/code&gt;, &lt;code&gt;Eu&lt;/code&gt;, &lt;code&gt;Gd&lt;/code&gt;, &lt;code&gt;Tb&lt;/code&gt;, &lt;code&gt;Dy&lt;/code&gt;, &lt;code&gt;Ho&lt;/code&gt;, &lt;code&gt;Er&lt;/code&gt;, &lt;code&gt;Tm&lt;/code&gt;, &lt;code&gt;Yb&lt;/code&gt;, &lt;code&gt;Lu&lt;/code&gt;, &lt;code&gt;Hf&lt;/code&gt;, &lt;code&gt;Ta&lt;/code&gt;, &lt;code&gt;Tl&lt;/code&gt;, &lt;code&gt;Pb&lt;/code&gt;, &lt;code&gt;Th&lt;/code&gt;, &lt;code&gt;U&lt;/code&gt;) is ppm.&lt;/p&gt;
 &lt;h2&gt;Set Up Data&lt;/h2&gt;
-&lt;p&gt;If there is no setting up information such as the &lt;code&gt;Label&lt;/code&gt;/&lt;code&gt;Color&lt;/code&gt;/&lt;code&gt;Marker&lt;/code&gt;/&lt;code&gt;Style&lt;/code&gt;/&lt;code&gt;Alpha&lt;/code&gt;/&lt;code&gt;Width&lt;/code&gt;, you need to click on the Set Format button to add these items and make modification by yourself.&lt;/p&gt;
+&lt;p&gt;If there is no setting up information such as the Label/Color/Marker/Style/Alapha …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Demonstration of the Functions&lt;/h2&gt;
+&lt;h2&gt;Open and Import Data&lt;/h2&gt;
+&lt;p&gt;To start a plot or calculation, raw data file should be imported to GeoPyTool first.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ImportData.png"&gt;&lt;/p&gt;
+&lt;p&gt;The Data file can be Xlsx/Xls or CSV.
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Set Up Data&lt;/h2&gt;
+&lt;p&gt;If there is no setting up information such as the Label/Color/Marker/Style/Alapha/Width, you need to click on the Set Format button to add these items and make modification by yourself.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SetDataUp.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SettingDataUp.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Data Setting Details&lt;/h2&gt;
-&lt;p&gt;As shown in the &lt;a href="https://github.com/GeoPyTool/GeoPyTool/tree/master/DataFileSamples"&gt;Data File Samples&lt;/a&gt;, all data files contain the following Items:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SettingArea.png"&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;code&gt;Label&lt;/code&gt;: control the group of sample and will be shown on legend&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Color&lt;/code&gt;: control the &lt;code&gt;Color&lt;/code&gt; of both drawn line and plotted point&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Marker&lt;/code&gt;: control the points shape&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Size&lt;/code&gt;: control the points &lt;code&gt;Size&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Width&lt;/code&gt;: control the line &lt;code&gt;Width&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Style&lt;/code&gt;: control the line shape&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Alpha&lt;/code&gt;: control the transparency of both drawn line and plotted point&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Besides these seven items, the &lt;strong&gt;other columns in your data MUST ALL be number values!&lt;/strong&gt;&lt;/p&gt;
-&lt;h4&gt;&lt;code&gt;Label&lt;/code&gt; can be set to any character，word or phrase.&lt;/h4&gt;
-&lt;h4&gt;&lt;code&gt;Color&lt;/code&gt; can only be chosen from following words: 'blue','green','red','cyan','magenta','yellow','black','white'.&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;Color&lt;/code&gt;:
-&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/ColorList.png?raw=true"&gt;&lt;/p&gt;
-&lt;h4&gt;&lt;code&gt;Size&lt;/code&gt;, &lt;code&gt;Width&lt;/code&gt;, and &lt;code&gt;Alpha&lt;/code&gt;&lt;/h4&gt;
-&lt;p&gt;These three are number values. The unit used for &lt;code&gt;Size&lt;/code&gt; and &lt;code&gt;Width&lt;/code&gt; is pt. &lt;code&gt;Size&lt;/code&gt; normally should be larger than '10', and &lt;code&gt;Width&lt;/code&gt; usually is '1'. &lt;code&gt;Alpha&lt;/code&gt; can be set from '0' to '1', for example, setting &lt;code&gt;Alpha&lt;/code&gt; as '0.4' means 40% transparency.&lt;/p&gt;
-&lt;h4&gt;&lt;code&gt;Marker&lt;/code&gt; and &lt;code&gt;Style&lt;/code&gt;&lt;/h4&gt;
-&lt;p&gt;these two are slightly more complicated and can be set as the contents of the following lists.&lt;/p&gt;
-&lt;h5&gt;&lt;code&gt;Marker&lt;/code&gt; :&lt;/h5&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/MarkerList.png?raw=true"&gt;&lt;/p&gt;
-&lt;h5&gt;&lt;code&gt;Style&lt;/code&gt;:&lt;/h5&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/StyleList.png?raw=true"&gt;&lt;/p&gt;
-&lt;h4&gt;The effect of setting:&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SettingEffect.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Adjusting Axises of Figure&lt;/h2&gt;
-&lt;p&gt;All generated figures contain a menu bar on its top, which can be used to adjust the axises and title. &lt;/p&gt;
-&lt;p&gt;As shown in the picture below:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Axis%20Adjustment.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Click the Function you need&lt;/h2&gt;
 &lt;p&gt;After setting up, you can just click to use the function you need.
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ClickOnTheFunction.png"&gt;&lt;/p&gt;
 &lt;h2&gt;TAS/REE/Trace Elements&lt;/h2&gt;
-&lt;p&gt;These functions are quite commonly used and the details are shown as the picture below.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/02.Save%20Image.png?raw=true"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/TAS-REE-Trace.png"&gt;&lt;/p&gt;
+&lt;p&gt;These functions are quite commonly used and the details are shown as the picture below.
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/TAS-REE-Trace.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Pearce Diagram&lt;/h2&gt;
 &lt;p&gt;Pearce Diagram just use some trace elements and is also quite easy to know how to use.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Pearce.png"&gt;&lt;/p&gt;
@@ -561,10 +254,7 @@ In the Rose Map function, all data in one data files can be treated as a single 
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/StereoAndRose.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Zircon Ce4/3 Ratio Calculation&lt;/h2&gt;
 &lt;p&gt;The data file used here is quite complicated. Please follow the guidance shown in the picture below.&lt;/p&gt;
-&lt;p&gt;Alarm！ This function has been totally rewritten and the old Data File for the older version can not be used directly to the new version function! Please Download the latest Data File Templates from &lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/DataFileSamples/Zircon%20Ce%20Calculation/ZirconCe.xlsx"&gt;https://github.com/GeoPyTool/GeoPyTool/blob/master/DataFileSamples/Zircon%20Ce%20Calculation/ZirconCe.xlsx&lt;/a&gt; .&lt;/p&gt;
-&lt;p&gt;In the template data file for this calculation, the row with the &lt;strong&gt;Base&lt;/strong&gt; symbol needs to be filled with the bulk REE data, and the &lt;strong&gt;zircon&lt;/strong&gt; rows and &lt;strong&gt;&lt;code&gt;Label&lt;/code&gt;&lt;/strong&gt; column is where the REE data is input. The &lt;strong&gt;Zr&lt;/strong&gt; value for zircon should be set as the &lt;strong&gt;“constant”&lt;/strong&gt; &lt;strong&gt;497555&lt;/strong&gt;. Please Delete all unused elements and only leave the data to fit and calculate!&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ZriconCeCalculation.png"&gt;
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ZriconCeCalculation2.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ZriconCeCalculation.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Zircon and Rutile Thermometer&lt;/h2&gt;
 &lt;p&gt;These two function are super easy. Notice the ASiO2 and ATiO2 here are the Activity of these two components.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Thermometer.png"&gt;&lt;/p&gt;
@@ -572,30 +262,7 @@ In the Rose Map function, all data in one data files can be treated as a single 
 &lt;p&gt;This function allows users to load any picture from any articles as a base map to plot on.&lt;/p&gt;
 &lt;p&gt;But you must understand the original plot first and know the mathematical setting of it. So you can set up the right format in your plot.&lt;/p&gt;
 &lt;p&gt;For example, as the picture below shown,  the original diagram used Nb and Th, normalized by N-MORB(Sun and McDonough 1989), and then used the Log function of these two items. So we do the same setting up as shown by the picture. The Left/Right/Down/Up limit of the original diagram are 0.01/100/0.01/1000, so we need to use the Log function and find out that we should set the Left/Right/Down/Up limit to be -2/2/-2/3. If you can not understand why, please take a rest and good bye.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/UserDefinedXY.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/03.LoadBaseMap.png?raw=true"&gt;&lt;/p&gt;
-&lt;h2&gt;3D and Statistics&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/04.Statistical.png?raw=true"&gt;&lt;/p&gt;
-&lt;h2&gt;Combine Multiple Excel data files into One Excel file&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/CombineData.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Cluster&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/05.Cluster.png?raw=true"&gt;&lt;/p&gt;
-&lt;h2&gt;Flatten a 2-d data files into 1-d array&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Flatten.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Data Transformation: Transposition/ Center Trans/ Standard Trans / Log Trans&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/DataTrans.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Factor Analysis (FA) and Principal Component Analysis (PCA)&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/FA_PCA.png?raw=true"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;body&gt;
-&lt;video src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/FA_Video.mp4"  controls="controls"&gt;
-your browser does not support the video tag
-&lt;/video&gt;
-&lt;/body&gt;&lt;/p&gt;
-&lt;p&gt;&lt;body&gt;
-&lt;video src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/PCA_Video.mp4"  controls="controls"&gt;
-your browser does not support the video tag
-&lt;/video&gt;
-&lt;/body&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category><category term="Support"></category></entry><entry><title>FAQ</title><link href="/faq.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/faq.html</id><summary type="html"></summary><content type="html"></content><category term="Doc"></category><category term="English"></category><category term="Support"></category></entry><entry><title>Functions</title><link href="/functions.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/functions.html</id><summary type="html">&lt;h1&gt;Functions&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/UserDefinedXY.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category></entry><entry><title>Functions</title><link href="/functions.html" rel="alternate"></link><published>2017-11-15T00:00:00+08:00</published><updated>2017-11-15T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-11-15:/functions.html</id><summary type="html">&lt;h1&gt;Functions&lt;/h1&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -698,7 +365,7 @@ your browser does not support the video tag
 &lt;td&gt;An original function&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</content><category term="Doc"></category><category term="English"></category><category term="Support"></category></entry><entry><title>功能列表</title><link href="/gong-neng-lie-biao.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/gong-neng-lie-biao.html</id><summary type="html">&lt;h1&gt;功能列表&lt;/h1&gt;
+&lt;/table&gt;</content><category term="Doc"></category><category term="English"></category></entry><entry><title>功能列表</title><link href="/gong-neng-lie-biao.html" rel="alternate"></link><published>2017-11-15T00:00:00+08:00</published><updated>2017-11-15T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-11-15:/gong-neng-lie-biao.html</id><summary type="html">&lt;h1&gt;功能列表&lt;/h1&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -808,20 +475,23 @@ your browser does not support the video tag
 &lt;/table&gt;
 &lt;h1&gt;捐助支持&lt;/h1&gt;
 &lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="Chinese"></category><category term="Support"></category><category term="中文"></category><category term="文档"></category></entry><entry><title>Installation</title><link href="/installation.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/installation.html</id><summary type="html">&lt;h1&gt;Installation, Easy Way&lt;/h1&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="Chinese"></category><category term="中文"></category><category term="文档"></category></entry><entry><title>Installation</title><link href="/installation.html" rel="alternate"></link><published>2017-11-15T00:00:00+08:00</published><updated>2017-11-15T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-11-15:/installation.html</id><summary type="html">&lt;h2&gt;Installation&lt;/h2&gt;
 &lt;p&gt;GeoPyTool can be used as a module inside Python, and can also run as a standalone application.&lt;/p&gt;
-&lt;h2&gt;Standalone Application （Recommended！）&lt;/h2&gt;
-&lt;p&gt;Packed up executable files are provided for Windows and MacOS platform.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/Download.md"&gt;Click here to get Download links.&lt;/a&gt;
-Unzip the zip and keep all components there. Make sure …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Installation, Easy Way&lt;/h1&gt;
+&lt;h2&gt;Standalone Application&lt;/h2&gt;
+&lt;p&gt;Packed up executable files are temporarily only provided for Windows and MacOS platform.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/Download.md"&gt;Click here to get Download links.&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Mac APP&lt;/h3&gt;
+&lt;p&gt;On macOS, everything is extremely easy to use GeoPyTool …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Installation&lt;/h2&gt;
 &lt;p&gt;GeoPyTool can be used as a module inside Python, and can also run as a standalone application.&lt;/p&gt;
-&lt;h2&gt;Standalone Application （Recommended！）&lt;/h2&gt;
-&lt;p&gt;Packed up executable files are provided for Windows and MacOS platform.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/Download.md"&gt;Click here to get Download links.&lt;/a&gt;
-Unzip the zip and keep all components there. Make sure that the whole unzipped folder is under an English path.&lt;/p&gt;
+&lt;h2&gt;Standalone Application&lt;/h2&gt;
+&lt;p&gt;Packed up executable files are temporarily only provided for Windows and MacOS platform.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/Download.md"&gt;Click here to get Download links.&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Mac APP&lt;/h3&gt;
 &lt;p&gt;On macOS, everything is extremely easy to use GeoPyTool. Just download and unzip the file, then double click on the GeoPyTool.app file, you will find the APP available as the following picture shows.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="User Interface of the APP on macOS." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/MacOSScreenShot.png"&gt;&lt;/p&gt;
+&lt;h3&gt;Mac APP Update&lt;/h3&gt;
+&lt;p&gt;Go to the location inside the app file, &lt;code&gt;GeoPyTool.app/Contents/Resources/UpDateGeoPytool&lt;/code&gt;.Double click on this file neamed UpDateGeoPytool at &lt;code&gt;GeoPyTool.app/Contents/Resources/&lt;/code&gt;. It will update the GeoPyTool inside your GeoPyTool.app file. Remember that never modify any files directly under the same folder unless you are an expert on dealing with Python.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Update the APP on macOS." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/OSXUpdate.png"&gt;&lt;/p&gt;
 &lt;h3&gt;Windows Pack&lt;/h3&gt;
 &lt;h4&gt;Windows 8/8.1/10 Users&lt;/h4&gt;
 &lt;p&gt;On these modern Windows platforms, everything is also extremely easy to use GeoPyTool. Just download and unzip the file, then double click on the &lt;strong&gt;Rungeopytool.bat&lt;/strong&gt; file, and make sure that you don't delete any file form the unziped folder because they are all required by the program, then you will find the APP available as the following picture shows.&lt;/p&gt;
@@ -837,13 +507,122 @@ So if you encounter any &lt;code&gt;api-ms-win-crt&lt;/code&gt;related errors, p
 &lt;h4&gt;Windows XP or Vista Users&lt;/h4&gt;
 &lt;p&gt;I failed many times on both XP and Vista, and I think there might not be a lot users of these two antique systems.
 If you are using one or both of them, please be good to yourself to update you old PC to at least Windows 7 SP1 or try Linux on your antique computers. My advice is that we should not waste our life on those systems that are not even supported by their developers and manufacturer. So, if you still want to run GeoPyTool on those two old systems, good luck and good bye.&lt;/p&gt;
-&lt;h2&gt;Update&lt;/h2&gt;
-&lt;h3&gt;Mac APP Update&lt;/h3&gt;
-&lt;p&gt;Go to the location inside the app file, &lt;code&gt;GeoPyTool.app/Contents/Resources/UpDateGeoPytool&lt;/code&gt;.Double click on this file neamed UpDateGeoPytool at &lt;code&gt;GeoPyTool.app/Contents/Resources/&lt;/code&gt;. It will update the GeoPyTool inside your GeoPyTool.app file. Remember that never modify any files directly under the same folder unless you are an expert on dealing with Python.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Update the APP on macOS." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/OSXUpdate.png"&gt;&lt;/p&gt;
-&lt;h3&gt;Windows Bat Update&lt;/h3&gt;
+&lt;h3&gt;Windows EXE Update&lt;/h3&gt;
 &lt;p&gt;Double click on the  &lt;strong&gt;Update.bat&lt;/strong&gt; file to run update. It will update the GeoPyTool inside your GeoPyTool folder. Remember that never modify any files directly under the same folder unless you are an expert on dealing with Python.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Update the EXE on Windows." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WinUpdate.png"&gt;&lt;/p&gt;
+&lt;h1&gt;Attention！ If you already download the packed up APP, just egnore the parts below and READ CAREFULLY PLEASE!!!!!!&lt;/h1&gt;
+&lt;h2&gt;Use as a Python Module&lt;/h2&gt;
+&lt;p&gt;Users of other Operating Systems, such as Debian Linux, Ubuntu Linux, Fedora Linux, FreeBSD or GNU/Hurd, please try to use GeoPyTool in Python, which is also recommended to all the users including those who use macOS or Windows 10, because the latest version of GeoPyTool can be installed with pip easilier and faster than using standalone executable files.&lt;/p&gt;
+&lt;h3&gt;Install Python First&lt;/h3&gt;
+&lt;p&gt;The first thing to do is to install Python, newer than 3.5, which can be download from &lt;a href="https://www.python.org/downloads/"&gt;Python Website&lt;/a&gt; or  &lt;a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/"&gt;Tsinghua Tuna&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Anaconda3-4.0.0 and other newer versions of Anaconda3 are recommended. Because they already contain useful modules such as cython, numpy, pandas, matplotlib, and the powerful ipython.&lt;/p&gt;
+&lt;h5&gt;Useful links for Windows users to install GeoPyTool with PIP:&lt;/h5&gt;
+&lt;p&gt;In fact, you guys can easily find instructions on how to install Python and PIP on the Internet. So I will just cast some links for newbie using Python on Windows.&lt;/p&gt;
+&lt;h6&gt;32bit：&lt;/h6&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Item&lt;/th&gt;
+&lt;th&gt;Address&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Anaconda&lt;/td&gt;
+&lt;td&gt;https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-4.4.0-Windows-x86.exe&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h6&gt;64bit：&lt;/h6&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Item&lt;/th&gt;
+&lt;th&gt;Address&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Anaconda&lt;/td&gt;
+&lt;td&gt;https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-4.4.0-Windows-x86_64.exe&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;Install GeoPyTool with PIP&lt;/h3&gt;
+&lt;p&gt;After installation of Python, you might think that finally you can install GeoPyTool.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NO!&lt;/strong&gt; In fact you need to install some used packages first, even you are using Anaconda. Because some packages used to build the Graphic User Interface of GeoPyTool still need to be installed, and this is also a good chance for you to update all the modules to the latest version (OR not).&lt;/p&gt;
+&lt;p&gt;So use the following commands in your &lt;strong&gt;terminal&lt;/strong&gt; to install these modules.&lt;/p&gt;
+&lt;p&gt;You don't know what a Terminal is? For Windows, it can be the mighty &lt;strong&gt;CMD&lt;/strong&gt; or PowerShell. For other systems including macOS, it should be the &lt;strong&gt;BASH&lt;/strong&gt; ore just labeled as &lt;strong&gt;Terminal&lt;/strong&gt; in the built-in applications list. Still don't know how to launch a terminal? Google it dude, we can't do that hand by hand for you.&lt;/p&gt;
+&lt;h4&gt;Notice&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Here we use pip as we assume that your default version of Python is Python 3.X and the pip will refer to the PIP under Python3. If you installed both Python 2.X and Python 3.X, you might need to try to use **pip3** instead of **pip** in all the following commands to call the PIP of Python 3.
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;So paste the following commands in your &lt;strong&gt;terminal&lt;/strong&gt; as their sequence to install these modules in order.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install cython
+pip install numpy
+pip install pandas
+pip install xlrd
+pip install matplotlib
+pip install BeautifulSoup4
+pip install pyqt5
+pip install scipy
+pip install scikit-learn
+pip install sympy
+pip install requests
+pip install pyopengl
+pip install pyqtgraph
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The installation of scikit-learn might require &lt;a href="http://landinghub.visualstudio.com/visual-cpp-build-tools"&gt;Microsoft Visual C++ Build Tools&lt;/a&gt;, another solution is to use conda to install scipy and scikit-learn.&lt;/p&gt;
+&lt;p&gt;We install conda with pip first:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install requests
+pip install pyopengl
+pip install pyqtgraph
+pip install conda
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then we use conda to install some other packages:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;python3 -m conda install cython numpy pandas scipy scikit-learn sympy
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;After the installation of those packages above, you can use this similar command also in the &lt;strong&gt;terminal&lt;/strong&gt; to install the GeoPyTool.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install geopytool
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;If there comes no error message, everything should have been done successfully.&lt;/p&gt;
+&lt;h3&gt;Update an existing GeoPyTool&lt;/h3&gt;
+&lt;p&gt;If you installed GeoPyTool as a module in Python, you can use this similar command also in the &lt;strong&gt;terminal&lt;/strong&gt; to update to the latest version of GeoPyTool.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install geopytool --update --no-cache-dir
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Launch GeoPyTool form a Python interpreter&lt;/h3&gt;
+&lt;p&gt;After the installation step above, GeoPyTool now becomes available in Python interpreter. The &lt;strong&gt;IPython&lt;/strong&gt; interpreter is recommended because it is much friendly than the buildin interpreter of Python. &lt;strong&gt;IPython&lt;/strong&gt; can be also installed with pip:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install ipython
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then you can run ipython in &lt;strong&gt;terminal&lt;/strong&gt; with the following command:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ipython
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then you can simply use &lt;strong&gt;GeoPyTool&lt;/strong&gt; by type the following commands in your Python interpreter:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;geopytool&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;gp&lt;/span&gt;
+&lt;span class="n"&gt;gp&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;You would see the GUI of &lt;strong&gt;GeoPyTool&lt;/strong&gt;, which is under development for now. So it is a good idea to update &lt;strong&gt;GeoPyTool&lt;/strong&gt; with pip everytime before you use it:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install --upgrade geopytool
+&lt;/pre&gt;&lt;/div&gt;
+
+
 &lt;h2&gt;Marker/Color/Style&lt;/h2&gt;
 &lt;p&gt;All these details in GeoPyTool are the same as those in Matplotlib becasue that is what GeoPyTool used to visualize data.&lt;/p&gt;
 &lt;p&gt;Markers of Points can be reffered from here:
@@ -863,240 +642,280 @@ http://matplotlib.org/api/colors_api.html&lt;/p&gt;
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/NewTrace.png"&gt;&lt;/p&gt;
 &lt;p&gt;The New StereoNet Projection and the RoseMap function need Data template file named as &lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/DataFileSamples/Structure.xlsx"&gt;Structure.xlsx&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Rose.png"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/LoadPNG.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category><category term="Support"></category></entry><entry><title>Installation-Expert</title><link href="/installation-expert.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/installation-expert.html</id><summary type="html">&lt;h1&gt;Installation, For Expert&lt;/h1&gt;
-&lt;p&gt;GeoPyTool can also be used as a module inside Python.&lt;/p&gt;
-&lt;h1&gt;1. MacOS&lt;/h1&gt;
-&lt;h2&gt;1.1 Install Brew and Python3&lt;/h2&gt;
-&lt;p&gt;Go to &lt;a href="http://brew.sh/"&gt;brew.sh&lt;/a&gt; to to install brew in MacOS.&lt;/p&gt;
-&lt;p&gt;After the Installation of Brew, run the following commands to install python3:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;brew install python3
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h2&gt;1.2 Install Needed …&lt;/h2&gt;</summary><content type="html">&lt;h1&gt;Installation, For Expert&lt;/h1&gt;
-&lt;p&gt;GeoPyTool can also be used as a module inside Python.&lt;/p&gt;
-&lt;h1&gt;1. MacOS&lt;/h1&gt;
-&lt;h2&gt;1.1 Install Brew and Python3&lt;/h2&gt;
-&lt;p&gt;Go to &lt;a href="http://brew.sh/"&gt;brew.sh&lt;/a&gt; to to install brew in MacOS.&lt;/p&gt;
-&lt;p&gt;After the Installation of Brew, run the following commands to install python3:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;brew install python3
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h2&gt;1.2 Install Needed Modules&lt;/h2&gt;
-&lt;p&gt;Then run the following commands to install some base modules:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython
-pip3 install numpy
-pip3 install pandas
-pip3 install xlrd
-pip3 install matplotlib
-pip3 install BeautifulSoup4
-pip3 install pyqt5
-pip3 install scipy
-pip3 install scikit-learn
-pip3 install sympy
-pip3 install requests
-pip3 install pyopengl
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;Or you may try to use one line command to install all the required modules:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h2&gt;1.3 Install GeoPyTool&lt;/h2&gt;
-&lt;p&gt;After all the modules above getting installed, run the following command to install GeoPyTool:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install geopytool
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h1&gt;2. Linux&lt;/h1&gt;
-&lt;p&gt;Here we only take Ubuntu 16.04.4 for example.&lt;/p&gt;
-&lt;h2&gt;2.1 Update System to Latest&lt;/h2&gt;
-&lt;p&gt;Open Terminal, run the following commands to keep your system updated:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;apt update
-apt upgrade
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h2&gt;2.2 Instal Python3 and Pip3&lt;/h2&gt;
-&lt;p&gt;Then run the following commands to install Python3 and PIP for Python3:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;apt install python3
-apt install python3-pip
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h2&gt;2.3 Install Needed Modules&lt;/h2&gt;
-&lt;p&gt;Then run the following commands to install some base modules:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython
-pip3 install numpy
-pip3 install pandas
-pip3 install xlrd
-pip3 install matplotlib
-pip3 install BeautifulSoup4
-pip3 install pyqt5
-pip3 install scipy
-pip3 install scikit-learn
-pip3 install sympy
-pip3 install requests
-pip3 install pyopengl
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;Or you may try to use one line command to install all the required modules:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h2&gt;2.4 Install GeoPyTool&lt;/h2&gt;
-&lt;p&gt;After all the modules above getting installed, run the following command to install GeoPyTool:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install geopytool
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h1&gt;3. Windows&lt;/h1&gt;
-&lt;p&gt;The first thing to do is to install Python, newer than 3.6, which can be download from &lt;a href="https://www.python.org/downloads/"&gt;Python Website&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;3.1 Install Patches Needed&lt;/h2&gt;
-&lt;p&gt;&lt;a href="http://landinghub.visualstudio.com/visual-cpp-build-tools"&gt;Microsoft Visual C++ Build Tools&lt;/a&gt; is required for the installation of scikit-learn. Another solution is to use conda to install scipy and scikit-learn.&lt;/p&gt;
-&lt;h3&gt;For Windows 7&lt;/h3&gt;
-&lt;p&gt;To use GeoPyTool on Windows 7, You need to install the &lt;strong&gt;SP1 of Windows&lt;/strong&gt; and then install &lt;strong&gt;KB2999226 Patch&lt;/strong&gt; and the &lt;strong&gt;Visual C++ Redistributable 2015&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;The SP1 package of Windows 7 can be found at &lt;a href="https://support.microsoft.com/en-us/help/15090/windows-7-install-service-pack-1-sp1"&gt;here, the official website of MicroSoft&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The installation packages of KB2999226 and the &lt;code&gt;Visual C++ Redistributable 2015&lt;/code&gt; can also be downloaded from here: 
-&lt;a href="https://pan.baidu.com/s/1kVwSQ95"&gt;32 bit Windows7 &lt;/a&gt;
-&lt;a href="https://pan.baidu.com/s/1qY34ocW"&gt;64 bit WInodws7 &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Be careful to choose the right version suitable for your Windows.&lt;/p&gt;
-&lt;p&gt;If you are using Windows 7 without the SP1 package installed, there might comes an&lt;code&gt;api-ms-win-crt&lt;/code&gt;related error. So believe me my friend, just install these patched below, they won't harm you after all.&lt;/p&gt;
-&lt;p&gt;So if you encounter any &lt;code&gt;api-ms-win-crt&lt;/code&gt;related errors, please check those installations first.&lt;/p&gt;
-&lt;h2&gt;3.2 Install Python&lt;/h2&gt;
-&lt;p&gt;Then you can download a Python 3.6.4 or newer version of Python3 from &lt;a href="https://www.python.org/downloads/windows/"&gt;Python.org&lt;/a&gt;, and run the installer to install it to your Windows.&lt;/p&gt;
-&lt;h4&gt;Notice&lt;/h4&gt;
-&lt;p&gt;Make sure to check the box of setting Python to system Path:
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WindowsInstallAddPythonToPath.png"&gt;&lt;/p&gt;
-&lt;h2&gt;3.3 Install Needed Modules&lt;/h2&gt;
-&lt;p&gt;After installation of Python, you need to install some used packages first.
-So use the following commands in your &lt;strong&gt;terminal&lt;/strong&gt; to install these modules.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;You don't know what a Terminal is? For Windows, it can be the mighty &lt;strong&gt;CMD&lt;/strong&gt; or PowerShell. For other systems including macOS, it should be the &lt;strong&gt;BASH&lt;/strong&gt; ore just labeled as &lt;strong&gt;Terminal&lt;/strong&gt; in the built-in applications list. Still don't know how to launch a terminal? Google it dude, we can't do that hand by hand for you.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Here we use pip as we assume that your default version of Python is Python 3.X and the pip will refer to the PIP under Python3. If you installed both Python 2.X and Python 3.X, you might need to try to use &lt;strong&gt;pip3&lt;/strong&gt; instead of &lt;strong&gt;pip&lt;/strong&gt; in all the following commands to call the PIP of Python 3.&lt;/p&gt;
-&lt;p&gt;Then run the following commands in your &lt;strong&gt;terminal&lt;/strong&gt; to install some base modules:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython
-pip3 install numpy
-pip3 install pandas
-pip3 install xlrd
-pip3 install matplotlib
-pip3 install BeautifulSoup4
-pip3 install pyqt5
-pip3 install scipy
-pip3 install scikit-learn
-pip3 install sympy
-pip3 install requests
-pip3 install pyopengl
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;Or you may try to use one line command to install all the required modules:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h2&gt;3.4 Install GeoPyTool&lt;/h2&gt;
-&lt;p&gt;After the installation of those packages above, you can use this similar command also in the &lt;strong&gt;terminal&lt;/strong&gt; to install the GeoPyTool.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install geopytool
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;If there comes no error message, everything should have been done successfully.&lt;/p&gt;
-&lt;h1&gt;4. Run GeoPyTool&lt;/h1&gt;
-&lt;p&gt;If there is no error reported, run the following commands in the Terminal to run GeoPyTool:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;python3 -c &lt;span class="s2"&gt;&amp;quot;import geopytool;geopytool.main()&amp;quot;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h1&gt;5. Update an existing GeoPyTool&lt;/h1&gt;
-&lt;p&gt;If you installed GeoPyTool as a module in Python, you can use the following command in the &lt;strong&gt;terminal&lt;/strong&gt; to update GeoPyTool to the latest version on any operating system:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install geopytool --update --no-cache-dir
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;It is a good idea to update &lt;strong&gt;GeoPyTool&lt;/strong&gt; with pip everytime before you use it.&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category><category term="Support"></category></entry><entry><title>演示视频</title><link href="/yan-shi-shi-pin.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/yan-shi-shi-pin.html</id><summary type="html">&lt;h2&gt;演示视频&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/LoadPNG.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category><category term="Chinese"></category></entry><entry><title>开发记录</title><link href="/kai-fa-ji-lu.html" rel="alternate"></link><published>2017-11-15T00:00:00+08:00</published><updated>2017-11-15T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-11-15:/kai-fa-ji-lu.html</id><summary type="html">&lt;h1&gt;开发记录&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;标志性事件&lt;/th&gt;
+&lt;th&gt;日期&lt;/th&gt;
+&lt;th&gt;新功能&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;开源启动&lt;/td&gt;
+&lt;td&gt;2016-07-07 6:20&lt;/td&gt;
+&lt;td&gt;TAS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;新增 QAPF&lt;/td&gt;
+&lt;td&gt;2016-07-09 08:32&lt;/td&gt;
+&lt;td&gt;QAPF&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;新增  Wulff&lt;/td&gt;
+&lt;td&gt;2016-12-18 08:32&lt;/td&gt;
+&lt;td&gt;Wulf&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;功能重构&lt;/td&gt;
+&lt;td&gt;2017-03-15 15:30&lt;/td&gt;
+&lt;td&gt;Pearce、  Harker 图解&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;单颗粒锆石的 Ce4/3 比值计算&lt;/td&gt;
+&lt;td&gt;2017-03-25 15:30&lt;/td&gt;
+&lt;td&gt;Ballard&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;多颗粒锆石 Ce4/3 比值计算&lt;/td&gt;
+&lt;td&gt;2017-03-28 15:30&lt;/td&gt;
+&lt;td&gt;MultiBallard&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;多样本的 CIPW 标准矿物计算&lt;/td&gt;
+&lt;td&gt;2017-04-3 12:30 …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;h1&gt;开发记录&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;标志性事件&lt;/th&gt;
+&lt;th&gt;日期&lt;/th&gt;
+&lt;th&gt;新功能&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;开源启动&lt;/td&gt;
+&lt;td&gt;2016-07-07 6:20&lt;/td&gt;
+&lt;td&gt;TAS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;新增 QAPF&lt;/td&gt;
+&lt;td&gt;2016-07-09 08:32&lt;/td&gt;
+&lt;td&gt;QAPF&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;新增  Wulff&lt;/td&gt;
+&lt;td&gt;2016-12-18 08:32&lt;/td&gt;
+&lt;td&gt;Wulf&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;功能重构&lt;/td&gt;
+&lt;td&gt;2017-03-15 15:30&lt;/td&gt;
+&lt;td&gt;Pearce、  Harker 图解&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;单颗粒锆石的 Ce4/3 比值计算&lt;/td&gt;
+&lt;td&gt;2017-03-25 15:30&lt;/td&gt;
+&lt;td&gt;Ballard&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;多颗粒锆石 Ce4/3 比值计算&lt;/td&gt;
+&lt;td&gt;2017-03-28 15:30&lt;/td&gt;
+&lt;td&gt;MultiBallard&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;多样本的 CIPW 标准矿物计算&lt;/td&gt;
+&lt;td&gt;2017-04-3 12:30&lt;/td&gt;
+&lt;td&gt;MultiCIPW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;全新重构图形界面&lt;/td&gt;
+&lt;td&gt;2017-07-23 12:30&lt;/td&gt;
+&lt;td&gt;使用了 PyQt5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;全部核心功能重构&lt;/td&gt;
+&lt;td&gt;2017-08-31 23:30&lt;/td&gt;
+&lt;td&gt;全新多可自定项的 Harker 图解&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;锆石金红石温度计&lt;/td&gt;
+&lt;td&gt;2017-10-17 20:48:21&lt;/td&gt;
+&lt;td&gt;Zircon/Rutile&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;加载 PNG/JPG/SVG 做底图&lt;/td&gt;
+&lt;td&gt;2017-10-23  17:38:21&lt;/td&gt;
+&lt;td&gt;任意图片都可以做底图来投图&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;中英双语切换&lt;/td&gt;
+&lt;td&gt;2017-10-25 21:00:20&lt;/td&gt;
+&lt;td&gt;语言文件模块化&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;更多语言支持&lt;/td&gt;
+&lt;td&gt;2017-10-30 23:00:20&lt;/td&gt;
+&lt;td&gt;用户可以自行翻译界面文字并且加载，可以使用任意一种语言&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1&gt;捐助支持&lt;/h1&gt;
+&lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="Chinese"></category><category term="中文"></category><category term="文档"></category></entry><entry><title>Milestones</title><link href="/milestones.html" rel="alternate"></link><published>2017-11-15T00:00:00+08:00</published><updated>2017-11-15T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-11-15:/milestones.html</id><summary type="html">&lt;h1&gt;Milestones&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;MileStone&lt;/th&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Function&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Beginning Date&lt;/td&gt;
+&lt;td&gt;2016-07-07 6:20&lt;/td&gt;
+&lt;td&gt;TAS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Adding QAPF&lt;/td&gt;
+&lt;td&gt;2016-07-09 08:32&lt;/td&gt;
+&lt;td&gt;QAPF&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Adding Wulff&lt;/td&gt;
+&lt;td&gt;2016-12-18 08:32&lt;/td&gt;
+&lt;td&gt;Wulf&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reconsitution&lt;/td&gt;
+&lt;td&gt;2017-03-15 15:30&lt;/td&gt;
+&lt;td&gt;Pearce and  Harker&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Single Zircon Ce&lt;/td&gt;
+&lt;td&gt;2017-03-25 15:30&lt;/td&gt;
+&lt;td&gt;Ballard&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Multiple Zircon Ce&lt;/td&gt;
+&lt;td&gt;2017-03-28 15:30&lt;/td&gt;
+&lt;td&gt;MultiBallard&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Multiple Samples CIPW Norm&lt;/td&gt;
+&lt;td&gt;2017-04-3 12:30 …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;h1&gt;Milestones&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;MileStone&lt;/th&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Function&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Beginning Date&lt;/td&gt;
+&lt;td&gt;2016-07-07 6:20&lt;/td&gt;
+&lt;td&gt;TAS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Adding QAPF&lt;/td&gt;
+&lt;td&gt;2016-07-09 08:32&lt;/td&gt;
+&lt;td&gt;QAPF&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Adding Wulff&lt;/td&gt;
+&lt;td&gt;2016-12-18 08:32&lt;/td&gt;
+&lt;td&gt;Wulf&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reconsitution&lt;/td&gt;
+&lt;td&gt;2017-03-15 15:30&lt;/td&gt;
+&lt;td&gt;Pearce and  Harker&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Single Zircon Ce&lt;/td&gt;
+&lt;td&gt;2017-03-25 15:30&lt;/td&gt;
+&lt;td&gt;Ballard&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Multiple Zircon Ce&lt;/td&gt;
+&lt;td&gt;2017-03-28 15:30&lt;/td&gt;
+&lt;td&gt;MultiBallard&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Multiple Samples CIPW Norm&lt;/td&gt;
+&lt;td&gt;2017-04-3 12:30&lt;/td&gt;
+&lt;td&gt;MultiCIPW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;NewGUI&lt;/td&gt;
+&lt;td&gt;2017-07-23 12:30&lt;/td&gt;
+&lt;td&gt;GUI Powered By PyQt5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;All Rebuild&lt;/td&gt;
+&lt;td&gt;2017-08-31 23:30&lt;/td&gt;
+&lt;td&gt;Harker Back&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Temp Calc&lt;/td&gt;
+&lt;td&gt;2017-10-17 20:48:21&lt;/td&gt;
+&lt;td&gt;Zircon/Rutile&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Load PNG/JPG/SVG&lt;/td&gt;
+&lt;td&gt;2017-10-23  17:38:21&lt;/td&gt;
+&lt;td&gt;Load Base Maps&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chinese/English Switch&lt;/td&gt;
+&lt;td&gt;2017-10-25 21:00:20&lt;/td&gt;
+&lt;td&gt;Language&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;More Languages&lt;/td&gt;
+&lt;td&gt;2017-10-30 23:00:20&lt;/td&gt;
+&lt;td&gt;User can choose own Language file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</content><category term="Doc"></category><category term="English"></category></entry><entry><title>演示视频</title><link href="/yan-shi-shi-pin.html" rel="alternate"></link><published>2017-11-15T00:00:00+08:00</published><updated>2017-11-15T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-11-15:/yan-shi-shi-pin.html</id><summary type="html">&lt;h2&gt;演示视频&lt;/h2&gt;
 &lt;p&gt;点击下列链接直接观看&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.bilibili.com/video/av13983803/"&gt;基本操作演示&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.bilibili.com/video/av15926064/"&gt;使用讲解视频&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.bilibili.com/video/av15926936/"&gt;数据导入和格式化&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.bilibili.com/video/av20694284/"&gt;自动和同位素功能&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.bilibili.com/video/av15926454/"&gt;胡乱感慨一下&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;截图演示&lt;/h2&gt;
 &lt;p&gt;由于精力有限，我只录制了中文的演示视频。
-然后下面的截图呢，就只有英文文字标注了。大家有各种问题交流，除了在&lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;Github&lt;/a&gt;，还可以加入咱们的QQ群： 560675626 （为避免无关人员骚扰，加群申请填写暗号 大胖哥是个好人 来通过验证）。&lt;/p&gt;
+然后下面的截图呢，就只有英文文字标注了。大家有各种问题交流，除了在&lt;a href="https://zhuanlan.zhihu.com/p/30651165?group_id=910460052293672960"&gt;知乎这里&lt;/a&gt;留言外，还可以去注册一下&lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;咱们的论坛&lt;/a&gt;，或者加入咱们的QQ群： 560675626 （为避免无关人员骚扰，加群申请填写暗号 大胖是个好家伙 来通过验证）。&lt;/p&gt;
 &lt;h2&gt;打开和导入数据文件&lt;/h2&gt;
 &lt;p&gt;投图计算之前，必然要先打开文件导入数据，操作如截图所示。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ImportData.png"&gt;&lt;/p&gt;
 &lt;p&gt;数据格式可以使 Xlsx/Xls 或者 CSV。
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
-&lt;h2&gt;数据单位&lt;/h2&gt;
-&lt;p&gt;氧化物之类的项目(例如 &lt;code&gt;SiO2&lt;/code&gt;, &lt;code&gt;TiO2&lt;/code&gt;, &lt;code&gt;Al2O3&lt;/code&gt;, &lt;code&gt;Fe2O3&lt;/code&gt;, &lt;code&gt;FeO&lt;/code&gt;, &lt;code&gt;MnO&lt;/code&gt;, &lt;code&gt;MgO&lt;/code&gt;, &lt;code&gt;CaO Na2O&lt;/code&gt;, &lt;code&gt;K2O&lt;/code&gt;, &lt;code&gt;P2O5&lt;/code&gt;, &lt;code&gt;LOI&lt;/code&gt;, &lt;code&gt;Total&lt;/code&gt; 等等)数据单位是重量百分比(wt%)。&lt;/p&gt;
-&lt;p&gt;但千万要遵循数据模板的格式 …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;演示视频&lt;/h2&gt;
+&lt;h2&gt;设置数据添加分组颜色等信息&lt;/h2&gt;
+&lt;p&gt;如果原始数据没有添加这些分类信息，程序自然不知道该怎么分。所以你需要自己添加 Label/Color/Marker/Style/Alapha/Width等项目。好在这些只需要点击一下 设置数据（英文版为 Set Fromat
+) 按钮，就可以添加好这些项目了，然后你还需要根据自己的样品情况自己去分组 …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;演示视频&lt;/h2&gt;
 &lt;p&gt;点击下列链接直接观看&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.bilibili.com/video/av13983803/"&gt;基本操作演示&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.bilibili.com/video/av15926064/"&gt;使用讲解视频&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.bilibili.com/video/av15926936/"&gt;数据导入和格式化&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.bilibili.com/video/av20694284/"&gt;自动和同位素功能&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.bilibili.com/video/av15926454/"&gt;胡乱感慨一下&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;截图演示&lt;/h2&gt;
 &lt;p&gt;由于精力有限，我只录制了中文的演示视频。
-然后下面的截图呢，就只有英文文字标注了。大家有各种问题交流，除了在&lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;Github&lt;/a&gt;，还可以加入咱们的QQ群： 560675626 （为避免无关人员骚扰，加群申请填写暗号 大胖哥是个好人 来通过验证）。&lt;/p&gt;
+然后下面的截图呢，就只有英文文字标注了。大家有各种问题交流，除了在&lt;a href="https://zhuanlan.zhihu.com/p/30651165?group_id=910460052293672960"&gt;知乎这里&lt;/a&gt;留言外，还可以去注册一下&lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;咱们的论坛&lt;/a&gt;，或者加入咱们的QQ群： 560675626 （为避免无关人员骚扰，加群申请填写暗号 大胖是个好家伙 来通过验证）。&lt;/p&gt;
 &lt;h2&gt;打开和导入数据文件&lt;/h2&gt;
 &lt;p&gt;投图计算之前，必然要先打开文件导入数据，操作如截图所示。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ImportData.png"&gt;&lt;/p&gt;
 &lt;p&gt;数据格式可以使 Xlsx/Xls 或者 CSV。
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
-&lt;h2&gt;数据单位&lt;/h2&gt;
-&lt;p&gt;氧化物之类的项目(例如 &lt;code&gt;SiO2&lt;/code&gt;, &lt;code&gt;TiO2&lt;/code&gt;, &lt;code&gt;Al2O3&lt;/code&gt;, &lt;code&gt;Fe2O3&lt;/code&gt;, &lt;code&gt;FeO&lt;/code&gt;, &lt;code&gt;MnO&lt;/code&gt;, &lt;code&gt;MgO&lt;/code&gt;, &lt;code&gt;CaO Na2O&lt;/code&gt;, &lt;code&gt;K2O&lt;/code&gt;, &lt;code&gt;P2O5&lt;/code&gt;, &lt;code&gt;LOI&lt;/code&gt;, &lt;code&gt;Total&lt;/code&gt; 等等)数据单位是重量百分比(wt%)。&lt;/p&gt;
-&lt;p&gt;但千万要遵循数据模板的格式！ &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;一定不要在使用的数据中包含% 之类乱七八糟的符号！&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;其他元素的单位 (比如 &lt;code&gt;Li&lt;/code&gt;, &lt;code&gt;Be&lt;/code&gt;, &lt;code&gt;Sc&lt;/code&gt;, &lt;code&gt;V&lt;/code&gt;, &lt;code&gt;Cr&lt;/code&gt;, &lt;code&gt;Co&lt;/code&gt;, &lt;code&gt;Ni&lt;/code&gt;, &lt;code&gt;Cu&lt;/code&gt;, &lt;code&gt;Zn&lt;/code&gt;, &lt;code&gt;Ga&lt;/code&gt;, &lt;code&gt;Rb&lt;/code&gt;, &lt;code&gt;Sr&lt;/code&gt;, &lt;code&gt;Y&lt;/code&gt;, &lt;code&gt;Zr&lt;/code&gt;, &lt;code&gt;Nb&lt;/code&gt;, &lt;code&gt;Cs&lt;/code&gt;, &lt;code&gt;Ba&lt;/code&gt;, &lt;code&gt;La&lt;/code&gt;, &lt;code&gt;Ce&lt;/code&gt;, &lt;code&gt;Pr&lt;/code&gt;, &lt;code&gt;Nd&lt;/code&gt;, &lt;code&gt;Sm&lt;/code&gt;, &lt;code&gt;Eu&lt;/code&gt;, &lt;code&gt;Gd&lt;/code&gt;, &lt;code&gt;Tb&lt;/code&gt;, &lt;code&gt;Dy&lt;/code&gt;, &lt;code&gt;Ho&lt;/code&gt;, &lt;code&gt;Er&lt;/code&gt;, &lt;code&gt;Tm&lt;/code&gt;, &lt;code&gt;Yb&lt;/code&gt;, &lt;code&gt;Lu&lt;/code&gt;, &lt;code&gt;Hf&lt;/code&gt;, &lt;code&gt;Ta&lt;/code&gt;, &lt;code&gt;Tl&lt;/code&gt;, &lt;code&gt;Pb&lt;/code&gt;, &lt;code&gt;Th&lt;/code&gt;, &lt;code&gt;U&lt;/code&gt;) 都是 ppm。&lt;/p&gt;
 &lt;h2&gt;设置数据添加分组颜色等信息&lt;/h2&gt;
 &lt;p&gt;如果原始数据没有添加这些分类信息，程序自然不知道该怎么分。所以你需要自己添加 Label/Color/Marker/Style/Alapha/Width等项目。好在这些只需要点击一下 设置数据（英文版为 Set Fromat
 ) 按钮，就可以添加好这些项目了，然后你还需要根据自己的样品情况自己去分组。可别来问该怎么分组，你自己的样品自己做主！&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SetDataUp.png"&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SettingDataUp.png"&gt;&lt;/p&gt;
-&lt;h2&gt;数据设置详解&lt;/h2&gt;
-&lt;p&gt;在模板 &lt;a href="https://github.com/GeoPyTool/GeoPyTool/tree/master/DataFileSamples"&gt;Data File Samples&lt;/a&gt;当中，所有的文件都包含有下面的内容：&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SettingArea.png"&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;code&gt;Label&lt;/code&gt;: 控制分组信息，会显示在图例上&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Color&lt;/code&gt;: 点和线的颜色&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Marker&lt;/code&gt;: 点的形状&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Size&lt;/code&gt;: 点的大小&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Width&lt;/code&gt;: 线的粗细&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Style&lt;/code&gt;: 线的形状&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Alpha&lt;/code&gt;: 点和线的透明度&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;除了上面这七个设置列之外，&lt;strong&gt;其他列的数据都必须是数值的！！！&lt;/strong&gt;&lt;/p&gt;
-&lt;h4&gt;&lt;code&gt;Label&lt;/code&gt;&lt;/h4&gt;
-&lt;p&gt;可以设置成任何文本&lt;/p&gt;
-&lt;h4&gt;&lt;code&gt;Color&lt;/code&gt;&lt;/h4&gt;
-&lt;p&gt;只能从下面列表中选择 'blue','green','red','cyan','magenta','yellow','black','white'.&lt;/p&gt;
-&lt;p&gt;效果如下图所示：&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Color&lt;/code&gt;:
-&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/ColorList.png?raw=true"&gt;&lt;/p&gt;
-&lt;h4&gt;&lt;code&gt;Size&lt;/code&gt;, &lt;code&gt;Width&lt;/code&gt;, 和 &lt;code&gt;Alpha&lt;/code&gt;&lt;/h4&gt;
-&lt;p&gt;都必须是数值。其中用于 &lt;code&gt;Size&lt;/code&gt; 和 &lt;code&gt;Width&lt;/code&gt; 的单位是 pt.
-&lt;code&gt;Size&lt;/code&gt; 一般至少设置为 '10', &lt;code&gt;Width&lt;/code&gt; 可以设为 '1'.
-&lt;code&gt;Alpha&lt;/code&gt; 要设置在 '0' 到 '1'直接，例如，如果设置 &lt;code&gt;Alpha&lt;/code&gt; 为 '0.4' 就意味着透明度为 40%.&lt;/p&gt;
-&lt;h4&gt;&lt;code&gt;Marker&lt;/code&gt; 和 &lt;code&gt;Style&lt;/code&gt;&lt;/h4&gt;
-&lt;p&gt;这两个有点复杂，可以设置为下面表格中的内容。&lt;/p&gt;
-&lt;h5&gt;&lt;code&gt;Marker&lt;/code&gt; :&lt;/h5&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/MarkerList.png?raw=true"&gt;&lt;/p&gt;
-&lt;h5&gt;&lt;code&gt;Style&lt;/code&gt;:&lt;/h5&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/StyleList.png?raw=true"&gt;&lt;/p&gt;
-&lt;h4&gt;上述各项的设置效果如下图所示:&lt;/h4&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SettingEffect.png"&gt;&lt;/p&gt;
-&lt;h2&gt;图片坐标轴调整&lt;/h2&gt;
-&lt;p&gt;每个生成的图的顶部都有一个菜单栏，可以利用上面的按钮来调整坐标轴位置和图幅标题等等，如下图所示： &lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Axis%20Adjustment.png"&gt;&lt;/p&gt;
 &lt;h2&gt;点击要用的功能来运行&lt;/h2&gt;
 &lt;p&gt;设置完了格式之后，就可以点击你要用的功能来运行了。
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ClickOnTheFunction.png"&gt;&lt;/p&gt;
@@ -1123,9 +942,8 @@ pip3 install pyopengl
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/StereoAndRose.png"&gt;&lt;/p&gt;
 &lt;h2&gt;锆石 Ce4/3 比值计算氧逸度&lt;/h2&gt;
 &lt;p&gt;数据挺复杂，不过按照下图所示来设置就好了。&lt;/p&gt;
-&lt;p&gt;下面的图就是 Ballard 当初那篇文章中的数据。这个版本简化过了，上一个版本的数据文件不能用了！Base 可以是全岩的稀土值和 Zr 值，也可以是斜长石的，这取决于你用哪个做基准。锆石的 Zr 值要设置成那个常量&lt;strong&gt;497555&lt;/strong&gt;，不要改，其它不用于拟合计算的元素都不要留！&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ZriconCeCalculation.png"&gt;
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ZriconCeCalculation2.png"&gt;&lt;/p&gt;
+&lt;p&gt;下面的图就是 Ballard 当初那篇文章中的数据。锆石里面的  Zr 一定要设置成那个值别变。Base 可以是全岩的稀土值和 Zr 值，也可以是斜长石的，这取决于你用哪个做基准。3 和 4 那些是电价，不要动！yes 表示用于计算并且投图，no 表示仅投图不用于计算，空白的表示既不计算也不投图。例如这个例子里面的 Tm 设置为空白，是因为原始数据里面全岩就没有测出来 Tm 的数据，而 La 等设置为 no 则是因为原始数据中全岩的 La 存在正异常所以从拟合曲线的过程中抛出去了。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ZriconCeCalculation.png"&gt;&lt;/p&gt;
 &lt;h2&gt;锆石和金红石温度计&lt;/h2&gt;
 &lt;p&gt;没啥可说的，Zr 是金红石里面的锆元素含量，Ti 是锆石里面的钛元素含量，然后ASiO2  和 ATiO2 是这两种成分的活度。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Thermometer.png"&gt;&lt;/p&gt;
@@ -1136,28 +954,1202 @@ pip3 install pyopengl
 &lt;p&gt;从文中原图可以看出来，左右下上四个边界分别是 0.01/100/0.01/1000，咱们对应在直角坐标系里面就应该是 -2/2/-2/3。所以在程序里面的对应位置就输入这四个值。&lt;/p&gt;
 &lt;p&gt;你要是这些都看不出来或者看不懂，就还是回家洗洗睡吧。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/UserDefinedXY.png"&gt;&lt;/p&gt;
-&lt;h2&gt;3D 和统计&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/04.Statistical.png?raw=true"&gt;&lt;/p&gt;
-&lt;h2&gt;将多个 Excel 数据文件合并成一个文件&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/CombineData.png"&gt;&lt;/p&gt;
-&lt;h2&gt;谱系聚类&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/05.Cluster.png?raw=true"&gt;&lt;/p&gt;
-&lt;h2&gt;二维矩阵拉平成一维数组&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Flatten.png"&gt;&lt;/p&gt;
-&lt;h2&gt;数据变换: 转置/算术平均值中心化变换/几何平均值中心化变换/标准化变换/对数变换&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/DataTrans.png"&gt;&lt;/p&gt;
-&lt;h2&gt;因子分析 (FA) 和主成分分析 (PCA)&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/FA_PCA.png?raw=true"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;body&gt;
-&lt;video src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/FA_Video.mp4"  controls="controls"&gt;
-your browser does not support the video tag
-&lt;/video&gt;
-&lt;/body&gt;&lt;/p&gt;
-&lt;p&gt;&lt;body&gt;
-&lt;video src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/PCA_Video.mp4"  controls="controls"&gt;
-your browser does not support the video tag
-&lt;/video&gt;
-&lt;/body&gt;&lt;/p&gt;
 &lt;h1&gt;捐助支持&lt;/h1&gt;
 &lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="Chinese"></category><category term="Support"></category><category term="中文"></category><category term="文档"></category></entry></feed>
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="Chinese"></category><category term="中文"></category><category term="文档"></category></entry><entry><title>Temperary API Ref of GeoPyTool</title><link href="/temperary-api-ref-of-geopytool.html" rel="alternate"></link><published>2017-03-18T16:20:00+08:00</published><updated>2017-03-18T16:20:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-03-18:/temperary-api-ref-of-geopytool.html</id><summary type="html">&lt;h1&gt;API Ref of GeoPyTool&lt;/h1&gt;
+&lt;p&gt;created on Sat Dec 17 22:28:24 2016
+@author: cycleuser
+Create Date: 2015-07-13
+Modify Date: 2017-04-10
+a tool set for daily geology related task.&lt;/p&gt;
+&lt;h1&gt;prerequisite:&lt;/h1&gt;
+&lt;p&gt;based on Python 3.x
+   need math,numpy,pandas,matplotlib,xlrd,chempy&lt;/p&gt;
+&lt;h1&gt;Simple Sample:&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;opern&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;ipython&lt;/span&gt; &lt;span class="n"&gt;console&lt;/span&gt;
+&lt;span class="mi"&gt;2 …&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;h1&gt;API Ref of GeoPyTool&lt;/h1&gt;
+&lt;p&gt;created on Sat Dec 17 22:28:24 2016
+@author: cycleuser
+Create Date: 2015-07-13
+Modify Date: 2017-04-10
+a tool set for daily geology related task.&lt;/p&gt;
+&lt;h1&gt;prerequisite:&lt;/h1&gt;
+&lt;p&gt;based on Python 3.x
+   need math,numpy,pandas,matplotlib,xlrd,chempy&lt;/p&gt;
+&lt;h1&gt;Simple Sample:&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;opern&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="n"&gt;ipython&lt;/span&gt; &lt;span class="n"&gt;console&lt;/span&gt;
+&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;geopython&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;gp&lt;/span&gt;
+&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;TasSample&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Tas&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;tas.xlsx&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;TasSample&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;read&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;geopython&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;gui&lt;/span&gt;
+&lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="n"&gt;gui&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Show&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;Geology related classes available:&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;1) Tas
+2) Ree
+3) Trace &amp;amp; Trace2 (with different sequence of trace elements)
+4) Qfl &amp;amp; Qmflt &amp;amp; Qapf
+5) Polar (projection of wulf net &amp;amp; schmidt net)
+6) Harker diagram
+7) CIPW Norm calculation
+8) Zircon Ce4/Ce3 calculation (Ballard 2002)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;know issues:&lt;/h1&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;1) Only work on Python 3.x
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h1&gt;Other&lt;/h1&gt;
+&lt;p&gt;Any issues or improvements please open an issue at &lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;here&lt;/a&gt;
+or leave a message to &lt;a href="http://geopython.com"&gt;our website&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;DualTri&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;a class of a double triangulars frame
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Label: the label at the tree corners of the triangular&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Label: a list consist of three strings&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;LabelPosition: just the Position of these Labels&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    LabelPosition: x-y style coords , three of them&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Labels: description of the different region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Labels: a list containing multiple strings&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Locations: the locations of those each one in the Labels&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Locations: a list of triangular coord points&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Offset: the offset value used to adjust the appearance of each one in the Labels&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Offset: a list of x-y coord offset values&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;name: the file name used to read and use&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    name: a string&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;&lt;strong&gt;init&lt;/strong&gt;(self, name=['Q', 'A', 'P', 'F'], Label=qapf.xlsx)&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Initialize self.  See help(type(self)) for accurate signature.
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;show(self)&lt;/h3&gt;
+&lt;h2&gt;Frame&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;a Frame of TAS, REE, Trace Elements and other similar x-y plots
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Width,Height: the width and height of the generated figure&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Width,Height: two int numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Dpi: dots per inch&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Dpi: an int number&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Left,Right: the left and right limit of X axis&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Left,Right: two int numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Base,Top: the left and right limit of Y axis&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Base,Top: two int numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;X0,X1,X_Gap: the left and right limit of X label, and the numbers of gap between them&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    X0,X1,X_Gap: three int numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Y0,Y1,Y_Gap: the left and right limit of Y label, and the numbers of gap between them&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Y0,Y1,Y_Gap: three int numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;FontSize: size of font of labels&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    FontSize: an int number&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;xLabel, yLabel: the labels put alongside with x and y axises&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    xLabel, yLabel: two strings&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;&lt;strong&gt;init&lt;/strong&gt;(self, Width=Y Label, Height=X Label, Dpi=16, Left=7, Right=60, X_Gap=0, Base=9, Top=80, Y_Gap=0, FontSize=80, xLabel=6, yLabel=8)&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Just set up all.
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;show(self)&lt;/h3&gt;
+&lt;p&gt;Use the setup to set up figure feature.&lt;/p&gt;
+&lt;h2&gt;Line&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;a line class
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Begin: the Beginning point of the line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Begin: a Point Instance&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;End: the End point of the line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    End: a Point Instance&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Points: gathering all the Point Instances&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Points: a list&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;X,Y: the gathered x and y values of the line to use in plotting&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    X,Y: two lists containing float numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Width: the width of the line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Width: an int number , mayby float is OK&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Color: the color of the Line to draw on canvas&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Style: the style used for the Line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Style: a string; -, --,-., : maybe there would be some other types , from matplotlib&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Alpha: the transparency of the Point&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Label: label of the Line, telling what it is and distinguish it from other lines&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Label: a string , if leave as "" or '' such kind of blank string, the label will not show on canvas&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Sort: the sequence used for sorting the points consisting the line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Sort: a string, x means sort the points with their x values, y means use y instead of x, other means use the sequence of points as these points  are put to the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;&lt;strong&gt;init&lt;/strong&gt;(self, Points=, Sort=0.3, Width=-, Color=blue, Style=1, Alpha=, Label=[(0, 0), (1, 1)])&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;setup the datas
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;order(self, TMP=[])&lt;/h3&gt;
+&lt;h3&gt;sequence(self)&lt;/h3&gt;
+&lt;p&gt;sort the points in the line with given option&lt;/p&gt;
+&lt;h3&gt;show(self)&lt;/h3&gt;
+&lt;p&gt;draw the line on canvas with its setup&lt;/p&gt;
+&lt;h2&gt;Point&lt;/h2&gt;
+&lt;p&gt;a Point class&lt;/p&gt;
+&lt;p&gt;X,Y: the values of its x-y coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    X,Y: two float numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Location: gather X and Y as a tuple for further use&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Location: just a tuple with two numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Size: the size of the Point to draw on canvas&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Size: a number , int or maybe float also OK , better around 1 to 20, not too large or too small&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Color: the color of the Point to draw on canvas&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Alpha: the transparency of the Point&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Marker: the marker used for the Point&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Marker: a string; o, d, *, ^ , maybe there would be some other types , from matplotlib&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Label: label of the Point, telling what it is and distinguish it from other points&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Label: a string , if leave as "" or '' such kind of blank string, the label will not show on canvas&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;&lt;strong&gt;init&lt;/strong&gt;(self, X=, Y=o, Size=0.3, Color=red, Alpha=12, Marker=0, Label=0)&lt;/h3&gt;
+&lt;p&gt;just set up the values&lt;/p&gt;
+&lt;h3&gt;show(self)&lt;/h3&gt;
+&lt;p&gt;plot the Point to the canvas&lt;/p&gt;
+&lt;h2&gt;Points&lt;/h2&gt;
+&lt;p&gt;a class for multiple Points&lt;/p&gt;
+&lt;p&gt;X,Y: the values of its x-y coords&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    X,Y: two lists consist of float numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Size: the size of the Points to draw on canvas&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Size: a number , int or maybe float also OK , better around 1 to 20, not too large or too small&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Color: the color of the Points to draw on canvas&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Alpha: the transparency of the Points&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Marker: the marker used for the Points&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Marker: a string; o, d, *, ^ , maybe there would be some other types , from matplotlib&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Label: label of the Points, telling what they are and distinguish them from other points&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Label: a string , if leave as "" or '' such kind of blank string, the label will not show on canvas&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;&lt;strong&gt;init&lt;/strong&gt;(self, points=8, Size=, Color=o, Alpha=0.3, Marker=red, Label=12, FontSize=[(0, 0), (0, 1)])&lt;/h3&gt;
+&lt;p&gt;just set up the values&lt;/p&gt;
+&lt;h3&gt;show(self)&lt;/h3&gt;
+&lt;p&gt;plot the Point to the canvas&lt;/p&gt;
+&lt;h2&gt;Polar&lt;/h2&gt;
+&lt;p&gt;Polar Stereographic projection for structural data&lt;/p&gt;
+&lt;p&gt;name: the file used to plot&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    name: a string&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;&lt;strong&gt;init&lt;/strong&gt;(self, name=['N', 'S', 'W', 'E'], Label=strike.xlsx)&lt;/h3&gt;
+&lt;p&gt;Initialize self.  See help(type(self)) for accurate signature.&lt;/p&gt;
+&lt;h3&gt;eqan(self, A)&lt;/h3&gt;
+&lt;h3&gt;eqar(self, A)&lt;/h3&gt;
+&lt;h3&gt;getangular(self, A, B, C)&lt;/h3&gt;
+&lt;h3&gt;read(self)&lt;/h3&gt;
+&lt;h3&gt;schmidt(self, Width=k, Color=1)&lt;/h3&gt;
+&lt;p&gt;read the Excel, then draw the schmidt net and Plot points, job done~&lt;/p&gt;
+&lt;h3&gt;wulf(self, Width=k, Color=1)&lt;/h3&gt;
+&lt;p&gt;read the Excel, then draw the wulf net and Plot points, job done~&lt;/p&gt;
+&lt;h2&gt;Qapf&lt;/h2&gt;
+&lt;p&gt;inherit DualTri and Tool, read xlsx or csv file and make basic Qapf diagram&lt;/p&gt;
+&lt;p&gt;Tags: the Tags on this diagram for description of different units&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Tags: a list of strings&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Labels: the labels of the different units&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Labels: a list of strings&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Locations: the triangular coord location of these Labels&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Locations: a list of tuples, these tuples contains the triangular coords&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Offset: the x-y offset of these labels on canvas&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Offset: a list of tuples containing x-y values&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;BinToTri(self, a, b)&lt;/h3&gt;
+&lt;p&gt;Turn an a-b coord to an x-y-z triangular coord .&lt;/p&gt;
+&lt;p&gt;if z is negative, calc with its abs then return (a, -b).&lt;/p&gt;
+&lt;p&gt;a,b: the numbers of the a-b coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    a,b: float or double are both OK, just numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the corresponding x-y-z triangular coord&lt;/p&gt;
+&lt;p&gt;teturn type :      a tuple consist of x,y,z&lt;/p&gt;
+&lt;h3&gt;Cross(self, A=[(0, 10), (100, 0)], B=[(0, 0), (10, 10)])&lt;/h3&gt;
+&lt;p&gt;Return the crosspoint of two line A and B.&lt;/p&gt;
+&lt;p&gt;A: first line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    A: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;B: second line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    B: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return: the crosspoint of A and B&lt;/p&gt;
+&lt;p&gt;teturn type :    a list consist of two numbers, the x-y of the crosspoint&lt;/p&gt;
+&lt;h3&gt;Fill(self, P=0.3, Color=blue, Alpha=[(100, 0), (85, 15), (0, 3)])&lt;/h3&gt;
+&lt;p&gt;Fill a region in planimetric rectangular coord.&lt;/p&gt;
+&lt;p&gt;P: the peak points of the region in planimetric rectangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    P: a list consist of at least three tuples, which are the points in planimetric rectangular coord&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Color: the color used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Alpha: the transparency used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;TriCross(self, A=[(50, 50, 0), (0, 0, 100)], B=[(100, 0, 0), (0, 50, 60)])&lt;/h3&gt;
+&lt;p&gt;Return the crosspoint of two line A and B in triangular coord.&lt;/p&gt;
+&lt;p&gt;A: first line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    A: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;B: second line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    B: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the crosspoint of A and B&lt;/p&gt;
+&lt;p&gt;teturn type :      a list consist of three numbers, the x-y-z of the triangular coord&lt;/p&gt;
+&lt;h3&gt;TriFill(self, P=0.3, Color=blue, Alpha=[(100, 0, 0), (85, 15, 0), (0, 3, 97)])&lt;/h3&gt;
+&lt;p&gt;Fill a region in triangular coord.&lt;/p&gt;
+&lt;p&gt;P: the peak points of the region in triangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    P: a list consist of at least three tuples, which are the points in triangular coord&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Color: the color used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Alpha: the transparency used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;TriToBin(self, x, y, z)&lt;/h3&gt;
+&lt;p&gt;Turn an x-y-z triangular coord to an a-b coord.&lt;/p&gt;
+&lt;p&gt;if z is negative, calc with its abs then return (a, -b).&lt;/p&gt;
+&lt;p&gt;x,y,z: the three numbers of the triangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    x,y,z: float or double are both OK, just numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the corresponding a-b coord&lt;/p&gt;
+&lt;p&gt;teturn type :      a tuple consist of a and b&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;init&lt;/strong&gt;(self, name=10, Label=['Q', 'A', 'P', 'F'], FontSize=qapf.xlsx)&lt;/h3&gt;
+&lt;p&gt;Initialize self.  See help(type(self)) for accurate signature.&lt;/p&gt;
+&lt;h3&gt;draw(self)&lt;/h3&gt;
+&lt;h3&gt;lowtri(self)&lt;/h3&gt;
+&lt;h3&gt;read(self)&lt;/h3&gt;
+&lt;p&gt;read the Excel, then use self.show() to show the frame, then Plot points, job done~&lt;/p&gt;
+&lt;h3&gt;show(self)&lt;/h3&gt;
+&lt;h3&gt;uptri(self)&lt;/h3&gt;
+&lt;h2&gt;QapfP&lt;/h2&gt;
+&lt;p&gt;inherit Qapf, read xlsx or csv file and make Qapf diagram for Plutonic Rocks&lt;/p&gt;
+&lt;p&gt;Tags: the Tags on this diagram for description of different units&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Tags: a list of strings&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Labels: the labels of the different units&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Labels: a list of strings&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Locations: the triangular coord location of these Labels&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Locations: a list of tuples, these tuples contains the triangular coords&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Offset: the x-y offset of these labels on canvas&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Offset: a list of tuples containing x-y values&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;BinToTri(self, a, b)&lt;/h3&gt;
+&lt;p&gt;Turn an a-b coord to an x-y-z triangular coord .&lt;/p&gt;
+&lt;p&gt;if z is negative, calc with its abs then return (a, -b).&lt;/p&gt;
+&lt;p&gt;a,b: the numbers of the a-b coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    a,b: float or double are both OK, just numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the corresponding x-y-z triangular coord&lt;/p&gt;
+&lt;p&gt;teturn type :      a tuple consist of x,y,z&lt;/p&gt;
+&lt;h3&gt;Cross(self, A=[(0, 10), (100, 0)], B=[(0, 0), (10, 10)])&lt;/h3&gt;
+&lt;p&gt;Return the crosspoint of two line A and B.&lt;/p&gt;
+&lt;p&gt;A: first line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    A: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;B: second line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    B: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return: the crosspoint of A and B&lt;/p&gt;
+&lt;p&gt;teturn type :    a list consist of two numbers, the x-y of the crosspoint&lt;/p&gt;
+&lt;h3&gt;Fill(self, P=0.3, Color=blue, Alpha=[(100, 0), (85, 15), (0, 3)])&lt;/h3&gt;
+&lt;p&gt;Fill a region in planimetric rectangular coord.&lt;/p&gt;
+&lt;p&gt;P: the peak points of the region in planimetric rectangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    P: a list consist of at least three tuples, which are the points in planimetric rectangular coord&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Color: the color used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Alpha: the transparency used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;TriCross(self, A=[(50, 50, 0), (0, 0, 100)], B=[(100, 0, 0), (0, 50, 60)])&lt;/h3&gt;
+&lt;p&gt;Return the crosspoint of two line A and B in triangular coord.&lt;/p&gt;
+&lt;p&gt;A: first line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    A: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;B: second line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    B: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the crosspoint of A and B&lt;/p&gt;
+&lt;p&gt;teturn type :      a list consist of three numbers, the x-y-z of the triangular coord&lt;/p&gt;
+&lt;h3&gt;TriFill(self, P=0.3, Color=blue, Alpha=[(100, 0, 0), (85, 15, 0), (0, 3, 97)])&lt;/h3&gt;
+&lt;p&gt;Fill a region in triangular coord.&lt;/p&gt;
+&lt;p&gt;P: the peak points of the region in triangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    P: a list consist of at least three tuples, which are the points in triangular coord&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Color: the color used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Alpha: the transparency used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;TriToBin(self, x, y, z)&lt;/h3&gt;
+&lt;p&gt;Turn an x-y-z triangular coord to an a-b coord.&lt;/p&gt;
+&lt;p&gt;if z is negative, calc with its abs then return (a, -b).&lt;/p&gt;
+&lt;p&gt;x,y,z: the three numbers of the triangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    x,y,z: float or double are both OK, just numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the corresponding a-b coord&lt;/p&gt;
+&lt;p&gt;teturn type :      a tuple consist of a and b&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;init&lt;/strong&gt;(self, name=10, Label=['Q', 'A', 'P', 'F'], FontSize=qapf.xlsx)&lt;/h3&gt;
+&lt;p&gt;Initialize self.  See help(type(self)) for accurate signature.&lt;/p&gt;
+&lt;h3&gt;draw(self)&lt;/h3&gt;
+&lt;h3&gt;lowtri(self)&lt;/h3&gt;
+&lt;h3&gt;read(self)&lt;/h3&gt;
+&lt;p&gt;read the Excel, then use self.show() to show the frame, then Plot points, job done~&lt;/p&gt;
+&lt;h3&gt;show(self)&lt;/h3&gt;
+&lt;h3&gt;uptri(self)&lt;/h3&gt;
+&lt;h2&gt;QapfV&lt;/h2&gt;
+&lt;p&gt;inherit Qapf, read xlsx or csv file and make Qapf diagram for Volcanic rocks&lt;/p&gt;
+&lt;p&gt;Tags: the Tags on this diagram for description of different units&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Tags: a list of strings&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Labels: the labels of the different units&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Labels: a list of strings&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Locations: the triangular coord location of these Labels&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Locations: a list of tuples, these tuples contains the triangular coords&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Offset: the x-y offset of these labels on canvas&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Offset: a list of tuples containing x-y values&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;BinToTri(self, a, b)&lt;/h3&gt;
+&lt;p&gt;Turn an a-b coord to an x-y-z triangular coord .&lt;/p&gt;
+&lt;p&gt;if z is negative, calc with its abs then return (a, -b).&lt;/p&gt;
+&lt;p&gt;a,b: the numbers of the a-b coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    a,b: float or double are both OK, just numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the corresponding x-y-z triangular coord&lt;/p&gt;
+&lt;p&gt;teturn type :      a tuple consist of x,y,z&lt;/p&gt;
+&lt;h3&gt;Cross(self, A=[(0, 10), (100, 0)], B=[(0, 0), (10, 10)])&lt;/h3&gt;
+&lt;p&gt;Return the crosspoint of two line A and B.&lt;/p&gt;
+&lt;p&gt;A: first line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    A: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;B: second line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    B: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return: the crosspoint of A and B&lt;/p&gt;
+&lt;p&gt;teturn type :    a list consist of two numbers, the x-y of the crosspoint&lt;/p&gt;
+&lt;h3&gt;Fill(self, P=0.3, Color=blue, Alpha=[(100, 0), (85, 15), (0, 3)])&lt;/h3&gt;
+&lt;p&gt;Fill a region in planimetric rectangular coord.&lt;/p&gt;
+&lt;p&gt;P: the peak points of the region in planimetric rectangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    P: a list consist of at least three tuples, which are the points in planimetric rectangular coord&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Color: the color used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Alpha: the transparency used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;TriCross(self, A=[(50, 50, 0), (0, 0, 100)], B=[(100, 0, 0), (0, 50, 60)])&lt;/h3&gt;
+&lt;p&gt;Return the crosspoint of two line A and B in triangular coord.&lt;/p&gt;
+&lt;p&gt;A: first line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    A: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;B: second line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    B: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the crosspoint of A and B&lt;/p&gt;
+&lt;p&gt;teturn type :      a list consist of three numbers, the x-y-z of the triangular coord&lt;/p&gt;
+&lt;h3&gt;TriFill(self, P=0.3, Color=blue, Alpha=[(100, 0, 0), (85, 15, 0), (0, 3, 97)])&lt;/h3&gt;
+&lt;p&gt;Fill a region in triangular coord.&lt;/p&gt;
+&lt;p&gt;P: the peak points of the region in triangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    P: a list consist of at least three tuples, which are the points in triangular coord&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Color: the color used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Alpha: the transparency used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;TriToBin(self, x, y, z)&lt;/h3&gt;
+&lt;p&gt;Turn an x-y-z triangular coord to an a-b coord.&lt;/p&gt;
+&lt;p&gt;if z is negative, calc with its abs then return (a, -b).&lt;/p&gt;
+&lt;p&gt;x,y,z: the three numbers of the triangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    x,y,z: float or double are both OK, just numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the corresponding a-b coord&lt;/p&gt;
+&lt;p&gt;teturn type :      a tuple consist of a and b&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;init&lt;/strong&gt;(self, name=10, Label=['Q', 'A', 'P', 'F'], FontSize=qapf.xlsx)&lt;/h3&gt;
+&lt;p&gt;Initialize self.  See help(type(self)) for accurate signature.&lt;/p&gt;
+&lt;h3&gt;draw(self)&lt;/h3&gt;
+&lt;h3&gt;lowtri(self)&lt;/h3&gt;
+&lt;h3&gt;read(self)&lt;/h3&gt;
+&lt;p&gt;read the Excel, then use self.show() to show the frame, then Plot points, job done~&lt;/p&gt;
+&lt;h3&gt;show(self)&lt;/h3&gt;
+&lt;h3&gt;uptri(self)&lt;/h3&gt;
+&lt;h2&gt;Qfl&lt;/h2&gt;
+&lt;p&gt;inherit Tri and Tool, read xlsx or csv file and make QFL diagram&lt;/p&gt;
+&lt;p&gt;Tags: the Tags on this diagram for description of different units&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Tags: a list of strings&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Labels: the labels of the different units&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Labels: a list of strings&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Locations: the triangular coord location of these Labels&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Locations: a list of tuples, these tuples contains the triangular coords&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Offset: the x-y offset of these labels on canvas&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Offset: a list of tuples containing x-y values&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;BinToTri(self, a, b)&lt;/h3&gt;
+&lt;p&gt;Turn an a-b coord to an x-y-z triangular coord .&lt;/p&gt;
+&lt;p&gt;if z is negative, calc with its abs then return (a, -b).&lt;/p&gt;
+&lt;p&gt;a,b: the numbers of the a-b coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    a,b: float or double are both OK, just numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the corresponding x-y-z triangular coord&lt;/p&gt;
+&lt;p&gt;teturn type :      a tuple consist of x,y,z&lt;/p&gt;
+&lt;h3&gt;Cross(self, A=[(0, 10), (100, 0)], B=[(0, 0), (10, 10)])&lt;/h3&gt;
+&lt;p&gt;Return the crosspoint of two line A and B.&lt;/p&gt;
+&lt;p&gt;A: first line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    A: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;B: second line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    B: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return: the crosspoint of A and B&lt;/p&gt;
+&lt;p&gt;teturn type :    a list consist of two numbers, the x-y of the crosspoint&lt;/p&gt;
+&lt;h3&gt;Fill(self, P=0.3, Color=blue, Alpha=[(100, 0), (85, 15), (0, 3)])&lt;/h3&gt;
+&lt;p&gt;Fill a region in planimetric rectangular coord.&lt;/p&gt;
+&lt;p&gt;P: the peak points of the region in planimetric rectangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    P: a list consist of at least three tuples, which are the points in planimetric rectangular coord&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Color: the color used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Alpha: the transparency used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;TriCross(self, A=[(50, 50, 0), (0, 0, 100)], B=[(100, 0, 0), (0, 50, 60)])&lt;/h3&gt;
+&lt;p&gt;Return the crosspoint of two line A and B in triangular coord.&lt;/p&gt;
+&lt;p&gt;A: first line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    A: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;B: second line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    B: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the crosspoint of A and B&lt;/p&gt;
+&lt;p&gt;teturn type :      a list consist of three numbers, the x-y-z of the triangular coord&lt;/p&gt;
+&lt;h3&gt;TriFill(self, P=0.3, Color=blue, Alpha=[(100, 0, 0), (85, 15, 0), (0, 3, 97)])&lt;/h3&gt;
+&lt;p&gt;Fill a region in triangular coord.&lt;/p&gt;
+&lt;p&gt;P: the peak points of the region in triangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    P: a list consist of at least three tuples, which are the points in triangular coord&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Color: the color used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Alpha: the transparency used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;TriToBin(self, x, y, z)&lt;/h3&gt;
+&lt;p&gt;Turn an x-y-z triangular coord to an a-b coord.&lt;/p&gt;
+&lt;p&gt;if z is negative, calc with its abs then return (a, -b).&lt;/p&gt;
+&lt;p&gt;x,y,z: the three numbers of the triangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    x,y,z: float or double are both OK, just numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the corresponding a-b coord&lt;/p&gt;
+&lt;p&gt;teturn type :      a tuple consist of a and b&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;init&lt;/strong&gt;(self, name=['Q', 'F', 'L'], Label=qfl.xlsx)&lt;/h3&gt;
+&lt;p&gt;set up the values&lt;/p&gt;
+&lt;h3&gt;draw(self)&lt;/h3&gt;
+&lt;p&gt;use the values to set up the general frame and lines, fill particular zone with given colors&lt;/p&gt;
+&lt;h3&gt;read(self)&lt;/h3&gt;
+&lt;p&gt;read the Excel, then use self.show() to show the frame, then Plot points, job done~&lt;/p&gt;
+&lt;h3&gt;show(self)&lt;/h3&gt;
+&lt;p&gt;just show the triangular frame on the canvas&lt;/p&gt;
+&lt;h2&gt;Qmflt&lt;/h2&gt;
+&lt;p&gt;inherit Qfl and Tool, read xlsx or csv file and make Qmflt diagram&lt;/p&gt;
+&lt;p&gt;Tags: the Tags on this diagram for description of different units&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Tags: a list of strings&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Labels: the labels of the different units&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Labels: a list of strings&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Locations: the triangular coord location of these Labels&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Locations: a list of tuples, these tuples contains the triangular coords&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Offset: the x-y offset of these labels on canvas&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Offset: a list of tuples containing x-y values&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;BinToTri(self, a, b)&lt;/h3&gt;
+&lt;p&gt;Turn an a-b coord to an x-y-z triangular coord .&lt;/p&gt;
+&lt;p&gt;if z is negative, calc with its abs then return (a, -b).&lt;/p&gt;
+&lt;p&gt;a,b: the numbers of the a-b coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    a,b: float or double are both OK, just numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the corresponding x-y-z triangular coord&lt;/p&gt;
+&lt;p&gt;teturn type :      a tuple consist of x,y,z&lt;/p&gt;
+&lt;h3&gt;Cross(self, A=[(0, 10), (100, 0)], B=[(0, 0), (10, 10)])&lt;/h3&gt;
+&lt;p&gt;Return the crosspoint of two line A and B.&lt;/p&gt;
+&lt;p&gt;A: first line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    A: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;B: second line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    B: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return: the crosspoint of A and B&lt;/p&gt;
+&lt;p&gt;teturn type :    a list consist of two numbers, the x-y of the crosspoint&lt;/p&gt;
+&lt;h3&gt;Fill(self, P=0.3, Color=blue, Alpha=[(100, 0), (85, 15), (0, 3)])&lt;/h3&gt;
+&lt;p&gt;Fill a region in planimetric rectangular coord.&lt;/p&gt;
+&lt;p&gt;P: the peak points of the region in planimetric rectangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    P: a list consist of at least three tuples, which are the points in planimetric rectangular coord&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Color: the color used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Alpha: the transparency used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;TriCross(self, A=[(50, 50, 0), (0, 0, 100)], B=[(100, 0, 0), (0, 50, 60)])&lt;/h3&gt;
+&lt;p&gt;Return the crosspoint of two line A and B in triangular coord.&lt;/p&gt;
+&lt;p&gt;A: first line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    A: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;B: second line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    B: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the crosspoint of A and B&lt;/p&gt;
+&lt;p&gt;teturn type :      a list consist of three numbers, the x-y-z of the triangular coord&lt;/p&gt;
+&lt;h3&gt;TriFill(self, P=0.3, Color=blue, Alpha=[(100, 0, 0), (85, 15, 0), (0, 3, 97)])&lt;/h3&gt;
+&lt;p&gt;Fill a region in triangular coord.&lt;/p&gt;
+&lt;p&gt;P: the peak points of the region in triangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    P: a list consist of at least three tuples, which are the points in triangular coord&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Color: the color used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Alpha: the transparency used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;TriToBin(self, x, y, z)&lt;/h3&gt;
+&lt;p&gt;Turn an x-y-z triangular coord to an a-b coord.&lt;/p&gt;
+&lt;p&gt;if z is negative, calc with its abs then return (a, -b).&lt;/p&gt;
+&lt;p&gt;x,y,z: the three numbers of the triangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    x,y,z: float or double are both OK, just numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the corresponding a-b coord&lt;/p&gt;
+&lt;p&gt;teturn type :      a tuple consist of a and b&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;init&lt;/strong&gt;(self, name=['Qm', 'F', 'Lt'], Label=qmflt.xlsx)&lt;/h3&gt;
+&lt;p&gt;set up the values&lt;/p&gt;
+&lt;h3&gt;draw(self)&lt;/h3&gt;
+&lt;p&gt;use the values to set up the general frame and lines, fill particular zone with given colors&lt;/p&gt;
+&lt;h3&gt;read(self)&lt;/h3&gt;
+&lt;p&gt;read the Excel, then use self.show() to show the frame, then Plot points, job done~&lt;/p&gt;
+&lt;h3&gt;show(self)&lt;/h3&gt;
+&lt;p&gt;just show the triangular frame on the canvas&lt;/p&gt;
+&lt;h2&gt;Ree&lt;/h2&gt;
+&lt;p&gt;inherit Frame, read xlsx or csv file and use the Rare Earth Elements to plot the ree diagram&lt;/p&gt;
+&lt;p&gt;Element: the elements used in this diagram&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Element: a list of strings&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Labels: a ref of Element&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Labels: a list of strings&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;WholeData: gathering all data and find the min and max of the data file to set the limits of Y&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    WholeData: a list of float numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;X0,X1: the left and right limits of X&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    X0,X1: two int or float numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;X_Gap: the space between the left and right limits of X&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    X_Gap: an int number&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;name: the file name to use in this diagram&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    name: a string&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;&lt;strong&gt;init&lt;/strong&gt;(self, name=, Width=$REE-Standardlized-Pattern$, Height=16, Dpi=5, Left=3, Right=-1, X0=6, X1=-1, X_Gap=15, Base=15, Top=1, Y0=16, Y1=0, Y_Gap=80, FontSize=6, xLabel=8, yLabel=ree.xlsx)&lt;/h3&gt;
+&lt;p&gt;Just set up all.&lt;/p&gt;
+&lt;h3&gt;read(self)&lt;/h3&gt;
+&lt;p&gt;read the Excel, then use self.show() to show the frame, then Plot points, job done~&lt;/p&gt;
+&lt;h3&gt;show(self)&lt;/h3&gt;
+&lt;p&gt;set the figure basic with the settings&lt;/p&gt;
+&lt;h2&gt;Tag&lt;/h2&gt;
+&lt;p&gt;a class for Tag put on canvas&lt;/p&gt;
+&lt;p&gt;Label: label of the Tag, telling what it is and distinguish them from other tags&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Label: a strings , if leave as "" or '' such kind of blank string, the label will not show on canvas&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Location: the location of the Tag&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Location: a tuple consist of x-y values of its coords&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;X_offset,Y_offset: the values of its x-y offsets on coords&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    X_offset,Y_offset: two float numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;FontSize: the size of font of the Tag&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    FontSize: a number , int or maybe float also OK , better around 8 to 12, not too large or too small&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;&lt;strong&gt;init&lt;/strong&gt;(self, Label=12, Location=3, X_offset=-6, Y_offset=(0, 0), FontSize=Label)&lt;/h3&gt;
+&lt;p&gt;set up the values&lt;/p&gt;
+&lt;h3&gt;show(self)&lt;/h3&gt;
+&lt;p&gt;show the Tag on canvas with its offsets and font size, color and alpha are fixed for now&lt;/p&gt;
+&lt;h2&gt;Tas&lt;/h2&gt;
+&lt;p&gt;inherit Frame, read xlsx or csv file and use SiO2 , Na2O and K2O to plot tas diagram&lt;/p&gt;
+&lt;p&gt;Lines: the lines consisting the Tas frame&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Lines: a list of lines&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Tags: tags used for the items of Tas diagram&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Tagas: a list of strings&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Labels: labels on the canvas&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Labels: a list of strings&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Locations: the locations of these labels&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Locations: a list of tuple containing two numbers as x-y coords&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;description: the description of the tas diagram&lt;/p&gt;
+&lt;p&gt;name: the file name used for tas diagram&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    name: a string&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;&lt;strong&gt;init&lt;/strong&gt;(self, name=$na_2O + K_2O wt\%$, Width=$SiO_2 wt\%$, Height=12, Dpi=15, Left=15, Right=1, X0=16, X1=0, X_Gap=11, Base=77, Top=37, Y0=79, Y1=35, Y_Gap=80, FontSize=6, xLabel=8, yLabel=tas.xlsx)&lt;/h3&gt;
+&lt;p&gt;just set up the basic settings&lt;/p&gt;
+&lt;h3&gt;read(self)&lt;/h3&gt;
+&lt;p&gt;read the Excel, then use self.show() to show the frame, then Plot points, job done~&lt;/p&gt;
+&lt;h3&gt;show(self)&lt;/h3&gt;
+&lt;p&gt;show the tas frame and lines of tas on canvas&lt;/p&gt;
+&lt;h2&gt;Tool&lt;/h2&gt;
+&lt;p&gt;a tool set for basic tasks, crosspoint calc, coord transfer and fill region with color&lt;/p&gt;
+&lt;h3&gt;BinToTri(self, a, b)&lt;/h3&gt;
+&lt;p&gt;Turn an a-b coord to an x-y-z triangular coord .&lt;/p&gt;
+&lt;p&gt;if z is negative, calc with its abs then return (a, -b).&lt;/p&gt;
+&lt;p&gt;a,b: the numbers of the a-b coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    a,b: float or double are both OK, just numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the corresponding x-y-z triangular coord&lt;/p&gt;
+&lt;p&gt;teturn type :      a tuple consist of x,y,z&lt;/p&gt;
+&lt;h3&gt;Cross(self, A=[(0, 10), (100, 0)], B=[(0, 0), (10, 10)])&lt;/h3&gt;
+&lt;p&gt;Return the crosspoint of two line A and B.&lt;/p&gt;
+&lt;p&gt;A: first line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    A: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;B: second line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    B: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return: the crosspoint of A and B&lt;/p&gt;
+&lt;p&gt;teturn type :    a list consist of two numbers, the x-y of the crosspoint&lt;/p&gt;
+&lt;h3&gt;Fill(self, P=0.3, Color=blue, Alpha=[(100, 0), (85, 15), (0, 3)])&lt;/h3&gt;
+&lt;p&gt;Fill a region in planimetric rectangular coord.&lt;/p&gt;
+&lt;p&gt;P: the peak points of the region in planimetric rectangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    P: a list consist of at least three tuples, which are the points in planimetric rectangular coord&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Color: the color used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Alpha: the transparency used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;TriCross(self, A=[(50, 50, 0), (0, 0, 100)], B=[(100, 0, 0), (0, 50, 60)])&lt;/h3&gt;
+&lt;p&gt;Return the crosspoint of two line A and B in triangular coord.&lt;/p&gt;
+&lt;p&gt;A: first line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    A: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;B: second line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    B: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the crosspoint of A and B&lt;/p&gt;
+&lt;p&gt;teturn type :      a list consist of three numbers, the x-y-z of the triangular coord&lt;/p&gt;
+&lt;h3&gt;TriFill(self, P=0.3, Color=blue, Alpha=[(100, 0, 0), (85, 15, 0), (0, 3, 97)])&lt;/h3&gt;
+&lt;p&gt;Fill a region in triangular coord.&lt;/p&gt;
+&lt;p&gt;P: the peak points of the region in triangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    P: a list consist of at least three tuples, which are the points in triangular coord&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Color: the color used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Alpha: the transparency used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;TriToBin(self, x, y, z)&lt;/h3&gt;
+&lt;p&gt;Turn an x-y-z triangular coord to an a-b coord.&lt;/p&gt;
+&lt;p&gt;if z is negative, calc with its abs then return (a, -b).&lt;/p&gt;
+&lt;p&gt;x,y,z: the three numbers of the triangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    x,y,z: float or double are both OK, just numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the corresponding a-b coord&lt;/p&gt;
+&lt;p&gt;teturn type :      a tuple consist of a and b&lt;/p&gt;
+&lt;h2&gt;Trace&lt;/h2&gt;
+&lt;p&gt;inherit Frame, read xlsx or csv file and use the Trace Elements to plot the trace diagram&lt;/p&gt;
+&lt;p&gt;Element: the elements used in this diagram&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Element: a list of strings&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Labels: a ref of Element&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Labels: a list of strings&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;name: the file name to use in this diagram&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    name: a string&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;&lt;strong&gt;init&lt;/strong&gt;(self, name=, Width=$Trace-Elements-Standardlized-Pattern$, Height=16, Dpi=5, Left=3, Right=-1, X0=6, X1=-1, X_Gap=15, Base=37, Top=1, Y0=16, Y1=0, Y_Gap=80, FontSize=9, xLabel=16, yLabel=trace.xlsx)&lt;/h3&gt;
+&lt;p&gt;Just set up all.&lt;/p&gt;
+&lt;h3&gt;read(self)&lt;/h3&gt;
+&lt;p&gt;read the Excel, then use self.show() to show the frame, then Plot points, job done~&lt;/p&gt;
+&lt;h3&gt;show(self)&lt;/h3&gt;
+&lt;p&gt;set the figure basic with the settings&lt;/p&gt;
+&lt;h2&gt;Trace2&lt;/h2&gt;
+&lt;p&gt;inherit Frame, read xlsx or csv file and use the Trace Elements to plot the trace2 diagram&lt;/p&gt;
+&lt;p&gt;Element: the elements used in this diagram&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Element: a list of strings&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Labels: a ref of Element&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Labels: a list of strings&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;name: the file name to use in this diagram&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    name: a string&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;&lt;strong&gt;init&lt;/strong&gt;(self, name=, Width=$Trace-Elements-Standardlized-Pattern$, Height=16, Dpi=5, Left=3, Right=-1, X0=6, X1=-1, X_Gap=25, Base=26, Top=1, Y0=16, Y1=0, Y_Gap=80, FontSize=9, xLabel=16, yLabel=trace2.xlsx)&lt;/h3&gt;
+&lt;p&gt;Just set up all.&lt;/p&gt;
+&lt;h3&gt;read(self)&lt;/h3&gt;
+&lt;p&gt;read the Excel, then use self.show() to show the frame, then Plot points, job done~&lt;/p&gt;
+&lt;h3&gt;show(self)&lt;/h3&gt;
+&lt;p&gt;set the figure basic with the settings&lt;/p&gt;
+&lt;h2&gt;Tri&lt;/h2&gt;
+&lt;p&gt;a class of triangular frame&lt;/p&gt;
+&lt;p&gt;Label: the label at the tree corners of the triangular&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Label: a list consist of three strings&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;LabelPosition: just the Position of these Labels&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    LabelPosition: x-y style coords , three of them&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;&lt;strong&gt;init&lt;/strong&gt;(self, Label=['Q', 'F', 'L'])&lt;/h3&gt;
+&lt;p&gt;set up the values&lt;/p&gt;
+&lt;h3&gt;show(self)&lt;/h3&gt;
+&lt;p&gt;just show the triangular frame on the canvas&lt;/p&gt;
+&lt;h2&gt;TriLine&lt;/h2&gt;
+&lt;p&gt;inherit Line and Tool, line class for triangular coord&lt;/p&gt;
+&lt;p&gt;x,y,z: the list for gathering the x,y,z values of points consisting the line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    x,y,z: three lists&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;BinToTri(self, a, b)&lt;/h3&gt;
+&lt;p&gt;Turn an a-b coord to an x-y-z triangular coord .&lt;/p&gt;
+&lt;p&gt;if z is negative, calc with its abs then return (a, -b).&lt;/p&gt;
+&lt;p&gt;a,b: the numbers of the a-b coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    a,b: float or double are both OK, just numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the corresponding x-y-z triangular coord&lt;/p&gt;
+&lt;p&gt;teturn type :      a tuple consist of x,y,z&lt;/p&gt;
+&lt;h3&gt;Cross(self, A=[(0, 10), (100, 0)], B=[(0, 0), (10, 10)])&lt;/h3&gt;
+&lt;p&gt;Return the crosspoint of two line A and B.&lt;/p&gt;
+&lt;p&gt;A: first line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    A: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;B: second line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    B: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return: the crosspoint of A and B&lt;/p&gt;
+&lt;p&gt;teturn type :    a list consist of two numbers, the x-y of the crosspoint&lt;/p&gt;
+&lt;h3&gt;Fill(self, P=0.3, Color=blue, Alpha=[(100, 0), (85, 15), (0, 3)])&lt;/h3&gt;
+&lt;p&gt;Fill a region in planimetric rectangular coord.&lt;/p&gt;
+&lt;p&gt;P: the peak points of the region in planimetric rectangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    P: a list consist of at least three tuples, which are the points in planimetric rectangular coord&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Color: the color used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Alpha: the transparency used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;TriCross(self, A=[(50, 50, 0), (0, 0, 100)], B=[(100, 0, 0), (0, 50, 60)])&lt;/h3&gt;
+&lt;p&gt;Return the crosspoint of two line A and B in triangular coord.&lt;/p&gt;
+&lt;p&gt;A: first line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    A: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;B: second line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    B: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the crosspoint of A and B&lt;/p&gt;
+&lt;p&gt;teturn type :      a list consist of three numbers, the x-y-z of the triangular coord&lt;/p&gt;
+&lt;h3&gt;TriFill(self, P=0.3, Color=blue, Alpha=[(100, 0, 0), (85, 15, 0), (0, 3, 97)])&lt;/h3&gt;
+&lt;p&gt;Fill a region in triangular coord.&lt;/p&gt;
+&lt;p&gt;P: the peak points of the region in triangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    P: a list consist of at least three tuples, which are the points in triangular coord&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Color: the color used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Alpha: the transparency used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;TriToBin(self, x, y, z)&lt;/h3&gt;
+&lt;p&gt;Turn an x-y-z triangular coord to an a-b coord.&lt;/p&gt;
+&lt;p&gt;if z is negative, calc with its abs then return (a, -b).&lt;/p&gt;
+&lt;p&gt;x,y,z: the three numbers of the triangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    x,y,z: float or double are both OK, just numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the corresponding a-b coord&lt;/p&gt;
+&lt;p&gt;teturn type :      a tuple consist of a and b&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;init&lt;/strong&gt;(self, Points=, Sort=0.3, Width=-, Color=blue, Style=1, Alpha=, Label=[(0, 0, 0), (1, 1, 1)])&lt;/h3&gt;
+&lt;p&gt;setup the datas&lt;/p&gt;
+&lt;h3&gt;order(self, TMP=[])&lt;/h3&gt;
+&lt;h3&gt;sequence(self)&lt;/h3&gt;
+&lt;p&gt;sort the points in the line with given option&lt;/p&gt;
+&lt;h3&gt;show(self)&lt;/h3&gt;
+&lt;p&gt;draw the line on canvas with its setup&lt;/p&gt;
+&lt;h3&gt;tritrans(self)&lt;/h3&gt;
+&lt;h2&gt;TriPoint&lt;/h2&gt;
+&lt;p&gt;inherit Point and Tool, a Point class for triangular coord&lt;/p&gt;
+&lt;p&gt;x,y,z: the list for gathering the x,y,z values of points consisting the line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    x,y,z: three lists&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;sum: a value used in calc of coord transfer&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    sum: just a number, both int or float are OK&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;BinToTri(self, a, b)&lt;/h3&gt;
+&lt;p&gt;Turn an a-b coord to an x-y-z triangular coord .&lt;/p&gt;
+&lt;p&gt;if z is negative, calc with its abs then return (a, -b).&lt;/p&gt;
+&lt;p&gt;a,b: the numbers of the a-b coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    a,b: float or double are both OK, just numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the corresponding x-y-z triangular coord&lt;/p&gt;
+&lt;p&gt;teturn type :      a tuple consist of x,y,z&lt;/p&gt;
+&lt;h3&gt;Cross(self, A=[(0, 10), (100, 0)], B=[(0, 0), (10, 10)])&lt;/h3&gt;
+&lt;p&gt;Return the crosspoint of two line A and B.&lt;/p&gt;
+&lt;p&gt;A: first line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    A: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;B: second line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    B: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return: the crosspoint of A and B&lt;/p&gt;
+&lt;p&gt;teturn type :    a list consist of two numbers, the x-y of the crosspoint&lt;/p&gt;
+&lt;h3&gt;Fill(self, P=0.3, Color=blue, Alpha=[(100, 0), (85, 15), (0, 3)])&lt;/h3&gt;
+&lt;p&gt;Fill a region in planimetric rectangular coord.&lt;/p&gt;
+&lt;p&gt;P: the peak points of the region in planimetric rectangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    P: a list consist of at least three tuples, which are the points in planimetric rectangular coord&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Color: the color used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Alpha: the transparency used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;TriCross(self, A=[(50, 50, 0), (0, 0, 100)], B=[(100, 0, 0), (0, 50, 60)])&lt;/h3&gt;
+&lt;p&gt;Return the crosspoint of two line A and B in triangular coord.&lt;/p&gt;
+&lt;p&gt;A: first line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    A: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;B: second line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    B: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the crosspoint of A and B&lt;/p&gt;
+&lt;p&gt;teturn type :      a list consist of three numbers, the x-y-z of the triangular coord&lt;/p&gt;
+&lt;h3&gt;TriFill(self, P=0.3, Color=blue, Alpha=[(100, 0, 0), (85, 15, 0), (0, 3, 97)])&lt;/h3&gt;
+&lt;p&gt;Fill a region in triangular coord.&lt;/p&gt;
+&lt;p&gt;P: the peak points of the region in triangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    P: a list consist of at least three tuples, which are the points in triangular coord&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Color: the color used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Alpha: the transparency used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;TriToBin(self, x, y, z)&lt;/h3&gt;
+&lt;p&gt;Turn an x-y-z triangular coord to an a-b coord.&lt;/p&gt;
+&lt;p&gt;if z is negative, calc with its abs then return (a, -b).&lt;/p&gt;
+&lt;p&gt;x,y,z: the three numbers of the triangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    x,y,z: float or double are both OK, just numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the corresponding a-b coord&lt;/p&gt;
+&lt;p&gt;teturn type :      a tuple consist of a and b&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;init&lt;/strong&gt;(self, P=, Size=o, Color=0.3, Alpha=red, Marker=12, Label=(10, 20, 70))&lt;/h3&gt;
+&lt;p&gt;just set up the values&lt;/p&gt;
+&lt;h3&gt;show(self)&lt;/h3&gt;
+&lt;p&gt;plot the Point to the canvas&lt;/p&gt;
+&lt;h2&gt;TriTag&lt;/h2&gt;
+&lt;p&gt;inherit Tag and Tool,a Tag for triangular coord&lt;/p&gt;
+&lt;h3&gt;BinToTri(self, a, b)&lt;/h3&gt;
+&lt;p&gt;Turn an a-b coord to an x-y-z triangular coord .&lt;/p&gt;
+&lt;p&gt;if z is negative, calc with its abs then return (a, -b).&lt;/p&gt;
+&lt;p&gt;a,b: the numbers of the a-b coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    a,b: float or double are both OK, just numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the corresponding x-y-z triangular coord&lt;/p&gt;
+&lt;p&gt;teturn type :      a tuple consist of x,y,z&lt;/p&gt;
+&lt;h3&gt;Cross(self, A=[(0, 10), (100, 0)], B=[(0, 0), (10, 10)])&lt;/h3&gt;
+&lt;p&gt;Return the crosspoint of two line A and B.&lt;/p&gt;
+&lt;p&gt;A: first line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    A: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;B: second line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    B: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return: the crosspoint of A and B&lt;/p&gt;
+&lt;p&gt;teturn type :    a list consist of two numbers, the x-y of the crosspoint&lt;/p&gt;
+&lt;h3&gt;Fill(self, P=0.3, Color=blue, Alpha=[(100, 0), (85, 15), (0, 3)])&lt;/h3&gt;
+&lt;p&gt;Fill a region in planimetric rectangular coord.&lt;/p&gt;
+&lt;p&gt;P: the peak points of the region in planimetric rectangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    P: a list consist of at least three tuples, which are the points in planimetric rectangular coord&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Color: the color used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Alpha: the transparency used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;TriCross(self, A=[(50, 50, 0), (0, 0, 100)], B=[(100, 0, 0), (0, 50, 60)])&lt;/h3&gt;
+&lt;p&gt;Return the crosspoint of two line A and B in triangular coord.&lt;/p&gt;
+&lt;p&gt;A: first line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    A: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;B: second line&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    B: a list consist of two tuples, beginning and end point of the line&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the crosspoint of A and B&lt;/p&gt;
+&lt;p&gt;teturn type :      a list consist of three numbers, the x-y-z of the triangular coord&lt;/p&gt;
+&lt;h3&gt;TriFill(self, P=0.3, Color=blue, Alpha=[(100, 0, 0), (85, 15, 0), (0, 3, 97)])&lt;/h3&gt;
+&lt;p&gt;Fill a region in triangular coord.&lt;/p&gt;
+&lt;p&gt;P: the peak points of the region in triangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    P: a list consist of at least three tuples, which are the points in triangular coord&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Color: the color used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Color: a string; b: blue, g: green, r: red, c: cyan, m: magenta, y: yellow, k: black, w: white&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Alpha: the transparency used to fill the region&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    Alpha: a float number from 0 to 1, higher darker, lower more transparent&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;TriToBin(self, x, y, z)&lt;/h3&gt;
+&lt;p&gt;Turn an x-y-z triangular coord to an a-b coord.&lt;/p&gt;
+&lt;p&gt;if z is negative, calc with its abs then return (a, -b).&lt;/p&gt;
+&lt;p&gt;x,y,z: the three numbers of the triangular coord&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;type:    x,y,z: float or double are both OK, just numbers&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;return:  the corresponding a-b coord&lt;/p&gt;
+&lt;p&gt;teturn type :      a tuple consist of a and b&lt;/p&gt;
+&lt;h3&gt;&lt;strong&gt;init&lt;/strong&gt;(self, Label=12, Location=3, X_offset=-6, Y_offset=(0, 1, 2), FontSize=Label)&lt;/h3&gt;
+&lt;p&gt;set up the values, transfer x,y,z coords to x-y coords&lt;/p&gt;
+&lt;h3&gt;show(self)&lt;/h3&gt;
+&lt;p&gt;show the Tag on canvas with its offsets and font size, color and alpha are fixed for now&lt;/p&gt;</content></entry></feed>

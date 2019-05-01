@@ -1,261 +1,959 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>GeoPyTool - Doc</title><link href="/" rel="alternate"></link><link href="/feeds/doc.atom.xml" rel="self"></link><id>/</id><updated>2019-01-24T10:05:25+08:00</updated><entry><title>Download</title><link href="/download.html" rel="alternate"></link><published>2019-01-24T10:05:25+08:00</published><updated>2019-01-24T10:05:25+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2019-01-24:/download.html</id><summary type="html">&lt;h1&gt;GeoPyTool Application Download Links&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>GeoPyTool - Doc</title><link href="/" rel="alternate"></link><link href="/feeds/doc.atom.xml" rel="self"></link><id>/</id><updated>2018-02-27T00:00:00+08:00</updated><entry><title>Download</title><link href="/download.html" rel="alternate"></link><published>2018-02-27T00:00:00+08:00</published><updated>2018-02-27T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-02-27:/download.html</id><summary type="html">&lt;h1&gt;GeoPyTool Application Download Links&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;h1&gt;GeoPyTool 打包的可执行程序下载链接&lt;/h1&gt;
 &lt;/blockquote&gt;
-&lt;h3&gt;GeoPyTool packs:&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1ewNlNrDQNjtCLS9ibBPW5Q#list/path=%2Fsharelink1763171575-261348695782281%2FRelease&amp;amp;parentPath=%2Fsharelink1763171575-261348695782281"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://1drv.ms/f/s!AnIw_Lqr4g5tgTMqT9tXxIK9PYNI"&gt;OneDrive&lt;/a&gt;&lt;/p&gt;
-&lt;h6&gt;Notice that you need to download the Right Version for Your Platform! Download the Windows Pack if you are using Windows, same to the Mac users.&lt;/h6&gt;
-&lt;h6&gt;请一定注意下载正确的平台版本, 你的操作系统是啥就下载对应版本,下错了平台不一致的打包文件是不能用的!&lt;/h6&gt;
-&lt;h4&gt;如果你使用百度网盘进行下载发现速度比较慢,可以试试 &lt;a href="http://pandownload.com/"&gt;http://pandownload.com/&lt;/a&gt; 这个软件&lt;/h4&gt;
-&lt;h2&gt;Citation 引用&lt;/h2&gt;
-&lt;p&gt;Article …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;GeoPyTool Application Download Links&lt;/h1&gt;
+&lt;h1&gt;GeoPyTool pack for Windows:&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1ht2wyZ6"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1YEP6FsBzQ7Ig92zAM5B2MLah7cXq5Q9e"&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;GeoPyTool app for macOS:&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1mjkDt4O"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/open?id=13Uv8d9RYZsXdnR3nkTO5ykDuOyWVUkr8"&gt;Googel Drive&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;捐助支持&lt;/h1&gt;
+&lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</summary><content type="html">&lt;h1&gt;GeoPyTool Application Download Links&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;h1&gt;GeoPyTool 打包的可执行程序下载链接&lt;/h1&gt;
 &lt;/blockquote&gt;
-&lt;h3&gt;GeoPyTool packs:&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1ewNlNrDQNjtCLS9ibBPW5Q#list/path=%2Fsharelink1763171575-261348695782281%2FRelease&amp;amp;parentPath=%2Fsharelink1763171575-261348695782281"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://1drv.ms/f/s!AnIw_Lqr4g5tgTMqT9tXxIK9PYNI"&gt;OneDrive&lt;/a&gt;&lt;/p&gt;
-&lt;h6&gt;Notice that you need to download the Right Version for Your Platform! Download the Windows Pack if you are using Windows, same to the Mac users.&lt;/h6&gt;
-&lt;h6&gt;请一定注意下载正确的平台版本, 你的操作系统是啥就下载对应版本,下错了平台不一致的打包文件是不能用的!&lt;/h6&gt;
-&lt;h4&gt;如果你使用百度网盘进行下载发现速度比较慢,可以试试 &lt;a href="http://pandownload.com/"&gt;http://pandownload.com/&lt;/a&gt; 这个软件&lt;/h4&gt;
-&lt;h2&gt;Citation 引用&lt;/h2&gt;
-&lt;p&gt;Article Here: &lt;a href="https://www.sciencedirect.com/science/article/pii/S1674987118301609"&gt;https://www.sciencedirect.com/science/article/pii/S1674987118301609&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Please cite this article as:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Yu, Q.-Y., Bagas, L., Yang, P.-H., Zhang, D., GeoPyTool: a cross-platform software solution for common geological calculations and plots, Geoscience Frontiers (2018), doi: 10.1016/j.gsf.2018.08.001.&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/FixTheVispy.png"&gt;&lt;/p&gt;
-&lt;h2&gt;Introduction 简介&lt;/h2&gt;
-&lt;p&gt;GeoPyTool is an application based on Python and designed as a solution for geology related daily work. It can run on alomost all mainstream operating systems, such as Windows 7 SP1, Windows 8, Windows 10, macOS Sierra, macOS High Sierra, Ubuntu Linux, Debian Linux, Fedora Linux, and alomost all other widely used desktop platforms.&lt;/p&gt;
-&lt;p&gt;GeoPyTool doesn't rely on any other software, such as MS Excel or CorelDraw, it can directly transport your data into the plot as vector graphic files and the calculation results into data sheets such as Xlsx or CSV files.&lt;/p&gt;
-&lt;p&gt;It is a free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.&lt;/p&gt;
+&lt;h1&gt;GeoPyTool pack for Windows:&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1ht2wyZ6"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/open?id=1YEP6FsBzQ7Ig92zAM5B2MLah7cXq5Q9e"&gt;Google Drive&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;GeoPyTool app for macOS:&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://pan.baidu.com/s/1mjkDt4O"&gt;Baidu Download 百度网盘&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://drive.google.com/open?id=13Uv8d9RYZsXdnR3nkTO5ykDuOyWVUkr8"&gt;Googel Drive&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;捐助支持&lt;/h1&gt;
+&lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category><category term="Chinese"></category></entry><entry><title>About</title><link href="/about.html" rel="alternate"></link><published>2017-11-15T00:00:00+08:00</published><updated>2017-11-15T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-11-15:/about.html</id><summary type="html">&lt;h1&gt;Welcome to GeoPyTool&lt;/h1&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;GeoPyTool is an application based on Python and designed as a solution for geology related daily work. &lt;strong&gt;It can run on alomost all mainstream operating systems&lt;/strong&gt;, such as Windows 7 SP1, Windows 8, Windows 10, macOS Sierra, macOS High Sierra, Ubuntu Linux, Debian Linux, Fedora Linux …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Welcome to GeoPyTool&lt;/h1&gt;
+&lt;h2&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;GeoPyTool is an application based on Python and designed as a solution for geology related daily work. &lt;strong&gt;It can run on alomost all mainstream operating systems&lt;/strong&gt;, such as Windows 7 SP1, Windows 8, Windows 10, macOS Sierra, macOS High Sierra, Ubuntu Linux, Debian Linux, Fedora Linux, and alomost all other widely used desktop platforms.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GeoPyTool doesn't rely on any other software&lt;/strong&gt;, such as MS Excel or CorelDraw, it can directly transport your data into the plot as vector graphic files and the calculation results into data sheets such as Xlsx or CSV files.&lt;/p&gt;
+&lt;p&gt;It is a &lt;strong&gt;free software&lt;/strong&gt;: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.&lt;/p&gt;
 &lt;p&gt;GeoPyTool contains both traditional routines and newly developed methods。&lt;/p&gt;
+&lt;h2&gt;简介&lt;/h2&gt;
 &lt;p&gt;GeoPyTool 是一个基于 Python 实现的开源应用，针对的是地质学研究中的日常用途。由于使用了 Python，天生跨平台天赋加持，所以几乎能运行于所有主流操作系统，比如 Windows 7 SP1, Windows 8, Windows 10, macOS Sierra, macOS High Sierra, Ubuntu Linux, Debian Linux, Fedora Linux 等等几乎全部主流的桌面操作系统。&lt;/p&gt;
 &lt;p&gt;GeoPyTool 不需依赖任何其他软件，不像 GeoKit 那样依赖特定版本的 32bit 的 Office，也不像 CGDK 那样需要依赖 CorelDRAW 的安装，单独有 GeoPyTool 一个，就可以实现从原始数据到出矢量图，以及导出各种计算的结果为 Xlsx 或者 CSV 这种表格文件。&lt;/p&gt;
 &lt;p&gt;GeoPyTool 是一个自由软件:您可以根据自由软件基金会发布的GNU通用公共许可证的条款重新发布或者对其进行修改，但必须也基于同样的 GPLV3（GNU通用公共许可证第三版 ） ，或者更新版本的 GNU General Public License。&lt;/p&gt;
 &lt;p&gt;GeoPyTool 包含了一些常用的传统方法，也实现了一些近年来新诞生的研究成果。&lt;/p&gt;
-&lt;h1&gt;Getting Help 获取帮助&lt;/h1&gt;
-&lt;p&gt;You can share your ideas or problems on &lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;Github&lt;/a&gt;.
-If you encounter problems using GeoPyTool, please screenshot the error message from the cmd or other ternimal window and send it with your post (shown as the sample below).&lt;/p&gt;
-&lt;p&gt;大家有各种问题交流，除了在&lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;Github&lt;/a&gt;，还可以加入咱们的QQ群： 560675626 （为避免无关人员骚扰，加群申请填写暗号 &lt;strong&gt;大胖哥是个好人&lt;/strong&gt; 来通过验证）。
-如果你在使用的时候遇到出错的情况,请按下图所示将命令行窗口里面的出错信息截图发来,这会很有帮助:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/HowToAskForHelp.png"&gt;&lt;/p&gt;
 &lt;h1&gt;捐助支持&lt;/h1&gt;
 &lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category><category term="Chinese"></category></entry><entry><title>Introduction</title><link href="/introduction.html" rel="alternate"></link><published>2018-04-21T15:15:13+08:00</published><updated>2018-04-21T15:15:13+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/introduction.html</id><summary type="html">&lt;h1&gt;Welcome to GeoPyTool&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://travis-ci.org/GeoPyTool/GeoPyTool"&gt;&lt;img alt="Build Status" src="https://travis-ci.org/GeoPyTool/GeoPyTool.svg?branch=master"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Preface&lt;/h2&gt;
-&lt;p&gt;Few years ago, I had tumor and some other lifelong disease.
-Then I lost the ability to engage in geological field work.
-I hate to be a useless person and hope to contribute to other people and the world.
-Then I started learning programming.
-I began …&lt;/p&gt;</summary><content type="html">&lt;h1&gt;Welcome to GeoPyTool&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://travis-ci.org/GeoPyTool/GeoPyTool"&gt;&lt;img alt="Build Status" src="https://travis-ci.org/GeoPyTool/GeoPyTool.svg?branch=master"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;Preface&lt;/h2&gt;
-&lt;p&gt;Few years ago, I had tumor and some other lifelong disease.
-Then I lost the ability to engage in geological field work.
-I hate to be a useless person and hope to contribute to other people and the world.
-Then I started learning programming.
-I began to learn and use Python by translating a text book called "Think Python 2 edition" to &lt;a href="https://github.com/cycleuser/ThinkPython-en-cn"&gt;Chinese&lt;/a&gt;.
-After translating &lt;a href="https://github.com/cycleuser/ThinkPython-en-cn"&gt;Think Python 2 edition&lt;/a&gt;, I translated &lt;a href="https://github.com/Kivy-CN/Kivy-CN"&gt;Kivy Document&lt;/a&gt;, &lt;a href="https://github.com/Kivy-CN/Stanford-CS-229-CN"&gt;CS229 notes from Stanford University&lt;/a&gt; and &lt;a href="https://github.com/Kivy-CN/Duke-STA-663-CN"&gt;STA663 notes from Duke University&lt;/a&gt;.
-I publish all my translation works on Github, as open source projects.&lt;/p&gt;
-&lt;p&gt;When I began to use Python, from time to time, there have been some people asking me for help by writing some codes to help them solve some of their problems in geological research.&lt;/p&gt;
-&lt;p&gt;I gathered these scripts together, built a GUI and packed them into a standalone application, which is originally called GeoPython and later renamed GeoPyTool because of the former name had been taken by a conference.&lt;/p&gt;
-&lt;p&gt;That is the story of how GeoPyTool was born.&lt;/p&gt;
-&lt;h2&gt;Citation&lt;/h2&gt;
-&lt;p&gt;Article Here: &lt;a href="https://www.sciencedirect.com/science/article/pii/S1674987118301609"&gt;https://www.sciencedirect.com/science/article/pii/S1674987118301609&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Please cite this article as:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Yu, Q.-Y., Bagas, L., Yang, P.-H., Zhang, D., GeoPyTool: a cross-platform software solution for common geological calculations and plots, Geoscience Frontiers (2018), doi: 10.1016/j.gsf.2018.08.001.&lt;/code&gt;&lt;/p&gt;
-&lt;h2&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;GeoPyTool is an application based on Python and designed as a solution for geology related daily work. &lt;strong&gt;It can run on alomost all mainstream operating systems&lt;/strong&gt;, such as Windows 7 SP1, Windows 8, Windows 10, macOS Sierra, macOS High Sierra, Ubuntu Linux, Debian Linux, Fedora Linux, and alomost all other widely used desktop platforms.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;GeoPyTool doesn't rely on any other software&lt;/strong&gt;, such as MS Excel or CorelDraw, it can directly transport your data into the plot as vector graphic files and the calculation results into data sheets such as Xlsx or CSV files.&lt;/p&gt;
-&lt;p&gt;GeoPyTool contains both traditional routines and newly developed methods.
-Over time, this software will contain more and more functions.
-The function list can be found &lt;a href="http://geopytool.com/functions.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;Get GeoPyTool&lt;/h2&gt;
-&lt;p&gt;This section used to be called "Installation".
-While, in fact you almost need no Installation to use the packed application of GeoPyTool. The latest download links can be found at the &lt;a href="http://geopytool.com/download.html"&gt;Download page&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;If you want to use GeoPyTool as a module inside Python, then you might need to read the detailed guide at &lt;a href="http://geopytool.com/installation-expert.html"&gt;Installation Guide For Expert&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;License&lt;/h2&gt;
-&lt;p&gt;GeoPyTool now is an open source project under the GNU General Public License v3.0.
-It is a &lt;strong&gt;free software&lt;/strong&gt;: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.&lt;/p&gt;
-&lt;p&gt;In simple terms, you can use, share and modify it for free, under the same terms of GPLv3.&lt;/p&gt;
-&lt;h2&gt;Bug Report&lt;/h2&gt;
-&lt;p&gt;Any program may have a bug or many bugs. So does GeoPyTool.
-I am not a programming expert or a magic superman, so I will inevitably make mistakes.
-I am open minded and happy to solve problems after being told the details about bugs.&lt;/p&gt;
-&lt;p&gt;If you find bugs but don’t tell me where how that happens, then I'm helpless.
-If you don’t even provide any detailed information, but just blaming me, then I’m deeply hurt.
-Please do not repeating "many bugs many bugs" with no feedback, that make very frustrated in a long period of pain and self-reproach.&lt;/p&gt;
-&lt;p&gt;I need your help to find out where the bugs locate and how they happen.
-I need to know the version of GeoPyTool that has these bugs.
-I might also need a piece of your data file that triggers the bugs.
-If you find any bug, I am happy to be told the details and fix it as soon as possible. &lt;/p&gt;
-&lt;p&gt;Please open a issue in &lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues/"&gt;GeoPyTool's repo&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;You can share your ideas or problems on &lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;Github&lt;/a&gt;.
-If you encounter problems using GeoPyTool, please screenshot the error message from the cmd or other ternimal window and send it with your post (shown as the sample below).&lt;/p&gt;
-&lt;h2&gt;Feedback&lt;/h2&gt;
-&lt;p&gt;If you have some wanted functions, please tell us also opening a issue in &lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues/"&gt;GeoPyTool's repo&lt;/a&gt; containing references and sample data. 
-It's best to give a brief introduction, which can save developers' time.
-If you don't understand how that works at all, don't expect us to figure it out by ourselves.
-I am certainly not smarter than you, even much worse than you.&lt;/p&gt;
-&lt;h3&gt;For Mac Users&lt;/h3&gt;
-&lt;p&gt;On macOS, everything is extremely easy to use GeoPyTool. 
-There is &lt;strong&gt;no need to touch the SIP&lt;/strong&gt;(System Integrity Protection) at all.
-Please leave a message if you encounter different situations, which should contain the version of your operating system.&lt;/p&gt;
-&lt;p&gt;Please believe me that I have tried this on several brand new Mac machines.&lt;/p&gt;
-&lt;p&gt;Just download and unzip the packed file, then double click on the GeoPyTool.app file, you will find the APP available as the following picture shows.
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/MacOSScreenShot.png"&gt;&lt;/p&gt;
-&lt;p&gt;To Update the GeoPyTool.app, you need to go to the location inside the app file, &lt;code&gt;GeoPyTool.app/Contents/Resources/UpDateGeoPytool&lt;/code&gt;.
-Double click on this file named &lt;code&gt;UpDateGeoPytool&lt;/code&gt; at &lt;code&gt;GeoPyTool.app/Contents/Resources/&lt;/code&gt;. 
-As the following screenshot shows:
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/OSXUpdate.png"&gt;&lt;/p&gt;
-&lt;p&gt;It will update the GeoPyTool inside your GeoPyTool.app file. Remember that never modify any files directly under the same folder unless you are an expert on dealing with Python.&lt;/p&gt;
-&lt;h3&gt;For Windows Users&lt;/h3&gt;
-&lt;p&gt;On Windows 8/8.1/10, everything is also extremely easy to use GeoPyTool. Just download and unzip the file, then double click on a bat file in the unzipped folder, and make sure that you don't delete any file form the unzipped folder because they are all required by the program, then you will find the APP available as the following picture shows.&lt;/p&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category><category term="Chinese"></category></entry><entry><title>安装指南</title><link href="/an-zhuang-zhi-nan.html" rel="alternate"></link><published>2017-11-15T00:00:00+08:00</published><updated>2017-11-15T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-11-15:/an-zhuang-zhi-nan.html</id><summary type="html">&lt;h2&gt;安装 GeoPyTool&lt;/h2&gt;
+&lt;p&gt;GeoPyTool  有两种使用方法，可以作为独立的程序运行，也可以作为 Python 下的一个模块（module）来在 Python 解释器下调用。&lt;/p&gt;
+&lt;h2&gt;作为独立程序使用 GeoPyTool&lt;/h2&gt;
+&lt;p&gt;打包好的可执行文件，目前支持 Windows 和 macOS 两种平台。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/Download.md"&gt;点击这里查看程序文件的下载链接。&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Mac 下的 APP&lt;/h3&gt;
+&lt;p&gt;macOS 下面特别省心，因为开发者本身就用的这个系统。直接下载对应的压缩包，解压缩之后，双击 GeoPyTool.app 这个文件，就可以看到下面的图形界面了。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="User Interface of the APP on macOS." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/MacOSScreenShot.png"&gt;&lt;/p&gt;
+&lt;h3&gt;Mac APP 更新升级方法&lt;/h3&gt;
+&lt;p&gt;进入到 GeoPyTool.app 文件内部，位置为 &lt;code&gt;GeoPyTool.app/Contents/Resources/UpDateGeoPytool&lt;/code&gt;。双击这个个名为 &lt;code&gt;UpDateGeoPytool&lt;/code&gt;的文件 …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;安装 GeoPyTool&lt;/h2&gt;
+&lt;p&gt;GeoPyTool  有两种使用方法，可以作为独立的程序运行，也可以作为 Python 下的一个模块（module）来在 Python 解释器下调用。&lt;/p&gt;
+&lt;h2&gt;作为独立程序使用 GeoPyTool&lt;/h2&gt;
+&lt;p&gt;打包好的可执行文件，目前支持 Windows 和 macOS 两种平台。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/Download.md"&gt;点击这里查看程序文件的下载链接。&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Mac 下的 APP&lt;/h3&gt;
+&lt;p&gt;macOS 下面特别省心，因为开发者本身就用的这个系统。直接下载对应的压缩包，解压缩之后，双击 GeoPyTool.app 这个文件，就可以看到下面的图形界面了。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="User Interface of the APP on macOS." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/MacOSScreenShot.png"&gt;&lt;/p&gt;
+&lt;h3&gt;Mac APP 更新升级方法&lt;/h3&gt;
+&lt;p&gt;进入到 GeoPyTool.app 文件内部，位置为 &lt;code&gt;GeoPyTool.app/Contents/Resources/UpDateGeoPytool&lt;/code&gt;。双击这个个名为 &lt;code&gt;UpDateGeoPytool&lt;/code&gt;的文件，就会更新到最新版本了。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Update the APP on macOS." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/OSXUpdate.png"&gt;&lt;/p&gt;
+&lt;h3&gt;Windows 系统下的打包文件&lt;/h3&gt;
+&lt;h4&gt;Windows 8/8.1/10 用户&lt;/h4&gt;
+&lt;p&gt;这几个比较新的 Windows 系统的用户也很省心，也是下载之后解压缩，然后在文件夹里面双击 &lt;strong&gt;Rungeopytool.bat&lt;/strong&gt; 就可以了。记住一定不要删除解压出来的文件夹里面的任何文件，那都是程序用得上的，一旦删除了就可能导致程序无法运行了。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/RunWin.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;To use GeoPyTool on Windows 7, some system patches need to be installed. You need to install the SP1 of Windows and then install KB2999226 and the Visual C++ Redistributable 2015. If you are using Windows 7 without the SP1 package installed, there might comes &lt;code&gt;anapi-ms-win-crtrelated error&lt;/code&gt;. So believe me my friend, just install these patched below, they won't harm you after all.&lt;/p&gt;
-&lt;p&gt;The SP1 package of Windows 7 can be found at &lt;a href="https://support.microsoft.com/en-us/help/15090/windows-7-install-service-pack-1-sp1"&gt;the official website of MicroSoft&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The installation packages of KB2999226 and the Visual C++ Redistributable 2015 are already contained in the Zip file of GeoPyTool for Windows, and can also be found here: &lt;a href="https://pan.baidu.com/s/1kVwSQ95"&gt;32 bit Windows7&lt;/a&gt; ，&lt;a href="https://pan.baidu.com/s/1qY34ocW"&gt;64 bit WInodws7&lt;/a&gt; . 
-So if you encounter any &lt;code&gt;api-ms-win-crtrelated errors&lt;/code&gt;, please check those installations first.&lt;/p&gt;
-&lt;p&gt;If you are using Windows XP or Vista, sorry, I do not have the magic to save those systems that Microsoft has abandoned. 
-Expect me to provide support for those antique systems?
-Please forgive me for not having time or ability.&lt;/p&gt;
-&lt;h3&gt;For Linux Users&lt;/h3&gt;
-&lt;p&gt;Awesome, man, good for you. You are a Linux user? So am I.
-Then I believe that you are completely capable of using pip to complete the installation under the terminal. There is no need to download a large and bloated package file.&lt;/p&gt;
-&lt;p&gt;Read the &lt;a href="http://geopytool.com/installation-expert.html"&gt;Installation Guide For Expert&lt;/a&gt; if you need some reference information.&lt;/p&gt;
-&lt;h2&gt;Data Templates&lt;/h2&gt;
-&lt;p&gt;Latest Data File Templates are at &lt;a href="https://github.com/GeoPyTool/GeoPyTool/tree/master/DataFileSamples"&gt;DataFileSamples&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Settings.xlsx shows you the meaning and &lt;strong&gt;effects&lt;/strong&gt; of those &lt;strong&gt;setting up information&lt;/strong&gt; contained in other data templates.&lt;/p&gt;
-&lt;p&gt;Geochemistry functions in GeoPyTool use &lt;strong&gt;Geochemistry.xlsx&lt;/strong&gt;. Structure geology functions use &lt;strong&gt;Structure.xlsx&lt;/strong&gt;.
-Other functions also have their corresponding data template files.&lt;/p&gt;
-&lt;p&gt;Please do follow the data templates, maybe you can just paste your data into a copied data template file and try it.&lt;/p&gt;
-&lt;h2&gt;Blank Data&lt;/h2&gt;
-&lt;p&gt;Sorry, I am not superhero and can not make decision for you on how to treat the blanks in your data. Maybe you want to replace blank with zeros or some random values, or maybe you want to draw a flower in your data file with those blanks.
-But I cannot make your choice, nor does GeoPyTool.
-The program will only ignore those blanks.&lt;/p&gt;
-&lt;p&gt;Blanks can not be used in matrix calculation and data fitting, that is how math works and the cruel rules of the real world. Please don't blame me for your lack of enough data or making decision on how to fill the blanks.&lt;/p&gt;
-&lt;h2&gt;Usage&lt;/h2&gt;
-&lt;p&gt;A detailed demonstration can be found at &lt;a href="http://geopytool.com/demonstration.html"&gt;Demonstration&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;Outcome&lt;/h2&gt;
-&lt;h3&gt;Figures&lt;/h3&gt;
-&lt;p&gt;GeoPyTool offer three choices for format of generated figure, which are PDF, SVG, and PNG.
-PDF and SVG are both vector graphic formats, while PNG is not.&lt;/p&gt;
-&lt;h4&gt;Adjusting Axises of Figure&lt;/h4&gt;
-&lt;p&gt;There is a menubar on almost all interface of GeoPyTool that generating figures, which can be used to modify and adjust your picture, such as modifying the axis range and axis scale, etc.&lt;/p&gt;
-&lt;p&gt;As shown in the picture below:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Axis%20Adjustment.png"&gt;&lt;/p&gt;
-&lt;p&gt;Please do not blame me for not giving enough options to control your plots without even trying to use these menubar.
-Maybe you want me to make pasta for you?&lt;/p&gt;
-&lt;h3&gt;Result Sheets&lt;/h3&gt;
-&lt;p&gt;GeoPyTool has some calculating related functions, result sheets generated by which can be saved as CSV or Excel files.
-The CSV in fact is just a form of plain text, which can be edited by almost any editor.
-After all, please find your own way to open these files and do not act like a baby.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/Samples.png?raw=true"&gt;&lt;/p&gt;
-&lt;h1&gt;Support Us&lt;/h1&gt;
-&lt;p&gt;If you want to support GeoPyTool and you also use WeChat, please scan the following QR code to reward us.
-I can use this money to pay for medical expenses to stay healthy and add more functions to GeoPyTool.
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category></entry><entry><title>中文简介</title><link href="/zhong-wen-jian-jie.html" rel="alternate"></link><published>2018-04-21T15:15:13+08:00</published><updated>2018-04-21T15:15:13+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/zhong-wen-jian-jie.html</id><summary type="html">&lt;h1&gt;欢迎使用 GeoPyTool&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://travis-ci.org/GeoPyTool/GeoPyTool"&gt;&lt;img alt="编译状态" src="https://travis-ci.org/GeoPyTool/GeoPyTool.svg?branch=master"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;加群必看&lt;/h2&gt;
-&lt;p&gt;大家有各种问题交流，除了在&lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;Github&lt;/a&gt;，还可以加入咱们的QQ群： 560675626 
-为避免无关人员骚扰，请填写加群暗号 &lt;strong&gt;大胖哥是个好人&lt;/strong&gt; 来通过验证。&lt;/p&gt;
-&lt;h2&gt;前言&lt;/h2&gt;
-&lt;p&gt;几年前，我开始学编程，参考&lt;a href="http://blog.cycleuser.org/wo-zi-xue-bian-cheng-de-gu-shi.html"&gt;我自学编程的故事&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;我学 Python 是从翻译一本 &lt;a href="https://github.com/cycleuser/ThinkPython-en-cn"&gt;中英双语版本的 Think Python 第二版&lt;/a&gt;开始的。
-此外我还陆续翻译了 &lt;a href="https://github.com/Kivy-CN/Kivy-CN"&gt;Kivy 中文编程指南&lt;/a&gt;, &lt;a href="https://github.com/Kivy-CN/Stanford-CS-229-CN"&gt;斯坦福大学 CS229 课件讲义&lt;/a&gt; 以及 &lt;a href="https://github.com/Kivy-CN/Duke-STA-663-CN"&gt;杜克大学 STA663 课件讲义&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;在我学习和使用 Python 的同时，经常帮身边的同学朋友写一写小段的代码来解决在地质学研究中的任务。后来我把这些片段代码聚集在一起，做成了一个模块，开始命名叫做 GeoPython，后来由于跟一个会议重名，而改名叫 GeoPyTool。&lt;/p&gt;
-&lt;h2&gt;引用&lt;/h2&gt;
-&lt;p&gt;文献开放获取: &lt;a href="https://www.sciencedirect.com/science/article/pii/S1674987118301609"&gt;https://www …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;h1&gt;欢迎使用 GeoPyTool&lt;/h1&gt;
-&lt;p&gt;&lt;a href="https://travis-ci.org/GeoPyTool/GeoPyTool"&gt;&lt;img alt="编译状态" src="https://travis-ci.org/GeoPyTool/GeoPyTool.svg?branch=master"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;加群必看&lt;/h2&gt;
-&lt;p&gt;大家有各种问题交流，除了在&lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;Github&lt;/a&gt;，还可以加入咱们的QQ群： 560675626 
-为避免无关人员骚扰，请填写加群暗号 &lt;strong&gt;大胖哥是个好人&lt;/strong&gt; 来通过验证。&lt;/p&gt;
-&lt;h2&gt;前言&lt;/h2&gt;
-&lt;p&gt;几年前，我开始学编程，参考&lt;a href="http://blog.cycleuser.org/wo-zi-xue-bian-cheng-de-gu-shi.html"&gt;我自学编程的故事&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;我学 Python 是从翻译一本 &lt;a href="https://github.com/cycleuser/ThinkPython-en-cn"&gt;中英双语版本的 Think Python 第二版&lt;/a&gt;开始的。
-此外我还陆续翻译了 &lt;a href="https://github.com/Kivy-CN/Kivy-CN"&gt;Kivy 中文编程指南&lt;/a&gt;, &lt;a href="https://github.com/Kivy-CN/Stanford-CS-229-CN"&gt;斯坦福大学 CS229 课件讲义&lt;/a&gt; 以及 &lt;a href="https://github.com/Kivy-CN/Duke-STA-663-CN"&gt;杜克大学 STA663 课件讲义&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;在我学习和使用 Python 的同时，经常帮身边的同学朋友写一写小段的代码来解决在地质学研究中的任务。后来我把这些片段代码聚集在一起，做成了一个模块，开始命名叫做 GeoPython，后来由于跟一个会议重名，而改名叫 GeoPyTool。&lt;/p&gt;
-&lt;h2&gt;引用&lt;/h2&gt;
-&lt;p&gt;文献开放获取: &lt;a href="https://www.sciencedirect.com/science/article/pii/S1674987118301609"&gt;https://www.sciencedirect.com/science/article/pii/S1674987118301609&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;请按参考下面的方式引用:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Yu, Q.-Y., Bagas, L., Yang, P.-H., Zhang, D., GeoPyTool: a cross-platform software solution for common geological calculations and plots, Geoscience Frontiers (2018), doi: 10.1016/j.gsf.2018.08.001.&lt;/code&gt;&lt;/p&gt;
-&lt;h2&gt;介绍&lt;/h2&gt;
-&lt;p&gt;GeoPyTool 是基于 Python 构建的，用于解决地质学研究中的一些日常任务。 &lt;strong&gt;能够运行于几乎所有主流操作系统&lt;/strong&gt;, 比如 Windows 7 SP1, Windows 8, Windows 10, macOS Sierra, macOS High Sierra, Ubuntu Linux, Debian Linux, Fedora Linux, 等等。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;GeoPyTool 不依赖任何额外的商业软件&lt;/strong&gt;, 比如 MS Excel 或者 CorelDraw, 直接从数据生成矢量图，计算结果则保存为 Excel 或者 CSV 格式。&lt;/p&gt;
-&lt;p&gt;GeoPyTool 包含常用的经典方法和一些近年来产生的新方法。
-随着时间的推移，GeoPyTool 的功能会越来越多，目前的功能列表可以在&lt;a href="http://geopytool.com/gong-neng-lie-biao.html"&gt;这里查看&lt;/a&gt;。&lt;/p&gt;
-&lt;h2&gt;下载 GeoPyTool&lt;/h2&gt;
-&lt;p&gt;实际上也不用安装，直接下载打包的文件就能够运行了，至少对于 Mac 和 Windows 用户来说是如此，下载链接在 &lt;a href="http://geopytool.com/download.html"&gt;Download 页面&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;如果你想把 GeoPyTool 作为一个模块在 Python 中使用，请参考 &lt;a href="http://geopytool.com/an-zhuang-zhi-nan-jin-jie.html"&gt;高级安装指南&lt;/a&gt;。&lt;/p&gt;
-&lt;h2&gt;授权协议&lt;/h2&gt;
-&lt;p&gt;GeoPyTool 目前是开源项目，遵循 GNU 通用公共授权第三版（GNU General Public License v3.0）。
-GeoPyTool 是一个 &lt;strong&gt;自由软件&lt;/strong&gt;: 你可以自由复制与分发，但必须遵循 GNU 通用公共授权第三版（GNU General Public License v3.0）或者之后更新的版本。&lt;/p&gt;
-&lt;h2&gt;Bug 反馈&lt;/h2&gt;
-&lt;p&gt;任何程序都可能有 bug，GeoPyTool 也是如此。
-我不是超人，经常犯错误，所以难免有 bug。
-当你遇到 bug 的时候，请不要在那里大喊“有 bug”，也不要死命追问我“快帮我看看怎么办”。
-希望你能够提供完整的信息，来帮助我了解 bug 发生的位置，最好还能提供一份导致 bug 的数据文件，让我来测试除错。&lt;/p&gt;
-&lt;p&gt;请把上面这些信息以及更多相关截图都发到 &lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues/"&gt;GeoPyTool 的 issue 中&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;别只想着让别人帮忙解决问题，也想想自己能够提供什么信息。&lt;/p&gt;
-&lt;p&gt;如果你在使用的时候遇到出错的情况,请按下图所示将命令行窗口里面的出错信息截图发来,这会很有帮助:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/HowToAskForHelp.png"&gt;&lt;/p&gt;
-&lt;h2&gt;意见建议&lt;/h2&gt;
-&lt;p&gt;如果你有什么意见建议，比如希望添加某个功能等等，都可以发到 &lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues/"&gt;GeoPyTool 的 issue 中&lt;/a&gt;。
-如果要求添加某个功能，最好要有该方法的参考文献出处，数据样本，以及简单介绍。
-这样能够节省很多时间，比如不用我们再自己去从原文中一个个复制出数据，也不用我们去通读全文来理解计算过程。
-既然你要求某个功能，就希望你能够对其进行解释。
-我们不比你更聪明，也不比你有更多的时间，所以请尊重我们的时间。&lt;/p&gt;
-&lt;h3&gt;Mac 用户&lt;/h3&gt;
-&lt;p&gt;对于 Mac 用户来说，下载压缩包，解压之后双击 GeoPyTool.app 这个文件就可以了。
-&lt;strong&gt;根本就不用动什么 SIP&lt;/strong&gt;(System Integrity Protection)，所以没必要叽叽歪歪。&lt;/p&gt;
-&lt;p&gt;如果直接双击不能运行，系统偏好设置-&amp;gt;安全性与隐私，允许一下就可以了。&lt;/p&gt;
-&lt;p&gt;如下图所示：
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/MacOSScreenShot.png"&gt;&lt;/p&gt;
-&lt;p&gt;要更新也不难，右键这个 GeoPyTool.app 文件，显示包内容，然后进入到 &lt;code&gt;GeoPyTool.app/Contents/Resources/UpDateGeoPytool&lt;/code&gt;。
-双击&lt;code&gt;GeoPyTool.app/Contents/Resources/&lt;/code&gt;这个目录中的&lt;code&gt;UpDateGeoPytool&lt;/code&gt;。
-就可以更新了，如下图所示：
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/OSXUpdate.png"&gt;&lt;/p&gt;
-&lt;p&gt;千万别乱动 GeoPyTool.app 文件夹内的东西，自己作死没人管。&lt;/p&gt;
-&lt;h3&gt;Windows 用户&lt;/h3&gt;
-&lt;p&gt;如果你用的是 Windows 8/8.1/10，那就很简单了，下载打包文件之后解压缩，运行里面的 bat 扩展名的文件就可以了。&lt;/p&gt;
-&lt;h4&gt;绝对不要放在中文路径下面！！！！&lt;/h4&gt;
-&lt;p&gt;另外确保整个文件夹都在英文目录下，绝对不能放到中文目录里面，否则会遇到下面的错误：&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/EnglishPathOnly.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;不知道什么是扩展名？不知道怎么看扩展名？自己想办法吧，不要当伸手党和小宝贝。
-开源软件已经相当于免费午餐，甚至都包含了免费餐具，还要专车来接么？
-解压缩的那个文件夹里面的东西千万别动，一个都别删除，还是那句话，自己作死没人管。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="User Interface of the EXE on Windows." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ScreenShot.png"&gt;&lt;/p&gt;
+&lt;h4&gt;Windows 7 用户&lt;/h4&gt;
+&lt;p&gt;刚才上面那张图实际上是在 Windows7 系统上面运行 GeoPyTool 的截图。不过 Windows7 系统用户需要先安装几个补丁，才能运行 geopytool。&lt;/p&gt;
+&lt;p&gt;首先是一定要安装 Windows 7 SP1 这个补丁，然后要安装 KB2999226 和 &lt;code&gt;Visual C++ Redistributable 2015&lt;/code&gt;。如果不按照  SP1 以及其他两个补丁，运行 GeoPyTool.exe 的时候就会出现错误提示，说什么&lt;code&gt;api-ms-win-crt&lt;/code&gt; 无法定位之类的。总之遇到这样的情况时，先检查系统是不是安装了 SP1，然后将其他两个补丁安装试一试。&lt;/p&gt;
+&lt;p&gt;针对 Windows 7 的 SP1 补丁&lt;a href="https://support.microsoft.com/en-us/help/15090/windows-7-install-service-pack-1-sp1"&gt;自然是可以在微软的官网这个地址里面找到的&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;其他两个安装包，包括 KB2999226 和&lt;code&gt;Visual C++ Redistributable 2015&lt;/code&gt; 已经包含在 GeoPyTool 的压缩包里面了，也可以在下面这两个地址里面下载：&lt;a href="https://pan.baidu.com/s/1kVwSQ95"&gt;32 bit Windows7 &lt;/a&gt;，&lt;a href="https://pan.baidu.com/s/1qY34ocW"&gt;64 bit WInodws7 &lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;再次重复一遍，如果你遇到不能运行的情况，并且看到了 &lt;code&gt;api-ms-win-crt&lt;/code&gt; 这样的字样，先检查上面的补丁是否安装了。&lt;/p&gt;
+&lt;h4&gt;Windows XP 和 Vista 用户&lt;/h4&gt;
+&lt;p&gt;我自己试了好几次都没弄成，我也懒得在这些老古董系统上面浪费时间精力。人生宝贵，所以建议你把电脑升级成 Windows7 SP1 以上的更新的操作系统，如果配置实在太差也可以用 Linux 操作系统。反正如果你非要纠结在 XP 这类连微软自己都抛弃的系统上，那就祝你好运以及再见！&lt;/p&gt;
+&lt;h3&gt;Windows EXE 更新方法&lt;/h3&gt;
+&lt;p&gt;双击解压目录下的 &lt;strong&gt;Update.bat&lt;/strong&gt; 这个文件，就可以更新到最新版了。这个命令是调用 GeoPyTool 这个目录里面的 pip 来更新该目录下的 GeoPyTool 模块。千万别乱动这个文件同一目录下的任何其他内容，除非你很有信心能搞定哈，那样随你咯。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Update the EXE on Windows." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WinUpdate.png"&gt;&lt;/p&gt;
+&lt;h1&gt;注意！如果你下载了打包的文件了，只要运行对应的脚本或者双击 APP 文件就可以了，下面的内容和你无关，无关！！！！！别再折腾去安装下面的内容了，弄不明白还浪费时间！！！！！！！注意阅读上文就可以了！！！！！&lt;/h1&gt;
+&lt;h2&gt;将 GeoPyTool 作为 Python 模块来使用&lt;/h2&gt;
+&lt;p&gt;其他的所有操作系统，比如 Debian Linux, Ubuntu Linux, Fedora Linux, FreeBSD 甚至 GNU/Hurd，都可以将 GeoPyTool 作为一个 Python 模块来在 Python 解释器里面运行。实际上对于 macOS 和 Windows 用户，也建议这样使用，因为这样能够最快速更新到最新版本，下载安装都更加迅速。当然，操作起来稍微复杂点，反正不适合缺乏挑战精神和探索学习能力的人。&lt;/p&gt;
+&lt;h3&gt;首先要安装 Python&lt;/h3&gt;
+&lt;p&gt;你需要先安装 Python，geopytool 是用 Python3.5 写的，并且不兼容 Python2， 所以推荐你也用 3.5 或者更新的 Python。可以到 &lt;a href="https://www.python.org/downloads/"&gt;Python 官方网站&lt;/a&gt; 或者  &lt;a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/"&gt;清华 Tuna&lt;/a&gt; 去下载对应自己系统的安装包。&lt;/p&gt;
+&lt;p&gt;更推荐大家使用 Anaconda3-4.0.0 或者更新版本的 Anaconda3。因为在 Anaconda 中，包括 cython, numpy, pandas, matplotlib 等在内的很多必要的包都集成好了，安装时候省时间。&lt;/p&gt;
+&lt;h5&gt;对于 Windows 用户的一些有用链接&lt;/h5&gt;
+&lt;p&gt;实际上网上有很多很多指南，都给说明吧了要怎么安装 Python 以及激活 PIP。所以这里面就只放几个下载链接，自己探索吧哈，没探索精神搞个毛球学术对吧。&lt;/p&gt;
+&lt;h6&gt;32bit：&lt;/h6&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;项目&lt;/th&gt;
+&lt;th&gt;下载地址&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Anaconda&lt;/td&gt;
+&lt;td&gt;https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-4.4.0-Windows-x86.exe&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h6&gt;64bit：&lt;/h6&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;项目&lt;/th&gt;
+&lt;th&gt;下载地址&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Anaconda&lt;/td&gt;
+&lt;td&gt;https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-4.4.0-Windows-x86_64.exe&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;使用 PIP 安装 GeoPyTool&lt;/h3&gt;
+&lt;p&gt;安装完了 Python 并且激活了 PIP 之后，你是不是想着马上就能安装 GeoPyTool 了？&lt;/p&gt;
+&lt;p&gt;然而并不行。你需要安装一些基础包，geopytool 就是基于这些包构建的。即便你用的是 Anaconda3，也还是需要安装一些包，比如 pyqt5，这是用来搭建 GeoPyTool 的 GUI 图形界面的模块。&lt;/p&gt;
+&lt;p&gt;所以要在终端里面输入一些命令来先安装这些基础包。&lt;/p&gt;
+&lt;p&gt;不知道终端是啥？好吧，这里我先不责怪你怎么不去百度或者谷歌自行搜索。&lt;/p&gt;
+&lt;p&gt;在 Windows 系统里面，现在的终端一般就是 CMD 或者 PowerShell。对于其他的操作系统，比如 macOS 或者各种 Linux 以及 BSD 操作系统，往往都是 Bash，在这些系统里面也往往能找到 终端 这个程序，一般就在开始菜单或者程序目录里面肯定有。&lt;/p&gt;
+&lt;p&gt;Windows 用户不知道怎么运行 CMD 或者 PowerShell？搜索去吧，不要做纯粹的伸手党，自己探索一下是有好处的。&lt;/p&gt;
+&lt;h4&gt;注意&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;这里我用的命令都是 pip，这是假设你的 系统默认的 pip 就是 python3 的。而如果你同时安装了 Python2 和 Python3，那可能 pip 对应的未必是 Python3 的 pip 而是 Python2 的，这时候你可能就要把下面所有的 pip 替换成 pip3 来运行，应该就可以了。
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;接下来就把下面的命令&lt;strong&gt;逐条&lt;/strong&gt;复制粘贴到终端里面来运行，安装依赖包吧。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install cython
+pip install numpy
+pip install pandas
+pip install xlrd
+pip install matplotlib
+pip install BeautifulSoup4
+pip install pyqt5
+pip install scipy
+pip install scikit-learn
+pip install sympy
+pip install requests
+pip install pyopengl
+pip install pyqtgraph
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;直接使用 pip 来安装 scikit-learn 可能会报错，需要安装 &lt;a href="http://landinghub.visualstudio.com/visual-cpp-build-tools"&gt;Microsoft Visual C++ Build Tools&lt;/a&gt;。所以还可以考虑用 conda 来安装 scipy 和 scikit-learn。这就需要先安装 conda:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install requests
+pip install pyopengl
+pip install pyqtgraph
+pip install conda
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;然后我们用 conda 来安装其他的包：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;python3 -m conda install cython numpy pandas scipy scikit-learn sympy
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;安装完成了上面这些依赖包之后，就可以输入下面的这个命令来安装 GeoPyTool 了。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install geopytool
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;如果没有发现什么出错信息，就是说明安装成功了。&lt;/p&gt;
+&lt;h3&gt;更新已经安装的 GeoPyTool 模块&lt;/h3&gt;
+&lt;p&gt;如果你之前安装了 geopytool，可以通过下面的命令来更新到最新版本。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install geopytool --update --no-cache-dir
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;在 Python 下启动 GeoPyTool&lt;/h3&gt;
+&lt;p&gt;安装完了 geopytool，就可以在 Python 解释器里面启动了。不过这里要推荐一个替代原生解释器的 IPython，可以通过下面命令安装。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install ipython
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;安装好之后在终端中输入下面的命令启动 ipython。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ipython
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;然后在 ipython 或者原生 Python 解释器中输入下面两行命令，回车，就可以了。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;geopytool&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;gp&lt;/span&gt;
+&lt;span class="n"&gt;gp&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;就能看到 GeoPyTool 的图形界面了。
+例如下图就是在  Ubuntu 系统下的截图。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="GeoPyTool in Ubuntu" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/UbuntuScreenShot.png"&gt;&lt;/p&gt;
+&lt;p&gt;每次运行 GeoPyTool 之前，更新一下是个好习惯。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install --upgrade geopytool
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;点型Marker/ 颜色Color/ 线型Style&lt;/h2&gt;
+&lt;p&gt;GeoPyTool 可视化的部分使用 Matplotlib 来实现的，所以设置的这些项目也是相似的。&lt;/p&gt;
+&lt;p&gt;点型 Markers 的设置可以参考:
+http://matplotlib.org/api/markers_api.html&lt;/p&gt;
+&lt;p&gt;颜色 Colors 的设置可以参考:
+http://matplotlib.org/api/colors_api.html&lt;/p&gt;
+&lt;p&gt;下面的示意图来自&lt;a href="http://www.labri.fr/perso/nrougier/teaching/matplotlib/"&gt;nrougier&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/LIneStylesMarkers.png"&gt;&lt;/p&gt;
+&lt;h2&gt;需要更多帮助？&lt;/h2&gt;
+&lt;p&gt;请访问我们的论坛 https://github.com/GeoPyTool/GeoPyTool/issues 来留言&lt;strong&gt;写清楚&lt;/strong&gt;你使用的操作系统、安装方法、错误截图。我们会尽快给出反馈。&lt;/p&gt;
+&lt;h2&gt;附录&lt;/h2&gt;
+&lt;p&gt;锆石氧逸度计算的样例数据文件为 &lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/DataFileSamples/ZirconCe.xlsx"&gt;ZirconCe.xlsx&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/NewZirconCe.png"&gt;&lt;/p&gt;
+&lt;p&gt;TAS/REE/微量元素、Pearce  图解和 Harker 图解的数据样例文件为
+&lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/DataFileSamples/Data.xlsx"&gt;Data.xlsx&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/NewTAS.png"&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/NewTrace.png"&gt;&lt;/p&gt;
+&lt;p&gt;极射赤平投影和玫瑰花图的样例数据文件为 &lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/DataFileSamples/Structure.xlsx"&gt;Structure.xlsx&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Rose.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/LoadPNG.png"&gt;&lt;/p&gt;
+&lt;h1&gt;捐助支持&lt;/h1&gt;
+&lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="Chinese"></category><category term="中文"></category><category term="文档"></category></entry><entry><title>Demonstration</title><link href="/demonstration.html" rel="alternate"></link><published>2017-11-15T00:00:00+08:00</published><updated>2017-11-15T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-11-15:/demonstration.html</id><summary type="html">&lt;h2&gt;Demonstration of the Functions&lt;/h2&gt;
+&lt;h2&gt;Open and Import Data&lt;/h2&gt;
+&lt;p&gt;To start a plot or calculation, raw data file should be imported to GeoPyTool first.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ImportData.png"&gt;&lt;/p&gt;
+&lt;p&gt;The Data file can be Xlsx/Xls or CSV.
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Set Up Data&lt;/h2&gt;
+&lt;p&gt;If there is no setting up information such as the Label/Color/Marker/Style/Alapha …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Demonstration of the Functions&lt;/h2&gt;
+&lt;h2&gt;Open and Import Data&lt;/h2&gt;
+&lt;p&gt;To start a plot or calculation, raw data file should be imported to GeoPyTool first.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ImportData.png"&gt;&lt;/p&gt;
+&lt;p&gt;The Data file can be Xlsx/Xls or CSV.
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Set Up Data&lt;/h2&gt;
+&lt;p&gt;If there is no setting up information such as the Label/Color/Marker/Style/Alapha/Width, you need to click on the Set Format button to add these items and make modification by yourself.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SetDataUp.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SettingDataUp.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Click the Function you need&lt;/h2&gt;
+&lt;p&gt;After setting up, you can just click to use the function you need.
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ClickOnTheFunction.png"&gt;&lt;/p&gt;
+&lt;h2&gt;TAS/REE/Trace Elements&lt;/h2&gt;
+&lt;p&gt;These functions are quite commonly used and the details are shown as the picture below.
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/TAS-REE-Trace.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Pearce Diagram&lt;/h2&gt;
+&lt;p&gt;Pearce Diagram just use some trace elements and is also quite easy to know how to use.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Pearce.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Harker Diagram&lt;/h2&gt;
+&lt;p&gt;Harker Diagram is a little bit complicated. Both the X and Y items used for the picture can be selectable by the slider.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Harker.png"&gt;&lt;/p&gt;
+&lt;h2&gt;QFL and QmFLt&lt;/h2&gt;
+&lt;p&gt;These two diagrams are very easy. But you must find the right data file used for them to import.
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ImportQFL.png"&gt;&lt;/p&gt;
+&lt;p&gt;Remind to set up data, then you can run these two functions.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/QFLandQmFLt.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Stereographic Projection and Rose Map&lt;/h2&gt;
+&lt;p&gt;Wulf or Schmidt Net can be chosen, and so is to use Lines or Points on the generated diagram.
+In the Rose Map function, all data in one data files can be treated as a single group of data to draw Rose Map, and can also be treated as seperated teams to compare the Rose Map from each other. The step of the Rose Map can be set by slider. And so does the items chosen to use in the Rose Map. Dip/Dip-Angle/Strike are all available.&lt;/p&gt;
+&lt;p&gt;Notice that the first Letters must be in UPPER case.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/StereoAndRose.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Zircon Ce4/3 Ratio Calculation&lt;/h2&gt;
+&lt;p&gt;The data file used here is quite complicated. Please follow the guidance shown in the picture below.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ZriconCeCalculation.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Zircon and Rutile Thermometer&lt;/h2&gt;
+&lt;p&gt;These two function are super easy. Notice the ASiO2 and ATiO2 here are the Activity of these two components.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Thermometer.png"&gt;&lt;/p&gt;
+&lt;h2&gt;User Defined X-Y plot&lt;/h2&gt;
+&lt;p&gt;This function allows users to load any picture from any articles as a base map to plot on.&lt;/p&gt;
+&lt;p&gt;But you must understand the original plot first and know the mathematical setting of it. So you can set up the right format in your plot.&lt;/p&gt;
+&lt;p&gt;For example, as the picture below shown,  the original diagram used Nb and Th, normalized by N-MORB(Sun and McDonough 1989), and then used the Log function of these two items. So we do the same setting up as shown by the picture. The Left/Right/Down/Up limit of the original diagram are 0.01/100/0.01/1000, so we need to use the Log function and find out that we should set the Left/Right/Down/Up limit to be -2/2/-2/3. If you can not understand why, please take a rest and good bye.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/UserDefinedXY.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category></entry><entry><title>Functions</title><link href="/functions.html" rel="alternate"></link><published>2017-11-15T00:00:00+08:00</published><updated>2017-11-15T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-11-15:/functions.html</id><summary type="html">&lt;h1&gt;Functions&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Function&lt;/th&gt;
+&lt;th&gt;Brief description&lt;/th&gt;
+&lt;th&gt;Reference&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;TAS plot&lt;/td&gt;
+&lt;td&gt;Volcanic or intrusive rocks classification with SiO2 and (Na2O+K2O)&lt;/td&gt;
+&lt;td&gt;Maitre et al., 1989, Middlemost, 1994&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;QAPF plot&lt;/td&gt;
+&lt;td&gt;Plutonic or volcanic rocks classification with Q (quartz), A (alkali feldspar), P (plagioclase) and F (feldspathoid)&lt;/td&gt;
+&lt;td&gt;Maitre et al., 2004&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;REE&lt;/td&gt;
+&lt;td&gt;Compare Rare Earth Elements …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;h1&gt;Functions&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Function&lt;/th&gt;
+&lt;th&gt;Brief description&lt;/th&gt;
+&lt;th&gt;Reference&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;TAS plot&lt;/td&gt;
+&lt;td&gt;Volcanic or intrusive rocks classification with SiO2 and (Na2O+K2O)&lt;/td&gt;
+&lt;td&gt;Maitre et al., 1989, Middlemost, 1994&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;QAPF plot&lt;/td&gt;
+&lt;td&gt;Plutonic or volcanic rocks classification with Q (quartz), A (alkali feldspar), P (plagioclase) and F (feldspathoid)&lt;/td&gt;
+&lt;td&gt;Maitre et al., 2004&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;REE&lt;/td&gt;
+&lt;td&gt;Compare Rare Earth Elements with standard samples as Spider Diagram to analyze the distribution, tendency and anomalies&lt;/td&gt;
+&lt;td&gt;Boynton, 1984&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Trace elements&lt;/td&gt;
+&lt;td&gt;Compare Trace Elements with standard samples as Spider Diagram to analyze the distribution, tendency and anomalies&lt;/td&gt;
+&lt;td&gt;Sun and McDonough, 1989&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Rb-Y+Nb, Rb-Yb+Ta, Nb-Y, and Ta-Yb plots&lt;/td&gt;
+&lt;td&gt;Tectonic settings classification with Y-Nb, Yb-Ta, Rb- (Y + Nb) and Rb- (Yb + Ta) for granites&lt;/td&gt;
+&lt;td&gt;Pearce et al., 1984&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Stereographic projection and rose diagram&lt;/td&gt;
+&lt;td&gt;Virtualization and basic analyzation of outcrop occurrence; distribution, tendency and anomalies as a rose diagram with stereographic projection on Wulf net and Schmidt net.&lt;/td&gt;
+&lt;td&gt;Zhou et al., 2003&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;QFL and QmFLt plots&lt;/td&gt;
+&lt;td&gt;“Triangular QFL and QmFLt compositional diagrams for plotting point counts of sandstones can be subdivided into fields that are characteristic of sandstone suites derived from the different kinds of provenance terranes controlled by plate tectonics.”&lt;/td&gt;
+&lt;td&gt;Dickinson et al. 1983&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CIPW normalization&lt;/td&gt;
+&lt;td&gt;CIPW norm calculation with multiple samples&lt;/td&gt;
+&lt;td&gt;Johannsen, 1939; Washington, 1917; CIPW norm Excel spreadsheet by Kurt Hollocher&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Zircon Ce4/Ce3&lt;/td&gt;
+&lt;td&gt;Calculate Ce(IV)/Ce(III) ratio in zircon to infer relative oxidation state in a wide range of intermediate to felsic igneous rocks.&lt;/td&gt;
+&lt;td&gt;Ballard et al., 2002&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Zircon and Rutile thermometers&lt;/td&gt;
+&lt;td&gt;Use Ti element in Zircon and Zr element in Rutile to calculate the temperature of crystallization.&lt;/td&gt;
+&lt;td&gt;Watson et al., 2006&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Cluster&lt;/td&gt;
+&lt;td&gt;A basic version of hierarchical clustering analyzation of different number valued items.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Loading any picture as base map&lt;/td&gt;
+&lt;td&gt;Both X-Y plot and triangular diagram is supported, that means users can use any picture form any articles as their base map to plot data on and generate their diagram even it has not been contained by any other softwares.&lt;/td&gt;
+&lt;td&gt;An original function&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Fit and Contour map supported in X-Y plot&lt;/td&gt;
+&lt;td&gt;Any picture can be imported as base map, and the data can be poly fitted and drawn with contour map.&lt;/td&gt;
+&lt;td&gt;An original function&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Multi Dimensional data Visualization and Statistics&lt;/td&gt;
+&lt;td&gt;Data with more than three dimensions can be imported and statistical processed to be used on a 3-D Visualization.&lt;/td&gt;
+&lt;td&gt;An original function&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</content><category term="Doc"></category><category term="English"></category></entry><entry><title>功能列表</title><link href="/gong-neng-lie-biao.html" rel="alternate"></link><published>2017-11-15T00:00:00+08:00</published><updated>2017-11-15T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-11-15:/gong-neng-lie-biao.html</id><summary type="html">&lt;h1&gt;功能列表&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;功能&lt;/th&gt;
+&lt;th&gt;简介&lt;/th&gt;
+&lt;th&gt;文献出处&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;TAS plot&lt;/td&gt;
+&lt;td&gt;使用 SiO2 和 (Na2O+K2O) 对火山岩或者侵入岩进行分类判别&lt;/td&gt;
+&lt;td&gt;Maitre et al., 1989, Middlemost, 1994&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;QAPF plot&lt;/td&gt;
+&lt;td&gt;使用 Q (quartz 石英), A (alkali feldspar 碱性长石), P (plagioclase 斜长石) ，F (feldspathoid 似长石) 来对深成岩或者火山岩进行分类&lt;/td&gt;
+&lt;td&gt;Maitre et al., 2004&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;REE（Rare Earth Elements）&lt;/td&gt;
+&lt;td&gt;使用标准样品对样品的稀土元素进行标准化，分析其分配曲线、倾向、异常值等等&lt;/td&gt;
+&lt;td&gt;Boynton, 1984&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Trace …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;h1&gt;功能列表&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;功能&lt;/th&gt;
+&lt;th&gt;简介&lt;/th&gt;
+&lt;th&gt;文献出处&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;TAS plot&lt;/td&gt;
+&lt;td&gt;使用 SiO2 和 (Na2O+K2O) 对火山岩或者侵入岩进行分类判别&lt;/td&gt;
+&lt;td&gt;Maitre et al., 1989, Middlemost, 1994&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;QAPF plot&lt;/td&gt;
+&lt;td&gt;使用 Q (quartz 石英), A (alkali feldspar 碱性长石), P (plagioclase 斜长石) ，F (feldspathoid 似长石) 来对深成岩或者火山岩进行分类&lt;/td&gt;
+&lt;td&gt;Maitre et al., 2004&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;REE（Rare Earth Elements）&lt;/td&gt;
+&lt;td&gt;使用标准样品对样品的稀土元素进行标准化，分析其分配曲线、倾向、异常值等等&lt;/td&gt;
+&lt;td&gt;Boynton, 1984&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Trace elements&lt;/td&gt;
+&lt;td&gt;使用标准样品对样品的微量元素进行标准化，分析其分配曲线、倾向、异常值等等&lt;/td&gt;
+&lt;td&gt;Sun and McDonough, 1989&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Rb-Y+Nb, Rb-Yb+Ta, Nb-Y, and Ta-Yb plots&lt;/td&gt;
+&lt;td&gt;利用花岗岩中的 Y-Nb, Yb-Ta, Rb- (Y + Nb)，Rb- (Yb + Ta) 来推断其大地构造位置&lt;/td&gt;
+&lt;td&gt;Pearce et al., 1984&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;极射赤平投影和玫瑰花土&lt;/td&gt;
+&lt;td&gt;使用吴尔福网或者施密特网来对地质体的产状，包括走向倾向倾角，进行可视化&lt;/td&gt;
+&lt;td&gt;Zhou et al., 2003&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;QFL、QmFLt plots&lt;/td&gt;
+&lt;td&gt;三角图解，使用砂岩中的石英碎屑、长石碎屑、岩屑等的比例关系来推断其大地构造单元&lt;/td&gt;
+&lt;td&gt;Dickinson et al. 1983&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CIPW 标准化计算&lt;/td&gt;
+&lt;td&gt;经典计算方法，利用原始主微量数据中的特定氧化物和元素组合来推算标准化的矿物比例，计算的结果可以用于 QAPF 分类&lt;/td&gt;
+&lt;td&gt;Johannsen, 1939; Washington, 1917; CIPW norm Excel spreadsheet by Kurt Hollocher&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;锆石中 Ce4/Ce3 比值计算&lt;/td&gt;
+&lt;td&gt;计算锆石中的变价稀土元素 Ce(IV)/Ce(III) 的比值来作为斑岩氧逸度相对高低的半定量指标&lt;/td&gt;
+&lt;td&gt;Ballard et al., 2002&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;锆石和金红石温度计&lt;/td&gt;
+&lt;td&gt;使用锆石中 Ti 和金红石中的 Zr 两种元素以及 SiO2 和 TiO2 的活度来计算结晶体系的温度值。&lt;/td&gt;
+&lt;td&gt;Watson et al., 2006&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;谱系聚类分析&lt;/td&gt;
+&lt;td&gt;对数据中的数值项目进行统计，根据相关系数等等来进行谱系聚类，初级阶段，后续会有进一步丰富和改进&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;加载任意图片做底图&lt;/td&gt;
+&lt;td&gt;支持平面图和三角图解，可以使用任意文章中的任意图片来做底图使用，这样即便没有现成的软件提供具体的功能，用户也可以自行使用他人文献中的图片来投图使用作为参考。&lt;/td&gt;
+&lt;td&gt;An original function&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;可拟合数据和绘制轮廓图的 X-Y 平面图&lt;/td&gt;
+&lt;td&gt;可导入任意种类数据，可以使用任意文章中的任意图片来做底图使用，可设定是否标准化、是否取对数，数据多项式曲线拟合，轮廓图。&lt;/td&gt;
+&lt;td&gt;An original function&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;高维度数据统计分析和三维可视化&lt;/td&gt;
+&lt;td&gt;可导入任意种类数据，可设定是否标准化、是否取对数，可根据多维度变量的统计数据来筛选选择使用的数据指标种类组合。&lt;/td&gt;
+&lt;td&gt;An original function&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1&gt;捐助支持&lt;/h1&gt;
+&lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="Chinese"></category><category term="中文"></category><category term="文档"></category></entry><entry><title>Installation</title><link href="/installation.html" rel="alternate"></link><published>2017-11-15T00:00:00+08:00</published><updated>2017-11-15T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-11-15:/installation.html</id><summary type="html">&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;GeoPyTool can be used as a module inside Python, and can also run as a standalone application.&lt;/p&gt;
+&lt;h2&gt;Standalone Application&lt;/h2&gt;
+&lt;p&gt;Packed up executable files are temporarily only provided for Windows and MacOS platform.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/Download.md"&gt;Click here to get Download links.&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Mac APP&lt;/h3&gt;
+&lt;p&gt;On macOS, everything is extremely easy to use GeoPyTool …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Installation&lt;/h2&gt;
+&lt;p&gt;GeoPyTool can be used as a module inside Python, and can also run as a standalone application.&lt;/p&gt;
+&lt;h2&gt;Standalone Application&lt;/h2&gt;
+&lt;p&gt;Packed up executable files are temporarily only provided for Windows and MacOS platform.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/Download.md"&gt;Click here to get Download links.&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Mac APP&lt;/h3&gt;
+&lt;p&gt;On macOS, everything is extremely easy to use GeoPyTool. Just download and unzip the file, then double click on the GeoPyTool.app file, you will find the APP available as the following picture shows.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="User Interface of the APP on macOS." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/MacOSScreenShot.png"&gt;&lt;/p&gt;
+&lt;h3&gt;Mac APP Update&lt;/h3&gt;
+&lt;p&gt;Go to the location inside the app file, &lt;code&gt;GeoPyTool.app/Contents/Resources/UpDateGeoPytool&lt;/code&gt;.Double click on this file neamed UpDateGeoPytool at &lt;code&gt;GeoPyTool.app/Contents/Resources/&lt;/code&gt;. It will update the GeoPyTool inside your GeoPyTool.app file. Remember that never modify any files directly under the same folder unless you are an expert on dealing with Python.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Update the APP on macOS." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/OSXUpdate.png"&gt;&lt;/p&gt;
+&lt;h3&gt;Windows Pack&lt;/h3&gt;
+&lt;h4&gt;Windows 8/8.1/10 Users&lt;/h4&gt;
+&lt;p&gt;On these modern Windows platforms, everything is also extremely easy to use GeoPyTool. Just download and unzip the file, then double click on the &lt;strong&gt;Rungeopytool.bat&lt;/strong&gt; file, and make sure that you don't delete any file form the unziped folder because they are all required by the program, then you will find the APP available as the following picture shows.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/RunWin.jpg"&gt;&lt;/p&gt;
-&lt;p&gt;如果你用的是 Windows 7，那稍微麻烦点，需要安装 SP1 补丁，然后还要安装 KB2999226 和 Visual C++ Redistributable 2015。&lt;/p&gt;
-&lt;p&gt;不安装这些，就会遇到 &lt;code&gt;anapi-ms-win-crtrelated error&lt;/code&gt;这样的错误。&lt;/p&gt;
-&lt;p&gt;SP1补丁可以去 &lt;a href="https://support.microsoft.com/en-us/help/15090/windows-7-install-service-pack-1-sp1"&gt;微软官网下载&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;KB2999226 和 Visual C++ Redistributable 2015 的安装包在打包文件中其实有了，也可以在下面这两个链接中下载: &lt;a href="https://pan.baidu.com/s/1kVwSQ95"&gt;32 bit Windows7&lt;/a&gt; ，&lt;a href="https://pan.baidu.com/s/1qY34ocW"&gt;64 bit WInodws7&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;如果你用的是 Windows XP 或者 Vista，抱歉，走好不送，微软都不支持了，凭啥让我去支持？&lt;/p&gt;
-&lt;h3&gt;Linux 用户&lt;/h3&gt;
-&lt;p&gt;恭喜你，你既然已经日常用 Linux 了，探索学习技能就必然是基本能力了，水平肯定在我之上。所以我也就不提供打包文件了，而且为不同发型版打包也特别麻烦。
-请你直接参考 &lt;a href="http://geopytool.com/installation-expert.html"&gt;高级安装指南&lt;/a&gt; 来通过命令安装使用吧。&lt;/p&gt;
-&lt;h2&gt;数据模板&lt;/h2&gt;
-&lt;p&gt;最新的数据模板都在 &lt;a href="https://github.com/GeoPyTool/GeoPyTool/tree/master/DataFileSamples"&gt;DataFileSamples 这个目录里面可以下载&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;Settings.xlsx 是展示各种设置项目的效果。&lt;/p&gt;
-&lt;p&gt;GeoPyTool 中的 Geochemistry 菜单目录下的功能用的都是一份数据，即 &lt;strong&gt;Geochemistry.xlsx&lt;/strong&gt;，Structure geology 功能使用的是 &lt;strong&gt;Structure.xlsx&lt;/strong&gt;，其他功能各自有对应的数据模板。&lt;/p&gt;
-&lt;p&gt;请一定遵守数据模板的格式，把你的数据复制粘贴进去，填写好设置信息。&lt;/p&gt;
-&lt;h2&gt;空白数据&lt;/h2&gt;
-&lt;p&gt;我不是超人，不能替你做决定，你的空白数据是没办法来拟合以及进行矩阵计算的，好端端的数据非要有空白，你不问测试单位来问我？
-如果是别人的数据有空白，你自己要用就理应你自己想办法处理。我不能替你做决定，可能你要用0代替，也可能你要用随机值，或者可能你还有用空白格画朵花呢？&lt;/p&gt;
-&lt;h2&gt;使用方法&lt;/h2&gt;
-&lt;p&gt;这部分就去看&lt;a href="http://geopytool.com/yan-shi-shi-pin.html"&gt;功能演示&lt;/a&gt;吧，里面都是一个个案例。&lt;/p&gt;
-&lt;h2&gt;输出&lt;/h2&gt;
-&lt;h3&gt;图片&lt;/h3&gt;
-&lt;p&gt;GeoPyTool 生成的图片格式有三种可选，PDF 和 SVG 是矢量图，PNG 是位图。&lt;/p&gt;
-&lt;h4&gt;调整坐标轴&lt;/h4&gt;
-&lt;p&gt;每个成图的界面顶部都有一个菜单栏，如下图所示，是可以调整图片的坐标轴之类的信息的。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Axis%20Adjustment.png"&gt;&lt;/p&gt;
-&lt;p&gt;别墨迹说我没提供给你选项来控制坐标轴。&lt;/p&gt;
-&lt;h3&gt;数据表格&lt;/h3&gt;
-&lt;p&gt;GeoPyTool 当中的各种计算结果都可以保存为 Excel 或者 CSV 格式，自己爱用什么软件就用什么吧。
-&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/Samples.png?raw=true"&gt;&lt;/p&gt;
-&lt;h1&gt;支持我们&lt;/h1&gt;
-&lt;p&gt;如果你想支持我们，可以扫描下面的二维码来打赏赞助。
-我会用得到的赞助来支付医疗费用，保障健康，维持开发和添加更多功能。
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="Chinese"></category></entry></feed>
+&lt;p&gt;&lt;img alt="User Interface of the EXE on Windows." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ScreenShot.png"&gt;&lt;/p&gt;
+&lt;h4&gt;Windows 7 Users&lt;/h4&gt;
+&lt;p&gt;Of corse, you must find that the screen shot above is actrually from a Windows 7  virtual machine.&lt;/p&gt;
+&lt;p&gt;That's right, you can obviously use GeoPyTool on Windows 7, on which some system patches need to be installed. You need to install the SP1 of Windows and then install KB2999226 and the &lt;code&gt;Visual C++ Redistributable 2015&lt;/code&gt;. If you are using Windows 7 without the SP1 package installed, there might comes an&lt;code&gt;api-ms-win-crt&lt;/code&gt;related error. So believe me my friend, just install these patched below, they won't harm you after all.&lt;/p&gt;
+&lt;p&gt;The SP1 package of Windows 7 can be found at &lt;a href="https://support.microsoft.com/en-us/help/15090/windows-7-install-service-pack-1-sp1"&gt;here, the official website of MicroSoft&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The installation packages of KB2999226 and the &lt;code&gt;Visual C++ Redistributable 2015&lt;/code&gt; are already contained in the Zip file of GeoPyTool for Windows, and can also be found here: &lt;a href="https://pan.baidu.com/s/1kVwSQ95"&gt;32 bit Windows7 &lt;/a&gt;，&lt;a href="https://pan.baidu.com/s/1qY34ocW"&gt;64 bit WInodws7 &lt;/a&gt;.
+I am really a sweet guy, isn't it?
+So if you encounter any &lt;code&gt;api-ms-win-crt&lt;/code&gt;related errors, please check those installations first.&lt;/p&gt;
+&lt;h4&gt;Windows XP or Vista Users&lt;/h4&gt;
+&lt;p&gt;I failed many times on both XP and Vista, and I think there might not be a lot users of these two antique systems.
+If you are using one or both of them, please be good to yourself to update you old PC to at least Windows 7 SP1 or try Linux on your antique computers. My advice is that we should not waste our life on those systems that are not even supported by their developers and manufacturer. So, if you still want to run GeoPyTool on those two old systems, good luck and good bye.&lt;/p&gt;
+&lt;h3&gt;Windows EXE Update&lt;/h3&gt;
+&lt;p&gt;Double click on the  &lt;strong&gt;Update.bat&lt;/strong&gt; file to run update. It will update the GeoPyTool inside your GeoPyTool folder. Remember that never modify any files directly under the same folder unless you are an expert on dealing with Python.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Update the EXE on Windows." src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WinUpdate.png"&gt;&lt;/p&gt;
+&lt;h1&gt;Attention！ If you already download the packed up APP, just egnore the parts below and READ CAREFULLY PLEASE!!!!!!&lt;/h1&gt;
+&lt;h2&gt;Use as a Python Module&lt;/h2&gt;
+&lt;p&gt;Users of other Operating Systems, such as Debian Linux, Ubuntu Linux, Fedora Linux, FreeBSD or GNU/Hurd, please try to use GeoPyTool in Python, which is also recommended to all the users including those who use macOS or Windows 10, because the latest version of GeoPyTool can be installed with pip easilier and faster than using standalone executable files.&lt;/p&gt;
+&lt;h3&gt;Install Python First&lt;/h3&gt;
+&lt;p&gt;The first thing to do is to install Python, newer than 3.5, which can be download from &lt;a href="https://www.python.org/downloads/"&gt;Python Website&lt;/a&gt; or  &lt;a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/"&gt;Tsinghua Tuna&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Anaconda3-4.0.0 and other newer versions of Anaconda3 are recommended. Because they already contain useful modules such as cython, numpy, pandas, matplotlib, and the powerful ipython.&lt;/p&gt;
+&lt;h5&gt;Useful links for Windows users to install GeoPyTool with PIP:&lt;/h5&gt;
+&lt;p&gt;In fact, you guys can easily find instructions on how to install Python and PIP on the Internet. So I will just cast some links for newbie using Python on Windows.&lt;/p&gt;
+&lt;h6&gt;32bit：&lt;/h6&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Item&lt;/th&gt;
+&lt;th&gt;Address&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Anaconda&lt;/td&gt;
+&lt;td&gt;https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-4.4.0-Windows-x86.exe&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h6&gt;64bit：&lt;/h6&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Item&lt;/th&gt;
+&lt;th&gt;Address&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Anaconda&lt;/td&gt;
+&lt;td&gt;https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-4.4.0-Windows-x86_64.exe&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;Install GeoPyTool with PIP&lt;/h3&gt;
+&lt;p&gt;After installation of Python, you might think that finally you can install GeoPyTool.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NO!&lt;/strong&gt; In fact you need to install some used packages first, even you are using Anaconda. Because some packages used to build the Graphic User Interface of GeoPyTool still need to be installed, and this is also a good chance for you to update all the modules to the latest version (OR not).&lt;/p&gt;
+&lt;p&gt;So use the following commands in your &lt;strong&gt;terminal&lt;/strong&gt; to install these modules.&lt;/p&gt;
+&lt;p&gt;You don't know what a Terminal is? For Windows, it can be the mighty &lt;strong&gt;CMD&lt;/strong&gt; or PowerShell. For other systems including macOS, it should be the &lt;strong&gt;BASH&lt;/strong&gt; ore just labeled as &lt;strong&gt;Terminal&lt;/strong&gt; in the built-in applications list. Still don't know how to launch a terminal? Google it dude, we can't do that hand by hand for you.&lt;/p&gt;
+&lt;h4&gt;Notice&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;Here we use pip as we assume that your default version of Python is Python 3.X and the pip will refer to the PIP under Python3. If you installed both Python 2.X and Python 3.X, you might need to try to use **pip3** instead of **pip** in all the following commands to call the PIP of Python 3.
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;So paste the following commands in your &lt;strong&gt;terminal&lt;/strong&gt; as their sequence to install these modules in order.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install cython
+pip install numpy
+pip install pandas
+pip install xlrd
+pip install matplotlib
+pip install BeautifulSoup4
+pip install pyqt5
+pip install scipy
+pip install scikit-learn
+pip install sympy
+pip install requests
+pip install pyopengl
+pip install pyqtgraph
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The installation of scikit-learn might require &lt;a href="http://landinghub.visualstudio.com/visual-cpp-build-tools"&gt;Microsoft Visual C++ Build Tools&lt;/a&gt;, another solution is to use conda to install scipy and scikit-learn.&lt;/p&gt;
+&lt;p&gt;We install conda with pip first:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install requests
+pip install pyopengl
+pip install pyqtgraph
+pip install conda
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then we use conda to install some other packages:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;python3 -m conda install cython numpy pandas scipy scikit-learn sympy
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;After the installation of those packages above, you can use this similar command also in the &lt;strong&gt;terminal&lt;/strong&gt; to install the GeoPyTool.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install geopytool
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;If there comes no error message, everything should have been done successfully.&lt;/p&gt;
+&lt;h3&gt;Update an existing GeoPyTool&lt;/h3&gt;
+&lt;p&gt;If you installed GeoPyTool as a module in Python, you can use this similar command also in the &lt;strong&gt;terminal&lt;/strong&gt; to update to the latest version of GeoPyTool.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install geopytool --update --no-cache-dir
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Launch GeoPyTool form a Python interpreter&lt;/h3&gt;
+&lt;p&gt;After the installation step above, GeoPyTool now becomes available in Python interpreter. The &lt;strong&gt;IPython&lt;/strong&gt; interpreter is recommended because it is much friendly than the buildin interpreter of Python. &lt;strong&gt;IPython&lt;/strong&gt; can be also installed with pip:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install ipython
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then you can run ipython in &lt;strong&gt;terminal&lt;/strong&gt; with the following command:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ipython
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then you can simply use &lt;strong&gt;GeoPyTool&lt;/strong&gt; by type the following commands in your Python interpreter:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;geopytool&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;gp&lt;/span&gt;
+&lt;span class="n"&gt;gp&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;You would see the GUI of &lt;strong&gt;GeoPyTool&lt;/strong&gt;, which is under development for now. So it is a good idea to update &lt;strong&gt;GeoPyTool&lt;/strong&gt; with pip everytime before you use it:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install --upgrade geopytool
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Marker/Color/Style&lt;/h2&gt;
+&lt;p&gt;All these details in GeoPyTool are the same as those in Matplotlib becasue that is what GeoPyTool used to visualize data.&lt;/p&gt;
+&lt;p&gt;Markers of Points can be reffered from here:
+http://matplotlib.org/api/markers_api.html&lt;/p&gt;
+&lt;p&gt;Colors can be reffered from here:
+http://matplotlib.org/api/colors_api.html&lt;/p&gt;
+&lt;p&gt;Here is a picture of Line Styles and Point Markers form &lt;a href="http://www.labri.fr/perso/nrougier/teaching/matplotlib/"&gt;nrougier&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/LIneStylesMarkers.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Need Further Help?&lt;/h2&gt;
+&lt;p&gt;Visit our BBS https://github.com/GeoPyTool/GeoPyTool/issues and write a post to describe your problems in detail. We will response as soon as we can.&lt;/p&gt;
+&lt;h2&gt;Appendix&lt;/h2&gt;
+&lt;p&gt;The New Zircon Ce function need Data template file named as &lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/DataFileSamples/ZirconCe.xlsx"&gt;ZirconCe.xlsx&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/NewZirconCe.png"&gt;&lt;/p&gt;
+&lt;p&gt;The New  TAS, REE and Trace Elements functions share a same Data template files:
+&lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/DataFileSamples/Data.xlsx"&gt;Data.xlsx&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/NewTAS.png"&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/NewTrace.png"&gt;&lt;/p&gt;
+&lt;p&gt;The New StereoNet Projection and the RoseMap function need Data template file named as &lt;a href="https://github.com/GeoPyTool/GeoPyTool/blob/master/DataFileSamples/Structure.xlsx"&gt;Structure.xlsx&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Rose.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/LoadPNG.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="English"></category><category term="Chinese"></category></entry><entry><title>开发记录</title><link href="/kai-fa-ji-lu.html" rel="alternate"></link><published>2017-11-15T00:00:00+08:00</published><updated>2017-11-15T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-11-15:/kai-fa-ji-lu.html</id><summary type="html">&lt;h1&gt;开发记录&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;标志性事件&lt;/th&gt;
+&lt;th&gt;日期&lt;/th&gt;
+&lt;th&gt;新功能&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;开源启动&lt;/td&gt;
+&lt;td&gt;2016-07-07 6:20&lt;/td&gt;
+&lt;td&gt;TAS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;新增 QAPF&lt;/td&gt;
+&lt;td&gt;2016-07-09 08:32&lt;/td&gt;
+&lt;td&gt;QAPF&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;新增  Wulff&lt;/td&gt;
+&lt;td&gt;2016-12-18 08:32&lt;/td&gt;
+&lt;td&gt;Wulf&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;功能重构&lt;/td&gt;
+&lt;td&gt;2017-03-15 15:30&lt;/td&gt;
+&lt;td&gt;Pearce、  Harker 图解&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;单颗粒锆石的 Ce4/3 比值计算&lt;/td&gt;
+&lt;td&gt;2017-03-25 15:30&lt;/td&gt;
+&lt;td&gt;Ballard&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;多颗粒锆石 Ce4/3 比值计算&lt;/td&gt;
+&lt;td&gt;2017-03-28 15:30&lt;/td&gt;
+&lt;td&gt;MultiBallard&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;多样本的 CIPW 标准矿物计算&lt;/td&gt;
+&lt;td&gt;2017-04-3 12:30 …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;h1&gt;开发记录&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;标志性事件&lt;/th&gt;
+&lt;th&gt;日期&lt;/th&gt;
+&lt;th&gt;新功能&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;开源启动&lt;/td&gt;
+&lt;td&gt;2016-07-07 6:20&lt;/td&gt;
+&lt;td&gt;TAS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;新增 QAPF&lt;/td&gt;
+&lt;td&gt;2016-07-09 08:32&lt;/td&gt;
+&lt;td&gt;QAPF&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;新增  Wulff&lt;/td&gt;
+&lt;td&gt;2016-12-18 08:32&lt;/td&gt;
+&lt;td&gt;Wulf&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;功能重构&lt;/td&gt;
+&lt;td&gt;2017-03-15 15:30&lt;/td&gt;
+&lt;td&gt;Pearce、  Harker 图解&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;单颗粒锆石的 Ce4/3 比值计算&lt;/td&gt;
+&lt;td&gt;2017-03-25 15:30&lt;/td&gt;
+&lt;td&gt;Ballard&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;多颗粒锆石 Ce4/3 比值计算&lt;/td&gt;
+&lt;td&gt;2017-03-28 15:30&lt;/td&gt;
+&lt;td&gt;MultiBallard&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;多样本的 CIPW 标准矿物计算&lt;/td&gt;
+&lt;td&gt;2017-04-3 12:30&lt;/td&gt;
+&lt;td&gt;MultiCIPW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;全新重构图形界面&lt;/td&gt;
+&lt;td&gt;2017-07-23 12:30&lt;/td&gt;
+&lt;td&gt;使用了 PyQt5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;全部核心功能重构&lt;/td&gt;
+&lt;td&gt;2017-08-31 23:30&lt;/td&gt;
+&lt;td&gt;全新多可自定项的 Harker 图解&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;锆石金红石温度计&lt;/td&gt;
+&lt;td&gt;2017-10-17 20:48:21&lt;/td&gt;
+&lt;td&gt;Zircon/Rutile&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;加载 PNG/JPG/SVG 做底图&lt;/td&gt;
+&lt;td&gt;2017-10-23  17:38:21&lt;/td&gt;
+&lt;td&gt;任意图片都可以做底图来投图&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;中英双语切换&lt;/td&gt;
+&lt;td&gt;2017-10-25 21:00:20&lt;/td&gt;
+&lt;td&gt;语言文件模块化&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;更多语言支持&lt;/td&gt;
+&lt;td&gt;2017-10-30 23:00:20&lt;/td&gt;
+&lt;td&gt;用户可以自行翻译界面文字并且加载，可以使用任意一种语言&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1&gt;捐助支持&lt;/h1&gt;
+&lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="Chinese"></category><category term="中文"></category><category term="文档"></category></entry><entry><title>Milestones</title><link href="/milestones.html" rel="alternate"></link><published>2017-11-15T00:00:00+08:00</published><updated>2017-11-15T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-11-15:/milestones.html</id><summary type="html">&lt;h1&gt;Milestones&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;MileStone&lt;/th&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Function&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Beginning Date&lt;/td&gt;
+&lt;td&gt;2016-07-07 6:20&lt;/td&gt;
+&lt;td&gt;TAS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Adding QAPF&lt;/td&gt;
+&lt;td&gt;2016-07-09 08:32&lt;/td&gt;
+&lt;td&gt;QAPF&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Adding Wulff&lt;/td&gt;
+&lt;td&gt;2016-12-18 08:32&lt;/td&gt;
+&lt;td&gt;Wulf&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reconsitution&lt;/td&gt;
+&lt;td&gt;2017-03-15 15:30&lt;/td&gt;
+&lt;td&gt;Pearce and  Harker&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Single Zircon Ce&lt;/td&gt;
+&lt;td&gt;2017-03-25 15:30&lt;/td&gt;
+&lt;td&gt;Ballard&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Multiple Zircon Ce&lt;/td&gt;
+&lt;td&gt;2017-03-28 15:30&lt;/td&gt;
+&lt;td&gt;MultiBallard&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Multiple Samples CIPW Norm&lt;/td&gt;
+&lt;td&gt;2017-04-3 12:30 …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;h1&gt;Milestones&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;MileStone&lt;/th&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Function&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Beginning Date&lt;/td&gt;
+&lt;td&gt;2016-07-07 6:20&lt;/td&gt;
+&lt;td&gt;TAS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Adding QAPF&lt;/td&gt;
+&lt;td&gt;2016-07-09 08:32&lt;/td&gt;
+&lt;td&gt;QAPF&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Adding Wulff&lt;/td&gt;
+&lt;td&gt;2016-12-18 08:32&lt;/td&gt;
+&lt;td&gt;Wulf&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reconsitution&lt;/td&gt;
+&lt;td&gt;2017-03-15 15:30&lt;/td&gt;
+&lt;td&gt;Pearce and  Harker&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Single Zircon Ce&lt;/td&gt;
+&lt;td&gt;2017-03-25 15:30&lt;/td&gt;
+&lt;td&gt;Ballard&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Multiple Zircon Ce&lt;/td&gt;
+&lt;td&gt;2017-03-28 15:30&lt;/td&gt;
+&lt;td&gt;MultiBallard&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Multiple Samples CIPW Norm&lt;/td&gt;
+&lt;td&gt;2017-04-3 12:30&lt;/td&gt;
+&lt;td&gt;MultiCIPW&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;NewGUI&lt;/td&gt;
+&lt;td&gt;2017-07-23 12:30&lt;/td&gt;
+&lt;td&gt;GUI Powered By PyQt5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;All Rebuild&lt;/td&gt;
+&lt;td&gt;2017-08-31 23:30&lt;/td&gt;
+&lt;td&gt;Harker Back&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Temp Calc&lt;/td&gt;
+&lt;td&gt;2017-10-17 20:48:21&lt;/td&gt;
+&lt;td&gt;Zircon/Rutile&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Load PNG/JPG/SVG&lt;/td&gt;
+&lt;td&gt;2017-10-23  17:38:21&lt;/td&gt;
+&lt;td&gt;Load Base Maps&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chinese/English Switch&lt;/td&gt;
+&lt;td&gt;2017-10-25 21:00:20&lt;/td&gt;
+&lt;td&gt;Language&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;More Languages&lt;/td&gt;
+&lt;td&gt;2017-10-30 23:00:20&lt;/td&gt;
+&lt;td&gt;User can choose own Language file&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</content><category term="Doc"></category><category term="English"></category></entry><entry><title>演示视频</title><link href="/yan-shi-shi-pin.html" rel="alternate"></link><published>2017-11-15T00:00:00+08:00</published><updated>2017-11-15T00:00:00+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2017-11-15:/yan-shi-shi-pin.html</id><summary type="html">&lt;h2&gt;演示视频&lt;/h2&gt;
+&lt;p&gt;点击下列链接直接观看&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.bilibili.com/video/av13983803/"&gt;基本操作演示&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.bilibili.com/video/av15926064/"&gt;使用讲解视频&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.bilibili.com/video/av15926936/"&gt;数据导入和格式化&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.bilibili.com/video/av15926454/"&gt;胡乱感慨一下&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;截图演示&lt;/h2&gt;
+&lt;p&gt;由于精力有限，我只录制了中文的演示视频。
+然后下面的截图呢，就只有英文文字标注了。大家有各种问题交流，除了在&lt;a href="https://zhuanlan.zhihu.com/p/30651165?group_id=910460052293672960"&gt;知乎这里&lt;/a&gt;留言外，还可以去注册一下&lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;咱们的论坛&lt;/a&gt;，或者加入咱们的QQ群： 560675626 （为避免无关人员骚扰，加群申请填写暗号 大胖是个好家伙 来通过验证）。&lt;/p&gt;
+&lt;h2&gt;打开和导入数据文件&lt;/h2&gt;
+&lt;p&gt;投图计算之前，必然要先打开文件导入数据，操作如截图所示。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ImportData.png"&gt;&lt;/p&gt;
+&lt;p&gt;数据格式可以使 Xlsx/Xls 或者 CSV。
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
+&lt;h2&gt;设置数据添加分组颜色等信息&lt;/h2&gt;
+&lt;p&gt;如果原始数据没有添加这些分类信息，程序自然不知道该怎么分。所以你需要自己添加 Label/Color/Marker/Style/Alapha/Width等项目。好在这些只需要点击一下 设置数据（英文版为 Set Fromat
+) 按钮，就可以添加好这些项目了，然后你还需要根据自己的样品情况自己去分组 …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;演示视频&lt;/h2&gt;
+&lt;p&gt;点击下列链接直接观看&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.bilibili.com/video/av13983803/"&gt;基本操作演示&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.bilibili.com/video/av15926064/"&gt;使用讲解视频&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.bilibili.com/video/av15926936/"&gt;数据导入和格式化&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.bilibili.com/video/av15926454/"&gt;胡乱感慨一下&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;截图演示&lt;/h2&gt;
+&lt;p&gt;由于精力有限，我只录制了中文的演示视频。
+然后下面的截图呢，就只有英文文字标注了。大家有各种问题交流，除了在&lt;a href="https://zhuanlan.zhihu.com/p/30651165?group_id=910460052293672960"&gt;知乎这里&lt;/a&gt;留言外，还可以去注册一下&lt;a href="https://github.com/GeoPyTool/GeoPyTool/issues"&gt;咱们的论坛&lt;/a&gt;，或者加入咱们的QQ群： 560675626 （为避免无关人员骚扰，加群申请填写暗号 大胖是个好家伙 来通过验证）。&lt;/p&gt;
+&lt;h2&gt;打开和导入数据文件&lt;/h2&gt;
+&lt;p&gt;投图计算之前，必然要先打开文件导入数据，操作如截图所示。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ImportData.png"&gt;&lt;/p&gt;
+&lt;p&gt;数据格式可以使 Xlsx/Xls 或者 CSV。
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"&gt;&lt;/p&gt;
+&lt;h2&gt;设置数据添加分组颜色等信息&lt;/h2&gt;
+&lt;p&gt;如果原始数据没有添加这些分类信息，程序自然不知道该怎么分。所以你需要自己添加 Label/Color/Marker/Style/Alapha/Width等项目。好在这些只需要点击一下 设置数据（英文版为 Set Fromat
+) 按钮，就可以添加好这些项目了，然后你还需要根据自己的样品情况自己去分组。可别来问该怎么分组，你自己的样品自己做主！&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SetDataUp.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/SettingDataUp.png"&gt;&lt;/p&gt;
+&lt;h2&gt;点击要用的功能来运行&lt;/h2&gt;
+&lt;p&gt;设置完了格式之后，就可以点击你要用的功能来运行了。
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ClickOnTheFunction.png"&gt;&lt;/p&gt;
+&lt;h2&gt;TAS硅碱图解/REE稀土模式图/微量元素蛛网图&lt;/h2&gt;
+&lt;p&gt;These functions are quite commonly used and the details are shown as the picture below.&lt;/p&gt;
+&lt;p&gt;这些功能都很简单，没啥可说的，如下图所示。另外微量元素有两种排列方式，一种是 Cs-Lu，另外一个是 Rb-Lu，反正有个选框，可以用来切换，自己找找吧，就在 Reset 那个按钮旁边哈。
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/TAS-REE-Trace.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Pearce 图解&lt;/h2&gt;
+&lt;p&gt;无非是用了几种不同元素组合而已。右下角的滑块通过滑动可以获得这几种不同组合，当然都是点击 save 来存储生成的图像了。太简单了，没啥可说的。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Pearce.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Harker 图解&lt;/h2&gt;
+&lt;p&gt;这个稍微复杂点，横纵坐标轴都可以任意而选择，各自有一个滑块，如下图所示。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Harker.png"&gt;&lt;/p&gt;
+&lt;h2&gt;QFL 和 QmFLt&lt;/h2&gt;
+&lt;p&gt;这两个也特别简单，导入好对应的数据，注意项目首字母都大写，别弄错了，也就可以了，没啥可说的。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ImportQFL.png"&gt;&lt;/p&gt;
+&lt;p&gt;对了，如果你的原始数据没有设置分组和颜色等格式信息，记得要设置。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/QFLandQmFLt.png"&gt;&lt;/p&gt;
+&lt;h2&gt;极射赤平投影和玫瑰花图&lt;/h2&gt;
+&lt;p&gt;这两个功能里面有一点比较有意思的，就是可以选使用吴尔夫网或者施密特网，这两个一个是等面积网一个是等角度网，至于哪个是哪个我忘了，反正程序里面应该是对的。&lt;/p&gt;
+&lt;p&gt;Line/Point 那个选框可以切换投点还是投线在图上。&lt;/p&gt;
+&lt;p&gt;然后玫瑰花图功能稍微复杂点，可以设置把一个数据文件里面的所有数据当做一组来看玫瑰花图，这个场景估计常用一些；也可以按照文件中的分组各自分别来投玫瑰花图来一起对比。另外用于投玫瑰花图的项目还可以改变，也是通过滑块，Dip、Dip-Angle、Strike，就是倾向、倾角、走向，目前就放了这三个，当然实际上你也可以把别的变量放到这种变量名下然后生成玫瑰花图，灵活点呗。对了，玫瑰花图的步长是可以调整的，不懂什么是步长，你试试就知道了。&lt;/p&gt;
+&lt;p&gt;另外一定要注意，数据表格里面的三个项目一定是Dip、Dip-Angle、Strike，首字母必须大写哈。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/StereoAndRose.png"&gt;&lt;/p&gt;
+&lt;h2&gt;锆石 Ce4/3 比值计算氧逸度&lt;/h2&gt;
+&lt;p&gt;数据挺复杂，不过按照下图所示来设置就好了。&lt;/p&gt;
+&lt;p&gt;下面的图就是 Ballard 当初那篇文章中的数据。锆石里面的  Zr 一定要设置成那个值别变。Base 可以是全岩的稀土值和 Zr 值，也可以是斜长石的，这取决于你用哪个做基准。3 和 4 那些是电价，不要动！yes 表示用于计算并且投图，no 表示仅投图不用于计算，空白的表示既不计算也不投图。例如这个例子里面的 Tm 设置为空白，是因为原始数据里面全岩就没有测出来 Tm 的数据，而 La 等设置为 no 则是因为原始数据中全岩的 La 存在正异常所以从拟合曲线的过程中抛出去了。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ZriconCeCalculation.png"&gt;&lt;/p&gt;
+&lt;h2&gt;锆石和金红石温度计&lt;/h2&gt;
+&lt;p&gt;没啥可说的，Zr 是金红石里面的锆元素含量，Ti 是锆石里面的钛元素含量，然后ASiO2  和 ATiO2 是这两种成分的活度。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Thermometer.png"&gt;&lt;/p&gt;
+&lt;h2&gt;自定义平面图&lt;/h2&gt;
+&lt;p&gt;这个功能允许用户加载任意图片做底图来投图。
+不过你必须得明确理解原图的数学意义才行，要不然你都不知道坐标位置以及是否使用了对数函数，怎么可能糊涂地就拿来用，那还是科学么，那不是扯淡么。&lt;/p&gt;
+&lt;p&gt;例如下面这个图的原文中都在图下方说了，使用的两种元素 Nb 和 Th，利用 N-MORB(Sun and McDonough 1989) 进行了标准化，然后投图的时候很明显是用了对数函数。所以咱们在程序中也选择这样的设置。&lt;/p&gt;
+&lt;p&gt;从文中原图可以看出来，左右下上四个边界分别是 0.01/100/0.01/1000，咱们对应在直角坐标系里面就应该是 -2/2/-2/3。所以在程序里面的对应位置就输入这四个值。&lt;/p&gt;
+&lt;p&gt;你要是这些都看不出来或者看不懂，就还是回家洗洗睡吧。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/UserDefinedXY.png"&gt;&lt;/p&gt;
+&lt;h1&gt;捐助支持&lt;/h1&gt;
+&lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="Chinese"></category><category term="中文"></category><category term="文档"></category></entry></feed>
