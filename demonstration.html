@@ -106,6 +106,8 @@
 <p>These functions are quite commonly used and the details are shown as the picture below.</p>
 <p><img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/02.Save%20Image.png?raw=true"></p>
 <p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/TAS-REE-Trace.png"></p>
+<h4>Click on the button shown in the picture below to get the classification results. On the table view image, click on the Pie button to generate the Pie chart of the results.</h4>
+<p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/TAS.png"></p>
 <h2>Pearce Diagram</h2>
 <p>Pearce Diagram just use some trace elements and is also quite easy to know how to use.</p>
 <p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Pearce.png"></p>
@@ -131,12 +133,36 @@ In the Rose Map function, all data in one data files can be treated as a single 
 <h2>Zircon and Rutile Thermometer</h2>
 <p>These two function are super easy. Notice the ASiO2 and ATiO2 here are the Activity of these two components.</p>
 <p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Thermometer.png"></p>
-<h2>User Defined X-Y plot</h2>
+<h2>User Defined X-Y diagram</h2>
 <p>This function allows users to load any picture from any articles as a base map to plot on.</p>
 <p>But you must understand the original plot first and know the mathematical setting of it. So you can set up the right format in your plot.</p>
 <p>For example, as the picture below shown,  the original diagram used Nb and Th, normalized by N-MORB(Sun and McDonough 1989), and then used the Log function of these two items. So we do the same setting up as shown by the picture. The Left/Right/Down/Up limit of the original diagram are 0.01/100/0.01/1000, so we need to use the Log function and find out that we should set the Left/Right/Down/Up limit to be -2/2/-2/3. If you can not understand why, please take a rest and good bye.</p>
 <p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/UserDefinedXY.png"></p>
 <p><img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/03.LoadBaseMap.png?raw=true"></p>
+<p>Open a data and format in the main interface, then run X-Y plot to get the x-y diagram.
+The log checkboxes control whether you would log the data, the editable boxes follow log checkboxes are to input timer of select data feature. The other editable boxes and the sliders next by both control the data features you choose to plot on the diagram.
+For example, in the picture below, It is just A and B directly used as features.
+Click on LDA checkbox to show the LDA boundaries.
+Or Click on SVM checkbox to show the SVM boundaries.
+Then click Load Data to load unclassified data samples to make prediction.
+If you only used the plotted features, for example A and B shown in the picture below, the predicted result of LDA can be seen and saved by clicking "LDA Predict" button, SVM prediction result can be got by clicking "Predict Selected".
+If you want use all features to run the SVM to predict, click on "Predict All" button. These buttons work the same way in other similar plots, shown as the pictures below.</p>
+<p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/xy.png"></p>
+<p>Standa alone FA/PCA/LDA functions are similar to the X-Y function.</p>
+<p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/fa.png">
+<img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/pca.png">
+<img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/lda.png"></p>
+<h2>User Defined X-Y-Z diagram</h2>
+<p>Open a data and format in the main interface, then run X-Y-Y plot to get the x-y-y diagram.
+The log checkboxes control whether you would log the data, the editable boxes follow log checkboxes are to input timer of select data feature. The other editable boxes and the sliders next by both control the data features you choose to plot on the diagram.
+For example, in the picture below, It is 1<em>A, 4</em>B, and 5*C used as features.
+Click on LDA checkbox to show the LDA boundaries.
+Or Click on SVM checkbox to show the SVM boundaries.
+Then click Load Data to load unclassified data samples to make prediction.</p>
+<h4>Additional functions</h4>
+<p>Click on the "LogRatio" buttion will transfer the triangular plot into a normal X-Y plot, which is much elegant both mathematically and practically.</p>
+<p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/xyz.png">
+<img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/logratio.png"></p>
 <h2>3D and Statistics</h2>
 <p><img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/04.Statistical.png?raw=true"></p>
 <h2>Combine Multiple Excel data files into One Excel file</h2>
@@ -234,11 +260,11 @@ your browser does not support the video tag
                     Tagcloud
                 </div>
                 <div>
-                        <span><a href="./tag/doc.html">Doc</a></span>
-                        <span><a href="./tag/english.html">English</a></span>
-                        <span><a href="./tag/chinese.html">Chinese</a></span>
                         <span><a href="./tag/wen-dang.html">文档</a></span>
+                        <span><a href="./tag/english.html">English</a></span>
+                        <span><a href="./tag/doc.html">Doc</a></span>
                         <span><a href="./tag/support.html">Support</a></span>
+                        <span><a href="./tag/chinese.html">Chinese</a></span>
                         <span><a href="./tag/zhong-wen.html">中文</a></span>
                 </div>
             </section>
