@@ -69,108 +69,108 @@ http://matplotlib.org/api/colors_api.html&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/LoadPNG.png"&gt;&lt;/p&gt;
 &lt;h1&gt;捐助支持&lt;/h1&gt;
 &lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="Chinese"></category><category term="Support"></category><category term="中文"></category><category term="文档"></category></entry><entry><title>安装指南-进阶</title><link href="/an-zhuang-zhi-nan-jin-jie.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/an-zhuang-zhi-nan-jin-jie.html</id><summary type="html">&lt;h1&gt;安装 GeoPyTool 的复杂模式&lt;/h1&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Chinese"></category><category term="Doc"></category><category term="Chinese"></category><category term="Support"></category><category term="中文"></category><category term="文档"></category></entry><entry><title>安装指南-进阶</title><link href="/an-zhuang-zhi-nan-jin-jie.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/an-zhuang-zhi-nan-jin-jie.html</id><summary type="html">&lt;h1&gt;安装 GeoPyTool 的复杂模式&lt;/h1&gt;
 &lt;p&gt;GeoPyTool 可以在 Python 作为一个模块（module）来安装。&lt;/p&gt;
 &lt;h1&gt;1. MacOS&lt;/h1&gt;
-&lt;h2&gt;1.1 安装 Brew 和 Python3&lt;/h2&gt;
+&lt;h2&gt;1.1 安装 Brew 和 python&lt;/h2&gt;
 &lt;p&gt;访问 &lt;a href="http://brew.sh/"&gt;brew.sh网站&lt;/a&gt; 安装 brew。&lt;/p&gt;
-&lt;p&gt;安装完了 Brew 之后用下面的命令来安装 Python3：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;brew install Python3
-&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;安装完了 Brew 之后用下面的命令来安装 python3：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;brew install python3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h2&gt;1.2 安装依赖包&lt;/h2&gt;
-&lt;p&gt;安装 Python3 之后运行下面的命令来安装依赖包，建议一条一条来运行安装：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython
-pip3 install numpy
-pip3 install pandas
-pip3 install xlrd
-pip3 install …&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;h1&gt;安装 GeoPyTool 的复杂模式&lt;/h1&gt;
+&lt;p&gt;安装 python 之后运行下面的命令来安装依赖包，建议一条一条来运行安装：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip install cython
+pip install numpy
+pip install pandas
+pip install xlrd
+pip install …&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;h1&gt;安装 GeoPyTool 的复杂模式&lt;/h1&gt;
 &lt;p&gt;GeoPyTool 可以在 Python 作为一个模块（module）来安装。&lt;/p&gt;
 &lt;h1&gt;1. MacOS&lt;/h1&gt;
-&lt;h2&gt;1.1 安装 Brew 和 Python3&lt;/h2&gt;
+&lt;h2&gt;1.1 安装 Brew 和 python&lt;/h2&gt;
 &lt;p&gt;访问 &lt;a href="http://brew.sh/"&gt;brew.sh网站&lt;/a&gt; 安装 brew。&lt;/p&gt;
-&lt;p&gt;安装完了 Brew 之后用下面的命令来安装 Python3：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;brew install Python3
-&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;安装完了 Brew 之后用下面的命令来安装 python3：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;brew install python3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h2&gt;1.2 安装依赖包&lt;/h2&gt;
-&lt;p&gt;安装 Python3 之后运行下面的命令来安装依赖包，建议一条一条来运行安装：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython
-pip3 install numpy
-pip3 install pandas
-pip3 install xlrd
-pip3 install matplotlib
-pip3 install BeautifulSoup4
-pip3 install pyqt5
-pip3 install scipy
-pip3 install scikit-learn
-pip3 install sympy
-pip3 install requests
-pip3 install pyopengl
-&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;安装 python 之后运行下面的命令来安装依赖包，建议一条一条来运行安装：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip install cython
+pip install numpy
+pip install pandas
+pip install xlrd
+pip install matplotlib
+pip install BeautifulSoup4
+pip install pyqt5
+pip install scipy
+pip install scikit-learn
+pip install sympy
+pip install requests
+pip install pyopengl
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;或者也可以试试放到一条来运行安装：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h2&gt;1.3 安装 GeoPyTool&lt;/h2&gt;
 &lt;p&gt;上面的依赖包都安装完毕之后，运行下面的命令来安装 GeoPyTool：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install geopytool
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip install geopytool
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h1&gt;2. Linux&lt;/h1&gt;
 &lt;p&gt;这里仅仅以 Ubuntu 16.04.4 为例。&lt;/p&gt;
 &lt;h2&gt;2.1 更新系统到最新&lt;/h2&gt;
 &lt;p&gt;打开终端（Terminal），运行下面的命令来更新系统到最新：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;apt update
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;apt update
 apt upgrade
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;h2&gt;2.2 安装 Python3 和 Pip3&lt;/h2&gt;
-&lt;p&gt;更新系统完毕之后，运行下面的两条命令来安装 Python3 和 Pip3：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;apt 安装 Python3
-apt 安装 Python3-pip
-&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;2.2 安装 python 和 Pip3&lt;/h2&gt;
+&lt;p&gt;更新系统完毕之后，运行下面的两条命令来安装 python 和 Pip3：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;apt 安装 python
+apt 安装 python-pip
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h2&gt;2.3 安装依赖包&lt;/h2&gt;
 &lt;p&gt;逐条运行下面的命令来安装依赖包：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython
-pip3 install numpy
-pip3 install pandas
-pip3 install xlrd
-pip3 install matplotlib
-pip3 install BeautifulSoup4
-pip3 install pyqt5
-pip3 install scipy
-pip3 install scikit-learn
-pip3 install sympy
-pip3 install requests
-pip3 install pyopengl
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip install cython
+pip install numpy
+pip install pandas
+pip install xlrd
+pip install matplotlib
+pip install BeautifulSoup4
+pip install pyqt5
+pip install scipy
+pip install scikit-learn
+pip install sympy
+pip install requests
+pip install pyopengl
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;或者也可以试试放到一条来运行安装：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h2&gt;2.4 安装 GeoPyTool&lt;/h2&gt;
 &lt;p&gt;上面的依赖包都安装完毕之后，运行下面的命令来安装 GeoPyTool：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install geopytool
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip install geopytool
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h1&gt;3. Windows&lt;/h1&gt;
 &lt;p&gt;Windows 用户安装起来稍微麻烦，首先是安装 Python 3.6 或者更新的版本，可以从&lt;a href="https://www.python.org/downloads/"&gt;Python 官方网站&lt;/a&gt; 来下载安装包。&lt;/p&gt;
 &lt;h2&gt;3.1 安装必备补丁&lt;/h2&gt;
-&lt;p&gt;&lt;a href="http://landinghub.visualstudio.com/visual-cpp-build-tools"&gt;Microsoft Visual C++ Build Tools&lt;/a&gt; 需要先安装，因为后面的依赖包之一的 scikit-learn 用到了这个。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://visualstudio.microsoft.com/visual-cpp-build-tools/"&gt;Microsoft Visual C++ Build Tools&lt;/a&gt; 需要先安装，因为后面的依赖包之一的 scikit-learn 用到了这个。&lt;/p&gt;
 &lt;h3&gt;Windows 7 系统必须安装的内容&lt;/h3&gt;
 &lt;p&gt;Windows 7 用户必须安装 &lt;strong&gt;SP1 of Windows&lt;/strong&gt;，然后安装 &lt;strong&gt;KB2999226 Patch&lt;/strong&gt; 和 &lt;strong&gt;Visual C++ Redistributable 2015&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;Windows 7 的 SP1 补丁包可以在 &lt;a href="https://support.microsoft.com/en-us/help/15090/windows-7-install-service-pack-1-sp1"&gt;微软官网这里&lt;/a&gt;来下载。&lt;/p&gt;
@@ -185,46 +185,46 @@ pip3 install pyopengl
 &lt;p&gt;在安装 Python 的时候，一定要选中下图这红框中的选项，保证把 Python 添加到系统环境变量 Path:
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WindowsInstallAddPythonToPath.png"&gt;&lt;/p&gt;
 &lt;h2&gt;3.3 安装依赖包&lt;/h2&gt;
-&lt;p&gt;安装好了 Python3 之后，在&lt;strong&gt;终端&lt;/strong&gt;（Windows 系统的终端就是 &lt;strong&gt;CMD&lt;/strong&gt; 或者 &lt;strong&gt;Powershell&lt;/strong&gt;）中运行下列命令来安装依赖包：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython
-pip3 install numpy
-pip3 install pandas
-pip3 install xlrd
-pip3 install matplotlib
-pip3 install BeautifulSoup4
-pip3 install pyqt5
-pip3 install scipy
-pip3 install scikit-learn
-pip3 install sympy
-pip3 install requests
-pip3 install pyopengl
-&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;安装好了 python 之后，在&lt;strong&gt;终端&lt;/strong&gt;（Windows 系统的终端就是 &lt;strong&gt;CMD&lt;/strong&gt; 或者 &lt;strong&gt;Powershell&lt;/strong&gt;）中运行下列命令来安装依赖包：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip install cython
+pip install numpy
+pip install pandas
+pip install xlrd
+pip install matplotlib
+pip install BeautifulSoup4
+pip install pyqt5
+pip install scipy
+pip install scikit-learn
+pip install sympy
+pip install requests
+pip install pyopengl
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;或者也可以试试放到一条来运行安装：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h2&gt;3.4 安装 GeoPyTool&lt;/h2&gt;
 &lt;p&gt;上面的依赖包都安装完毕之后，运行下面的命令来安装 GeoPyTool：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install geopytool
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip install geopytool
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h1&gt;4. 运行 GeoPyTool&lt;/h1&gt;
 &lt;p&gt;如果上面的安装过程都没有报错，就是成功了，就可以运行下面的命令来运行 GeoPyTool:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;python3 -c &lt;span class="s2"&gt;&amp;quot;import geopytool;geopytool.main()&amp;quot;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;python -c &lt;span class="s2"&gt;&amp;quot;import geopytool;geopytool.main()&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h1&gt;5. 更新已经安装的 GeoPyTool&lt;/h1&gt;
 &lt;p&gt;如果已经按照上面的方法安装完毕了 GeoPyTool，可以用下面的命令来更新到最新版本：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip3 install geopytool --update --no-cache-dir
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip install geopytool --update --no-cache-dir
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;建议在每次运行之前都可以升级更新一下。&lt;/p&gt;</content><category term="Doc"></category><category term="Chinese"></category><category term="Support"></category><category term="中文"></category><category term="文档"></category></entry><entry><title>常见问题</title><link href="/chang-jian-wen-ti.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/chang-jian-wen-ti.html</id><summary type="html"></summary><content type="html"></content><category term="Doc"></category><category term="Chinese"></category><category term="Support"></category><category term="中文"></category><category term="文档"></category></entry><entry><title>功能列表</title><link href="/gong-neng-lie-biao.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/gong-neng-lie-biao.html</id><summary type="html">&lt;h1&gt;功能列表&lt;/h1&gt;
+&lt;p&gt;建议在每次运行之前都可以升级更新一下。&lt;/p&gt;</content><category term="Chinese"></category><category term="Doc"></category><category term="Chinese"></category><category term="Support"></category><category term="中文"></category><category term="文档"></category></entry><entry><title>常见问题</title><link href="/chang-jian-wen-ti.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/chang-jian-wen-ti.html</id><content type="html"></content><category term="Chinese"></category><category term="Doc"></category><category term="Chinese"></category><category term="Support"></category><category term="中文"></category><category term="文档"></category></entry><entry><title>功能列表</title><link href="/gong-neng-lie-biao.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/gong-neng-lie-biao.html</id><summary type="html">&lt;h1&gt;功能列表&lt;/h1&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -334,7 +334,7 @@ pip3 install pyopengl
 &lt;/table&gt;
 &lt;h1&gt;捐助支持&lt;/h1&gt;
 &lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="Chinese"></category><category term="Support"></category><category term="中文"></category><category term="文档"></category></entry><entry><title>演示视频</title><link href="/yan-shi-shi-pin.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/yan-shi-shi-pin.html</id><summary type="html">&lt;h2&gt;演示视频&lt;/h2&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Chinese"></category><category term="Doc"></category><category term="Chinese"></category><category term="Support"></category><category term="中文"></category><category term="文档"></category></entry><entry><title>演示视频</title><link href="/yan-shi-shi-pin.html" rel="alternate"></link><published>2018-04-21T11:27:50+08:00</published><updated>2018-04-21T11:27:50+08:00</updated><author><name>CycleUsyer</name></author><id>tag:None,2018-04-21:/yan-shi-shi-pin.html</id><summary type="html">&lt;h2&gt;演示视频&lt;/h2&gt;
 &lt;p&gt;点击下列链接直接观看&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.bilibili.com/video/av13983803/"&gt;基本操作演示&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.bilibili.com/video/av15926064/"&gt;使用讲解视频&lt;/a&gt;&lt;/p&gt;
@@ -418,6 +418,8 @@ pip3 install pyopengl
 &lt;p&gt;These functions are quite commonly used and the details are shown as the picture below.&lt;/p&gt;
 &lt;p&gt;这些功能都很简单，没啥可说的，如下图所示。另外微量元素有两种排列方式，一种是 Cs-Lu，另外一个是 Rb-Lu，反正有个选框，可以用来切换，自己找找吧，就在 Reset 那个按钮旁边哈。
 &lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/TAS-REE-Trace.png"&gt;&lt;/p&gt;
+&lt;h4&gt;点击下图所示按钮查看分类判别结果, 在弹出的表格中点击 Pie 按钮可以查看结果的比例饼图.&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/TAS.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Pearce 图解&lt;/h2&gt;
 &lt;p&gt;无非是用了几种不同元素组合而已。右下角的滑块通过滑动可以获得这几种不同组合，当然都是点击 save 来存储生成的图像了。太简单了，没啥可说的。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/Pearce.png"&gt;&lt;/p&gt;
@@ -450,6 +452,20 @@ pip3 install pyopengl
 &lt;p&gt;从文中原图可以看出来，左右下上四个边界分别是 0.01/100/0.01/1000，咱们对应在直角坐标系里面就应该是 -2/2/-2/3。所以在程序里面的对应位置就输入这四个值。&lt;/p&gt;
 &lt;p&gt;你要是这些都看不出来或者看不懂，就还是回家洗洗睡吧。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/UserDefinedXY.png"&gt;&lt;/p&gt;
+&lt;p&gt;自定义图解首先需要你在主界面打开一份数据,然后生成X-Y图解,在这里可以用log勾选与否来决定是否进行对数化。旁边挨着log的是缩放倍数，这里啥也没填写就是不缩放，就直接用所选的特征了。
+点击 LDA 框来生成 LDA 的结果图。
+点击 SVM 框来生成 SVM 的结果图。
+另外还有几个按钮，Load Data 按钮是在已经利用第一次的数据生成边界和模型的基础上，再加载一份未分类的数据。
+然后点击 LDA Predict 按钮就按照当前所选的显示维度来进行 LDA 预测。点击 Predict Selected 按钮是按照当前图解上显示的所选特征维度来进行 SVM 分类预测。 点击 Predict All 是按照当前数据的全部特征来进行分类。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/xy.png"&gt;&lt;/p&gt;
+&lt;p&gt;其他的几个 FA/PCA/LDA 功能和 X-Y 图解差不多.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/fa.png"&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/pca.png"&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/lda.png"&gt;&lt;/p&gt;
+&lt;h2&gt;User Defined X-Y-Z diagram&lt;/h2&gt;
+&lt;p&gt;这部分的功能和上面 X-Y 的情况其实差不多。有点差别的就是加入了对数比变换（log ratio）来从三端元映射到两组实数。实际上二元图解明显在数学上更优美，更具有可解释性。三单元图解的内部空间和位置关系都与现实关系有不同程度的缩放。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/xyz.png"&gt;
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/logratio.png"&gt;&lt;/p&gt;
 &lt;h2&gt;3D 和统计&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/04.Statistical.png?raw=true"&gt;&lt;/p&gt;
 &lt;h2&gt;将多个 Excel 数据文件合并成一个文件&lt;/h2&gt;
@@ -474,4 +490,4 @@ your browser does not support the video tag
 &lt;/body&gt;&lt;/p&gt;
 &lt;h1&gt;捐助支持&lt;/h1&gt;
 &lt;p&gt;如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
-&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Doc"></category><category term="Chinese"></category><category term="Support"></category><category term="中文"></category><category term="文档"></category></entry></feed>
+&lt;img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"&gt;&lt;/p&gt;</content><category term="Chinese"></category><category term="Doc"></category><category term="Chinese"></category><category term="Support"></category><category term="中文"></category><category term="文档"></category></entry></feed>
