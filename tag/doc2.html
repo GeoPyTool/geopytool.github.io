@@ -41,7 +41,7 @@
 <li class="posts"><article class="post hentry">
 	<header>
 		<h2 class="post-title" >
-			<a href="../installation-expert.html" rel="bookmark" title="Permalink to Installation-Expert">Installation-Expert</a>
+			<a href="../an-zhuang-zhi-nan-jin-jie.html" rel="bookmark" title="Permalink to 安装指南-进阶">安装指南-进阶</a>
 		</h2>
 		<div class="post-info">
 			<span class="post-lable">Post in</span>
@@ -51,17 +51,21 @@
 			<!-- COMMENTS -->
 		</div>
 	</header>
-	<div class="summary"><h1>Installation, For Expert</h1>
-<p>GeoPyTool can also be used as a module inside Python.</p>
-<h1>1. Install Python</h1>
-<p>Find help from <a href="https://www.python.org/downloads/">Python official website</a> please.</p>
-<h1>2. Install Needed Modules</h1>
-<p>Then run the following commands in <strong>terminal</strong> to install some base modules:</p>
-<div class="highlight"><pre><span></span><code>pip install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 …</code></pre></div></div>
+	<div class="summary"><h1>安装 GeoPyTool 的复杂模式</h1>
+<p>GeoPyTool 可以在 Python 作为一个模块（module）来安装。</p>
+<h1>1. 安装 Python</h1>
+<p>访问<a href="https://www.python.org/downloads/">Python 官方网站</a> 来下载安装。</p>
+<h1>2. 安装依赖包</h1>
+<p>安装 Python 之后在终端运行下面的命令来安装依赖包：</p>
+<div class="highlight"><pre><span></span><code>pip install cython numpy scipy matplotlib sympy pandas xlrd pyopengl BeautifulSoup4 pyqt5 scikit-learn requests tensorflow torch keras tqdm
+</code></pre></div>
+
+<p>如果你后面遇到了 numpy 或者 tensorflow,相关的问题，请运行下面的命令来安装指定的版本：</p>
+<div class="highlight"><pre><span></span><code>pip install <span class="nv">numpy</span> <span class="o">==</span><span class="m">1</span>.8 …</code></pre></div></div>
 	<footer>
 		<span class="post-lable">Category:</span>
 		<abbr class="category">
-			<a href="../category/english.html">English</a>
+			<a href="../category/chinese.html">Chinese</a>
 		</abbr>
 	</footer>
 	<hr />
@@ -121,12 +125,12 @@
                     Tagcloud
                 </div>
                 <div>
-                        <span><a href="../tag/chinese.html">Chinese</a></span>
-                        <span><a href="../tag/wen-dang.html">文档</a></span>
                         <span><a href="../tag/support.html">Support</a></span>
+                        <span><a href="../tag/wen-dang.html">文档</a></span>
                         <span><a href="../tag/doc.html">Doc</a></span>
-                        <span><a href="../tag/english.html">English</a></span>
                         <span><a href="../tag/zhong-wen.html">中文</a></span>
+                        <span><a href="../tag/chinese.html">Chinese</a></span>
+                        <span><a href="../tag/english.html">English</a></span>
                 </div>
             </section>
 
