@@ -57,8 +57,9 @@
 <h2>Open and Import Data</h2>
 <p>To start a plot or calculation, raw data file should be imported to GeoPyTool first.</p>
 <p><img alt="" src="https://github.com/GeoPyTool/GeoPyTool/blob/master/img/01.ImportData.png?raw=true"></p>
-<p>The Data file can be Xlsx/Xls or CSV.
-<img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"></p>
+<p>The Data file can be Xlsx/Xls or CSV, For Windows User, Please use CSV with UTF-8 code without BOM.
+An NAN problem seems like to be caused by the different behavior of Pandas, used to import data sheet, on Windows it generate a lot of NAN, which didn't happen on Linux or macOS. So, at the moment, the data sheet should better be CSV coded with UTF-8 without BOM.</p>
+<p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"></p>
 <h2>Data Unit</h2>
 <p>Unit of Oxide Items (such as <code>SiO2</code>, <code>TiO2</code>, <code>Al2O3</code>, <code>Fe2O3</code>, <code>FeO</code>, <code>MnO</code>, <code>MgO</code>, <code>CaO    Na2O</code>, <code>K2O</code>, <code>P2O5</code>, <code>LOI</code>, <code>Total</code>, etc )is weight percent (wt%).</p>
 <p>But Make Sure to follow the format in data templates. </p>
@@ -261,12 +262,12 @@ your browser does not support the video tag
                     Tagcloud
                 </div>
                 <div>
-                        <span><a href="./tag/support.html">Support</a></span>
-                        <span><a href="./tag/wen-dang.html">文档</a></span>
                         <span><a href="./tag/doc.html">Doc</a></span>
+                        <span><a href="./tag/support.html">Support</a></span>
                         <span><a href="./tag/zhong-wen.html">中文</a></span>
                         <span><a href="./tag/english.html">English</a></span>
                         <span><a href="./tag/chinese.html">Chinese</a></span>
+                        <span><a href="./tag/wen-dang.html">文档</a></span>
                 </div>
             </section>
 

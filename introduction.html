@@ -115,7 +115,9 @@ As the following screenshot shows:
 <img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/OSXUpdate.png"></p>
 <p>It will update the GeoPyTool inside your GeoPyTool.app file. Remember that never modify any files directly under the same folder unless you are an expert on dealing with Python.</p>
 <h3>For Windows Users</h3>
-<p>On Windows 8/8.1/10, everything is also extremely easy to use GeoPyTool. Just download and unzip the file, then double click on a bat file in the unzipped folder, and make sure that you don't delete any file form the unzipped folder because they are all required by the program, then you will find the APP available as the following picture shows.</p>
+<p>On Windows 8/8.1/10/11, everything is also extremely easy to use GeoPyTool. Just download and unzip the file, then double click on a bat file in the unzipped folder, and make sure that you don't delete any file form the unzipped folder because they are all required by the program, then you will find the APP available as the following picture shows.</p>
+<p>The Data file can be Xlsx/Xls or CSV, For Windows User, Please use CSV with UTF-8 code without BOM.
+An NAN problem seems like to be caused by the different behavior of Pandas, used to import data sheet, on Windows it generate a lot of NAN, which didn't happen on Linux or macOS. So, at the moment, the data sheet should better be CSV coded with UTF-8 without BOM.</p>
 <p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/RunWin.jpg"></p>
 <p>To use GeoPyTool on Windows 7, some system patches need to be installed. You need to install the SP1 of Windows and then install KB2999226 and the Visual C++ Redistributable 2015. If you are using Windows 7 without the SP1 package installed, there might comes <code>anapi-ms-win-crtrelated error</code>. So believe me my friend, just install these patched below, they won't harm you after all.</p>
 <p>The SP1 package of Windows 7 can be found at <a href="https://support.microsoft.com/en-us/help/15090/windows-7-install-service-pack-1-sp1">the official website of MicroSoft</a>.</p>
@@ -235,12 +237,12 @@ I can use this money to pay for medical expenses to stay healthy and add more fu
                     Tagcloud
                 </div>
                 <div>
-                        <span><a href="./tag/zhong-wen.html">中文</a></span>
                         <span><a href="./tag/doc.html">Doc</a></span>
                         <span><a href="./tag/support.html">Support</a></span>
-                        <span><a href="./tag/wen-dang.html">文档</a></span>
+                        <span><a href="./tag/zhong-wen.html">中文</a></span>
                         <span><a href="./tag/english.html">English</a></span>
                         <span><a href="./tag/chinese.html">Chinese</a></span>
+                        <span><a href="./tag/wen-dang.html">文档</a></span>
                 </div>
             </section>
 

@@ -62,11 +62,7 @@
 <h2>打开和导入数据文件</h2>
 <p>投图计算之前，必然要先打开文件导入数据，操作如截图所示。</p>
 <p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ImportData.png"></p>
-<p>数据格式可以使 Xlsx/Xls 或者 CSV。
-<img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/ChooseAndImport.png"></p>
-<h2>数据单位</h2>
-<p>氧化物之类的项目(例如 <code>SiO2</code>, <code>TiO2</code>, <code>Al2O3</code>, <code>Fe2O3</code>, <code>FeO</code>, <code>MnO</code>, <code>MgO</code>, <code>CaO Na2O</code>, <code>K2O</code>, <code>P2O5</code>, <code>LOI</code>, <code>Total</code> 等等)数据单位是重量百分比(wt%)。</p>
-<p>但千万要遵循数据模板的格式 …</p></div>
+<p>数据格式可以使 Xlsx/Xls 或者 CSV，但如果你用的是Windows 系统，最好用 CSV 格式， UTF-8 编码，无BOM，否则可能出现表格中大量 NAN 的问题，这或许是由于 pandas 在 Windows 上对数据表格的解析方式和 Linux 以及 macOS 上不一样导致的 …</p></div>
 	<footer>
 		<span class="post-lable">Category:</span>
 		<abbr class="category">
@@ -129,12 +125,12 @@
                     Tagcloud
                 </div>
                 <div>
-                        <span><a href="./tag/zhong-wen.html">中文</a></span>
-                        <span><a href="./tag/wen-dang.html">文档</a></span>
-                        <span><a href="./tag/chinese.html">Chinese</a></span>
-                        <span><a href="./tag/support.html">Support</a></span>
-                        <span><a href="./tag/english.html">English</a></span>
                         <span><a href="./tag/doc.html">Doc</a></span>
+                        <span><a href="./tag/support.html">Support</a></span>
+                        <span><a href="./tag/zhong-wen.html">中文</a></span>
+                        <span><a href="./tag/english.html">English</a></span>
+                        <span><a href="./tag/chinese.html">Chinese</a></span>
+                        <span><a href="./tag/wen-dang.html">文档</a></span>
                 </div>
             </section>
 
