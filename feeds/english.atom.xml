@@ -448,7 +448,7 @@ pip install pyopengl
 
 &lt;h1&gt;5. Update an existing GeoPyTool&lt;/h1&gt;
 &lt;p&gt;If you installed GeoPyTool as a module in Python, you can use the following command in the &lt;strong&gt;terminal&lt;/strong&gt; to update GeoPyTool to the latest version on any operating system:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip install geopytool --update --no-cache-dir
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip install geopytool -U --no-cache-dir
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 

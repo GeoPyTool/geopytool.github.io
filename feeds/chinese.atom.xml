@@ -220,7 +220,7 @@ pip install pyopengl
 
 &lt;h1&gt;5. 更新已经安装的 GeoPyTool&lt;/h1&gt;
 &lt;p&gt;如果已经按照上面的方法安装完毕了 GeoPyTool，可以用下面的命令来更新到最新版本：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip install geopytool --update --no-cache-dir
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip install geopytool -U --no-cache-dir
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
