@@ -1,0 +1,24 @@
+MENUITEMS = (("Homepage","http://doc.geopython.com"),
+             ("About","http://doc.geopython.com/about.html"),  
+             ("Functions","http://doc.geopython.com/functions.html"),    
+             ("Milestones","http://doc.geopython.com/milestones.html"),                  
+             ("Installation","http://doc.geopython.com/installation.html"),     
+             ("Demo","http://doc.geopython.com/demonstration.html"),  
+             ("Download","http://doc.geopython.com/download.html"),   
+             ("Categories","http://doc.geopython.com/categories.html"),
+             ("Tags","http://doc.geopython.com/tags.html"),
+             ("Archives","http://doc.geopython.com/archives.html"),   
+
+             ("简要介绍","http://doc.geopython.com/about.html"),  
+             ("功能列表","http://doc.geopython.com/gong-neng-lie-biao.html"),    
+             ("开发记录","http://doc.geopython.com/kai-fa-ji-lu.html"),                  
+             ("安装指南","http://doc.geopython.com/installation.html"),     
+             ("功能演示","http://doc.geopython.com/yan-shi-shi-pin.html"),  
+             ("下载链接","http://doc.geopython.com/download.html"),   
+             ("分类目录","http://doc.geopython.com/categories.html"),
+             ("标签查看","http://doc.geopython.com/tags.html"),
+             ("存档整理","http://doc.geopython.com/archives.html"),   
+
+
+
+		 )
