@@ -3253,3 +3253,208 @@ BDO[DIR="rtl"] {
 }
 
 /*The last 29 days of the month are the hardest."- Nikola Tesla*/
+
+/* ---------------------------------------------
+   Modern refinements + Dark mode (non-breaking)
+   --------------------------------------------- */
+:root {
+  --bg: #f5f5f0;
+  --surface: #ffffff;
+  --elev-1: #f0efea;
+  --text: #22211f;
+  --text-muted: #6f6a63;
+  --border: #e2e0db;
+  --link: #22211f;
+  --link-hover: #33302a;
+  --accent: #d0bfae;
+}
+
+html[data-theme='dark'] {
+  --bg: #141312;
+  --surface: #1a1917;
+  --elev-1: #1f1e1c;
+  --text: #f5f3ee;
+  --text-muted: #b8b2aa;
+  --border: #2a2825;
+  --link: #f5f3ee;
+  --link-hover: #ffffff;
+  --accent: #c6b3a3;
+  color-scheme: dark;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+#wrapper {
+  background-color: var(--surface);
+  border-color: var(--border);
+}
+
+/* Typography polish */
+body, input, textarea, select {
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Noto Sans, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+}
+
+p { margin: 1em 0; color: var(--text); }
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text);
+  line-height: 1.25;
+}
+/* Elegant heading scale */
+h1 { font-weight: 800; letter-spacing: -0.02em; }
+h2 { font-weight: 750; letter-spacing: -0.01em; }
+h3 { font-weight: 700; }
+h4, h5, h6 { font-weight: 650; }
+
+.accent-text { color: var(--accent); }
+
+a { color: var(--link); text-decoration: underline; text-underline-offset: 2px; }
+a:hover, a:focus { color: var(--link-hover); }
+/* Better focus visuals */
+a:focus { outline: 2px solid color-mix(in srgb, var(--accent) 40%, transparent); outline-offset: 2px; }
+
+hr { background: var(--border); color: var(--border); }
+
+/* Header/menu adjustments for dark */
+.menu { background: var(--surface); border-bottom: 1px solid var(--border); }
+html[data-theme='dark'] .menu { background: #1a1917; border-bottom-color: var(--border); }
+.menu a { color: var(--text) !important; text-shadow: none; }
+.menu a:hover { background: var(--elev-1); color: var(--text) !important; }
+ul.menu > li:hover { background: var(--elev-1); }
+
+.menu a { text-shadow: none; }
+
+/* Widgets */
+.widget-wrapper {
+  background-color: var(--elev-1);
+  border-color: var(--border);
+  border-radius: 10px;
+}
+.widget-title { color: var(--text); }
+
+/* Post meta colors */
+.post-meta, .post-lable { color: var(--text-muted); }
+.post-info, .post-info .date, .post-meta a { color: var(--text-muted); }
+.post-entry, .summary { color: var(--text); }
+.tag-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  margin: 0 6px 0 0;
+  font-size: 12px;
+  line-height: 1.6;
+  background: color-mix(in srgb, var(--surface) 70%, var(--bg));
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+}
+html[data-theme='dark'] .tag-badge { background: color-mix(in srgb, var(--surface) 50%, var(--bg)); }
+.post-entry, .summary { padding-bottom: 0.5rem; }
+.post-entry .markdown-body, .summary .markdown-body { color: var(--text); }
+
+/* Code blocks - ensure readable in both modes */
+pre { background-color: var(--elev-1); border: 1px solid var(--border); color: var(--text); }
+.codehilite, .codehilite pre {
+  background-color: color-mix(in srgb, var(--bg) 10%, #1d1f21) !important;
+  color: #ebdbb2;
+}
+
+/* Footer */
+#footer a { color: var(--link); }
+#footer a:hover { color: var(--link-hover); }
+#footer, #footer .powered, #footer .copyright { color: var(--text-muted); }
+
+/* Remove inline-like borders for footer license image */
+#footer img { border: 0; }
+
+/* Theme toggle button */
+.theme-toggle {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 6px 10px;
+  margin: 10px 12px;
+  cursor: pointer;
+  line-height: 1;
+}
+.theme-toggle:hover { border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 20%, transparent); }
+/* Subtle container shadow to lift content */
+#wrapper { box-shadow: 0 8px 24px rgba(0,0,0,0.04); }
+html[data-theme='dark'] #wrapper { box-shadow: 0 12px 28px rgba(0,0,0,0.35); }
+
+#header .theme-toggle { float: right; }
+@media (max-width: 650px) { #header .theme-toggle { float: none; } }
+
+/* Tables */
+table, th, td { border-color: var(--border); }
+
+/* Breadcrumb and pagination text */
+.breadcrumb-list, .pagination, .navigation { color: var(--text-muted); }
+
+/* Images keep brightness in dark */
+html[data-theme='dark'] img { filter: brightness(0.95) contrast(1.05); }
+
+/* Post title links follow current theme text color */
+.post-title a { color: var(--text) !important; }
+.post-title a:hover { color: var(--link-hover) !important; }
+
+/* Dropdown menus in dark mode */
+html[data-theme='dark'] .menu li li { background: var(--surface); border-color: var(--border); color: var(--text); }
+html[data-theme='dark'] .menu li li a { color: var(--text); }
+html[data-theme='dark'] .menu li li a:hover, 
+html[data-theme='dark'] .menu li li:hover { background: var(--elev-1) !important; }
+
+/* Force legacy hard-coded colors to adapt to theme */
+a, .post-title a, .menu .current_page_item a, .menu .current-menu-item a,
+#widgets a, .navigation a, .footer-menu li a { color: var(--link) !important; }
+h1, h2, h3, h4, h5, h6, .widget-title, .site-name, .post-title { color: var(--text) !important; }
+p, li, dt, dd, blockquote, table, th, td { color: var(--text); }
+.navigation, .breadcrumb-list, .post-meta, .post-lable { color: var(--text-muted) !important; }
+
+/* Enhanced code and blockquote styling (override) */
+pre, code, kbd, samp {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+}
+pre {
+  background-color: color-mix(in srgb, var(--surface) 60%, var(--bg));
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 12px 14px;
+  border-radius: 6px;
+  overflow: auto;
+}
+pre code { background: transparent; padding: 0; }
+.codehilite, .codehilite pre {
+  background-color: color-mix(in srgb, #1d1f21 85%, var(--bg)) !important;
+  color: #e8e0d6;
+  border-radius: 6px;
+}
+.codehilite .hll { background-color: rgba(230, 184, 162, 0.25); }
+code {
+  background-color: color-mix(in srgb, var(--surface) 70%, var(--bg));
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+}
+
+blockquote {
+  background: color-mix(in srgb, var(--surface) 65%, var(--bg));
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  margin: 1.2em 0;
+  padding: 0.75em 1em;
+  color: var(--text);
+  border-radius: 6px;
+}
+blockquote p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 1.05em;
+  line-height: 1.65;
+  margin: 0.4em 0;
+}

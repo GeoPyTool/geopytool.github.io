@@ -1,59 +1,93 @@
 <!DOCTYPE html>
 <html class="no-js" lang="zh">
+
+
+
 <head>
     <title>GeoPyTool</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <link rel="stylesheet" id="responsive-style-css"  href='/theme/css/style.css' type="text/css" media="all" />
-    <link rel="stylesheet" id="responsive-style-css"  href='/theme/css/highlight.css' type="text/css" media="all" />
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0b1220">
+    <script>
+      (function () {
+        try {
+          var root = document.documentElement;
+          root.classList.remove('no-js');
+          root.classList.add('js');
+          var saved = localStorage.getItem('theme');
+          var prefersDark = false;
+          try {
+            prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          } catch(e) {}
+          var theme = saved || (prefersDark ? 'dark' : 'light');
+          root.setAttribute('data-theme', theme);
+          // Sync on system change when no manual override
+          if (!saved && window.matchMedia) {
+            var mq = window.matchMedia('(prefers-color-scheme: dark)');
+            if (mq && mq.addEventListener) {
+              mq.addEventListener('change', function (ev) {
+                root.setAttribute('data-theme', ev.matches ? 'dark' : 'light');
+              });
+            } else if (mq && mq.addListener) { // Safari <14
+              mq.addListener(function (ev) {
+                root.setAttribute('data-theme', ev.matches ? 'dark' : 'light');
+              });
+            }
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" id="responsive-highlight-css"  href='./theme/css/highlight.css?v=1' type="text/css" media="all" />
+    <link rel="stylesheet" id="github-markdown-css" href='./theme/css/github-markdown.css?v=1' type="text/css" media="all" />
+    <link rel="stylesheet" id="responsive-style-css"  href='./theme/css/style.css?v=1' type="text/css" media="all" />
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement('script');
+      hm.src = 'https://hm.baidu.com/hm.js?edacc2fd8b368948e096e3036935a648';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
 </head>
 
 <body id="index" class="blog">
 <div id="container" class="hfeed">
     <header id="header" >
-        <div id="logo">
-                <h1><img src="/theme/image/default-logo.png" width="300" height="100" alt="ChinaGeology" />
+        <div id="logo" role="banner">
+                <h1><img src="./theme/image/default-logo.png" width="300" height="100" alt="CycleUser" />
                 GeoPyTool</h1>
         </div> <!-- /#logo-->
-        <nav id="menu" class="main-nav"><ul class="menu">
-            <li  class="active"><a href="http://geopytool.com">Homepage</a></li>
-            <li  class="active"><a href="https://github.com/GeoPyTool/GeoPyTool/issues">Forum</a></li>
-            <li  class="active"><a href="https://geopytool.slack.com/">Discuss on Slack</a></li>
-            <li  class="active"><a href="http://geopytool.com/zhong-wen-jian-jie.html">加入QQ群</a></li>
-            <li  class="active"><a href="http://geopytool.com/installation-expert.html">Installation</a></li>
-            <li  class="active"><a href="https://github.com/GeoPyTool/GeoPyTool/tree/master/DataFileSamples">Templates</a></li>
-            <li  class="active"><a href="http://geopytool.com/demonstration.html">Demo</a></li>
-            <li  class="active"><a href="https://github.com/GeoPyTool/GeoPyTool">Github</a></li>
-            <li  class="active"><a href="http://geopytool.com/archives.html">Archives</a></li>
-
-        </ul></nav><!-- /#menu -->
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="切换明暗模式">🌙</button>
+        <nav id="menu" class="main-nav" aria-label="Primary">
+            <ul class="menu"><li class="active"><a href="http://geopytool.com">Homepage</a></li><li class="active"><a href="http://geopytool.com/GeoJsTool.html">WebVersion</a></li><li class="active"><a href="https://github.com/GeoPyTool/GeoPyTool/issues">Forum</a></li><li class="active"><a href="http://geopytool.com/zhong-wen-jian-jie.html">加入QQ群</a></li><li class="active"><a href="http://geopytool.com/installation-expert.html">Installation</a></li><li class="active"><a href="https://github.com/GeoPyTool/GeoPyTool/tree/master/DataFileSamples">Templates</a></li><li class="active"><a href="http://geopytool.com/demonstration.html">Demo</a></li><li class="active"><a href="https://github.com/GeoPyTool/GeoPyTool">Github</a></li><li class="active"><a href="http://geopytool.com/archives.html">Archives</a></li></ul>
+        </nav><!-- /#menu -->
     </header>
     <section id="wrapper" class="clearfix">
         <section id="content" class="grid col-620" >
-                <section class="breadcrumb-list">
-<a href=".">Blog</a> ›<a href="category/doc.html">Doc</a> ›Download
-                </section>
+                <div class="markdown-body">
+                    <section class="breadcrumb-list">
+                    </section>
+                </div>
 
 
-<section id="post" class="post hentry">
-    <header>
-    <h2 class="post-title" >Download</h2>
-    
-    <div class="post-meta">
-        <span class="meta-prep">Post in</span>
-        <abbr class="date" title="2021-02-10T00:00:00+08:00"> 
-            <a href="./archive/2021/Feb/index.html">Wed 10 February 2021 </a>
-        </abbr>
-        <span class="meta-prep"> |Tags</span>
-                <a href="./tag/doc.html">Doc</a>
-                <a href="./tag/english.html">English</a>
-                <a href="./tag/chinese.html">Chinese</a>
-        <!-- TOBE COMMENTS -->
-    </div>
-    </header>
-    <div class="post-entry">
-        <h1>GeoPyTool Application Download Links</h1>
+<ul>
+<li class="posts"><article class="post hentry">
+	<header>
+		<h2 class="post-title" >
+			<a href="./download.html" rel="bookmark" title="Permalink to Download">Download</a>
+		</h2>
+		<div class="post-info">
+			<span class="post-lable">Post in</span>
+			<abbr class="date" title="2021-02-10T00:00:00+08:00"> 
+				<a href="./archive/2021/2月/index.html">周三 10 二月 2021 </a>
+			</abbr>
+			<!-- COMMENTS -->
+		</div>
+	</header>
+    <div class="summary markdown-body"><h1>GeoPyTool Application Download Links</h1>
 <blockquote>
 <h1>GeoPyTool 打包的可执行程序下载链接</h1>
 </blockquote>
@@ -61,61 +95,26 @@
 <h3>GeoPyTool packs:</h3>
 <p><a href="https://pan.baidu.com/s/1ReLXKdNtpKBbqn7_bWH3OA">Baidu Download 百度网盘</a> </p>
 <p><a href="https://drive.google.com/drive/folders/1vSneUfJII2_agpJc1kDZpMXZtkCjLHpU?usp=sharing">Google Drive</a></p>
-<h6>Notice that you need to download the Right Version for Your Platform! Download the Windows Pack if you are using Windows, same to the Mac users.</h6>
-<h6>请一定注意下载正确的平台版本, 你的操作系统是啥就下载对应版本,下错了平台不一致的打包文件是不能用的!</h6>
-<h2>Citation 引用</h2>
-<p>Article Here: <a href="https://www.sciencedirect.com/science/article/pii/S1674987118301609">https://www.sciencedirect.com/science/article/pii/S1674987118301609</a></p>
-<p>Please cite this article as:</p>
-<p><code>Yu, Q.-Y., Bagas, L., Yang, P.-H., Zhang, D., GeoPyTool: a cross-platform software solution for common geological calculations and plots, Geoscience Frontiers (2018), doi: 10.1016/j.gsf.2018.08.001.</code></p>
-<p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/FixTheVispy.png"></p>
-<h2>Introduction 简介</h2>
-<p>GeoPyTool is an application based on Python and designed as a solution for geology related daily work. It can run on alomost all mainstream operating systems, such as Windows 7 SP1, Windows 8, Windows 10, macOS Sierra, macOS High Sierra, Ubuntu Linux, Debian Linux, Fedora Linux, and alomost all other widely used desktop platforms.</p>
-<p>GeoPyTool doesn't rely on any other software, such as MS Excel or CorelDraw, it can directly transport your data into the plot as vector graphic files and the calculation results into data sheets such as Xlsx or CSV files.</p>
-<p>It is a free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</p>
-<p>GeoPyTool contains both traditional routines and newly developed methods。</p>
-<p>GeoPyTool 是一个基于 Python 实现的开源应用，针对的是地质学研究中的日常用途。由于使用了 Python，天生跨平台天赋加持，所以几乎能运行于所有主流操作系统，比如 Windows 7 SP1, Windows 8, Windows 10, macOS Sierra, macOS High Sierra, Ubuntu Linux, Debian Linux, Fedora Linux 等等几乎全部主流的桌面操作系统。</p>
-<p>GeoPyTool 不需依赖任何其他软件，不像 GeoKit 那样依赖特定版本的 32bit 的 Office，也不像 CGDK 那样需要依赖 CorelDRAW 的安装，单独有 GeoPyTool 一个，就可以实现从原始数据到出矢量图，以及导出各种计算的结果为 Xlsx 或者 CSV 这种表格文件。</p>
-<p>GeoPyTool 是一个自由软件:您可以根据自由软件基金会发布的GNU通用公共许可证的条款重新发布或者对其进行修改，但必须也基于同样的 GPLV3（GNU通用公共许可证第三版 ） ，或者更新版本的 GNU General Public License。</p>
-<p>GeoPyTool 包含了一些常用的传统方法，也实现了一些近年来新诞生的研究成果。</p>
-<h1>Getting Help 获取帮助</h1>
-<p>You can share your ideas or problems on <a href="https://github.com/GeoPyTool/GeoPyTool/issues">Github</a>.
-If you encounter problems using GeoPyTool, please screenshot the error message from the cmd or other ternimal window and send it with your post (shown as the sample below).</p>
-<p>大家有各种问题交流，除了在<a href="https://github.com/GeoPyTool/GeoPyTool/issues">Github</a>，还可以加入咱们的QQ群： 560675626 （为避免无关人员骚扰，加群申请填写暗号 <strong>大胖哥是个好人</strong> 来通过验证）。
-如果你在使用的时候遇到出错的情况,请按下图所示将命令行窗口里面的出错信息截图发来,这会很有帮助:</p>
-<p><img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/HowToAskForHelp.png"></p>
-<h1>捐助支持</h1>
-<p>如果你希望支持 GeoPyTool 的开发，可以扫描下面的二维码进行捐助。
-<img alt="" src="https://raw.githubusercontent.com/GeoPyTool/GeoPyTool/master/img/WeChatQrCode.png"></p>
-    </div><!-- /.entry-content -->
-    <footer class="post-meta">
-        <span class="meta-prep">Category:</span>
-        <abbr class="category">
-            <a href="./category/doc.html">Doc</a>
-        </abbr>
-       </footer>
-    <section id="respond">
-        <div id="disqus_thread">
-        <script type="text/javascript">
-        var disqus_identifier = "download.html";
-        (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://cycleuser.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-        </script>
-        </div>
-
-
-    </section>
-</section>
-
-
+<h6>Notice that you need to download the Right Version for Your …</h6></div>
+	<footer>
+		<span class="post-lable">Category:</span>
+		<abbr class="category">
+			<a href="./category/doc.html">Doc</a>
+		</abbr>
+	</footer>
+	<hr />
+</article></li>
+</ul>
+<p class="paginator">
+    Page 1 / 13
+        <a href="./index2.html">&raquo;</a>
+</p>
         </section><!-- #content -->
         <section id="widgets" class="grid col-300 fit" >
             <!--
             <section id="widget-search" class="widget-wrapper widget_search">
 
-                <form id="searchform" action="http://www.google.com/search" method="get">
+                <form id="searchform" action="https://www.google.com/search" method="get">
                     <input id="q" class="field" type="text" placeholder="Search Blog" name="q" ></input>
                     <input id="ie" name="ie" type="hidden" value="utf-8" ></input>
                     <input id="oe" name="oe" type="hidden" value="utf-8" ></input>
@@ -124,34 +123,11 @@ If you encounter problems using GeoPyTool, please screenshot the error message f
                 </form>
             </section>
             -->
-
-            <section id="widget-links" class="widget-wrapper widget_archive">
-                <div class="widget-title">
-                    Links
-                </div>
-                <ul>
-                        <li><a href="http://geopytool.com/introduction.html">Introduction</a></li>
-                        <li><a href="http://geopytool.com/functions.html">Functions</a></li>
-                        <li><a href="http://geopytool.com/installation-expert.html">Installation</a></li>
-                        <li><a href="http://geopytool.com/demonstration.html">Demonstration</a></li>
-                        <li><a href="http://geopytool.com/download.html">Download</a></li>
-                        <li><a href="http://geopytool.com/zhong-wen-jian-jie.html">中文简介</a></li>
-                        <li><a href="http://geopytool.com/gong-neng-lie-biao.html">功能列表</a></li>
-                        <li><a href="http://geopytool.com/an-zhuang-zhi-nan-jin-jie.html">安装指南</a></li>
-                        <li><a href="http://geopytool.com/yan-shi-shi-pin.html">功能演示</a></li>
-                        <li><a href="http://geopytool.com/download.html">下载链接</a></li>
-                </ul>
-            </section>
-
             <section id="widget-category" class="widget-wrapper widget_archive">
                 <div class="widget-title">
                     Category
                 </div>
-                <ul>
-                        <li><a href="./category/chinese.html" >Chinese </a></li>
-                        <li><a href="./category/doc.html" >Doc </a></li>
-                        <li><a href="./category/english.html" >English </a></li>
-                </ul>
+                <ul><li><a href="./category/chinese.html">Chinese</a></li><li><a href="./category/doc.html">Doc</a></li><li><a href="./category/english.html">English</a></li></ul>
             </section>
 
             <section id="widget-tagcloud" class="widget-wrapper widget_archive">
@@ -160,16 +136,21 @@ If you encounter problems using GeoPyTool, please screenshot the error message f
                 </div>
                 <div>
                         <span><a href="./tag/zhong-wen.html">中文</a></span>
-                        <span><a href="./tag/wen-dang.html">文档</a></span>
                         <span><a href="./tag/english.html">English</a></span>
-                        <span><a href="./tag/support.html">Support</a></span>
                         <span><a href="./tag/chinese.html">Chinese</a></span>
+                        <span><a href="./tag/support.html">Support</a></span>
                         <span><a href="./tag/doc.html">Doc</a></span>
+                        <span><a href="./tag/wen-dang.html">文档</a></span>
                 </div>
             </section>
 
 
-
+            <section id="widget-links" class="widget-wrapper widget_archive">
+                <div class="widget-title">
+                    Links
+                </div>
+                <ul><li><a href="http://geopytool.com/introduction.html">Introduction</a></li><li><a href="http://geopytool.com/functions.html">Functions</a></li><li><a href="http://geopytool.com/installation-expert.html">Installation</a></li><li><a href="http://geopytool.com/demonstration.html">Demonstration</a></li><li><a href="http://geopytool.com/download.html">Download</a></li><li><a href="http://geopytool.com/zhong-wen-jian-jie.html">中文简介</a></li><li><a href="http://geopytool.com/gong-neng-lie-biao.html">功能列表</a></li><li><a href="http://geopytool.com/an-zhuang-zhi-nan-jin-jie.html">安装指南</a></li><li><a href="http://geopytool.com/yan-shi-shi-pin.html">功能演示</a></li><li><a href="http://geopytool.com/download.html">下载链接</a></li></ul>
+            </section>
             
         </section><!-- widgets -->
     </section><!-- /#wrapper -->
@@ -184,18 +165,37 @@ If you encounter problems using GeoPyTool, please screenshot the error message f
         </div>
 
         <div class="grid col-300 copyright" >
-            <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" rel="license">
-                <img src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" style="border-width:0" alt="知识共享许可协议"></img>
+            <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="license">
+                <img src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" alt="知识共享许可协议"></img>
             </a>
         </div>
         <div class="grid col-300 ">
 
         </div>
         <div class="grid col-300 fit powered">
-            Powered by <a href="http://getpelican.com/">Pelican</a> <br />
-            which takes great advantage of <a href="http://python.org">Python</a>
+            Powered by <a href="https://getpelican.com/">Pelican</a> <br />
+            which takes great advantage of <a href="https://python.org">Python</a>
         </div>
     </section></footer>
 </div>
+<script>
+  (function () {
+    var btn = document.getElementById('theme-toggle');
+    if (!btn) return;
+    function setIcon(theme) {
+      btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+    }
+    function current() {
+      return document.documentElement.getAttribute('data-theme') || 'light';
+    }
+    setIcon(current());
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+      setIcon(next);
+    });
+  })();
+</script>
 </body>
 </html>

@@ -17,12 +17,12 @@
         </abbr>
         <span class="meta-prep"> |Tags</span>
             {% for tag in article.tags %}
-                <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
+                <a class="tag-badge" href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
             {% endfor %}
         <!-- TOBE COMMENTS -->
     </div>
     </header>
-    <div class="post-entry">
+    <div class="post-entry markdown-body">
         {{ article.content }}
     </div><!-- /.entry-content -->
     <footer class="post-meta">
@@ -31,22 +31,7 @@
             <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
         </abbr>
        </footer>
-    <section id="respond">
-        <div id="disqus_thread">
-        <script type="text/javascript">
-        var disqus_identifier = "{{ article.url }}";
-        (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://{{ DISQUS_SITENAME }}.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-        </script>
-        </div>
-
-                <script id='nodebb-comments-script' ourl="https://v2mm.tech" ocid="53" blogger='cycleuser' src="https://v2mm.tech/plugins/nodebb-plugin-blog-comments2/lib/simple-pelican.js"></script>
-                
-
-    </section>
+    
 </section>
 
 

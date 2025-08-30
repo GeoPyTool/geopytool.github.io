@@ -8,7 +8,7 @@ SITEURL = ''
 
 PATH = 'content'
 TIMEZONE = 'Asia/Chongqing'
-THEME = "cg"
+THEME = "mytheme"
 DEFAULT_LANG = 'zh'
 
 # Feed generation is usually not desired when developing
@@ -19,8 +19,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 MENUITEMS = (("Homepage","http://geopytool.com"), 
-            ('Forum', 'https://github.com/GeoPyTool/GeoPyTool/issues'),   
-            ("Discuss on Slack","https://geopytool.slack.com/"),  
+            ('WebVersion', 'http://geopytool.com/GeoJsTool.html'),  
+            ('Forum', 'https://github.com/GeoPyTool/GeoPyTool/issues'),  
             ("加入QQ群","http://geopytool.com/zhong-wen-jian-jie.html"),      
             ("Installation","http://geopytool.com/installation-expert.html"),   
             ("Templates","https://github.com/GeoPyTool/GeoPyTool/tree/master/DataFileSamples"),              

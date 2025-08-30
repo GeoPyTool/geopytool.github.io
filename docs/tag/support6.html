@@ -1,40 +1,78 @@
 <!DOCTYPE html>
 <html class="no-js" lang="zh">
+
+
+
 <head>
     <title>GeoPyTool</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <link rel="stylesheet" id="responsive-style-css"  href='/theme/css/style.css' type="text/css" media="all" />
-    <link rel="stylesheet" id="responsive-style-css"  href='/theme/css/highlight.css' type="text/css" media="all" />
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0b1220">
+    <script>
+      (function () {
+        try {
+          var root = document.documentElement;
+          root.classList.remove('no-js');
+          root.classList.add('js');
+          var saved = localStorage.getItem('theme');
+          var prefersDark = false;
+          try {
+            prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+          } catch(e) {}
+          var theme = saved || (prefersDark ? 'dark' : 'light');
+          root.setAttribute('data-theme', theme);
+          // Sync on system change when no manual override
+          if (!saved && window.matchMedia) {
+            var mq = window.matchMedia('(prefers-color-scheme: dark)');
+            if (mq && mq.addEventListener) {
+              mq.addEventListener('change', function (ev) {
+                root.setAttribute('data-theme', ev.matches ? 'dark' : 'light');
+              });
+            } else if (mq && mq.addListener) { // Safari <14
+              mq.addListener(function (ev) {
+                root.setAttribute('data-theme', ev.matches ? 'dark' : 'light');
+              });
+            }
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="stylesheet" id="responsive-highlight-css"  href='../theme/css/highlight.css?v=1' type="text/css" media="all" />
+    <link rel="stylesheet" id="github-markdown-css" href='../theme/css/github-markdown.css?v=1' type="text/css" media="all" />
+    <link rel="stylesheet" id="responsive-style-css"  href='../theme/css/style.css?v=1' type="text/css" media="all" />
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement('script');
+      hm.src = 'https://hm.baidu.com/hm.js?edacc2fd8b368948e096e3036935a648';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
 </head>
 
 <body id="index" class="blog">
 <div id="container" class="hfeed">
     <header id="header" >
-        <div id="logo">
-                <h1><img src="/theme/image/default-logo.png" width="300" height="100" alt="ChinaGeology" />
+        <div id="logo" role="banner">
+                <h1><img src="../theme/image/default-logo.png" width="300" height="100" alt="CycleUser" />
                 GeoPyTool</h1>
         </div> <!-- /#logo-->
-        <nav id="menu" class="main-nav"><ul class="menu">
-            <li  class="active"><a href="http://geopytool.com">Homepage</a></li>
-            <li  class="active"><a href="https://github.com/GeoPyTool/GeoPyTool/issues">Forum</a></li>
-            <li  class="active"><a href="https://geopytool.slack.com/">Discuss on Slack</a></li>
-            <li  class="active"><a href="http://geopytool.com/zhong-wen-jian-jie.html">加入QQ群</a></li>
-            <li  class="active"><a href="http://geopytool.com/installation-expert.html">Installation</a></li>
-            <li  class="active"><a href="https://github.com/GeoPyTool/GeoPyTool/tree/master/DataFileSamples">Templates</a></li>
-            <li  class="active"><a href="http://geopytool.com/demonstration.html">Demo</a></li>
-            <li  class="active"><a href="https://github.com/GeoPyTool/GeoPyTool">Github</a></li>
-            <li  class="active"><a href="http://geopytool.com/archives.html">Archives</a></li>
-
-        </ul></nav><!-- /#menu -->
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="切换明暗模式">🌙</button>
+        <nav id="menu" class="main-nav" aria-label="Primary">
+            <ul class="menu"><li class="active"><a href="http://geopytool.com">Homepage</a></li><li class="active"><a href="http://geopytool.com/GeoJsTool.html">WebVersion</a></li><li class="active"><a href="https://github.com/GeoPyTool/GeoPyTool/issues">Forum</a></li><li class="active"><a href="http://geopytool.com/zhong-wen-jian-jie.html">加入QQ群</a></li><li class="active"><a href="http://geopytool.com/installation-expert.html">Installation</a></li><li class="active"><a href="https://github.com/GeoPyTool/GeoPyTool/tree/master/DataFileSamples">Templates</a></li><li class="active"><a href="http://geopytool.com/demonstration.html">Demo</a></li><li class="active"><a href="https://github.com/GeoPyTool/GeoPyTool">Github</a></li><li class="active"><a href="http://geopytool.com/archives.html">Archives</a></li></ul>
+        </nav><!-- /#menu -->
     </header>
     <section id="wrapper" class="clearfix">
         <section id="content" class="grid col-620" >
-<h4 class="content-archive">Articles tagged with <span style="color:rgb(0,102,204)">Support</span>: </h4>
-                <section class="breadcrumb-list">
-<a href="..">Blog</a> ››Tag: <a href="tag/support.html">Support</a>
-                </section>
+                <div class="markdown-body">
+<h4 class="content-archive">Articles tagged with <span class="accent-text">Support</span>: </h4>
+                    <section class="breadcrumb-list">
+<a href="..">Blog</a> ››Tag: <a href="../tag/support.html">Support</a>
+                    </section>
+                </div>
 
 
 <ul>
@@ -46,12 +84,12 @@
 		<div class="post-info">
 			<span class="post-lable">Post in</span>
 			<abbr class="date" title="2018-04-21T11:27:50+08:00"> 
-				<a href="../archive/2018/Apr/index.html">Sat 21 April 2018 </a>
+				<a href="../archive/2018/4月/index.html">周六 21 四月 2018 </a>
 			</abbr>
 			<!-- COMMENTS -->
 		</div>
 	</header>
-	<div class="summary"></div>
+    <div class="summary markdown-body"></div>
 	<footer>
 		<span class="post-lable">Category:</span>
 		<abbr class="category">
@@ -71,7 +109,7 @@
             <!--
             <section id="widget-search" class="widget-wrapper widget_search">
 
-                <form id="searchform" action="http://www.google.com/search" method="get">
+                <form id="searchform" action="https://www.google.com/search" method="get">
                     <input id="q" class="field" type="text" placeholder="Search Blog" name="q" ></input>
                     <input id="ie" name="ie" type="hidden" value="utf-8" ></input>
                     <input id="oe" name="oe" type="hidden" value="utf-8" ></input>
@@ -80,34 +118,11 @@
                 </form>
             </section>
             -->
-
-            <section id="widget-links" class="widget-wrapper widget_archive">
-                <div class="widget-title">
-                    Links
-                </div>
-                <ul>
-                        <li><a href="http://geopytool.com/introduction.html">Introduction</a></li>
-                        <li><a href="http://geopytool.com/functions.html">Functions</a></li>
-                        <li><a href="http://geopytool.com/installation-expert.html">Installation</a></li>
-                        <li><a href="http://geopytool.com/demonstration.html">Demonstration</a></li>
-                        <li><a href="http://geopytool.com/download.html">Download</a></li>
-                        <li><a href="http://geopytool.com/zhong-wen-jian-jie.html">中文简介</a></li>
-                        <li><a href="http://geopytool.com/gong-neng-lie-biao.html">功能列表</a></li>
-                        <li><a href="http://geopytool.com/an-zhuang-zhi-nan-jin-jie.html">安装指南</a></li>
-                        <li><a href="http://geopytool.com/yan-shi-shi-pin.html">功能演示</a></li>
-                        <li><a href="http://geopytool.com/download.html">下载链接</a></li>
-                </ul>
-            </section>
-
             <section id="widget-category" class="widget-wrapper widget_archive">
                 <div class="widget-title">
                     Category
                 </div>
-                <ul>
-                        <li><a href="../category/chinese.html" >Chinese </a></li>
-                        <li><a href="../category/doc.html" >Doc </a></li>
-                        <li><a href="../category/english.html" >English </a></li>
-                </ul>
+                <ul><li><a href="../category/chinese.html">Chinese</a></li><li><a href="../category/doc.html">Doc</a></li><li><a href="../category/english.html">English</a></li></ul>
             </section>
 
             <section id="widget-tagcloud" class="widget-wrapper widget_archive">
@@ -116,16 +131,21 @@
                 </div>
                 <div>
                         <span><a href="../tag/zhong-wen.html">中文</a></span>
-                        <span><a href="../tag/wen-dang.html">文档</a></span>
                         <span><a href="../tag/english.html">English</a></span>
-                        <span><a href="../tag/support.html">Support</a></span>
                         <span><a href="../tag/chinese.html">Chinese</a></span>
+                        <span><a href="../tag/support.html">Support</a></span>
                         <span><a href="../tag/doc.html">Doc</a></span>
+                        <span><a href="../tag/wen-dang.html">文档</a></span>
                 </div>
             </section>
 
 
-
+            <section id="widget-links" class="widget-wrapper widget_archive">
+                <div class="widget-title">
+                    Links
+                </div>
+                <ul><li><a href="http://geopytool.com/introduction.html">Introduction</a></li><li><a href="http://geopytool.com/functions.html">Functions</a></li><li><a href="http://geopytool.com/installation-expert.html">Installation</a></li><li><a href="http://geopytool.com/demonstration.html">Demonstration</a></li><li><a href="http://geopytool.com/download.html">Download</a></li><li><a href="http://geopytool.com/zhong-wen-jian-jie.html">中文简介</a></li><li><a href="http://geopytool.com/gong-neng-lie-biao.html">功能列表</a></li><li><a href="http://geopytool.com/an-zhuang-zhi-nan-jin-jie.html">安装指南</a></li><li><a href="http://geopytool.com/yan-shi-shi-pin.html">功能演示</a></li><li><a href="http://geopytool.com/download.html">下载链接</a></li></ul>
+            </section>
             
         </section><!-- widgets -->
     </section><!-- /#wrapper -->
@@ -140,18 +160,37 @@
         </div>
 
         <div class="grid col-300 copyright" >
-            <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" rel="license">
-                <img src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" style="border-width:0" alt="知识共享许可协议"></img>
+            <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="license">
+                <img src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" alt="知识共享许可协议"></img>
             </a>
         </div>
         <div class="grid col-300 ">
 
         </div>
         <div class="grid col-300 fit powered">
-            Powered by <a href="http://getpelican.com/">Pelican</a> <br />
-            which takes great advantage of <a href="http://python.org">Python</a>
+            Powered by <a href="https://getpelican.com/">Pelican</a> <br />
+            which takes great advantage of <a href="https://python.org">Python</a>
         </div>
     </section></footer>
 </div>
+<script>
+  (function () {
+    var btn = document.getElementById('theme-toggle');
+    if (!btn) return;
+    function setIcon(theme) {
+      btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+    }
+    function current() {
+      return document.documentElement.getAttribute('data-theme') || 'light';
+    }
+    setIcon(current());
+    btn.addEventListener('click', function () {
+      var next = current() === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+      setIcon(next);
+    });
+  })();
+</script>
 </body>
 </html>

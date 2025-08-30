@@ -2,7 +2,7 @@
 {% block content %}
 <h1>Archives for {{ SITENAME }}</h1>
 
-<dl>
+<dl class="markdown-body">
 {% for article in dates %}
     <dt><h5>{{ article.locale_date }}</h5></dt>
     <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
