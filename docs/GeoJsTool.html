@@ -1681,19 +1681,120 @@
                 });
             });
 
+            // 为每个子图添加外框
+            conditions.forEach((condition, diagram_idx) => {
+                const xlim = condition.xlim;
+                const ylim = condition.ylim;
+                
+                // 创建矩形外框（右上角顺时针绘制）
+                const frameX = [xlim[0], xlim[1], xlim[1], xlim[0], xlim[0]];
+                const frameY = [ylim[0], ylim[0], ylim[1], ylim[1], ylim[0]];
+                
+                traces.push({
+                    x: frameX,
+                    y: frameY,
+                    mode: 'lines',
+                    type: 'scatter',
+                    line: { 
+                        color: 'black', 
+                        width: 1.5 
+                    },
+                    showlegend: false,
+                    hoverinfo: 'skip',
+                    xaxis: `x${diagram_idx + 1}`,
+                    yaxis: `y${diagram_idx + 1}`
+                });
+            });
+
             const layout = {
                 title: 'Pearce Diagrams for Granite Discrimination (Pearce et al., 1984)',
                 width: 1000,
                 height: 800,
                 grid: { rows: 2, columns: 2, pattern: 'independent' },
-                xaxis: { title: conditions[0].xLabel, domain: [0, 0.45], range: conditions[0].xlim },
-                yaxis: { title: conditions[0].yLabel, domain: [0.55, 1], range: conditions[0].ylim },
-                xaxis2: { title: conditions[1].xLabel, domain: [0.55, 1], range: conditions[1].xlim },
-                yaxis2: { title: conditions[1].yLabel, domain: [0.55, 1], range: conditions[1].ylim },
-                xaxis3: { title: conditions[2].xLabel, domain: [0, 0.45], range: conditions[2].xlim },
-                yaxis3: { title: conditions[2].yLabel, domain: [0, 0.45], range: conditions[2].ylim },
-                xaxis4: { title: conditions[3].xLabel, domain: [0.55, 1], range: conditions[3].xlim },
-                yaxis4: { title: conditions[3].yLabel, domain: [0, 0.45], range: conditions[3].ylim },
+                // 第一个子图 (左上)
+                xaxis: { 
+                    title: conditions[0].xLabel, 
+                    domain: [0, 0.45], 
+                    range: conditions[0].xlim,
+                    showline: false,        // 不显示坐标轴线
+                    showticklabels: true,
+                    ticks: '',              // 不显示刻度线
+                    showgrid: false,        // 不显示网格
+                    zeroline: false         // 不显示零线
+                },
+                yaxis: { 
+                    title: conditions[0].yLabel, 
+                    domain: [0.55, 1], 
+                    range: conditions[0].ylim,
+                    showline: false,        // 不显示坐标轴线
+                    showticklabels: true,
+                    ticks: '',              // 不显示刻度线
+                    showgrid: false,        // 不显示网格
+                    zeroline: false         // 不显示零线
+                },
+                // 第二个子图 (右上)
+                xaxis2: { 
+                    title: conditions[1].xLabel, 
+                    domain: [0.55, 1], 
+                    range: conditions[1].xlim,
+                    showline: false,
+                    showticklabels: true,
+                    ticks: '',
+                    showgrid: false,
+                    zeroline: false
+                },
+                yaxis2: { 
+                    title: conditions[1].yLabel, 
+                    domain: [0.55, 1], 
+                    range: conditions[1].ylim,
+                    showline: false,
+                    showticklabels: true,
+                    ticks: '',
+                    showgrid: false,
+                    zeroline: false
+                },
+                // 第三个子图 (左下)
+                xaxis3: { 
+                    title: conditions[2].xLabel, 
+                    domain: [0, 0.45], 
+                    range: conditions[2].xlim,
+                    showline: false,
+                    showticklabels: true,
+                    ticks: '',
+                    showgrid: false,
+                    zeroline: false
+                },
+                yaxis3: { 
+                    title: conditions[2].yLabel, 
+                    domain: [0, 0.45], 
+                    range: conditions[2].ylim,
+                    showline: false,
+                    showticklabels: true,
+                    ticks: '',
+                    showgrid: false,
+                    zeroline: false
+                },
+                // 第四个子图 (右下)
+                xaxis4: { 
+                    title: conditions[3].xLabel, 
+                    domain: [0.55, 1], 
+                    range: conditions[3].xlim,
+                    showline: false,
+                    showticklabels: true,
+                    ticks: '',
+                    showgrid: false,
+                    zeroline: false
+                },
+                yaxis4: { 
+                    title: conditions[3].yLabel, 
+                    domain: [0, 0.45], 
+                    range: conditions[3].ylim,
+                    showline: false,
+                    showticklabels: true,
+                    ticks: '',
+                    showgrid: false,
+                    zeroline: false
+                },
                 annotations: [
                     { x: 0.5, y: 0.02, text: 'syn-COLG: syn-collision granites, VAG: volcanic arc granites\nWPG: within plate granites, ORG: ocean ridge granites',
                       showarrow: false, xref: 'paper', yref: 'paper', font: { size: 10 } },
