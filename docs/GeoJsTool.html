@@ -473,15 +473,23 @@
             return null; // 没有找到分类列
         }
         
-        // 获取颜色映射和标签 - 支持数据中的Color列
+        // 获取颜色映射和标签 - 优先使用精确的Color列
         function getColorMapping() {
             if (!globalData || globalData.length === 0) {
                 return { colors: [], labels: [], legendItems: [] };
             }
             
             const classificationCol = getClassificationColumn();
-            const hasColorCol = globalData[0].hasOwnProperty('Color') || globalData[0].hasOwnProperty('color');
-            const colorCol = globalData[0].hasOwnProperty('Color') ? 'Color' : 'color';
+            
+            // 优先查找精确的 Color 列
+            let colorCol = null;
+            const columns = Object.keys(globalData[0]);
+            
+            if (columns.includes('Color')) {
+                colorCol = 'Color';
+            } else if (columns.some(col => col.toLowerCase() === 'color')) {
+                colorCol = columns.find(col => col.toLowerCase() === 'color');
+            }
             
             const defaultColors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', 
                            '#bcbd22', '#17becf', '#aec7e8', '#ffbb78', '#98df8a', '#ff9896', '#c5b0d5', '#c49c94'];
@@ -492,16 +500,26 @@
                 const colorMap = {};
                 const legendItems = [];
                 
-                if (hasColorCol) {
-                    // 如果有Color列，使用数据中指定的颜色
+                if (colorCol) {
+                    // 如果Color列存在，使用数据中指定的颜色
                     uniqueValues.forEach((value, index) => {
                         // 找到第一个该分类的样本的颜色
                         const sampleWithValue = globalData.find(row => (row[classificationCol] || 'Unknown') === value);
                         let color = sampleWithValue && sampleWithValue[colorCol] ? sampleWithValue[colorCol] : defaultColors[index % defaultColors.length];
                         
-                        // 处理常见颜色名称
+                        // 处理常见颜色名称和格式
                         if (typeof color === 'string') {
-                            color = color.toLowerCase().trim();
+                            color = color.trim();
+                            // 如果是常见颜色名，转换为小写但保持格式
+                            const colorNameMap = {
+                                'red': '#ff0000', 'blue': '#0000ff', 'green': '#008000', 'yellow': '#ffff00',
+                                'orange': '#ffa500', 'purple': '#800080', 'pink': '#ffc0cb', 'brown': '#a52a2a',
+                                'black': '#000000', 'white': '#ffffff', 'gray': '#808080', 'grey': '#808080'
+                            };
+                            const lowerColor = color.toLowerCase();
+                            if (colorNameMap[lowerColor]) {
+                                color = colorNameMap[lowerColor];
+                            }
                         }
                         
                         colorMap[value] = color;
@@ -533,12 +551,21 @@
                 
                 return { colors: sampleColors, labels: sampleLabels, legendItems };
             } else {
-                // 没有分类列，使用样品编号
+                // 没有分类列，按样品编号绘制
                 const sampleColors = globalData.map((row, i) => {
-                    if (hasColorCol && row[colorCol]) {
+                    if (colorCol && row[colorCol]) {
                         let color = row[colorCol];
                         if (typeof color === 'string') {
-                            color = color.toLowerCase().trim();
+                            color = color.trim();
+                            const colorNameMap = {
+                                'red': '#ff0000', 'blue': '#0000ff', 'green': '#008000', 'yellow': '#ffff00',
+                                'orange': '#ffa500', 'purple': '#800080', 'pink': '#ffc0cb', 'brown': '#a52a2a',
+                                'black': '#000000', 'white': '#ffffff', 'gray': '#808080', 'grey': '#808080'
+                            };
+                            const lowerColor = color.toLowerCase();
+                            if (colorNameMap[lowerColor]) {
+                                color = colorNameMap[lowerColor];
+                            }
                         }
                         return color;
                     }
