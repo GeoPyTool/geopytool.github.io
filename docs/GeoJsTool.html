@@ -52,12 +52,19 @@
             margin-top: 20px; background: white; 
             padding: 20px; border-radius: 10px; 
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            overflow: auto;
+            max-width: 100%;
+            max-height: 80vh;
+        }
+        
+        #plotDiv {
+            min-width: 800px;
+            min-height: 600px;
+            overflow: visible;
         }
         .data-preview { 
             max-height: 300px; 
             overflow: auto; 
-            border: 1px solid #e2e8f0; 
-            border-radius: 8px; 
             margin-top: 15px; 
             background: white;
             width: 100%;
@@ -75,8 +82,8 @@
             text-align: left; 
             border-bottom: 1px solid #e2e8f0; 
             white-space: nowrap;
-            max-width: 120px;
-            overflow: hidden;
+            min-width: 80px;
+            overflow: visible;
             text-overflow: ellipsis;
             vertical-align: middle;
         }
@@ -131,6 +138,8 @@
             overflow-y: hidden;
             width: 100%;
             max-width: 100%;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
         }
     </style>
 </head>
@@ -215,7 +224,7 @@
         </div>
 
         <div id="plotContainer" class="plot-container" style="display:none;">
-            <div id="plotDiv" style="height: 600px;"></div>
+            <div id="plotDiv" style="height: 600px; width: 100%; min-width: 800px;"></div>
             <button onclick="downloadPlot()" style="margin-top: 15px;">📥 下载图表</button>
         </div>
         
@@ -342,6 +351,112 @@
             'rb_lu': ['Rb', 'Ba', 'Th', 'U', 'Nb', 'Ta', 'K', 'La', 'Ce', 'Pr', 'Sr', 'P', 'Nd',
                      'Zr', 'Hf', 'Sm', 'Eu', 'Ti', 'Tb', 'Dy', 'Y', 'Ho', 'Er', 'Tm', 'Yb', 'Lu']
         };
+
+        // 获取分类列 - 优先使用Label，其次Type，最后使用样品编号
+        function getClassificationColumn() {
+            if (!globalData || globalData.length === 0) return null;
+            
+            const firstRow = globalData[0];
+            const columns = Object.keys(firstRow);
+            
+            // 优先查找 Label 列（不区分大小写）
+            for (let col of columns) {
+                if (col.toLowerCase().trim() === 'label') {
+                    return col;
+                }
+            }
+            
+            // 其次查找 Type 列（不区分大小写）
+            for (let col of columns) {
+                if (col.toLowerCase().trim() === 'type') {
+                    return col;
+                }
+            }
+            
+            return null; // 没有找到分类列
+        }
+        
+        // 获取颜色映射和标签 - 支持数据中的Color列
+        function getColorMapping() {
+            if (!globalData || globalData.length === 0) {
+                return { colors: [], labels: [], legendItems: [] };
+            }
+            
+            const classificationCol = getClassificationColumn();
+            const hasColorCol = globalData[0].hasOwnProperty('Color') || globalData[0].hasOwnProperty('color');
+            const colorCol = globalData[0].hasOwnProperty('Color') ? 'Color' : 'color';
+            
+            const defaultColors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', 
+                           '#bcbd22', '#17becf', '#aec7e8', '#ffbb78', '#98df8a', '#ff9896', '#c5b0d5', '#c49c94'];
+            
+            if (classificationCol) {
+                // 使用分类列进行分组
+                const uniqueValues = [...new Set(globalData.map(row => row[classificationCol] || 'Unknown'))];
+                const colorMap = {};
+                const legendItems = [];
+                
+                if (hasColorCol) {
+                    // 如果有Color列，使用数据中指定的颜色
+                    uniqueValues.forEach((value, index) => {
+                        // 找到第一个该分类的样本的颜色
+                        const sampleWithValue = globalData.find(row => (row[classificationCol] || 'Unknown') === value);
+                        let color = sampleWithValue && sampleWithValue[colorCol] ? sampleWithValue[colorCol] : defaultColors[index % defaultColors.length];
+                        
+                        // 处理常见颜色名称
+                        if (typeof color === 'string') {
+                            color = color.toLowerCase().trim();
+                        }
+                        
+                        colorMap[value] = color;
+                        legendItems.push({
+                            label: value.toString(),
+                            color: color
+                        });
+                    });
+                } else {
+                    // 没有Color列，使用默认颜色
+                    uniqueValues.forEach((value, index) => {
+                        colorMap[value] = defaultColors[index % defaultColors.length];
+                        legendItems.push({
+                            label: value.toString(),
+                            color: defaultColors[index % defaultColors.length]
+                        });
+                    });
+                }
+                
+                const sampleColors = globalData.map(row => {
+                    const value = row[classificationCol] || 'Unknown';
+                    return colorMap[value];
+                });
+                
+                const sampleLabels = globalData.map(row => {
+                    const value = row[classificationCol] || 'Unknown';
+                    return value.toString();
+                });
+                
+                return { colors: sampleColors, labels: sampleLabels, legendItems };
+            } else {
+                // 没有分类列，使用样品编号
+                const sampleColors = globalData.map((row, i) => {
+                    if (hasColorCol && row[colorCol]) {
+                        let color = row[colorCol];
+                        if (typeof color === 'string') {
+                            color = color.toLowerCase().trim();
+                        }
+                        return color;
+                    }
+                    return defaultColors[i % defaultColors.length];
+                });
+                
+                const sampleLabels = globalData.map((_, i) => `样品 ${i + 1}`);
+                const legendItems = globalData.map((row, i) => ({
+                    label: `样品 ${i + 1}`,
+                    color: sampleColors[i]
+                }));
+                
+                return { colors: sampleColors, labels: sampleLabels, legendItems };
+            }
+        }
 
         // 提示信息函数
         function showAlert(message, type) {
@@ -555,45 +670,29 @@
         function displayDataPreview() {
             const preview = document.getElementById('dataPreview');
             const columns = Object.keys(globalData[0]);
-            const maxRows = 10;
-            const maxCols = 8; // Limit columns to prevent overflow
             
-            // Limit columns displayed to prevent overflow
-            const displayColumns = columns.slice(0, maxCols);
-            const hiddenCols = columns.length - displayColumns.length;
-
+            // Display all rows and columns with scrolling
             let html = '<div class="table-wrapper"><table><thead><tr>';
-            displayColumns.forEach(col => {
-                const shortCol = col.length > 12 ? col.substring(0, 12) + '...' : col;
-                html += `<th title="${col}">${shortCol}</th>`;
+            columns.forEach(col => {
+                html += `<th title="${col}">${col}</th>`;
             });
-            if (hiddenCols > 0) {
-                html += `<th>...+${hiddenCols}</th>`;
-            }
             html += '</tr></thead><tbody>';
 
-            globalData.slice(0, maxRows).forEach(row => {
+            // Display ALL rows instead of limiting to 10
+            globalData.forEach(row => {
                 html += '<tr>';
-                displayColumns.forEach(col => {
+                columns.forEach(col => {
                     const value = row[col] || '';
                     const displayValue = isNaN(value) ? 
-                        (value.length > 10 ? value.substring(0, 10) + '...' : value) : 
-                        parseFloat(value).toFixed(2);
+                        (value.toString().length > 15 ? value.toString().substring(0, 15) + '...' : value) : 
+                        (parseFloat(value).toFixed(3));
                     html += `<td title="${value}">${displayValue}</td>`;
                 });
-                if (hiddenCols > 0) {
-                    html += '<td>...</td>';
-                }
                 html += '</tr>';
             });
 
             html += '</tbody></table></div>';
-            if (globalData.length > maxRows) {
-                html += `<p style="text-align: center; margin: 10px; color: #666; font-size: 11px;">显示前 ${maxRows} 行，共 ${globalData.length} 行数据</p>`;
-            }
-            if (hiddenCols > 0) {
-                html += `<p style="text-align: center; margin: 5px; color: #666; font-size: 10px;">显示前 ${maxCols} 列，共 ${columns.length} 列数据</p>`;
-            }
+            html += `<p style="text-align: center; margin: 5px; color: #666; font-size: 10px;">共 ${globalData.length} 行 × ${columns.length} 列数据，可上下左右滑动查看</p>`;
 
             preview.innerHTML = html;
             preview.style.display = 'block';
@@ -649,15 +748,62 @@
 
             // 数据点迹踪
             const traces = [];
+            const colorMapping = getColorMapping();
             
-            // 添加数据点
-            for (let i = 0; i < globalData.length; i++) {
-                traces.push({
-                    x: [x[i]], y: [y[i]], mode: 'markers', type: 'scatter',
-                    marker: { size: 8, color: 'red', opacity: 0.8, line: { color: 'black', width: 0.5 } },
-                    name: `样品 ${i + 1}`,
-                    showlegend: globalData.length <= 10
+            // 根据分类列对样品进行分组
+            const classificationCol = getClassificationColumn();
+            
+            if (classificationCol) {
+                // 有分类列，按分类绘制
+                const groups = {};
+                globalData.forEach((row, i) => {
+                    const groupValue = row[classificationCol] || 'Unknown';
+                    if (!groups[groupValue]) {
+                        groups[groupValue] = { x: [], y: [], indices: [] };
+                    }
+                    groups[groupValue].x.push(x[i]);
+                    groups[groupValue].y.push(y[i]);
+                    groups[groupValue].indices.push(i);
                 });
+                
+                // 为每个分组创建 trace
+                Object.keys(groups).forEach((groupName) => {
+                    const group = groups[groupName];
+                    const color = colorMapping.legendItems.find(item => item.label === groupName)?.color || '#1f77b4';
+                    
+                    traces.push({
+                        x: group.x,
+                        y: group.y,
+                        mode: 'markers',
+                        type: 'scatter',
+                        marker: { 
+                            size: 8, 
+                            color: color, 
+                            opacity: 0.8, 
+                            line: { color: 'black', width: 0.5 } 
+                        },
+                        name: groupName,
+                        showlegend: true
+                    });
+                });
+            } else {
+                // 没有分类列，按样品编号绘制
+                for (let i = 0; i < globalData.length; i++) {
+                    traces.push({
+                        x: [x[i]], 
+                        y: [y[i]], 
+                        mode: 'markers', 
+                        type: 'scatter',
+                        marker: { 
+                            size: 8, 
+                            color: colorMapping.colors[i], 
+                            opacity: 0.8, 
+                            line: { color: 'black', width: 0.5 } 
+                        },
+                        name: colorMapping.labels[i],
+                        showlegend: globalData.length <= 10
+                    });
+                }
             }
 
             // TAS分类线 - 精确坐标来自 TAS.py
@@ -705,6 +851,8 @@
 
             const layout = {
                 title: 'TAS (Total Alkali–Silica) Diagram Volcanic (Wilson et al. 1989)',
+                width: 900,
+                height: 700,
                 xaxis: { 
                     title: 'SiO₂ wt%', 
                     range: [30, 90],
@@ -763,26 +911,43 @@
             }
 
             const traces = [];
-            const colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f'];
+            const colorMapping = getColorMapping();
+            const classificationCol = getClassificationColumn();
             
             // 为每个可用氧化物创建子图
             availableOxides.forEach((oxide, subplotIndex) => {
-                // 为每个样品在当前子图中添加数据点
-                globalData.forEach((row, sampleIndex) => {
-                    const sio2_val = parseFloat(row.SiO2);
-                    const oxide_val = parseFloat(row[oxide]);
+                if (classificationCol) {
+                    // 有分类列，按分类绘制
+                    const groups = {};
+                    globalData.forEach((row, i) => {
+                        const groupValue = row[classificationCol] || 'Unknown';
+                        const sio2_val = parseFloat(row.SiO2);
+                        const oxide_val = parseFloat(row[oxide]);
+                        
+                        if (!isNaN(sio2_val) && !isNaN(oxide_val)) {
+                            if (!groups[groupValue]) {
+                                groups[groupValue] = { x: [], y: [] };
+                            }
+                            groups[groupValue].x.push(sio2_val);
+                            groups[groupValue].y.push(oxide_val);
+                        }
+                    });
                     
-                    if (!isNaN(sio2_val) && !isNaN(oxide_val)) {
+                    // 为每个分组创建 trace
+                    Object.keys(groups).forEach((groupName) => {
+                        const group = groups[groupName];
+                        const color = colorMapping.legendItems.find(item => item.label === groupName)?.color || '#1f77b4';
+                        
                         traces.push({
-                            x: [sio2_val], 
-                            y: [oxide_val],
-                            mode: 'markers', 
+                            x: group.x,
+                            y: group.y,
+                            mode: 'markers',
                             type: 'scatter',
-                            name: sampleIndex === 0 ? `样品 ${sampleIndex + 1}` : '',
-                            legendgroup: `sample_${sampleIndex}`,
+                            name: groupName,
+                            legendgroup: `group_${groupName}`,
                             marker: { 
                                 size: 6, 
-                                color: colors[sampleIndex % colors.length],
+                                color: color,
                                 opacity: 0.7,
                                 line: { color: 'black', width: 0.5 }
                             },
@@ -790,8 +955,34 @@
                             xaxis: `x${subplotIndex + 1}`,
                             yaxis: `y${subplotIndex + 1}`
                         });
-                    }
-                });
+                    });
+                } else {
+                    // 没有分类列，按样品编号绘制
+                    globalData.forEach((row, sampleIndex) => {
+                        const sio2_val = parseFloat(row.SiO2);
+                        const oxide_val = parseFloat(row[oxide]);
+                        
+                        if (!isNaN(sio2_val) && !isNaN(oxide_val)) {
+                            traces.push({
+                                x: [sio2_val], 
+                                y: [oxide_val],
+                                mode: 'markers', 
+                                type: 'scatter',
+                                name: colorMapping.labels[sampleIndex],
+                                legendgroup: `sample_${sampleIndex}`,
+                                marker: { 
+                                    size: 6, 
+                                    color: colorMapping.colors[sampleIndex],
+                                    opacity: 0.7,
+                                    line: { color: 'black', width: 0.5 }
+                                },
+                                showlegend: subplotIndex === 0 && globalData.length <= 10,  // 只在第一个子图显示图例
+                                xaxis: `x${subplotIndex + 1}`,
+                                yaxis: `y${subplotIndex + 1}`
+                            });
+                        }
+                    });
+                }
             });
 
             // 创建子图布局 - 4行2列或根据可用氧化物数量调整
@@ -802,9 +993,10 @@
             // 基础布局
             const layout = {
                 title: `Harker Variation Diagrams (${availableOxides.length} oxides vs SiO2)`,
+                width: 1000,
+                height: 200 * rows + 100, // 动态高度
                 showlegend: true,
-                grid: { rows: rows, columns: cols, pattern: 'independent' },
-                height: 200 * rows + 100  // 动态高度
+                grid: { rows: rows, columns: cols, pattern: 'independent' }
             };
 
             // 为每个子图设置轴
@@ -854,36 +1046,90 @@
 
             const normValues = standards.ree[standard];
             let y_bottom = Infinity, y_top = -Infinity;
+            const colorMapping = getColorMapping();
+            const classificationCol = getClassificationColumn();
             
-            const traces = globalData.map((row, i) => {
-                const x = [], y = [];
-                availableREEs.forEach((el, j) => {
-                    const value = parseFloat(row[el]);
-                    if (!isNaN(value) && value > 0 && normValues[el]) {
-                        const normalized_value = value / normValues[el];
-                        const log_value = Math.log10(normalized_value);
-                        
-                        x.push(j + 1);  // X 位置从 1 开始
-                        y.push(log_value);
-                        
-                        // 跟踪 Y 范围
-                        if (log_value < y_bottom) y_bottom = log_value;
-                        if (log_value > y_top) y_top = log_value;
+            let traces = [];
+            
+            if (classificationCol) {
+                // 有分类列，按分类绘制
+                const groups = {};
+                globalData.forEach((row, i) => {
+                    const groupValue = row[classificationCol] || 'Unknown';
+                    if (!groups[groupValue]) {
+                        groups[groupValue] = { samples: [] };
                     }
+                    groups[groupValue].samples.push({ row, index: i });
                 });
                 
-                return {
-                    x: x, y: y, mode: 'lines+markers', type: 'scatter',
-                    name: `样品 ${i + 1}`, 
-                    marker: { size: 6 }, line: { width: 1.5 }
-                };
-            });
+                Object.keys(groups).forEach((groupName) => {
+                    const group = groups[groupName];
+                    const color = colorMapping.legendItems.find(item => item.label === groupName)?.color || '#1f77b4';
+                    
+                    group.samples.forEach((sample) => {
+                        const { row, index } = sample;
+                        const x = [], y = [];
+                        
+                        availableREEs.forEach((el, j) => {
+                            const value = parseFloat(row[el]);
+                            if (!isNaN(value) && value > 0 && normValues[el]) {
+                                const normalized_value = value / normValues[el];
+                                const log_value = Math.log10(normalized_value);
+                                
+                                x.push(j + 1);  // X 位置从 1 开始
+                                y.push(log_value);
+                                
+                                // 跟踪 Y 范围
+                                if (log_value < y_bottom) y_bottom = log_value;
+                                if (log_value > y_top) y_top = log_value;
+                            }
+                        });
+                        
+                        traces.push({
+                            x: x, y: y, mode: 'lines+markers', type: 'scatter',
+                            name: groupName,
+                            legendgroup: `group_${groupName}`,
+                            showlegend: index === group.samples[0].index, // 只在第一个样品显示图例
+                            line: { color: color, width: 1.5 },
+                            marker: { color: color, size: 6 }
+                        });
+                    });
+                });
+            } else {
+                // 没有分类列，按样品编号绘制
+                traces = globalData.map((row, i) => {
+                    const x = [], y = [];
+                    availableREEs.forEach((el, j) => {
+                        const value = parseFloat(row[el]);
+                        if (!isNaN(value) && value > 0 && normValues[el]) {
+                            const normalized_value = value / normValues[el];
+                            const log_value = Math.log10(normalized_value);
+                            
+                            x.push(j + 1);  // X 位置从 1 开始
+                            y.push(log_value);
+                            
+                            // 跟踪 Y 范围
+                            if (log_value < y_bottom) y_bottom = log_value;
+                            if (log_value > y_top) y_top = log_value;
+                        }
+                    });
+                    
+                    return {
+                        x: x, y: y, mode: 'lines+markers', type: 'scatter',
+                        name: colorMapping.labels[i],
+                        line: { color: colorMapping.colors[i], width: 1.5 },
+                        marker: { color: colorMapping.colors[i], size: 6 }
+                    };
+                });
+            }
 
             // 设置适当的轴范围和刻度按照 REE.py
             const xticks = availableREEs.map((_, i) => i + 1);
             
             const layout = {
                 title: 'REE Standardized Pattern Diagram',
+                width: 900,
+                height: 600,
                 xaxis: { 
                     title: 'REE Standardized Pattern', 
                     tickvals: xticks,
@@ -925,47 +1171,116 @@
 
             const normValues = standards.trace[standard];
             let y_bottom = Infinity, y_top = -Infinity;
+            const colorMapping = getColorMapping();
+            const classificationCol = getClassificationColumn();
             
-            const traces = globalData.map((row, i) => {
-                const x = [], y = [];
-                availableElements.forEach((el, j) => {
-                    if (normValues[el]) {
-                        // 获取原始值，包括转换
-                        let raw_value;
-                        if (row[el] && !isNaN(parseFloat(row[el])) && parseFloat(row[el]) > 0) {
-                            raw_value = parseFloat(row[el]);
-                        } else if (el === 'K' && row['K2O'] && !isNaN(parseFloat(row['K2O']))) {
-                            // 从 K2O 转换到 K（来自 Trace.py）
-                            raw_value = parseFloat(row['K2O']) * (2 * 39.0983 / 94.1956) * 10000;
-                        } else if (el === 'Ti' && row['TiO2'] && !isNaN(parseFloat(row['TiO2']))) {
-                            // 从 TiO2 转换到 Ti（来自 Trace.py）
-                            raw_value = parseFloat(row['TiO2']) * (47.867 / 79.865) * 10000;
-                        } else {
-                            return;
-                        }
-                        
-                        try {
-                            const normalized_value = raw_value / normValues[el];
-                            const log_value = Math.log10(normalized_value);
-                            
-                            x.push(j + 1);  // X 位置从 1 开始
-                            y.push(log_value);
-                            
-                            // 跟踪 Y 范围
-                            if (log_value < y_bottom) y_bottom = log_value;
-                            if (log_value > y_top) y_top = log_value;
-                        } catch (error) {
-                            // 忽略错误
-                        }
+            let traces = [];
+            
+            if (classificationCol) {
+                // 有分类列，按分类绘制
+                const groups = {};
+                globalData.forEach((row, i) => {
+                    const groupValue = row[classificationCol] || 'Unknown';
+                    if (!groups[groupValue]) {
+                        groups[groupValue] = { samples: [] };
                     }
+                    groups[groupValue].samples.push({ row, index: i });
                 });
                 
-                return {
-                    x: x, y: y, mode: 'lines+markers', type: 'scatter',
-                    name: `样品 ${i + 1}`,
-                    marker: { size: 6 }, line: { width: 1.5 }
-                };
-            });
+                Object.keys(groups).forEach((groupName) => {
+                    const group = groups[groupName];
+                    const color = colorMapping.legendItems.find(item => item.label === groupName)?.color || '#1f77b4';
+                    
+                    group.samples.forEach((sample) => {
+                        const { row, index } = sample;
+                        const x = [], y = [];
+                        
+                        availableElements.forEach((el, j) => {
+                            if (normValues[el]) {
+                                // 获取原始值，包括转换
+                                let raw_value;
+                                if (row[el] && !isNaN(parseFloat(row[el])) && parseFloat(row[el]) > 0) {
+                                    raw_value = parseFloat(row[el]);
+                                } else if (el === 'K' && row['K2O'] && !isNaN(parseFloat(row['K2O']))) {
+                                    // 从 K2O 转换到 K（来自 Trace.py）
+                                    raw_value = parseFloat(row['K2O']) * (2 * 39.0983 / 94.1956) * 10000;
+                                } else if (el === 'Ti' && row['TiO2'] && !isNaN(parseFloat(row['TiO2']))) {
+                                    // 从 TiO2 转换到 Ti（来自 Trace.py）
+                                    raw_value = parseFloat(row['TiO2']) * (47.867 / 79.865) * 10000;
+                                } else {
+                                    return;
+                                }
+                                
+                                try {
+                                    const normalized_value = raw_value / normValues[el];
+                                    const log_value = Math.log10(normalized_value);
+                                    
+                                    x.push(j + 1);  // X 位置从 1 开始
+                                    y.push(log_value);
+                                    
+                                    // 跟踪 Y 范围
+                                    if (log_value < y_bottom) y_bottom = log_value;
+                                    if (log_value > y_top) y_top = log_value;
+                                } catch (error) {
+                                    // 忽略错误
+                                }
+                            }
+                        });
+                        
+                        traces.push({
+                            x: x, y: y, mode: 'lines+markers', type: 'scatter',
+                            name: groupName,
+                            legendgroup: `group_${groupName}`,
+                            showlegend: index === group.samples[0].index, // 只在第一个样品显示图例
+                            line: { color: color, width: 1.5 },
+                            marker: { color: color, size: 6 }
+                        });
+                    });
+                });
+            } else {
+                // 没有分类列，按样品编号绘制
+                traces = globalData.map((row, i) => {
+                    const x = [], y = [];
+                    availableElements.forEach((el, j) => {
+                        if (normValues[el]) {
+                            // 获取原始值，包括转换
+                            let raw_value;
+                            if (row[el] && !isNaN(parseFloat(row[el])) && parseFloat(row[el]) > 0) {
+                                raw_value = parseFloat(row[el]);
+                            } else if (el === 'K' && row['K2O'] && !isNaN(parseFloat(row['K2O']))) {
+                                // 从 K2O 转换到 K（来自 Trace.py）
+                                raw_value = parseFloat(row['K2O']) * (2 * 39.0983 / 94.1956) * 10000;
+                            } else if (el === 'Ti' && row['TiO2'] && !isNaN(parseFloat(row['TiO2']))) {
+                                // 从 TiO2 转换到 Ti（来自 Trace.py）
+                                raw_value = parseFloat(row['TiO2']) * (47.867 / 79.865) * 10000;
+                            } else {
+                                return;
+                            }
+                            
+                            try {
+                                const normalized_value = raw_value / normValues[el];
+                                const log_value = Math.log10(normalized_value);
+                                
+                                x.push(j + 1);  // X 位置从 1 开始
+                                y.push(log_value);
+                                
+                                // 跟踪 Y 范围
+                                if (log_value < y_bottom) y_bottom = log_value;
+                                if (log_value > y_top) y_top = log_value;
+                            } catch (error) {
+                                // 忽略错误
+                            }
+                        }
+                    });
+                    
+                    return {
+                        x: x, y: y, mode: 'lines+markers', type: 'scatter',
+                        name: colorMapping.labels[i],
+                        line: { color: colorMapping.colors[i], width: 1.5 },
+                        marker: { color: colorMapping.colors[i], size: 6 }
+                    };
+                });
+            }
 
             // 设置适当的轴范围和刻度
             const xticks = availableElements.map((_, i) => i + 1);
@@ -973,6 +1288,8 @@
             
             const layout = {
                 title: `Trace Element Standardized Pattern Diagram\n${element_set_name} - ${availableElements.length} Elements Available`,
+                width: 1000,
+                height: 600,
                 xaxis: { 
                     title: 'Trace Elements Standardized Pattern',
                     tickvals: xticks,
@@ -1064,7 +1381,10 @@
             ];
 
             // 计算数据值
+            const colorMapping = getColorMapping();
+            const classificationCol = getClassificationColumn();
             const plot_data = [];
+            
             globalData.forEach((row, i) => {
                 plot_data.push({
                     xa: parseFloat(row.Y) + parseFloat(row.Nb),    // Y+Nb vs Rb
@@ -1075,7 +1395,9 @@
                     yc: parseFloat(row.Nb),
                     xd: parseFloat(row.Yb),               // Yb vs Ta
                     yd: parseFloat(row.Ta),
-                    label: `样品 ${i + 1}`
+                    label: classificationCol ? (row[classificationCol] || 'Unknown') : colorMapping.labels[i],
+                    color: colorMapping.colors[i],
+                    groupValue: classificationCol ? (row[classificationCol] || 'Unknown') : `Sample_${i}`
                 });
             });
 
@@ -1108,21 +1430,70 @@
                 });
                 
                 // 绘制数据点
-                plot_data.forEach((data, i) => {
-                    const x_val = data[x_key];
-                    const y_val = data[y_key];
+                if (classificationCol) {
+                    // 有分类列，按分类绘制
+                    const groups = {};
+                    plot_data.forEach((data, i) => {
+                        const groupValue = data.groupValue;
+                        if (!groups[groupValue]) {
+                            groups[groupValue] = [];
+                        }
+                        groups[groupValue].push(data);
+                    });
                     
-                    if (x_val > 0 && y_val > 0) {  // 只绘制正值（用于对数刻度）
-                        traces.push({
-                            x: [Math.log10(x_val)], y: [Math.log10(y_val)],
-                            mode: 'markers', type: 'scatter',
-                            name: data.label,
-                            marker: { size: 8, opacity: 0.8 },
-                            showlegend: diagram_idx === 0,  // 只在第一个图上显示图例
-                            xaxis: `x${diagram_idx + 1}`, yaxis: `y${diagram_idx + 1}`
+                    Object.keys(groups).forEach((groupName) => {
+                        const groupData = groups[groupName];
+                        const color = colorMapping.legendItems.find(item => item.label === groupName)?.color || '#1f77b4';
+                        
+                        const x_vals = [];
+                        const y_vals = [];
+                        
+                        groupData.forEach((data) => {
+                            const x_val = data[x_key];
+                            const y_val = data[y_key];
+                            
+                            if (x_val > 0 && y_val > 0) {  // 只绘制正值（用于对数刻度）
+                                x_vals.push(Math.log10(x_val));
+                                y_vals.push(Math.log10(y_val));
+                            }
                         });
-                    }
-                });
+                        
+                        if (x_vals.length > 0) {
+                            traces.push({
+                                x: x_vals, 
+                                y: y_vals,
+                                mode: 'markers', 
+                                type: 'scatter',
+                                name: groupName,
+                                legendgroup: `group_${groupName}`,
+                                marker: { size: 8, color: color, opacity: 0.8 },
+                                showlegend: diagram_idx === 0,  // 只在第一个图上显示图例
+                                xaxis: `x${diagram_idx + 1}`, 
+                                yaxis: `y${diagram_idx + 1}`
+                            });
+                        }
+                    });
+                } else {
+                    // 没有分类列，按样品编号绘制
+                    plot_data.forEach((data, i) => {
+                        const x_val = data[x_key];
+                        const y_val = data[y_key];
+                        
+                        if (x_val > 0 && y_val > 0) {  // 只绘制正值（用于对数刻度）
+                            traces.push({
+                                x: [Math.log10(x_val)], 
+                                y: [Math.log10(y_val)],
+                                mode: 'markers', 
+                                type: 'scatter',
+                                name: data.label,
+                                marker: { size: 8, color: data.color, opacity: 0.8 },
+                                showlegend: diagram_idx === 0 && globalData.length <= 10,  // 只在第一个图上显示图例
+                                xaxis: `x${diagram_idx + 1}`, 
+                                yaxis: `y${diagram_idx + 1}`
+                            });
+                        }
+                    });
+                }
                 
                 // 添加字段标签
                 condition.Labels.forEach((label, i) => {
@@ -1140,6 +1511,8 @@
 
             const layout = {
                 title: 'Pearce Diagrams for Granite Discrimination (Pearce et al., 1984)',
+                width: 1000,
+                height: 800,
                 grid: { rows: 2, columns: 2, pattern: 'independent' },
                 xaxis: { title: conditions[0].xLabel, domain: [0, 0.45], range: conditions[0].xlim },
                 yaxis: { title: conditions[0].yLabel, domain: [0.55, 1], range: conditions[0].ylim },
@@ -1287,28 +1660,86 @@
             traces.push(triangleBoundary);
 
             // 绘制数据点
-            cipwResultData.forEach((result, i) => {
-                const q = Math.max(0, result.Quartz);
-                const a = Math.max(0, result.Orthoclase);
-                const p = Math.max(0, result.Albite + result.Anorthite);
+            const colorMapping = getColorMapping();
+            const classificationCol = getClassificationColumn();
+            
+            if (classificationCol) {
+                // 有分类列，按分类绘制
+                const groups = {};
+                cipwResultData.forEach((result, i) => {
+                    const groupValue = globalData[i] && globalData[i][classificationCol] ? globalData[i][classificationCol] : 'Unknown';
+                    if (!groups[groupValue]) {
+                        groups[groupValue] = [];
+                    }
+                    groups[groupValue].push({ result, index: i });
+                });
                 
-                if (q + a + p > 0) {
-                    const [x, y] = triToBin(q, a, p);
+                Object.keys(groups).forEach((groupName) => {
+                    const groupData = groups[groupName];
+                    const color = colorMapping.legendItems.find(item => item.label === groupName)?.color || '#1f77b4';
                     
-                    traces.push({
-                        x: [x], y: [y],
-                        mode: 'markers+text',
-                        type: 'scatter',
-                        name: `样品 ${i + 1}`,
-                        text: [`S${i + 1}`],
-                        textposition: 'top center',
-                        marker: { size: 10, opacity: 0.8 }
+                    const x_vals = [];
+                    const y_vals = [];
+                    const texts = [];
+                    
+                    groupData.forEach(({ result, index }) => {
+                        const q = Math.max(0, result.Quartz);
+                        const a = Math.max(0, result.Orthoclase);
+                        const p = Math.max(0, result.Albite + result.Anorthite);
+                        
+                        if (q + a + p > 0) {
+                            const [x, y] = triToBin(q, a, p);
+                            x_vals.push(x);
+                            y_vals.push(y);
+                            texts.push(`S${index + 1}`);
+                        }
                     });
-                }
-            });
+                    
+                    if (x_vals.length > 0) {
+                        traces.push({
+                            x: x_vals,
+                            y: y_vals,
+                            mode: 'markers+text',
+                            type: 'scatter',
+                            name: groupName,
+                            text: texts,
+                            textposition: 'top center',
+                            marker: { size: 10, color: color, opacity: 0.8 }
+                        });
+                    }
+                });
+            } else {
+                // 没有分类列，按样品编号绘制
+                cipwResultData.forEach((result, i) => {
+                    const q = Math.max(0, result.Quartz);
+                    const a = Math.max(0, result.Orthoclase);
+                    const p = Math.max(0, result.Albite + result.Anorthite);
+                    
+                    if (q + a + p > 0) {
+                        const [x, y] = triToBin(q, a, p);
+                        
+                        traces.push({
+                            x: [x], 
+                            y: [y],
+                            mode: 'markers+text',
+                            type: 'scatter',
+                            name: colorMapping.labels[i] || `样品 ${i + 1}`,
+                            text: [`S${i + 1}`],
+                            textposition: 'top center',
+                            marker: { 
+                                size: 10, 
+                                color: colorMapping.colors[i] || '#1f77b4', 
+                                opacity: 0.8 
+                            }
+                        });
+                    }
+                });
+            }
 
             const layout = {
                 title: 'QAPF 深成岩分类图',
+                width: 800,
+                height: 700,
                 xaxis: { 
                     title: '', 
                     showgrid: false, 
