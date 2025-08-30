@@ -314,22 +314,36 @@
 
     <!-- 内嵌 CSV 解析器 -->
     <script>
-        // Simple CSV parser implementation
+        // Simple CSV parser implementation - 增强版本，更好地处理特殊情况
         function parseCSV(text) {
             const lines = text.split('\n');
-            const headers = lines[0].split(',').map(h => h.trim().replace(/"/g, ''));
+            if (lines.length === 0) return { data: [], meta: { fields: [] } };
+            
+            // 处理头部，去除BOM和空格
+            let headerLine = lines[0];
+            if (headerLine.charCodeAt(0) === 0xFEFF) {
+                headerLine = headerLine.substr(1); // 去除BOM
+            }
+            
+            const headers = headerLine.split(',').map(h => h.trim().replace(/"/g, ''));
+            console.log('解析到的列头:', headers.length, headers);
+            
             const data = [];
             
             for (let i = 1; i < lines.length; i++) {
-                if (lines[i].trim()) {
-                    const values = lines[i].split(',').map(v => v.trim().replace(/"/g, ''));
+                const line = lines[i].trim();
+                if (line) {
+                    const values = line.split(',').map(v => v.trim().replace(/"/g, ''));
                     const row = {};
                     headers.forEach((header, j) => {
-                        row[header] = values[j] || '';
+                        // 保证每个列都有值，即使是空字符串
+                        row[header] = values[j] !== undefined ? values[j] : '';
                     });
                     data.push(row);
                 }
             }
+            
+            console.log('解析完成:', data.length, '行数据，每行', Object.keys(data[0] || {}).length, '列');
             return { data, meta: { fields: headers } };
         }
     </script>
@@ -430,21 +444,26 @@
                      'Zr', 'Hf', 'Sm', 'Eu', 'Ti', 'Tb', 'Dy', 'Y', 'Ho', 'Er', 'Tm', 'Yb', 'Lu']
         };
 
-        // 获取分类列 - 优先使用Label，其次Type，最后使用样品编号
+        // 获取分类列 - 优先使用精确的Label列名，其次Type
         function getClassificationColumn() {
             if (!globalData || globalData.length === 0) return null;
             
             const firstRow = globalData[0];
             const columns = Object.keys(firstRow);
             
-            // 优先查找 Label 列（不区分大小写）
+            // 优先查找精确的 Label 列
+            if (columns.includes('Label')) {
+                return 'Label';
+            }
+            
+            // 其次查找 Label 列（不区分大小写）
             for (let col of columns) {
                 if (col.toLowerCase().trim() === 'label') {
                     return col;
                 }
             }
             
-            // 其次查找 Type 列（不区分大小写）
+            // 最后查找 Type 列（不区分大小写）
             for (let col of columns) {
                 if (col.toLowerCase().trim() === 'type') {
                     return col;
@@ -559,6 +578,11 @@
                     if (file.name.endsWith('.csv')) {
                         const csv = parseCSV(e.target.result);
                         globalData = csv.data;
+                        console.log('CSV解析完成:', {
+                            '原始列数': csv.meta.fields.length,
+                            '原始列名': csv.meta.fields,
+                            '数据行数': globalData.length
+                        });
                     } else {
                         showAlert('目前只支持 CSV 文件格式', 'error');
                         return;
@@ -696,8 +720,16 @@
                 'loi': 'LOI', 'LOI': 'LOI', 'total': 'Total', 'TOTAL': 'Total', 'sum': 'Total'
             };
 
-            // 智能列名识别函数
+            // 智能列名识别函数 - 保护特定可视化控制列不被修改
             function smartColumnMapping(originalCol) {
+                // 保护的可视化控制列，这些列名绝对不能被修改
+                const protectedColumns = ['Label', 'Color', 'Marker', 'Size', 'Width', 'Style', 'Alpha', 'Age(ma)'];
+                
+                // 如果是保护列，直接返回原始列名
+                if (protectedColumns.includes(originalCol)) {
+                    return originalCol;
+                }
+                
                 // 清理列名：去除空格、特殊字符、单位等
                 let cleaned = originalCol.trim().toLowerCase();
                 
@@ -732,40 +764,50 @@
                 return originalCol;
             }
 
-            // 应用智能列名映射
+            // 应用智能列名映射，但保留所有原始列避免重复覆盖
+            const originalColumns = Object.keys(globalData[0]);
+            console.log('原始列数:', originalColumns.length, '列名:', originalColumns);
+            
             globalData = globalData.map(row => {
                 const newRow = {};
-                Object.keys(row).forEach(key => {
-                    const standardKey = smartColumnMapping(key);
-                    newRow[standardKey] = row[key];
+                const usedStandardNames = new Set();
+                
+                Object.keys(row).forEach(originalKey => {
+                    const standardKey = smartColumnMapping(originalKey);
+                    
+                    // 如果标准化名称已经使用过，保留原始名称避免覆盖
+                    if (usedStandardNames.has(standardKey) && standardKey !== originalKey) {
+                        newRow[originalKey] = row[originalKey];
+                    } else {
+                        newRow[standardKey] = row[originalKey];
+                        usedStandardNames.add(standardKey);
+                    }
                 });
                 return newRow;
             });
             
             // 输出映射信息供调试
-            console.log('列名映射完成，标准化后的列名:', Object.keys(globalData[0]));
+            console.log('列名映射完成，处理后列数:', Object.keys(globalData[0]).length, '列名:', Object.keys(globalData[0]));
         }
 
         function displayDataPreview() {
             const preview = document.getElementById('dataPreview');
             const columns = Object.keys(globalData[0]);
             
-            // Display all rows and columns with scrolling
+            // Display all rows and columns with scrolling - 保持原始数据显示
             let html = '<div class="table-wrapper"><table><thead><tr>';
             columns.forEach(col => {
                 html += `<th title="${col}">${col}</th>`;
             });
             html += '</tr></thead><tbody>';
 
-            // Display ALL rows instead of limiting to 10
+            // Display ALL rows instead of limiting to 10 - 显示原始数据值，不做任何修改
             globalData.forEach(row => {
                 html += '<tr>';
                 columns.forEach(col => {
                     const value = row[col] || '';
-                    const displayValue = isNaN(value) ? 
-                        (value.toString().length > 15 ? value.toString().substring(0, 15) + '...' : value) : 
-                        (parseFloat(value).toFixed(3));
-                    html += `<td title="${value}">${displayValue}</td>`;
+                    // 完全按原始数据显示，不做任何格式化或截取
+                    html += `<td title="${value}">${value}</td>`;
                 });
                 html += '</tr>';
             });
@@ -883,7 +925,7 @@
                             line: { color: 'black', width: 0.5 } 
                         },
                         name: colorMapping.labels[i],
-                        showlegend: globalData.length <= 10
+                        showlegend: globalData.length <= 10  // 只有样品数少于等于10时才显示图例
                     });
                 }
             }
@@ -945,7 +987,7 @@
                     range: [0, 20],
                     tickvals: [0, 5, 10, 15, 20]
                 },
-                showlegend: globalData.length <= 10
+                showlegend: true  // 确保显示图例
             };
 
             // 添加岩石类型标注 - 精确位置来自 TAS.py
@@ -1059,7 +1101,7 @@
                                     opacity: 0.7,
                                     line: { color: 'black', width: 0.5 }
                                 },
-                                showlegend: subplotIndex === 0 && globalData.length <= 10,  // 只在第一个子图显示图例
+                                showlegend: subplotIndex === 0,  // 只在第一个子图显示图例
                                 xaxis: `x${subplotIndex + 1}`,
                                 yaxis: `y${subplotIndex + 1}`
                             });
@@ -1190,7 +1232,7 @@
                             x: x, y: y, mode: 'lines+markers', type: 'scatter',
                             name: groupName,
                             legendgroup: `group_${groupName}`,
-                            showlegend: index === group.samples[0].index, // 只在第一个样品显示图例
+                            showlegend: index === group.samples[0].index, // 只在第一个样品显示图例，按Label分组
                             line: { color: color, width: 1.5 },
                             marker: { color: color, size: 6 }
                         });
@@ -1333,7 +1375,7 @@
                             x: x, y: y, mode: 'lines+markers', type: 'scatter',
                             name: groupName,
                             legendgroup: `group_${groupName}`,
-                            showlegend: index === group.samples[0].index, // 只在第一个样品显示图例
+                            showlegend: index === group.samples[0].index, // 只在第一个样品显示图例，按Label分组
                             line: { color: color, width: 1.5 },
                             marker: { color: color, size: 6 }
                         });
