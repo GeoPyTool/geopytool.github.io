@@ -1709,7 +1709,8 @@
             const layout = {
                 title: 'Pearce Diagrams for Granite Discrimination (Pearce et al., 1984)',
                 width: 1000,
-                height: 800,
+                height: 900,  // 增加高度以适应底部注释
+                margin: { l: 80, r: 50, t: 80, b: 120 },  // 增加底部边距给注释留出空间
                 grid: { rows: 2, columns: 2, pattern: 'independent' },
                 // 第一个子图 (左上)
                 xaxis: { 
@@ -1796,10 +1797,29 @@
                     zeroline: false
                 },
                 annotations: [
-                    { x: 0.5, y: 0.02, text: 'syn-COLG: syn-collision granites, VAG: volcanic arc granites\nWPG: within plate granites, ORG: ocean ridge granites',
-                      showarrow: false, xref: 'paper', yref: 'paper', font: { size: 10 } },
-                    { x: 0.02, y: 0.98, text: 'Reference: Pearce, J.A. et al. (1984) J. Petrology, v.25, p.956-983',
-                      showarrow: false, xref: 'paper', yref: 'paper', font: { size: 8 } }
+                    // 将说明文字移到整个可视化区域的最底部，避免与图表和坐标轴重叠
+                    { 
+                        x: 0.5, 
+                        y: -0.12, 
+                        text: 'syn-COLG: syn-collision granites, VAG: volcanic arc granites<br>WPG: within plate granites, ORG: ocean ridge granites',
+                        showarrow: false, 
+                        xref: 'paper', 
+                        yref: 'paper', 
+                        font: { size: 10 },
+                        xanchor: 'center',
+                        yanchor: 'top'
+                    },
+                    { 
+                        x: 0.5, 
+                        y: -0.18, 
+                        text: 'Reference: Pearce, J.A. et al. (1984) J. Petrology, v.25, p.956-983',
+                        showarrow: false, 
+                        xref: 'paper', 
+                        yref: 'paper', 
+                        font: { size: 8 },
+                        xanchor: 'center',
+                        yanchor: 'top'
+                    }
                 ]
             };
 
