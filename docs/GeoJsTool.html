@@ -48,6 +48,33 @@
         button:disabled { 
             background: #cbd5e0; cursor: not-allowed; transform: none; 
         }
+        
+        /* Download buttons styling */
+        #downloadButtons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 15px;
+        }
+        
+        #downloadButtons button {
+            min-width: 120px;
+            font-size: 12px;
+            padding: 10px 20px;
+        }
+        
+        #downloadButtons button:nth-child(1) {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        }
+        
+        #downloadButtons button:nth-child(2) {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        #downloadButtons button:nth-child(3) {
+            background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+        }
         .plot-container { 
             margin-top: 20px; background: white; 
             padding: 20px; border-radius: 10px; 
@@ -258,12 +285,25 @@
                 </div>
 
                 <button onclick="generatePlot()" id="plotBtn" disabled>生成图表</button>
+                
+                <div id="downloadSection" style="display:none; margin-top: 15px; padding: 15px; background: #f8f9fa; border-radius: 8px; border: 1px solid #e2e8f0;">
+                    <h4 style="margin: 0 0 10px 0; color: #4a5568; font-size: 14px;">📥 下载选项</h4>
+                    <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                        <button onclick="downloadPlot('png')" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); font-size: 12px; padding: 8px 16px;">📥 下载 PNG</button>
+                        <button onclick="downloadPlot('svg')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); font-size: 12px; padding: 8px 16px;">📦 下载 SVG</button>
+                        <button onclick="downloadPlot('pdf')" style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%); font-size: 12px; padding: 8px 16px;">📄 下载 PDF</button>
+                    </div>
+                </div>
             </div>
         </div>
 
         <div id="plotContainer" class="plot-container" style="display:none;">
             <div id="plotDiv" style="height: 600px; width: 100%; min-width: 800px;"></div>
-            <button onclick="downloadPlot()" style="margin-top: 15px;">📥 下载图表</button>
+            <div id="downloadButtons" style="margin-top: 15px; display: flex; gap: 10px; flex-wrap: wrap;">
+                <button onclick="downloadPlot('png')" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">📥 下载 PNG</button>
+                <button onclick="downloadPlot('svg')" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">📦 下载 SVG</button>
+                <button onclick="downloadPlot('pdf')" style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);">📄 下载 PDF</button>
+            </div>
         </div>
         
         <div id="cipwResults" class="plot-container" style="display:none;">
@@ -528,6 +568,7 @@
                         standardizeColumns();
                         displayDataPreview();
                         document.getElementById('plotBtn').disabled = false;
+                        document.getElementById('downloadSection').style.display = 'none'; // 隐藏下载区域
                         showAlert(`数据加载成功！共 ${globalData.length} 行数据，${Object.keys(globalData[0]).length} 个字段`, 'success');
                     }
                 } catch (error) {
@@ -742,6 +783,9 @@
                 document.getElementById(id).style.display = 'none';
             });
             
+            // 隐藏下载区域当选择新的图表类型时
+            document.getElementById('downloadSection').style.display = 'none';
+            
             if (plotType === 'ree') {
                 document.getElementById('reeOptions').style.display = 'block';
             } else if (plotType === 'trace') {
@@ -927,10 +971,11 @@
 
             Plotly.newPlot('plotDiv', traces, layout);
             document.getElementById('plotContainer').style.display = 'block';
+            document.getElementById('downloadSection').style.display = 'block'; // 显示下载区域
             showAlert('TAS 图表生成成功！', 'success');
         }
 
-        // Harker 图表生成 - 8个子图，每个氧化物与SiO2单独作图
+        // Harker 图表生成 - 正方形子图布局
         function generateHarkerPlot() {
             const requiredCols = ['SiO2'];
             const missingCols = requiredCols.filter(col => !globalData[0].hasOwnProperty(col));
@@ -1023,50 +1068,68 @@
                 }
             });
 
-            // 创建子图布局 - 4行2列或根据可用氧化物数量调整
+            // 创建4×2布局 - 使用Plotly的subplots功能，确保每个子图都是1:1正方形
             const numSubplots = availableOxides.length;
-            const cols = 2;
-            const rows = Math.ceil(numSubplots / cols);
+            const cols = 2; // 固定2列
+            const rows = Math.ceil(numSubplots / cols); // 根据氧化物数量计算行数
             
-            // 基础布局
+            // 基础布局 - 整体是2:1（高:宽）比例，使用subplot grid，增加垂直间距避免重叠
             const layout = {
-                title: `Harker Variation Diagrams (${availableOxides.length} oxides vs SiO2)`,
+                title: `Harker Variation Diagrams (${availableOxides.length} oxides vs SiO2) - 4×2 Layout`,
                 width: 1000,
-                height: 200 * rows + 100, // 动态高度
+                height: 1600, // 增加高度以适应更大的垂直间距
                 showlegend: true,
-                grid: { rows: rows, columns: cols, pattern: 'independent' }
+                grid: {
+                    rows: rows,
+                    columns: cols,
+                    pattern: 'independent',
+                    xgap: 0.15,  // 水平间距
+                    ygap: 0.2    // 增大垂直间距避免SiO2标签重叠
+                }
             };
 
-            // 为每个子图设置轴
+            // 为每个子图设置独立的轴，确保每个子图是正方形，但不显示网格线
             availableOxides.forEach((oxide, i) => {
-                const row = Math.floor(i / cols);
-                const col = i % cols;
-                
-                // 计算子图位置
-                const xDomain = [col * (1.0/cols) + 0.05, (col + 1) * (1.0/cols) - 0.05];
-                const yDomain = [1 - (row + 1) * (1.0/rows) + 0.05, 1 - row * (1.0/rows) - 0.05];
-                
                 const axisIndex = i + 1;
                 const xAxisKey = axisIndex === 1 ? 'xaxis' : `xaxis${axisIndex}`;
                 const yAxisKey = axisIndex === 1 ? 'yaxis' : `yaxis${axisIndex}`;
                 
                 layout[xAxisKey] = {
                     title: 'SiO₂ (wt%)',
-                    domain: xDomain,
-                    showgrid: true,
-                    zeroline: false
+                    showgrid: false,      // 不显示网格线
+                    showline: true,       // 显示坐标轴线
+                    linecolor: 'black',   // 轴线颜色
+                    linewidth: 1,         // 轴线宽度
+                    zeroline: false,
+                    showticklabels: true,
+                    tickfont: { size: 10 },
+                    titlefont: { size: 12 },
+                    ticks: 'outside',     // 刻度在外侧
+                    tickcolor: 'black',   // 刻度线颜色
+                    mirror: true          // 显示对边轴线
                 };
                 
                 layout[yAxisKey] = {
                     title: `${oxide} (wt%)`,
-                    domain: yDomain,
-                    showgrid: true,
-                    zeroline: false
+                    showgrid: false,      // 不显示网格线
+                    showline: true,       // 显示坐标轴线
+                    linecolor: 'black',   // 轴线颜色
+                    linewidth: 1,         // 轴线宽度
+                    zeroline: false,
+                    showticklabels: true,
+                    tickfont: { size: 10 },
+                    titlefont: { size: 12 },
+                    ticks: 'outside',     // 刻度在外侧
+                    tickcolor: 'black',   // 刻度线颜色
+                    mirror: true,         // 显示对边轴线
+                    scaleanchor: xAxisKey, // 确保与对应x轴保持1:1比例，让子图是正方形
+                    scaleratio: 1          // 强制1:1比例
                 };
             });
 
             Plotly.newPlot('plotDiv', traces, layout);
             document.getElementById('plotContainer').style.display = 'block';
+            document.getElementById('downloadSection').style.display = 'block'; // 显示下载区域
             showAlert(`Harker 变异图生成成功！包含 ${availableOxides.length} 个子图`, 'success');
         }
 
@@ -1185,6 +1248,7 @@
 
             Plotly.newPlot('plotDiv', traces, layout);
             document.getElementById('plotContainer').style.display = 'block';
+            document.getElementById('downloadSection').style.display = 'block'; // 显示下载区域
             showAlert(`REE 图表生成成功！包含 ${availableREEs.length} 个元素`, 'success');
         }
 
@@ -1362,6 +1426,7 @@
 
             Plotly.newPlot('plotDiv', traces, layout);
             document.getElementById('plotContainer').style.display = 'block';
+            document.getElementById('downloadSection').style.display = 'block'; // 显示下载区域
             showAlert(`微量元素图表生成成功！包含 ${availableElements.length} 个元素`, 'success');
         }
 
@@ -1570,6 +1635,7 @@
 
             Plotly.newPlot('plotDiv', traces, layout);
             document.getElementById('plotContainer').style.display = 'block';
+            document.getElementById('downloadSection').style.display = 'block'; // 显示下载区域
             showAlert('Pearce 图表生成成功！', 'success');
         }
 
@@ -1803,23 +1869,80 @@
 
             Plotly.newPlot('plotDiv', traces, layout);
             document.getElementById('plotContainer').style.display = 'block';
+            document.getElementById('downloadSection').style.display = 'block'; // 显示下载区域
             showAlert('QAPF 图表生成成功！', 'success');
         }
 
-        // 下载图表函数
-        function downloadPlot() {
-            if (!currentPlot) {
+        // 下载图表函数 - 支持 PNG, SVG, PDF 格式，确保导出比例正确
+        function downloadPlot(format = 'png') {
+            const plotDiv = document.getElementById('plotDiv');
+            if (!plotDiv || !plotDiv.data || plotDiv.data.length === 0) {
                 showAlert('没有可下载的图表', 'error');
                 return;
             }
-            
-            Plotly.downloadImage('plotDiv', {
-                format: 'png',
-                width: 1200,
-                height: 800,
-                filename: 'geochemical_plot'
-            });
-            showAlert('图表下载完成！', 'success');
+
+            // 获取当前图表类型以设置合适的文件名
+            const plotType = document.getElementById('plotType').value || 'plot';
+            const timestamp = new Date().toISOString().slice(0, 19).replace(/[T:]/g, '_');
+            const filename = `${plotType}_geochemical_${timestamp}`;
+
+            // 根据图表类型设置导出尺寸，确保子图比例正确
+            let exportWidth, exportHeight;
+            if (plotType === 'harker') {
+                // Harker图需要特殊处理，确保每个子图是正方形
+                exportWidth = 1200;  // 宽度
+                exportHeight = 1600; // 高度，保持2:1比例，确保子图是正方形
+            } else {
+                // 其他图表使用标准尺寸
+                exportWidth = 1200;
+                exportHeight = 800;
+            }
+
+            try {
+                if (format === 'svg') {
+                    // SVG 下载
+                    Plotly.downloadImage(plotDiv, {
+                        format: 'svg',
+                        width: exportWidth,
+                        height: exportHeight,
+                        filename: filename
+                    }).then(() => {
+                        showAlert('SVG 图表下载完成！', 'success');
+                    }).catch(error => {
+                        console.error('SVG download error:', error);
+                        showAlert('SVG 下载失败：' + error.message, 'error');
+                    });
+                } else if (format === 'pdf') {
+                    // PDF 下载
+                    Plotly.downloadImage(plotDiv, {
+                        format: 'pdf',
+                        width: exportWidth,
+                        height: exportHeight,
+                        filename: filename
+                    }).then(() => {
+                        showAlert('PDF 图表下载完成！', 'success');
+                    }).catch(error => {
+                        console.error('PDF download error:', error);
+                        showAlert('PDF 下载失败：' + error.message, 'error');
+                    });
+                } else {
+                    // PNG 下载（默认）
+                    Plotly.downloadImage(plotDiv, {
+                        format: 'png',
+                        width: exportWidth,
+                        height: exportHeight,
+                        filename: filename
+                    }).then(() => {
+                        showAlert('PNG 图表下载完成！', 'success');
+                    }).catch(error => {
+                        console.error('PNG download error:', error);
+                        showAlert('PNG 下载失败：' + error.message, 'error');
+                    });
+                }
+            } catch (error) {
+                console.error('Download error:', error);
+                showAlert(`${format.toUpperCase()} 下载失败：` + error.message, 'error');
+            }
         }
     </script>
 </body>
